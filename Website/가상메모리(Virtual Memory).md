@@ -11,5 +11,5 @@ Virtual memory is a memory management technique used by operating systems to giv
 - - Virtual memory creates the illusion of a large memory, even if the actual memory (RAM) is small.
 - - It uses both RAM and disk storage to manage memory, loading only parts of programs into RAM as needed.
 - - This allows the system to run more programs at once and manage memory more efficiently.!
-
+ nbdflbndfklbndlfbnkldbndlfkbnlk
 ![[virtual_memory-1024.webp]]
