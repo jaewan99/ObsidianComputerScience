@@ -91,3 +91,13 @@ Applying sign extension gives the bit vector `[1101]`, representing the value �
 We can see that, for w=4w = 4w=4, the combined value of the two most significant bits, −8+4=−4-8 + 4 = -4−8+4=−4, matches the value of the sign bit for w=3w = 3w=3. Similarly, the bit vectors `[111]` and `[1111]` both represent the value −1-1−1.
 
 ![[Pasted image 20250912134351.png]]
+
+
+![[Pasted image 20250912155745.png]]
+
+this shows that, when converting from short to unsigned 
+This shows that, when converting from `short` to `unsigned`, the program first changes the size and then the type. That is, `(unsigned) sx` is equivalent to `(unsigned)(int) sx`, evaluating to 4,294,954,951, not `(unsigned)(unsigned short) sx`, which evaluates to 53,191. Indeed, this convention is required by the C standards.
+
+
+
+2.2.7 Truncating Numbers
