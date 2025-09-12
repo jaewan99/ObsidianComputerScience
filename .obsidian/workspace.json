@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSAPP/Chapter 2/목록.md",
-                "mode": "preview",
+                "file": "CSAPP/Chapter 2/Chapter 2.2.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "목록"
+              "title": "Chapter 2.2"
             }
           }
         ]
@@ -173,11 +173,12 @@
   "active": "6de1745555dc4e2d",
   "lastOpenFiles": [
     "CSAPP/Chapter 2/Chapter 2.1.md",
+    "CSAPP/Chapter 2/Chapter 2.2.md",
     "CSAPP/Chapter 2/목록.md",
-    "CSAPP/필요한 링크들.md",
-    "Website/가상메모리(Virtual Memory).md",
     "코딩테스트/Untitled.md",
+    "Website/가상메모리(Virtual Memory).md",
     "Images/virtual_memory-1024.webp",
+    "CSAPP/필요한 링크들.md",
     "Images",
     "내 사이트.md",
     "Websites/GeeksForGeeks/GeeksForGeeks.md",
