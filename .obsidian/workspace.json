@@ -22,6 +22,18 @@
             }
           },
           {
+            "id": "231ba0c1e2e20fb5",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "CSAPP/Chapter 2/Images/Pasted image 20250912101412.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20250912101412"
+            }
+          },
+          {
             "id": "8e77e962c7718502",
             "type": "leaf",
             "state": {
@@ -184,23 +196,23 @@
   },
   "active": "4fc0cf8ddc5230a1",
   "lastOpenFiles": [
+    "CSAPP/Chapter 2/Images/Pasted image 20250912114012.png",
+    "CSAPP/Chapter 2/Images/Pasted image 20250912101412.png",
+    "CSAPP/Chapter 2/Chapter 2.2.md",
+    "CSAPP/Chapter 2/Chapter 2.1.md",
+    "CSAPP/Chapter 2/Chapter 2.3.md",
     "CSAPP/Chapter 2/Images/Pasted image 20250912164255.png",
     "CSAPP/Chapter 2/Images/Pasted image 20250912164254.png",
     "CSAPP/Chapter 2/목록.md",
-    "CSAPP/Chapter 2/Chapter 2.3.md",
-    "CSAPP/Chapter 2/Chapter 2.2.md",
     "CSAPP/Chapter 2/Images/Pasted image 20250912160116.png",
-    "CSAPP/Chapter 2/Images/Pasted image 20250912114012.png",
     "CSAPP/Chapter 2/Images/Pasted image 20250912155745.png",
     "코딩테스트/재귀 (Recursion).md",
     "Images/virtual_memory-1024.webp",
     "CSAPP/Chapter 2/Images/Pasted image 20250912134351.png",
-    "CSAPP/Chapter 2/Chapter 2.1.md",
     "CSAPP/Chapter 2/Etc.md",
     "CSAPP/Chapter 2/Images/Pasted image 20250912131314.png",
     "CSAPP/Chapter 2/Images/Pasted image 20250912125957.png",
     "CSAPP/Chapter 2/Images/Pasted image 20250912115531.png",
-    "CSAPP/Chapter 2/Images/Pasted image 20250912115847.png",
     "Untitled.md",
     "CSAPP/Chapter 2/Images",
     "Website/가상메모리(Virtual Memory).md",
