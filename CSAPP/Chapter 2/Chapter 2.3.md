@@ -16,3 +16,15 @@ For example, consider a 4-bit number representation with x = 9 and y = 12, havin
 
 
 ![[Pasted image 20250912172605.png]]
+
+
+![[Pasted image 20250912173508.png]]
+
+That is, for w-bit two’s-complement addition, TMinw is its own additive in verse, while any other value x has −x as its additive inverse. Since TMinw doesn't have its own additive in the given data type.
+
+
+2.3.4 unsigned multiplication
+
+
+
+2.3.5
