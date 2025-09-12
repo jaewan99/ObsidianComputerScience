@@ -47,3 +47,6 @@ we can add like stdint.h. This file defines a set of data types with declaration
 
 [[Etc#About compatibility of the data types]]
 
+
+2.2.4 Conversion Between signed and unsigned
+For most implementations of C, however, the answer to this question is based on a bit-level perspective, rather than on a numeric one.
