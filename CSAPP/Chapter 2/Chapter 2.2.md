@@ -85,3 +85,9 @@ When an operation is performed where one operand is signed and the other is unsi
 Expansion of an unsigned number by zero extension uses zero extension for the unsigned number.
 
 Expansion of a two’s-complement number by sign extension uses sign extension for the signed number.
+
+Figure 2.20 shows the result of expanding from word size w=3w = 3w=3 to w=4w = 4w=4 by sign extension. The bit vector `[101]` represents the value −4+1=−3-4 + 1 = -3−4+1=−3.  
+Applying sign extension gives the bit vector `[1101]`, representing the value −8+4+1=−3-8 + 4 + 1 = -3−8+4+1=−3.  
+We can see that, for w=4w = 4w=4, the combined value of the two most significant bits, −8+4=−4-8 + 4 = -4−8+4=−4, matches the value of the sign bit for w=3w = 3w=3. Similarly, the bit vectors `[111]` and `[1111]` both represent the value −1-1−1.
+
+![[Pasted image 20250912134351.png]]
