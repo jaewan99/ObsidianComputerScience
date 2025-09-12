@@ -38,3 +38,7 @@ This asymmetry arises because half the bit patterns (those with the sign bit set
 Second, the maximum unsigned value is just over twice the maximum two’s-complement value:
 
 UMax=2 TMax+1U_\text{Max} = 2 \, T_\text{Max} + 1UMax​=2TMax​+1
+
+![[Pasted image 20250912105047.png]]
+
+
