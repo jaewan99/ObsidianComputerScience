@@ -23,4 +23,18 @@ given this image the decimal value of 1011 would be 11 and such.
 principle: Uniqueness of unsigned encoding 
 Function B2Uw is a bijection.
 
-Example of bijection would be 
+Example of bijection would be
+there is only one decimal values that 0001 can map which is 1 and also for reverse, where 1 can only map to 0001 to binary
+
+
+2.2.3 two's compliment encodings
+![[Pasted image 20250912104207.png]]
+principle: Uniqueness of two’s-complement encoding 
+Function B2Tw is a bijection
+
+
+This asymmetry arises because half the bit patterns (those with the sign bit set to 1) represent negative numbers, while the other half (those with the sign bit set to 0) represent nonnegative numbers. Since 0 is nonnegative, this means that it can represent one less positive number than negative.
+
+Second, the maximum unsigned value is just over twice the maximum two’s-complement value:
+
+UMax=2 TMax+1U_\text{Max} = 2 \, T_\text{Max} + 1UMax​=2TMax​+1
