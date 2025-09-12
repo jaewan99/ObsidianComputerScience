@@ -101,3 +101,9 @@ This shows that, when converting from `short` to `unsigned`, the program first c
 
 
 2.2.7 Truncating Numbers
+
+![[Pasted image 20250912160116.png]]
+Truncating numbers may create some problems as we cast from higher bit to lower bit data type like int -> short
+
+
+2.2.8 Advice on Signed versus Unsigned  

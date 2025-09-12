@@ -33,8 +33,7 @@
               "title": "Pasted image 20250912114012"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -183,12 +182,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "8e77e962c7718502",
+  "active": "4fc0cf8ddc5230a1",
   "lastOpenFiles": [
+    "CSAPP/Chapter 2/Images/Pasted image 20250912160116.png",
+    "CSAPP/Chapter 2/Images/Pasted image 20250912114012.png",
     "CSAPP/Chapter 2/Chapter 2.2.md",
     "CSAPP/Chapter 2/Images/Pasted image 20250912155745.png",
     "코딩테스트/재귀 (Recursion).md",
-    "CSAPP/Chapter 2/Images/Pasted image 20250912114012.png",
     "CSAPP/Chapter 2/목록.md",
     "Images/virtual_memory-1024.webp",
     "CSAPP/Chapter 2/Images/Pasted image 20250912134351.png",
