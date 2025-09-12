@@ -34,32 +34,9 @@
               "icon": "lucide-file",
               "title": "이분탐색 (binary search)"
             }
-          },
-          {
-            "id": "231ba0c1e2e20fb5",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "CSAPP/Chapter 2/Images/Pasted image 20250912101412.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250912101412"
-            }
-          },
-          {
-            "id": "8e77e962c7718502",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "CSAPP/Chapter 2/Images/Pasted image 20250912114012.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250912114012"
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -208,14 +185,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "4fc0cf8ddc5230a1",
+  "active": "a2d83efc9e5ce212",
   "lastOpenFiles": [
-    "CSAPP/Chapter 2/Chapter 2.3.md",
-    "CSAPP/Chapter 2/Chapter 2.2.md",
-    "CSAPP/Chapter 2/Chapter 2.4.md",
+    "코딩테스트/재귀 (Recursion).md",
     "코딩테스트/이분탐색 (binary search).md",
-    "CSAPP/Chapter 2/목록.md",
     "CSAPP/Chapter 2/Images/Pasted image 20250912101412.png",
+    "CSAPP/Chapter 2/Chapter 2.2.md",
+    "CSAPP/Chapter 2/Chapter 2.3.md",
+    "CSAPP/Chapter 2/Chapter 2.4.md",
+    "CSAPP/Chapter 2/목록.md",
     "CSAPP/Chapter 2/Etc.md",
     "CSAPP/Chapter 2/Images/Pasted image 20250912173508.png",
     "CSAPP/Chapter 2/Images/Pasted image 20250912172605.png",
@@ -226,7 +204,6 @@
     "CSAPP/Chapter 2/Images/Pasted image 20250912164254.png",
     "CSAPP/Chapter 2/Images/Pasted image 20250912160116.png",
     "CSAPP/Chapter 2/Images/Pasted image 20250912155745.png",
-    "코딩테스트/재귀 (Recursion).md",
     "Images/virtual_memory-1024.webp",
     "Untitled.md",
     "CSAPP/Chapter 2/Images",
