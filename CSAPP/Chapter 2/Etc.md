@@ -20,5 +20,8 @@
 - int x = -2147483648;
 	- 이걸 c가 해석 방법은
 		- int x= 2147483648
-			- 숫자를 먼저 처리해서 
-	- `2147483648` is treated as an **unsigned int literal** because it doesn’t fit in a signed 32-bit int
+			- `2147483648` is treated as an **unsigned int literal** because it doesn’t fit in a signed 32-bit int.
+		- Then the unary `-` operator is applied.
+		- On a 32-bit system, this can cause:
+			- - **Compiler warnings** (`integer overflow`)
+			- - **Potential undefined behavior**, because the literal by itself exceeds the signed int range.

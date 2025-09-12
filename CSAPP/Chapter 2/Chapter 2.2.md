@@ -77,5 +77,11 @@ When an operation is performed where one operand is signed and the other is unsi
 
 ![[Pasted image 20250912131314.png]]
 
-
 [[Etc#INT_MIN as (-INT_ MAX -1)]]
+
+
+2.2.6 Expanding the Bit representation of a number
+
+Expansion of an unsigned number by zero extension uses zero extension for the unsigned number.
+
+Expansion of a two’s-complement number by sign extension uses sign extension for the signed number.
