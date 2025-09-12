@@ -6,6 +6,7 @@
 C supports a variety of integral data types — ones that represent finite ranges of integers.
 
 long
+![[Pasted image 20250912114012.png]]
 
 −2,147,483,648
 −9,223,372,036,854,775,808
