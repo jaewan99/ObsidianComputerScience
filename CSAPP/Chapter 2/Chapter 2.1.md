@@ -125,9 +125,12 @@ We can extend the four Boolean operations to operate on bit vectors, which are s
 
   
 
-As the name implies, this procedure swaps the values stored at the locations pointed to by the pointer variables x and y.
+As the name implies, this procedure swaps the values stored at the locations pointed to by the pointer
 
-  
+비트수준 연산은 일반적으로 마스크 연산을 구현할 때 사용한다 (예. 1주차 코딩문제 3번)
+
+![[Pasted image 20250912100524.png]]
+
 
 2.1.8 logical operations in C
 
