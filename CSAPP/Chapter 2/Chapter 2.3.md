@@ -11,4 +11,4 @@ For example, consider a 4-bit number representation with x = 9 and y = 12, havin
 > When executing C programs, overflows are not signaled as errors. At times, however, we might wish to determine whether or not overflow has occurred.
 
 
-2.3.2
+2.3.2 two's complement addition
