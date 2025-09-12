@@ -60,3 +60,5 @@ Forexample,wesawthatT2U16(−12,345)=−12,345+216 =53,191,andalso that T2Uw(−
 ![[Pasted image 20250912115531.png]]
 
 ![[Pasted image 20250912115847.png]]
+
+2.2.5 Signed versus unsigned in C
