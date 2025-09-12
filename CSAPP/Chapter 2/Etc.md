@@ -1,3 +1,3 @@
 
+## About compatibility of the data types
 
-About compatibility of the data types
