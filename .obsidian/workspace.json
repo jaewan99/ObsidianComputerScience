@@ -90,7 +90,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "658074b3dc69e704",
@@ -184,8 +185,12 @@
   },
   "active": "4fc0cf8ddc5230a1",
   "lastOpenFiles": [
-    "CSAPP/Chapter 2/Images/Pasted image 20250912114012.png",
+    "CSAPP/Chapter 2/Images/Pasted image 20250912115847.png",
+    "Untitled.md",
     "CSAPP/Chapter 2/Chapter 2.2.md",
+    "CSAPP/Chapter 2/Images/Pasted image 20250912115531.png",
+    "CSAPP/Chapter 2/Images/Pasted image 20250912115347.png",
+    "CSAPP/Chapter 2/Images/Pasted image 20250912114012.png",
     "CSAPP/Chapter 2/Etc.md",
     "CSAPP/Chapter 2/목록.md",
     "코딩테스트/Untitled.md",

@@ -51,3 +51,12 @@ we can add like stdint.h. This file defines a set of data types with declaration
 
 2.2.4 Conversion Between signed and unsigned
 For most implementations of C, however, the answer to this question is based on a bit-level perspective, rather than on a numeric one.
+
+principle: Conversion from two’s complement to unsigned 
+For x such that TMinw ≤x ≤TMaxw
+
+Forexample,wesawthatT2U16(−12,345)=−12,345+216 =53,191,andalso that T2Uw(−1) =−1+2w =UMaxw.
+
+![[Pasted image 20250912115531.png]]
+
+![[Pasted image 20250912115847.png]]
