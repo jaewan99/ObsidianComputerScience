@@ -12,3 +12,7 @@ For example, consider a 4-bit number representation with x = 9 and y = 12, havin
 
 
 2.3.2 two's complement addition
+![[Pasted image 20250912172155.png]]
+
+
+![[Pasted image 20250912172605.png]]
