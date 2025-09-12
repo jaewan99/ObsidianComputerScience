@@ -27,4 +27,4 @@ That is, for w-bit two’s-complement addition, TMinw is its own additive in ver
 
 
 
-2.3.5
+2.3.5 two's complement multiplication
