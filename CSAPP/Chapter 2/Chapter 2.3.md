@@ -41,3 +41,5 @@ Even better, the compiler can also use the property 14 = 24 − 21 to rewrite th
 
 
 https://pages.cs.wisc.edu/~markhill/cs354/Fall2008/beyond354/int.mult.html
+
+2.3.7
