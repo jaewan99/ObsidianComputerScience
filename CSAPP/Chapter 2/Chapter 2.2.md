@@ -76,3 +76,6 @@ We can see the conversion routines in action: `T2U32(-1) = UMax32 = 2^32 - 1` an
 When an operation is performed where one operand is signed and the other is unsigned, C implicitly casts the signed argument to unsigned and performs the operation assuming the numbers are nonnegative.
 
 ![[Pasted image 20250912131314.png]]
+
+
+[[Etc#INT_MIN as (-INT_ MAX -1)]]
