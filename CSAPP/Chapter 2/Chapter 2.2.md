@@ -52,6 +52,8 @@ we can add like stdint.h. This file defines a set of data types with declaration
 2.2.4 Conversion Between signed and unsigned
 For most implementations of C, however, the answer to this question is based on a bit-level perspective, rather than on a numeric one.
 
+The bit values are identical but change how these bits are interpreted.
+
 ![[Pasted image 20250912125957.png]]
 
 principle: Conversion from two’s complement to unsigned 
@@ -63,3 +65,14 @@ Forexample,wesawthatT2U16(−12,345)=−12,345+216 =53,191,andalso that T2Uw(−
 ![[Pasted image 20250912115847.png]]
 
 2.2.5 Signed versus unsigned in C
+
+
+all machines use two’s complement. Generally, most numbers are signed by default
+
+`%d`, `%u`, and `%x` are used to print a number as a signed decimal, an unsigned decimal, and in hexadecimal format, respectively.
+
+We can see the conversion routines in action: `T2U32(-1) = UMax32 = 2^32 - 1` and `U2T32(2^31) = 2^31 - 2^32 = -2^31 = TMin32`.
+
+When an operation is performed where one operand is signed and the other is unsigned, C implicitly casts the signed argument to unsigned and performs the operation assuming the numbers are nonnegative.
+
+![[Pasted image 20250912131314.png]]
