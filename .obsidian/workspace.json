@@ -90,7 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 328.5,
     "collapsed": true
   },
   "right": {
@@ -185,16 +185,16 @@
   },
   "active": "4fc0cf8ddc5230a1",
   "lastOpenFiles": [
-    "CSAPP/Chapter 2/Images/Pasted image 20250912115847.png",
-    "Untitled.md",
-    "CSAPP/Chapter 2/Chapter 2.2.md",
+    "CSAPP/Chapter 2/Chapter 2.1.md",
     "CSAPP/Chapter 2/Images/Pasted image 20250912115531.png",
+    "CSAPP/Chapter 2/Images/Pasted image 20250912115847.png",
+    "CSAPP/Chapter 2/Chapter 2.2.md",
+    "Untitled.md",
     "CSAPP/Chapter 2/Images/Pasted image 20250912115347.png",
     "CSAPP/Chapter 2/Images/Pasted image 20250912114012.png",
     "CSAPP/Chapter 2/Etc.md",
     "CSAPP/Chapter 2/목록.md",
     "코딩테스트/Untitled.md",
-    "CSAPP/Chapter 2/Chapter 2.1.md",
     "CSAPP/Chapter 2/Images/Pasted image 20250912101412.png",
     "CSAPP/Chapter 2/Images/Pasted image 20250912105258.png",
     "CSAPP/Chapter 2/Images/Pasted image 20250912105047.png",
@@ -203,7 +203,6 @@
     "CSAPP/Chapter 2/Images",
     "CSAPP/Chapter 2/Images/Pasted image 20250912103612.png",
     "Website/가상메모리(Virtual Memory).md",
-    "Images/virtual_memory-1024.webp",
     "CSAPP/필요한 링크들.md",
     "Images",
     "내 사이트.md",

@@ -57,7 +57,6 @@ For x such that TMinw ≤x ≤TMaxw
 
 Forexample,wesawthatT2U16(−12,345)=−12,345+216 =53,191,andalso that T2Uw(−1) =−1+2w =UMaxw.
 
-![[Pasted image 20250912115531.png]]
 
 ![[Pasted image 20250912115847.png]]
 
