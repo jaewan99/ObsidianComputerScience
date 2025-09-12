@@ -107,3 +107,5 @@ Truncating numbers may create some problems as we cast from higher bit to lower 
 
 
 2.2.8 Advice on Signed versus Unsigned  
+
+Since the casting takes place without any clear indication in the code, programmers often overlook its effects.
