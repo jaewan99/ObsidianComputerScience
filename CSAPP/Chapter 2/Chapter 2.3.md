@@ -38,3 +38,6 @@ So, for example, 11 can be represented for w = 4 as [1011]. Shifting this left b
 14 = 23 + 22 +21, the compiler can rewrite the multiplication as (x<<3) + (x<<2) + (x<<1)
 
 Even better, the compiler can also use the property 14 = 24 − 21 to rewrite the multiplication as (x<<4)- (x<<1), requiring only two shifts and a subtraction.
+
+
+https://pages.cs.wisc.edu/~markhill/cs354/Fall2008/beyond354/int.mult.html
