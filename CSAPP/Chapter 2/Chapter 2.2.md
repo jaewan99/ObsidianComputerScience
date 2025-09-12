@@ -52,6 +52,8 @@ we can add like stdint.h. This file defines a set of data types with declaration
 2.2.4 Conversion Between signed and unsigned
 For most implementations of C, however, the answer to this question is based on a bit-level perspective, rather than on a numeric one.
 
+![[Pasted image 20250912125957.png]]
+
 principle: Conversion from two’s complement to unsigned 
 For x such that TMinw ≤x ≤TMaxw
 
