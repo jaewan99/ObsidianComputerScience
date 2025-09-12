@@ -41,6 +41,9 @@ UMax=2 TMax+1U_\text{Max} = 2 \, T_\text{Max} + 1UMax​=2TMax​+1
 
 ![[Pasted image 20250912105047.png]]
 
+It is important to have data types compatible with those specified by the protocol. We have seen that some C data types, especially `long`, have different ranges on different machines, and in fact, the C standards only specify the minimum ranges for any data type, not the exact ranges.
+
+we can add like stdint.h. This file defines a set of data types with declarations of the form intN_t and uintN_t, specifying N-bit signed and unsigned integers, for different values of N. The exact values of N are implementation dependent, but most compilers allow values of 8, 16, 32, and 64.
 
 [[Etc#About compatibility of the data types]]
 
