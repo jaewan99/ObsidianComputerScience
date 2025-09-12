@@ -28,3 +28,13 @@ That is, for w-bit two’s-complement addition, TMinw is its own additive in ver
 
 
 2.3.5 two's complement multiplication
+
+
+2.3.6 Multiplying by constants
+
+So, for example, 11 can be represented for w = 4 as [1011]. Shifting this left by k =2 yields the 6-bit vector [101100], which encodes the unsigned number 11. 4 =44.
+
+
+14 = 23 + 22 +21, the compiler can rewrite the multiplication as (x<<3) + (x<<2) + (x<<1)
+
+Even better, the compiler can also use the property 14 = 24 − 21 to rewrite the multiplication as (x<<4)- (x<<1), requiring only two shifts and a subtraction.
