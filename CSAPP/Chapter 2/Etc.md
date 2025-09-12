@@ -8,4 +8,4 @@
 		- 예. 32 bit linux에서는 4 bytes
 		- 64 bit linux에서는 8 바이트
 		- 64 bit windows에서는 4바이트
-- 그래서 우리느 
+- 그래서 우리는 intN_t나 unitN를 이용해서 한다.
