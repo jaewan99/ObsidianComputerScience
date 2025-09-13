@@ -4,3 +4,6 @@
 
 
 2.4.2 IEEE Floating-Point Representation
+
+![[Pasted image 20250913145537.png]]
+
