@@ -27,7 +27,10 @@ That is, for w-bit two’s-complement addition, TMinw is its own additive in ver
 
 ### 2.3.4 unsigned multiplication
 
+![[Pasted image 20250914201011.png]]
+![[Pasted image 20250914201100.png]] 
 
+Overflow is not generating random, they have patterns to be interpreted.
 
 2.3.5 two's complement multiplication
 
@@ -45,3 +48,6 @@ Even better, the compiler can also use the property 14 = 24 − 21 to rewrite th
 https://pages.cs.wisc.edu/~markhill/cs354/Fall2008/beyond354/int.mult.html
 
 2.3.7
+
+
+ %%
