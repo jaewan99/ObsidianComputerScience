@@ -12,3 +12,4 @@ https://www.youtube.com/watch?v=RuKkePyo9zk&pp=ygUiaWVlZSBmbG9hdGluZyBwb2ludCByZ
 ![[Pasted image 20250914212928.png]]
 ![[Pasted image 20250914213552.png]]
 ![[Pasted image 20250914214237.png]]
+![[Pasted image 20250914215701.png]]
