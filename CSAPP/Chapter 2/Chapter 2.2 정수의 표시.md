@@ -99,6 +99,10 @@ this shows that, when converting from short to unsigned
 This shows that, when converting from `short` to `unsigned`, the program first changes the size and then the type. That is, `(unsigned) sx` is equivalent to `(unsigned)(int) sx`, evaluating to 4,294,954,951, not `(unsigned)(unsigned short) sx`, which evaluates to 53,191. Indeed, this convention is required by the C standards.
 
 
+![[Pasted image 20250914195205.png]]
+
+
+![[Pasted image 20250914195220.png]]
 
 2.2.7 Truncating Numbers
 
