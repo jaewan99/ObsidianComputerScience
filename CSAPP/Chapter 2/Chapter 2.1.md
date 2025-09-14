@@ -33,7 +33,7 @@ Hexadecimal (or simply “hex”) uses digits ‘0’ through ‘9’ along with
 
 2.1.2 데이터의 크기
 
-Everycomputerhasawordsize,indicatingthenominalsizeofpointerdata.Since avirtualaddressisencodedbysuchaword,themostimportantsystemparameter determinedbythewordsizeisthemaximumsizeofthevirtualaddressspace.T
+Every computer has a word size, indicating the nominal size of pointer data. Since a virtual address is encoded by such a word, the most important system parameter determined by the word size is the maximum size of the virtual address space.
 
  Computers and compilers support multiple data formats using different ways to encode data, such as integers and floating point, as well as different lengths.
 
