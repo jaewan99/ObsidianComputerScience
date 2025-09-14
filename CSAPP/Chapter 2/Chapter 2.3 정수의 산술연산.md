@@ -12,19 +12,20 @@ For example, consider a 4-bit number representation with x = 9 and y = 12, havin
 
 When executing C programs, overflows are not signaled as errors. At times, however, we might wish to determine whether or not overflow has occurred.
 
-2.3.2 two's complement addition
+### 2.3.2 two's complement addition
 ![[Pasted image 20250912172155.png]]
 
 
 ![[Pasted image 20250912172605.png]]
 
 
+### 2.3.3 2의 보수에서의 비트반전 (negation)
+
 ![[Pasted image 20250912173508.png]]
 
 That is, for w-bit two’s-complement addition, TMinw is its own additive in verse, while any other value x has −x as its additive inverse. Since TMinw doesn't have its own additive in the given data type.
 
-
-2.3.4 unsigned multiplication
+### 2.3.4 unsigned multiplication
 
 
 
