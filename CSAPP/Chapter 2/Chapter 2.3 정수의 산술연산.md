@@ -53,6 +53,17 @@ https://pages.cs.wisc.edu/~markhill/cs354/Fall2008/beyond354/int.mult.html
 
 ### Counting Down with Unsigned
 
-Lecture 03
+Lecture 03: 44:06
 
 ![[Pasted image 20250914201922.png]]
+
+**Unsigned integers** wrap around → can cause infinite loops if you decrement to below 0.
+
+**`size_t`** is preferred over `unsigned` because it’s standardized for sizes, indices, and portable across platforms.
+
+**Decrementing loops** with unsigned indices must be written carefully to avoid underflow.
+
+
+### Why should I use Unsigned?
+ ![[Pasted image 20250914203810.png]]
+
