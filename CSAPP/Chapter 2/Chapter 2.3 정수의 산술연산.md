@@ -80,3 +80,4 @@ lecture 3 - 1:08:46
 7.  False - overflow
 8. True 
 9. False - Tmin
+10.  False - x = 0, -x = 0 so false
