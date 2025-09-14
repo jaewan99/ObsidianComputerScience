@@ -25,3 +25,8 @@
 		- On a 32-bit system, this can cause:
 			- - **Compiler warnings** (`integer overflow`)
 			- - **Potential undefined behavior**, because the literal by itself exceeds the signed int range.
+
+## About pointers
+![[Pasted image 20250914205629.png]]
+
+we can't copy pointers to the other machines 
