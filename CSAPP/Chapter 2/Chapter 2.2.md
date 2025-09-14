@@ -25,7 +25,7 @@ principle: Uniqueness of unsigned encoding
 Function B2Uw is a bijection.
 
 Example of bijection would be
-there is only one decimal values that 0001 can map which is 1 and also for reverse, where 1 can only map to 0001 to binary
+there is only one decimal values that 0001 can map which is 1 and also for reverse, where 1 can only map to 0001 to binary.
 
 
 2.2.3 two's compliment encodings
@@ -59,7 +59,7 @@ The bit values are identical but change how these bits are interpreted.
 principle: Conversion from two’s complement to unsigned 
 For x such that TMinw ≤x ≤TMaxw
 
-Forexample,wesawthatT2U16(−12,345)=−12,345+216 =53,191,andalso that T2Uw(−1) =−1+2w =UMaxw.
+For example, we saw thatT2U16(−12,345)=−12,345+216 =53,191,andalso that T2Uw(−1) =−1+2w =UMaxw.
 
 
 ![[Pasted image 20250912115847.png]]
