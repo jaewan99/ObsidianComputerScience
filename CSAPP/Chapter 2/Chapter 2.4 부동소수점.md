@@ -1,9 +1,9 @@
-2.4.1. Fractional Binary Number
+### 2.4.1. Fractional Binary Number
 
 ![[Pasted image 20250913143819.png]]
 
 
-2.4.2 IEEE Floating-Point Representation
+### 2.4.2 IEEE Floating-Point Representation
 https://www.youtube.com/watch?v=RuKkePyo9zk&pp=ygUiaWVlZSBmbG9hdGluZyBwb2ludCByZXByZXNlbnRhdGlvbg%3D%3D
 ![[Pasted image 20250914214239.png]]
 
@@ -28,3 +28,5 @@ Floating point puzzle
 6. no // 0  == 2/3.0
 7. yes
 8. yes
+9. yes => overflow - positive inf
+10. no
