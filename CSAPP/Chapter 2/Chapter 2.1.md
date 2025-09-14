@@ -160,13 +160,12 @@ The italicized digits indicate the values that fill the right end (for a left sh
 
 
 int lval=0xFEDCBA98 <<32;
-/ since the total size of the object which 32 is equal to the amount to push 32, so nothing happens
+
+since the total size of the object which 32 is equal to the amount to push 32, so nothing happens
 
 lval 0xFEDCBA98
 
-ThisbehaviorisnotguaranteedforCprograms,however,andsoshiftamountsshouldbekeptlessthan thewordsize. Java,ontheotherhand,specificallyrequiresthatshiftamountsshouldbecomputedinthemodular fashionwehaveshown.
-  
-
+This behavior is not guaranteed for C programs, however, and so shift amounts should be kept less than the word size. Java, on the other hand, specifically requires that shift amounts should be computed in the modular fashion we have shown.
 
 
 
