@@ -50,4 +50,9 @@ https://pages.cs.wisc.edu/~markhill/cs354/Fall2008/beyond354/int.mult.html
 2.3.7
 
 
- %%
+
+### Counting Down with Unsigned
+
+Lecture 03
+
+![[Pasted image 20250914201922.png]]
