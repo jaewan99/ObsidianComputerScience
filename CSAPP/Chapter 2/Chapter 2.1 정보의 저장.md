@@ -16,7 +16,10 @@
 주소공간이라고 부른다.
 
 가상메모리란?
+Big array of bytes, this is complex combination of hardware and software. Shuffling between memories and also with disk to build this virtual memory. This is develop from the OS. can we can't see from code. 
+
 [[가상메모리(Virtual Memory)]]
+
 
 ### 2.1.1 16진수 표시 
 
@@ -38,7 +41,6 @@ Every computer has a word size, indicating the nominal size of pointer data. Sin
 
 그래서 c언어에서는 키워드가 중요함, pointer을 통해서 주소를 받고 그 declaration을 통해 그 주소의 크기를 가늠한다.
 
-
 Ex. unsigned long - it's 4 bytes in 32 bit, but it's 8 bytes in 64 bit
   
 Most 64-bit machines can also run programs compiled for use on 32-bit machines, a form of backward compatibility. For example, when a program prog.c is compiled with the directive
@@ -53,6 +55,15 @@ We will therefore refer to programs as being either “32-bit programs” or “
 
 [32-Bit vs. 64-Bit - What Are Bits? Why Are They Important?](https://www.youtube.com/watch?v=s2aB13sOBi8)
 
+----
+Lecture 3 49:54
+![[Pasted image 20250914204444.png]]
+
+ The range sort of signifies how big a pointer is in this language
+ 
+ Largest sort of chunk of hardware for standard support for storing it for arithmetic operations
+
+Right now it's only 47 bits are useful
 ### 2.1.3 addressing and byte ordering
 
 we must establish two conventions: what the address of the object will be, and how we will order the bytes in memory.
