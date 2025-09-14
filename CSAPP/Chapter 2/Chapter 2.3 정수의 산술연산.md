@@ -74,4 +74,9 @@ lecture 3 - 1:08:46
 1. False -Tmin
 2.  True
 3.  True = x = 32 bits -- 1100000.... = negative
-4. 
+4.  False - unsigned > signed ==> unsigned > unsigned (Umax) // never true
+5.  False - if y == Tmin so -y is also Tmin
+6.  False - overflow
+7.  False - overflow
+8. True 
+9. False - Tmin
