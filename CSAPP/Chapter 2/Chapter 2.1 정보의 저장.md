@@ -6,7 +6,7 @@
 
 부동소수점 -   Floating-point encodings are a base-2 version of scientific notation for representing real numbers
 
-## 2.1 정보의 저장
+### 2.1 정보의 저장
 
 메모리에서 주소지정이 가능한 최소단위인 8비트 단위의 블록인 바이트를 사용한다.
 
