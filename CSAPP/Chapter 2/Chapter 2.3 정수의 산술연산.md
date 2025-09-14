@@ -67,3 +67,11 @@ Lecture 03: 44:06
 ### Why should I use Unsigned?
  ![[Pasted image 20250914203810.png]]
 
+
+### Integer C Puzzles
+lecture 3 - 1:08:46
+
+1. False -Tmin
+2.  True
+3.  True = x = 32 bits -- 1100000.... = negative
+4. 

@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSAPP/Chapter 2/Etc.md",
+                "file": "CSAPP/Chapter 2/Chapter 2.3 정수의 산술연산.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Etc"
+              "title": "Chapter 2.3 정수의 산술연산"
             }
           }
         ],
@@ -93,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 328.5
+    "width": 261.5
   },
   "right": {
     "id": "658074b3dc69e704",
@@ -187,6 +187,7 @@
   },
   "active": "9ce39c4fc4ffd1f7",
   "lastOpenFiles": [
+    "CSAPP/Chapter 2/Etc.md",
     "CSAPP/Chapter 2/Images/Pasted image 20250914205629.png",
     "CSAPP/Chapter 2/Chapter 2.1 정보의 저장.md",
     "CSAPP/Chapter 2/Images/Pasted image 20250914204444.png",
@@ -203,9 +204,7 @@
     "CSAPP/Chapter 2/Images/Pasted image 20250914201011.png",
     "CSAPP/Chapter 2/Images/Pasted image 20250914200928.png",
     "CSAPP/노트 적을때 따라야할 규칙.md",
-    "CSAPP/Chapter 2/Etc.md",
     "CSAPP/Chapter 2/Images/Pasted image 20250914195352.png",
-    "CSAPP/Chapter 2/Images/Pasted image 20250914195220.png",
     "코딩테스트/재귀 (Recursion).md",
     "Website/가상메모리(Virtual Memory).md",
     "코딩테스트/이분탐색 (binary search).md",
