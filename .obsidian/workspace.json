@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "코딩테스트/스택 (stack).md",
+                "file": "코딩테스트/큐 (queue).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "스택 (stack)"
+              "title": "큐 (queue)"
             }
           }
         ],
@@ -185,11 +185,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "9ce39c4fc4ffd1f7",
+  "active": "857e29066a8d31b7",
   "lastOpenFiles": [
+    "코딩테스트/스택 (stack).md",
+    "코딩테스트/큐 (queue).md",
     "코딩테스트/이분탐색 (binary search).md",
     "코딩테스트/재귀 (Recursion).md",
-    "코딩테스트/스택 (stack).md",
     "코딩테스트/분할정복 (divide and conquer).md",
     "CSAPP/노트 적을때 따라야할 규칙.md",
     "CSAPP/필요한 링크들.md",
