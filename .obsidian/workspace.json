@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "코딩테스트/스택 (stack).md",
+                "file": "코딩테스트/힙 (heap).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "스택 (stack)"
+              "title": "힙 (heap)"
             }
           }
         ],
@@ -201,8 +201,8 @@
   },
   "active": "02284c64a167caf9",
   "lastOpenFiles": [
-    "코딩테스트/연결 리스트 (linked list).md",
     "코딩테스트/스택 (stack).md",
+    "코딩테스트/연결 리스트 (linked list).md",
     "코딩테스트/분할정복 (divide and conquer).md",
     "C Lang/Learn C.md",
     "C Lang/Tutorial.md",
