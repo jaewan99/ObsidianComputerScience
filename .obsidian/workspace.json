@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C Lang/Learn C.md",
+                "file": "코딩테스트/백준.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Learn C"
+              "title": "백준"
             }
           }
         ],
@@ -201,8 +201,9 @@
   },
   "active": "02284c64a167caf9",
   "lastOpenFiles": [
-    "C Lang/Tutorial.md",
     "C Lang/Learn C.md",
+    "코딩테스트/백준.md",
+    "C Lang/Tutorial.md",
     "코딩테스트/힙 (heap).md",
     "코딩테스트/스택 (stack).md",
     "코딩테스트/연결 리스트 (linked list).md",
