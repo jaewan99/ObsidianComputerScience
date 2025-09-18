@@ -39,4 +39,8 @@ machine code is the intermediate form between what the program is trying to do a
 	- Array of bytes
 	- collaboration between the OS and the hardware - virtual memory to make it look like each program running on the processor has its own independent array of bytes that it can access even though they actually share values within the physical memory itself.
 	- Cache - automatically loaded with the recent staff.  if we re-access that memory it will go faster but it's not visible in terms of there's no instructions to manipulate the cache. There's no way to directly access the cache.
-	- 
+
+- [25:02](https://www.youtube.com/watch?v=ViP6V-U4y8M#t=25:02.77) 
+- First step, take c and generate assembly code from it
+- Second step, run that through assembler - which takes the text representation of instructions and turns it into the actual byte level presentation
+- Third step, linker - merges together all the different files for both your individual files 
