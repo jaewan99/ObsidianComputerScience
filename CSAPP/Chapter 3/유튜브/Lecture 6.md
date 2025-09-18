@@ -42,4 +42,20 @@ Is register part of memory - No,  // part of cache? - No
 
 - [35:29](https://www.youtube.com/watch?v=LqSN8OOdLQw#t=35:29.65) 
 - gcc -Og -S -fno-if-conversion control.c
+- Bad cases for conditional move
+	- expensive computations
+		- val = Test(x) ? Hard1(x) : Hard(x);
+			- both values get computed
+			- only makes sense when computations are very simple
+	- Risky Computations
+		- val = p ? (pointer) P : 0 ;
+		- May have undesirable effects
+	- Computations with side effects
+		- val = x > 0 ? x = x times 7 : x = x + 3
+		- Both values get computed
+		- Must be side-effect free
 
+
+- [38:35](https://www.youtube.com/watch?v=LqSN8OOdLQw#t=38:35.11) 
+- Do-While loop example
+- 
