@@ -98,5 +98,5 @@ machine code is the intermediate form between what the program is trying to do a
 
 - [54:24](https://www.youtube.com/watch?v=ViP6V-U4y8M#t=54:24.61) 
 ![[Pasted image 20250918174433.png]]
-
-- 
+![[Pasted image 20250918174933.png]]
+ 
