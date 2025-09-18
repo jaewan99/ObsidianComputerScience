@@ -71,3 +71,9 @@ machine code is the intermediate form between what the program is trying to do a
 - figured this out by the bytes in the actual object code file
 - Another way to do it
 - gdb - powerful debugging examine step through and operate on programs in.
+
+
+- [47:59](https://www.youtube.com/watch?v=ViP6V-U4y8M#t=47:59.34) 
+- Registers
+	- For each register "%r.." -you get 64 bits of it. "%e.." version of it you get 32 bits 
+	- ex. long ints - "%r.." - if it's ints (32bits) - "%e.."
