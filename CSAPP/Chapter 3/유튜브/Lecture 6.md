@@ -22,4 +22,10 @@ Is register part of memory - No,  // part of cache? - No
 - 
 - [11:34](https://www.youtube.com/watch?v=LqSN8OOdLQw#t=11:34.79) 
 - How to read the condition codes
-	- read and set 1 bit flag based on the result in the a read so
+	- read and set 1 bit flag based on the result in the a read some other register
+	- OR try conditional branch
+		- SetX instruction
+			- sets a single byte of a single register to either 1 or 0
+			- based on the most recent instruction before hand
+- We can directly set the lowest order byte of it to either 0 or 1 - and doesn't affect any of the other 7 bytes of the register (%cl) "L" - means low
+- 
