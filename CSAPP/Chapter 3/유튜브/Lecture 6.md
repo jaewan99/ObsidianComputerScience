@@ -28,4 +28,13 @@ Is register part of memory - No,  // part of cache? - No
 			- sets a single byte of a single register to either 1 or 0
 			- based on the most recent instruction before hand
 - We can directly set the lowest order byte of it to either 0 or 1 - and doesn't affect any of the other 7 bytes of the register (%cl) "L" - means low
-- 
+
+
+- [21:21](https://www.youtube.com/watch?v=LqSN8OOdLQw#t=21:21.58) 
+- Jumping / Jump Instructions
+- conditional and unconditional jump
+
+
+- [26:59](https://www.youtube.com/watch?v=LqSN8OOdLQw#t=26:59.85) 
+- Goto Code
+
