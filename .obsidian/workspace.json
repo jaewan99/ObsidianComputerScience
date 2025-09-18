@@ -4,39 +4,120 @@
     "type": "split",
     "children": [
       {
-        "id": "7bccdfa6c1c43316",
+        "id": "3be00117ccbc7431",
         "type": "tabs",
+        "dimension": 68.23027718550107,
         "children": [
           {
-            "id": "4fc0cf8ddc5230a1",
+            "id": "0ac5873d2d0adc81",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mx-url",
               "state": {
-                "file": "CSAPP/Chapter 2/목록.md",
-                "mode": "source",
-                "source": false
+                "mx": {
+                  "json": {
+                    "media": {
+                      "type": "url:hosted",
+                      "vid": {
+                        "host": "youtube",
+                        "vid": "ViP6V-U4y8M",
+                        "t": null,
+                        "start": null,
+                        "end": null
+                      },
+                      "url": "https://www.youtube.com/watch?v=ViP6V-U4y8M"
+                    },
+                    "hash": {
+                      "type": null,
+                      "title": null,
+                      "volume": null,
+                      "aspectRatio": null,
+                      "crossOrigin": null,
+                      "flip": null,
+                      "audioGain": null,
+                      "playbackRate": null,
+                      "tempFragment": null,
+                      "loop": null,
+                      "muted": null,
+                      "autoPlay": null,
+                      "showControls": null
+                    }
+                  },
+                  "meta": {
+                    "values": {
+                      "media.url": [
+                        "URL"
+                      ],
+                      "hash.type": [
+                        "undefined"
+                      ],
+                      "hash.title": [
+                        "undefined"
+                      ],
+                      "hash.volume": [
+                        "undefined"
+                      ],
+                      "hash.aspectRatio": [
+                        "undefined"
+                      ],
+                      "hash.crossOrigin": [
+                        "undefined"
+                      ],
+                      "hash.flip": [
+                        "undefined"
+                      ],
+                      "hash.audioGain": [
+                        "undefined"
+                      ],
+                      "hash.playbackRate": [
+                        "undefined"
+                      ],
+                      "hash.tempFragment": [
+                        "undefined"
+                      ],
+                      "hash.loop": [
+                        "undefined"
+                      ],
+                      "hash.muted": [
+                        "undefined"
+                      ],
+                      "hash.autoPlay": [
+                        "undefined"
+                      ],
+                      "hash.showControls": [
+                        "undefined"
+                      ]
+                    }
+                  }
+                }
               },
-              "icon": "lucide-file",
-              "title": "목록"
+              "icon": "youtube",
+              "title": "CMU 15213/15513 CSAPP 深入理解计算机系统 Lecture 05  Machine Level Programming I  Basics 中英字幕"
             }
-          },
-          {
-            "id": "9ce39c4fc4ffd1f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "코딩테스트/연결 리스트 (linked list).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "연결 리스트 (linked list)"
-            }
-          },
+          }
+        ]
+      },
+      {
+        "id": "61bc342ae0f00238",
+        "type": "tabs",
+        "dimension": 31.769722814498934,
+        "children": [
           {
             "id": "02284c64a167caf9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSAPP/Chapter 3/Chapter 3.1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Chapter 3.1"
+            }
+          },
+          {
+            "id": "40464190d5929076",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -50,7 +131,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -107,7 +188,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.5
+    "width": 261.5,
+    "collapsed": true
   },
   "right": {
     "id": "658074b3dc69e704",
@@ -200,10 +282,21 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "02284c64a167caf9",
+  "active": "40464190d5929076",
   "lastOpenFiles": [
-    "CSAPP/Chapter 3/유튜브/유튜브 영상.md",
     "CSAPP/Chapter 3/유튜브/Lecture 5.md",
+    "CSAPP/Chapter 3/유튜브/Images/Pasted image 20250918160437.png",
+    "CSAPP/Chapter 3/유튜브/Images/Pasted image 20250918160431.png",
+    "CSAPP/Chapter 3/유튜브/Images/Pasted image 20250918160427.png",
+    "CSAPP/Chapter 3/유튜브/Images",
+    "CSAPP/Chapter 3/Chapter 3.1.md",
+    "media-lib/url-egn0d95f.md",
+    "Images/mx-img-egn0d95fq8ohsowtk67ox32h-pt3m11_90s.jpg",
+    "Images",
+    "media-lib",
+    "코딩테스트/연결 리스트 (linked list).md",
+    "CSAPP/Chapter 2/목록.md",
+    "CSAPP/Chapter 3/유튜브/유튜브 영상.md",
     "CSAPP/Chapter 2/Chapter 2.4 부동소수점.md",
     "CSAPP/Chapter 2/Chapter 2.3 정수의 산술연산.md",
     "CSAPP/Chapter 2/Chapter 2.2 정수의 표시.md",
@@ -211,8 +304,6 @@
     "CSAPP/Chapter 3/유튜브",
     "CSAPP/Chapter 3/목록.md",
     "CSAPP/필요한 링크들.md",
-    "CSAPP/Chapter 3/Chapter 3.1.md",
-    "CSAPP/Chapter 2/목록.md",
     "CSAPP/Chapter 2/Etc.md",
     "CSAPP/노트 적을때 따라야할 규칙.md",
     "CSAPP/Chapter 3",
@@ -221,7 +312,6 @@
     "C Lang/Tutorial.md",
     "코딩테스트/힙 (heap).md",
     "코딩테스트/스택 (stack).md",
-    "코딩테스트/연결 리스트 (linked list).md",
     "코딩테스트/분할정복 (divide and conquer).md",
     "C Lang",
     "코딩테스트/큐 (queue).md",
@@ -233,20 +323,11 @@
     "CSAPP/Chapter 2/Images/Pasted image 20250914213552.png",
     "CSAPP/Chapter 2/Images/Pasted image 20250914212928.png",
     "CSAPP/Chapter 2/Images/Pasted image 20250914212308.png",
-    "CSAPP/Chapter 2/Images/Pasted image 20250914211715.png",
-    "CSAPP/Chapter 2/Images/Pasted image 20250914205629.png",
-    "CSAPP/Chapter 2/Images/Pasted image 20250914204444.png",
-    "CSAPP/Chapter 2/Images/Pasted image 20250914204443.png",
     "Website/가상메모리(Virtual Memory).md",
     "CSAPP/Chapter 2/Images",
     "Website/Images",
     "내 사이트.md",
-    "Websites/GeeksForGeeks/GeeksForGeeks.md",
     "Website",
-    "Websites/GeeksForGeeks",
-    "CSAPP/Chapter 2",
-    "코딩테스트",
-    "Welcome.md",
-    "Websites"
+    "Websites/GeeksForGeeks"
   ]
 }

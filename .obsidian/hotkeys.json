@@ -1,13 +1,13 @@
 {
-  "media-extended:take-rec-timestamp": [
+  "media-extended:increase-speed-granular": [
     {
       "modifiers": [
-        "Mod"
+        "Shift"
       ],
-      "key": "R"
+      "key": "."
     }
   ],
-  "media-extended:decrease-speed": [
+  "media-extended:decrease-speed-granular": [
     {
       "modifiers": [
         "Shift"
@@ -15,12 +15,20 @@
       "key": ","
     }
   ],
-  "media-extended:copy-screenshot": [
+  "media-extended:take-timestamp": [
     {
       "modifiers": [
         "Mod"
       ],
-      "key": "C"
+      "key": "R"
+    }
+  ],
+  "media-extended:toggle-play": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": " "
     }
   ]
 }
