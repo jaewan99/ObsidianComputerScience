@@ -113,5 +113,17 @@ machine code is the intermediate form between what the program is trying to do a
 		- Src is address mode expression - from the memory references
 		- Set Dst to address denoted by expression - it has to be register
 	- Example
-		- & - give me the address of some place / that designated some location
-		- p = 
+		- computing address without a memory reference
+			- & - give me the address of some place / that designated some location
+
+![[Pasted image 20250918181700.png]]
+
+ASM by compiler
+leaq == so rax = 3rdi (rdi + 2rdi)
+salq == rax = 4rax
+so (12 rax)
+![[Pasted image 20250918182013.png]]![[Pasted image 20250918182024.png]]
+
+leaq = address computation
+salq = shift
+imulq = multiplication
