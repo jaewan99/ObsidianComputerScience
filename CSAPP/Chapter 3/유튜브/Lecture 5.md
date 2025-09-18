@@ -9,4 +9,5 @@ assembly - the word form of the bytes
 
 machine code - object code, binary code, assembly code
 
+machine code is the intermediate form between what the program is trying to do and machine is trying to do
 
