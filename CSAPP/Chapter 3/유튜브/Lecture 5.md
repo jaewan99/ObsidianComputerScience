@@ -104,3 +104,14 @@ machine code is the intermediate form between what the program is trying to do a
 
 - [1:01:14](https://www.youtube.com/watch?v=ViP6V-U4y8M#t=1:01:14.57) 
 - Continuation on the understanding the Swap()
+![[Pasted image 20250918180622.png]] 
+- [1:06:08](https://www.youtube.com/watch?v=ViP6V-U4y8M#t=1:06:08.18) 
+- Address computation example
+
+- Address computation instruction
+	- leaq Src, Dst
+		- Src is address mode expression - from the memory references
+		- Set Dst to address denoted by expression - it has to be register
+	- Example
+		- & - give me the address of some place / that designated some location
+		- p = 
