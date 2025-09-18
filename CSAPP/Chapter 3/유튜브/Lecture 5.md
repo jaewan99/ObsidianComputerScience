@@ -85,6 +85,18 @@ machine code is the intermediate form between what the program is trying to do a
 - movq source, dest
 - Operand types:
 	- immediate - constant integer data
-	- example, $0x400
-	- Like C constant, but prefixed with "$"
-	- Encoded with 1,2, or 4 bytes
+		- example, $0x400
+		- Like C constant, but prefixed with "$"
+		- Encoded with 1,2, or 4 bytes
+	- Register - one of 16 integer registers
+		- example, %rax, %r13
+		- But %rsp reserved for special use
+		- other have special use for particular instructions
+	- Memory - 8 consecutive bytes of memory at address given by register
+		- simple example (%rax)
+		- various "address mode"
+
+- [54:24](https://www.youtube.com/watch?v=ViP6V-U4y8M#t=54:24.61) 
+![[Pasted image 20250918174433.png]]
+
+- 
