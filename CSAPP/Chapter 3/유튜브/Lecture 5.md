@@ -15,4 +15,9 @@ machine code - object code, binary code, assembly code
 machine code is the intermediate form between what the program is trying to do and machine is trying to do
 
 
-- [02:49](https://www.youtube.com/watch?v=ViP6V-U4y8M#t=02:49.29) 
+
+- [06:28](https://www.youtube.com/watch?v=ViP6V-U4y8M#t=06:28.21) 
+- Intel is complex instruction set computer
+
+
+

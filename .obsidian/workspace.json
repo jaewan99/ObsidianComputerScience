@@ -6,7 +6,7 @@
       {
         "id": "3be00117ccbc7431",
         "type": "tabs",
-        "dimension": 68.23027718550107,
+        "dimension": 58.57585139318885,
         "children": [
           {
             "id": "0ac5873d2d0adc81",
@@ -100,7 +100,7 @@
       {
         "id": "61bc342ae0f00238",
         "type": "tabs",
-        "dimension": 31.769722814498934,
+        "dimension": 41.424148606811144,
         "children": [
           {
             "id": "02284c64a167caf9",
@@ -188,8 +188,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.5,
-    "collapsed": true
+    "width": 261.5
   },
   "right": {
     "id": "658074b3dc69e704",
@@ -282,16 +281,18 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "40464190d5929076",
+  "active": "0ac5873d2d0adc81",
   "lastOpenFiles": [
     "CSAPP/Chapter 3/유튜브/Lecture 5.md",
-    "CSAPP/Chapter 3/유튜브/Images/Pasted image 20250918160437.png",
-    "CSAPP/Chapter 3/유튜브/Images/Pasted image 20250918160431.png",
-    "CSAPP/Chapter 3/유튜브/Images/Pasted image 20250918160427.png",
-    "CSAPP/Chapter 3/유튜브/Images",
+    "Images/mx-img-egn0d95fq8ohsowtk67ox32h-pt5m52_67s.jpg",
     "CSAPP/Chapter 3/Chapter 3.1.md",
-    "media-lib/url-egn0d95f.md",
+    "Images/mx-img-egn0d95fq8ohsowtk67ox32h-pt6m17_45s-1t3ryya.jpg",
     "Images/mx-img-egn0d95fq8ohsowtk67ox32h-pt3m11_90s.jpg",
+    "CSAPP/Chapter 3/유튜브/Images/Pasted image 20250918160437.png",
+    "CSAPP/Chapter 3/유튜브/Images/Pasted image 20250918160427.png",
+    "CSAPP/Chapter 3/유튜브/Images/Pasted image 20250918160431.png",
+    "CSAPP/Chapter 3/유튜브/Images",
+    "media-lib/url-egn0d95f.md",
     "Images",
     "media-lib",
     "코딩테스트/연결 리스트 (linked list).md",
@@ -321,8 +322,6 @@
     "CSAPP/Chapter 2/Images/Pasted image 20250914214239.png",
     "CSAPP/Chapter 2/Images/Pasted image 20250914214237.png",
     "CSAPP/Chapter 2/Images/Pasted image 20250914213552.png",
-    "CSAPP/Chapter 2/Images/Pasted image 20250914212928.png",
-    "CSAPP/Chapter 2/Images/Pasted image 20250914212308.png",
     "Website/가상메모리(Virtual Memory).md",
     "CSAPP/Chapter 2/Images",
     "Website/Images",
