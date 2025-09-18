@@ -1,0 +1,26 @@
+{
+  "media-extended:take-rec-timestamp": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "R"
+    }
+  ],
+  "media-extended:decrease-speed": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": ","
+    }
+  ],
+  "media-extended:copy-screenshot": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "C"
+    }
+  ]
+}

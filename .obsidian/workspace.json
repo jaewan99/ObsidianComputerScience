@@ -196,7 +196,8 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "media-extended:Open external media": false
     }
   },
   "active": "02284c64a167caf9",

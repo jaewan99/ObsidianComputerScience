@@ -11,3 +11,13 @@ machine code - object code, binary code, assembly code
 
 machine code is the intermediate form between what the program is trying to do and machine is trying to do
 
+```txt
+obsidian://https://www.youtube.com/watch?v=ViP6V-U4y8M&list=PL22J-I2Pi-Gf0s1CGDVtt4vuvlyjLxfem&index=5
+
+```
+
+
+
+```txt
+obsidian://mx-open?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DUF8uR6Z6KLc
+```
