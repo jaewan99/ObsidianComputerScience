@@ -122,6 +122,7 @@ ASM by compiler
 leaq == so rax = 3rdi (rdi + 2rdi)
 salq == rax = 4rax
 so (12 rax)
+
 ![[Pasted image 20250918182013.png]]![[Pasted image 20250918182024.png]]
 
 leaq = address computation
