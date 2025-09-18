@@ -19,3 +19,7 @@ Is register part of memory - No,  // part of cache? - No
 	- cmpq b,a like computing a-b without setting destination
 	- ex. ZF set if a=b
 	- testq b,a like computing a&b without setting destination
+- 
+- [11:34](https://www.youtube.com/watch?v=LqSN8OOdLQw#t=11:34.79) 
+- How to read the condition codes
+	- read and set 1 bit flag based on the result in the a read so
