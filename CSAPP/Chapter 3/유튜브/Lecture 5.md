@@ -59,5 +59,12 @@ machine code is the intermediate form between what the program is trying to do a
 - gcc -Og - S sum.c
 - -S = stop
 - -Og = what kind of optimization -- it's very hard to read without it
-- .cft_startproc - instruction sets starting with "." they aren't actually instructions they're something else - related
+- .cft_startproc - instruction sets starting with "." they aren't actually instructions they're something else - related to what the information that needs to be fed to a debugger for it to be able to locate various parts of the program. Some information for the linker to tell it that this is a globally defined function. and various other things.
+
+- [34:39](https://www.youtube.com/watch?v=ViP6V-U4y8M#t=34:39.78) 
+- Assembly code - number of different sort of integer data types
+
+
+- [36:20](https://www.youtube.com/watch?v=ViP6V-U4y8M#t=36:20.00) 
+- 
 
