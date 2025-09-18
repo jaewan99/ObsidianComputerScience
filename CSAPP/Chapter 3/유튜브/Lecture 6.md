@@ -35,6 +35,11 @@ Is register part of memory - No,  // part of cache? - No
 - conditional and unconditional jump
 
 
-- [26:59](https://www.youtube.com/watch?v=LqSN8OOdLQw#t=26:59.85) 
-- Goto Code
+- [26:59](https://www.youtube.com/watch?v=LqSN8OOdLQw#t=26:59.85)  
+- Goto Code // conditional code
+- if, then statement
+- 
+
+- [35:29](https://www.youtube.com/watch?v=LqSN8OOdLQw#t=35:29.65) 
+- gcc -Og -S -fno-if-conversion control.c
 
