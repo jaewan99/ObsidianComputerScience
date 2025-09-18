@@ -65,3 +65,4 @@ Is register part of memory - No,  // part of cache? - No
 - Switch Form
 	- Jump Table - like a ray indexing - list of index that targets to the Target Switch
 	- Jump Targets
+	- Can search with binary search
