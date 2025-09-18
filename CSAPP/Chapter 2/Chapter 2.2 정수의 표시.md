@@ -46,7 +46,7 @@ It is important to have data types compatible with those specified by the protoc
 
 we can add like stdint.h. This file defines a set of data types with declarations of the form intN_t and uintN_t, specifying N-bit signed and unsigned integers, for different values of N. The exact values of N are implementation dependent, but most compilers allow values of 8, 16, 32, and 64.
 
-[[Etc#About compatibility of the data types]]
+[[CSAPP/Chapter 2/Etc#About compatibility of the data types]]
 
 ![[Pasted image 20250914211715.png]]
 ### 2.2.4 Conversion Between signed and unsigned
@@ -77,7 +77,7 @@ When an operation is performed where one operand is signed and the other is unsi
 
 ![[Pasted image 20250912131314.png]]
 
-[[Etc#INT_MIN as (-INT_ MAX -1)]]
+[[CSAPP/Chapter 2/Etc#INT_MIN as (-INT_ MAX -1)]]
 
 
 ### 2.2.6 Expanding the Bit representation of a number

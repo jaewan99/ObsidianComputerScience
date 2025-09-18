@@ -77,3 +77,14 @@ machine code is the intermediate form between what the program is trying to do a
 - Registers
 	- For each register "%r.." -you get 64 bits of it. "%e.." version of it you get 32 bits 
 	- ex. long ints - "%r.." - if it's ints (32bits) - "%e.."
+	- Now, names doesn't have nothing to do with the purpose
+	- One special register - "%rsp" - stack pointer
+
+- [53:37](https://www.youtube.com/watch?v=ViP6V-U4y8M#t=53:37.07) 
+- Moving Data 
+- movq source, dest
+- Operand types:
+	- immediate - constant integer data
+	- example, $0x400
+	- Like C constant, but prefixed with "$"
+	- Encoded with 1,2, or 4 bytes
