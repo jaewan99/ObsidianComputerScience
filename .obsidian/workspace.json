@@ -6,7 +6,7 @@
       {
         "id": "3be00117ccbc7431",
         "type": "tabs",
-        "dimension": 58.57585139318885,
+        "dimension": 59.38080495356037,
         "children": [
           {
             "id": "0ac5873d2d0adc81",
@@ -100,7 +100,7 @@
       {
         "id": "61bc342ae0f00238",
         "type": "tabs",
-        "dimension": 41.424148606811144,
+        "dimension": 40.61919504643963,
         "children": [
           {
             "id": "02284c64a167caf9",
@@ -281,7 +281,7 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "0ac5873d2d0adc81",
+  "active": "40464190d5929076",
   "lastOpenFiles": [
     "CSAPP/Chapter 3/유튜브/Lecture 5.md",
     "Images/mx-img-egn0d95fq8ohsowtk67ox32h-pt5m52_67s.jpg",
