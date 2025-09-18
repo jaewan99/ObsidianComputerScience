@@ -65,6 +65,9 @@ machine code is the intermediate form between what the program is trying to do a
 - Assembly code - number of different sort of integer data types
 
 
-- [36:20](https://www.youtube.com/watch?v=ViP6V-U4y8M#t=36:20.00) 
-- 
-
+- [42:32](https://www.youtube.com/watch?v=ViP6V-U4y8M#t=42:32.94) 
+- objdump -d sum > sum.d
+- object code to assembly code
+- figured this out by the bytes in the actual object code file
+- Another way to do it
+- gdb - powerful debugging examine step through and operate on programs in.
