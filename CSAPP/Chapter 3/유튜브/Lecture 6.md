@@ -62,4 +62,6 @@ Is register part of memory - No,  // part of cache? - No
 
 - [49:49](https://www.youtube.com/watch?v=LqSN8OOdLQw#t=49:49.72) 
 - Switch Statements
-- 
+- Switch Form
+	- Jump Table - like a ray indexing - list of index that targets to the Target Switch
+	- Jump Targets
