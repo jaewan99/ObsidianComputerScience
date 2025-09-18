@@ -35,8 +35,7 @@
               "title": "Lecture 5"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -187,7 +186,7 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "2f7077b6fc5a3608",
+  "active": "58903372cbf3b254",
   "lastOpenFiles": [
     "CSAPP/Chapter 3/유튜브/Lecture 5.md",
     "CSAPP/Chapter 3/유튜브/Lecture 6.md",
