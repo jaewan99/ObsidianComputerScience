@@ -188,7 +188,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.5
+    "width": 261.5,
+    "collapsed": true
   },
   "right": {
     "id": "658074b3dc69e704",
@@ -281,7 +282,7 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "0ac5873d2d0adc81",
+  "active": "40464190d5929076",
   "lastOpenFiles": [
     "CSAPP/Chapter 3/유튜브/Lecture 5.md",
     "Images/mx-img-egn0d95fq8ohsowtk67ox32h-pt5m52_67s.jpg",

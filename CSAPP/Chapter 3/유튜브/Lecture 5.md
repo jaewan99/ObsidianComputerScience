@@ -43,4 +43,21 @@ machine code is the intermediate form between what the program is trying to do a
 - [25:02](https://www.youtube.com/watch?v=ViP6V-U4y8M#t=25:02.77) 
 - First step, take c and generate assembly code from it
 - Second step, run that through assembler - which takes the text representation of instructions and turns it into the actual byte level presentation
-- Third step, linker - merges together all the different files for both your individual files 
+- Third step, linker - merges together all the different files for both your individual files and their compiled version and for the library code.
+- Fourth, libraries that get imported dynamically when the program first begins
+
+
+- [26:28](https://www.youtube.com/watch?v=ViP6V-U4y8M#t=26:28.36) 
+- pushq - push something to a stack
+- movq - move copy it from one place to another
+- call - call some procedure
+- popq - pop from stack
+- ret - exit / return out of this particular function
+
+
+- [30:18](https://www.youtube.com/watch?v=ViP6V-U4y8M#t=30:18.38) 
+- gcc -Og - S sum.c
+- -S = stop
+- -Og = what kind of optimization -- it's very hard to read without it
+- .cft_startproc - instruction sets starting with "." they aren't actually instructions they're something else - related
+
