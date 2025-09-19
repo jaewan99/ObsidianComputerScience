@@ -96,4 +96,5 @@ Mechanism in procedures
 
 - [38:55](https://www.youtube.com/watch?v=A2JFx93ANHs#t=38:55.48) 
 - Calling incr #1
-- when any instruction has a one of the e 
+- when any instruction has a one of the e registers (like %esi). it will set the upper 32bits of that register to zeros
+	- it's because this takes one less byte to enc
