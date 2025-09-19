@@ -26,4 +26,5 @@ Mechanism in procedures
 - Why stack? - because of the nature of the whole idea of procedure calls and return. 
 	- call - need some information
 	- return from a call - all that information is discard
-	- 
+- [09:16](https://www.youtube.com/watch?v=A2JFx93ANHs#t=09:16.72) 
+	- x86-64 stack starts with a very high numbered address, and when they grow when more data are allocated for the stack. It's done by decrementing the stack pointer2
