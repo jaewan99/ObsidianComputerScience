@@ -78,4 +78,17 @@ Mechanism in procedures
 
 - [31:06](https://www.youtube.com/watch?v=A2JFx93ANHs#t=31:06.74) 
 - Example of the stack frame
-	- 
+
+
+- [34:46](https://www.youtube.com/watch?v=A2JFx93ANHs#t=34:46.64) 
+- x86-64 / linux stack frame
+	- Caller Frame - if we have pass more than 6 arguments
+		- Caller will actually use its own stack frame to store those arguments
+		- When we do a call, it will push the return address onto the stack
+	- Saved Registers
+		- Some registers need to be saved and we'll see examples of that
+		- Or an array that needs to be allocated locally
+
+- [36:41](https://www.youtube.com/watch?v=A2JFx93ANHs#t=36:41.39) 
+- so by default - %rsi == val
+- but in line long y = x + val // %rsi == y (since it's val + x)
