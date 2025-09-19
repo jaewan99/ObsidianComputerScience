@@ -27,4 +27,19 @@ Mechanism in procedures
 	- call - need some information
 	- return from a call - all that information is discard
 - [09:16](https://www.youtube.com/watch?v=A2JFx93ANHs#t=09:16.72) 
-	- x86-64 stack starts with a very high numbered address, and when they grow when more data are allocated for the stack. It's done by decrementing the stack pointer2
+	- x86-64 stack starts with a very high numbered address, and when they grow when more data are allocated for the stack. It's done by decrementing the stack pointer
+- [10:42](https://www.youtube.com/watch?v=A2JFx93ANHs#t=10:42.01) 
+	- pushq Src
+		- fetch operand at Src
+		- Decrement %rsp(pointer stack) by 8
+			- decrement before you write, because when you first started out, the stack pointer is pointing to whatever was the top element of the stack. We wanna create a new top element so we're going to decrement first and then do the write
+		- Write operand at address give by %rsp
+	- popq Dest
+		- read value at adress given by %rsp
+		- increment %rsp by 8
+			- sort of deallocating the stack
+				- just moving the stack pointer - whatever it was there at the top of the stack is still in memory but it's not just considered a part of the stack
+		- store value at Dest (must be register)
+
+- [13:51](https://www.youtube.com/watch?v=A2JFx93ANHs#t=13:51.22) 
+- 
