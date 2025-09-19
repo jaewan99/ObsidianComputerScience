@@ -92,3 +92,8 @@ Mechanism in procedures
 - [36:41](https://www.youtube.com/watch?v=A2JFx93ANHs#t=36:41.39) 
 - so by default - %rsi == val
 - but in line long y = x + val // %rsi == y (since it's val + x)
+
+
+- [38:55](https://www.youtube.com/watch?v=A2JFx93ANHs#t=38:55.48) 
+- Calling incr #1
+- when any instruction has a one of the e 
