@@ -171,8 +171,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.5,
-    "collapsed": true
+    "width": 261.5
   },
   "right": {
     "id": "658074b3dc69e704",
@@ -267,10 +266,11 @@
   },
   "active": "14dcfd9eca21003f",
   "lastOpenFiles": [
+    "CSAPP/필요한 링크들.md",
+    "CSAPP/Chapter 3/유튜브/Lecture 8.md",
     "CSAPP/Chapter 3/유튜브/Lecture 7.md",
     "CSAPP/Chapter 3/유튜브/Lecture 6.md",
     "CSAPP/Chapter 3/유튜브/Lecture 5.md",
-    "CSAPP/Chapter 3/유튜브/Lecture 8.md",
     "CSAPP/Chapter 3/Chapter 3.1.md",
     "media-lib/url-egn0d95f.md",
     "CSAPP/Chapter 3/유튜브/유튜브 영상.md",
@@ -305,7 +305,6 @@
     "CSAPP/Chapter 2/Chapter 2.1 정보의 저장.md",
     "CSAPP/Chapter 3/유튜브",
     "CSAPP/Chapter 3/목록.md",
-    "CSAPP/필요한 링크들.md",
     "CSAPP/Chapter 2/Etc.md",
     "CSAPP/Chapter 3",
     "C Lang",
