@@ -57,4 +57,25 @@ Mechanism in procedures
 	- in this code - we can see we are using %rdi, %rsi and dest in %rbx
 	- but in mult2 function - we also use %rdi, %rsi
 		- the code is generated under the assumption that whatever arguments is being passed to it will be passed in that particular set of registers in the the particular order they're listed
+
+- [26:02](https://www.youtube.com/watch?v=A2JFx93ANHs#t=26:02.06) 
+- Managing local data
+	- stack frame
+		- particular allocation pattern that's used in memory and as I mentioned earlier. one of the feature of calling and returning is you can imagine when you have a nested series of calls to a function. 
+		- When a particular function is executing, it only needs to reference the data within that function or values that have passed to it. So rest of the functions are sort of frozen.
+		- Stack frame - it's a frame for a particular instance of a procedure and a particular call to a procedure. 
+		- Contents
+			- Return information
+			- Local Storage (if needed)
+			- Temporary space (if needed)
+		- Management
+			- Space allocated when enter procedure
+				- "set-up" code
+				- Includes push by call instruction
+			- Deallocated when return
+				- "Finish" code
+				- includes pop by ret function
+
+- [31:06](https://www.youtube.com/watch?v=A2JFx93ANHs#t=31:06.74) 
+- Example of the stack frame
 	- 
