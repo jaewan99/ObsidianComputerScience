@@ -4,12 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "aa0c19086bc48948",
+        "id": "3375fc1dabee8d2c",
         "type": "tabs",
-        "dimension": 65.20123839009287,
         "children": [
           {
-            "id": "81db82384d157635",
+            "id": "99ded708ce01d842",
             "type": "leaf",
             "state": {
               "type": "mx-url",
@@ -20,12 +19,12 @@
                       "type": "url:hosted",
                       "vid": {
                         "host": "youtube",
-                        "vid": "A2JFx93ANHs",
+                        "vid": "nLIhml8ni-A",
                         "t": null,
                         "start": null,
                         "end": null
                       },
-                      "url": "https://www.youtube.com/watch?v=A2JFx93ANHs"
+                      "url": "https://www.youtube.com/watch?v=nLIhml8ni-A"
                     },
                     "hash": {
                       "type": null,
@@ -92,7 +91,7 @@
                 }
               },
               "icon": "youtube",
-              "title": "CMU 15213/15513 CSAPP 深入理解计算机系统 Lecture 07  Machine Level Programming III  Proc 中英字幕"
+              "title": "CMU 15213/15513 CSAPP 深入理解计算机系统 Lecture 08  Machine Level Programming IV  Data 中英字幕"
             }
           }
         ]
@@ -100,7 +99,6 @@
       {
         "id": "d3d3fdd960b08802",
         "type": "tabs",
-        "dimension": 34.79876160990712,
         "children": [
           {
             "id": "14dcfd9eca21003f",
@@ -108,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSAPP/Chapter 3/유튜브/Lecture 7.md",
+                "file": "CSAPP/Chapter 3/유튜브/Lecture 8.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 7"
+              "title": "Lecture 8"
             }
           }
         ]
@@ -173,8 +171,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.5,
-    "collapsed": true
+    "width": 261.5
   },
   "right": {
     "id": "658074b3dc69e704",
@@ -267,11 +264,12 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "81db82384d157635",
+  "active": "14dcfd9eca21003f",
   "lastOpenFiles": [
     "CSAPP/Chapter 3/유튜브/Lecture 7.md",
-    "CSAPP/Chapter 3/유튜브/Lecture 5.md",
     "CSAPP/Chapter 3/유튜브/Lecture 6.md",
+    "CSAPP/Chapter 3/유튜브/Lecture 5.md",
+    "CSAPP/Chapter 3/유튜브/Lecture 8.md",
     "CSAPP/Chapter 3/Chapter 3.1.md",
     "media-lib/url-egn0d95f.md",
     "CSAPP/Chapter 3/유튜브/유튜브 영상.md",
@@ -308,7 +306,6 @@
     "CSAPP/Chapter 3/목록.md",
     "CSAPP/필요한 링크들.md",
     "CSAPP/Chapter 2/Etc.md",
-    "CSAPP/노트 적을때 따라야할 규칙.md",
     "CSAPP/Chapter 3",
     "C Lang",
     "CSAPP/Chapter 2/Images",
