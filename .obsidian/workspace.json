@@ -4,8 +4,103 @@
     "type": "split",
     "children": [
       {
-        "id": "141db521acfbb48f",
+        "id": "aa0c19086bc48948",
         "type": "tabs",
+        "dimension": 60.12793176972282,
+        "children": [
+          {
+            "id": "bf690fd908f40e16",
+            "type": "leaf",
+            "state": {
+              "type": "mx-url",
+              "state": {
+                "mx": {
+                  "json": {
+                    "media": {
+                      "type": "url:hosted",
+                      "vid": {
+                        "host": "youtube",
+                        "vid": "A2JFx93ANHs",
+                        "t": null,
+                        "start": null,
+                        "end": null
+                      },
+                      "url": "https://www.youtube.com/watch?v=A2JFx93ANHs"
+                    },
+                    "hash": {
+                      "type": null,
+                      "title": null,
+                      "volume": null,
+                      "aspectRatio": null,
+                      "crossOrigin": null,
+                      "flip": null,
+                      "audioGain": null,
+                      "playbackRate": null,
+                      "tempFragment": null,
+                      "loop": null,
+                      "muted": null,
+                      "autoPlay": null,
+                      "showControls": null
+                    }
+                  },
+                  "meta": {
+                    "values": {
+                      "media.url": [
+                        "URL"
+                      ],
+                      "hash.type": [
+                        "undefined"
+                      ],
+                      "hash.title": [
+                        "undefined"
+                      ],
+                      "hash.volume": [
+                        "undefined"
+                      ],
+                      "hash.aspectRatio": [
+                        "undefined"
+                      ],
+                      "hash.crossOrigin": [
+                        "undefined"
+                      ],
+                      "hash.flip": [
+                        "undefined"
+                      ],
+                      "hash.audioGain": [
+                        "undefined"
+                      ],
+                      "hash.playbackRate": [
+                        "undefined"
+                      ],
+                      "hash.tempFragment": [
+                        "undefined"
+                      ],
+                      "hash.loop": [
+                        "undefined"
+                      ],
+                      "hash.muted": [
+                        "undefined"
+                      ],
+                      "hash.autoPlay": [
+                        "undefined"
+                      ],
+                      "hash.showControls": [
+                        "undefined"
+                      ]
+                    }
+                  }
+                }
+              },
+              "icon": "youtube",
+              "title": "CMU 15213/15513 CSAPP 深入理解计算机系统 Lecture 07  Machine Level Programming III  Proc 中英字幕"
+            }
+          }
+        ]
+      },
+      {
+        "id": "d3d3fdd960b08802",
+        "type": "tabs",
+        "dimension": 39.872068230277186,
         "children": [
           {
             "id": "14dcfd9eca21003f",
@@ -13,12 +108,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "코딩테스트/트리 순회.md",
+                "file": "CSAPP/Chapter 3/유튜브/Lecture 7.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "트리 순회"
+              "title": "Lecture 7"
             }
           }
         ]
@@ -171,12 +266,12 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "14dcfd9eca21003f",
+  "active": "bf690fd908f40e16",
   "lastOpenFiles": [
-    "코딩테스트/트리 순회.md",
     "CSAPP/Chapter 3/유튜브/Lecture 7.md",
-    "CSAPP/Chapter 3/유튜브/Lecture 6.md",
     "CSAPP/Chapter 3/유튜브/Lecture 5.md",
+    "CSAPP/Chapter 3/유튜브/Lecture 6.md",
+    "코딩테스트/트리 순회.md",
     "CSAPP/Chapter 3/유튜브/Images/Pasted image 20250918200314.png",
     "CSAPP/Chapter 3/Chapter 3.1.md",
     "CSAPP/Chapter 3/Etc.md",
