@@ -4,11 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "d3d3fdd960b08802",
+        "id": "915ced115df27b5d",
         "type": "tabs",
+        "dimension": 53.83795309168443,
         "children": [
           {
-            "id": "3260d38d430bf607",
+            "id": "bc9a6bc5e612621e",
             "type": "leaf",
             "state": {
               "type": "mx-url",
@@ -97,8 +98,9 @@
         ]
       },
       {
-        "id": "915ced115df27b5d",
+        "id": "55b8b8ad8558bc29",
         "type": "tabs",
+        "dimension": 46.16204690831556,
         "children": [
           {
             "id": "14dcfd9eca21003f",
@@ -171,7 +173,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.5
+    "width": 261.5,
+    "collapsed": true
   },
   "right": {
     "id": "658074b3dc69e704",
@@ -264,7 +267,7 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "3260d38d430bf607",
+  "active": "bc9a6bc5e612621e",
   "lastOpenFiles": [
     "CSAPP/Chapter 3/유튜브/Lecture 9.md",
     "CSAPP/Chapter 3/유튜브/Lecture 8.md",
