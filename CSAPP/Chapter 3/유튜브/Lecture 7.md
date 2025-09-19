@@ -109,4 +109,7 @@ Mechanism in procedures
 - Callee Saved
 	- Callee saves temporary values in its frame before using
 	- Calle restores them before returning to caller
+
+- [51:52](https://www.youtube.com/watch?v=A2JFx93ANHs#t=51:52.83) 
+- Callee-saved example
 - 
