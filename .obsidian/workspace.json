@@ -6,10 +6,10 @@
       {
         "id": "aa0c19086bc48948",
         "type": "tabs",
-        "dimension": 60.12793176972282,
+        "dimension": 65.20123839009287,
         "children": [
           {
-            "id": "bf690fd908f40e16",
+            "id": "81db82384d157635",
             "type": "leaf",
             "state": {
               "type": "mx-url",
@@ -100,7 +100,7 @@
       {
         "id": "d3d3fdd960b08802",
         "type": "tabs",
-        "dimension": 39.872068230277186,
+        "dimension": 34.79876160990712,
         "children": [
           {
             "id": "14dcfd9eca21003f",
@@ -173,7 +173,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.5
+    "width": 261.5,
+    "collapsed": true
   },
   "right": {
     "id": "658074b3dc69e704",
@@ -268,13 +269,24 @@
   },
   "active": "14dcfd9eca21003f",
   "lastOpenFiles": [
-    "CSAPP/Chapter 3/유튜브/Images/Pasted image 20250919112910.png",
     "CSAPP/Chapter 3/유튜브/Lecture 7.md",
     "CSAPP/Chapter 3/유튜브/Lecture 5.md",
     "CSAPP/Chapter 3/유튜브/Lecture 6.md",
-    "코딩테스트/트리 순회.md",
-    "CSAPP/Chapter 3/유튜브/Images/Pasted image 20250918200314.png",
     "CSAPP/Chapter 3/Chapter 3.1.md",
+    "media-lib/url-egn0d95f.md",
+    "CSAPP/Chapter 3/유튜브/유튜브 영상.md",
+    "코딩테스트/트리 순회.md",
+    "Pasted image 20250918174055.png.md",
+    "코딩테스트/힙 (heap).md",
+    "코딩테스트/큐 (queue).md",
+    "코딩테스트/재귀 (Recursion).md",
+    "코딩테스트/이분탐색 (binary search).md",
+    "코딩테스트/연결 리스트 (linked list).md",
+    "코딩테스트/스택 (stack).md",
+    "코딩테스트/분할정복 (divide and conquer).md",
+    "코딩테스트/백준.md",
+    "CSAPP/Chapter 3/유튜브/Images/Pasted image 20250919112910.png",
+    "CSAPP/Chapter 3/유튜브/Images/Pasted image 20250918200314.png",
     "CSAPP/Chapter 3/Etc.md",
     "CSAPP/Chapter 3/유튜브/Images/Pasted image 20250918182024.png",
     "CSAPP/Chapter 3/유튜브/Images/Pasted image 20250918182013.png",
@@ -284,15 +296,10 @@
     "CSAPP/Chapter 3/유튜브/Images/Pasted image 20250918175746.png",
     "CSAPP/Chapter 3/유튜브/Images/Pasted image 20250918174933.png",
     "CSAPP/Chapter 3/유튜브/Images/Pasted image 20250918174433.png",
-    "Pasted image 20250918174055.png.md",
-    "CSAPP/Chapter 3/유튜브/Images/Pasted image 20250918174055.png",
     "CSAPP/Chapter 3/유튜브/Images",
-    "media-lib/url-egn0d95f.md",
     "Images",
     "media-lib",
-    "코딩테스트/연결 리스트 (linked list).md",
     "CSAPP/Chapter 2/목록.md",
-    "CSAPP/Chapter 3/유튜브/유튜브 영상.md",
     "CSAPP/Chapter 2/Chapter 2.4 부동소수점.md",
     "CSAPP/Chapter 2/Chapter 2.3 정수의 산술연산.md",
     "CSAPP/Chapter 2/Chapter 2.2 정수의 표시.md",
@@ -303,12 +310,6 @@
     "CSAPP/Chapter 2/Etc.md",
     "CSAPP/노트 적을때 따라야할 규칙.md",
     "CSAPP/Chapter 3",
-    "코딩테스트/백준.md",
-    "C Lang/Learn C.md",
-    "C Lang/Tutorial.md",
-    "코딩테스트/힙 (heap).md",
-    "코딩테스트/스택 (stack).md",
-    "코딩테스트/분할정복 (divide and conquer).md",
     "C Lang",
     "CSAPP/Chapter 2/Images",
     "Website/Images",
