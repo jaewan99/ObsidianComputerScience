@@ -98,3 +98,15 @@ Mechanism in procedures
 - Calling incr #1
 - when any instruction has a one of the e registers (like %esi). it will set the upper 32bits of that register to zeros
 	- it's because this takes one less byte to encode a movl than it does to encode a movq
+
+- [48:02](https://www.youtube.com/watch?v=A2JFx93ANHs#t=48:02.19) 
+- Register saving conventions
+	- When procedure "yoo" calls "who":
+		- yoo is the caller
+		- who is the callee
+- Caller saved
+	- caller saves the temporary values in its frame before the call
+- Callee Saved
+	- Callee saves temporary values in its frame before using
+	- Calle restores them before returning to caller
+- 
