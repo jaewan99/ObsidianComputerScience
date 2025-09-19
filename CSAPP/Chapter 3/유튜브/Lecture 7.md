@@ -48,5 +48,13 @@ Mechanism in procedures
 
 
 - [20:36](https://www.youtube.com/watch?v=A2JFx93ANHs#t=20:36.11) 
+- ![[Pasted image 20250919112910.png]]
 - Procedure data flow
+	- This is all for arguments that are either integers or pointers (data)
+	- What happens if you have more than 6 arguments to a function
+		- rule on this is that those get put in memory on the stack - pass to a function and then the function has to retrieve those values off the stack 
+- function in multstore has three argument
+	- in this code - we can see we are using %rdi, %rsi and dest in %rbx
+	- but in mult2 function - we also use %rdi, %rsi
+		- the code is generated under the assumption that whatever arguments is being passed to it will be passed in that particular set of registers in the the particular order they're listed
 	- 
