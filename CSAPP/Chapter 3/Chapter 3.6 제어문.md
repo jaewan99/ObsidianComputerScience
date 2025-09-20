@@ -1,4 +1,4 @@
-Thesigneddivisioninstructionidivltakesas itsdividendthe128-bitquantity inregisters%rdx(high-order64bits)and%rax(low-order64bits).Thedivisoris givenastheinstructionoperand.Theinstructionstoresthequotient inregister %raxandtheremainderinregister%rdx.
+The signed division instruction `idiv` takes as its dividend the 128-bit quantity in registers `%rdx` (high-order 64 bits) and `%rax` (low-order 64 bits). The divisor is given as the instruction operand. The instruction stores the quotient in register `%rax` and the remainder in register `%rdx`.
 
 The execution order of a set of machine code instructions can be altered with a jump instruction, indicating that control should pass to some other part of the program, possibly contingent on the result of some test.
 
@@ -18,8 +18,7 @@ OF: Overflow flag. The most recent operation caused a two’s-complement overflo
 ![[Pasted image 20250920203959.png]]
 
 ### 3.6.3 Jump Instructions
-![[Pasted image 20250920204144.png]]. Ingeneratingthe object-codefile, theassemblerdetermines theaddressesofall labeledinstruc tionsandencodesthejumptargets
-
+![[Pasted image 20250920204144.png]]In generating the object-code file, the assembler determines the addresses of all labeled instructions and encodes the jump targets.
 ![[Pasted image 20250920204448.png]]
 
 ### 3.6.4 Jump Instruction Encodings
