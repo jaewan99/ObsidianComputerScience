@@ -6,6 +6,7 @@
       {
         "id": "915ced115df27b5d",
         "type": "tabs",
+        "dimension": 64.19213973799127,
         "children": [
           {
             "id": "7a693fe4a97ba70a",
@@ -50,6 +51,7 @@
       {
         "id": "5ea5b19402ae4899",
         "type": "tabs",
+        "dimension": 35.80786026200873,
         "children": [
           {
             "id": "7c9af8f36873a7d1",
@@ -121,8 +123,7 @@
               "title": "Lecture 9"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -273,10 +274,11 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "7a693fe4a97ba70a",
+  "active": "7c9af8f36873a7d1",
   "lastOpenFiles": [
-    "CSAPP/Chapter 3/Chapter 3.4 정보 접근하기.md",
+    "CSAPP/Chapter 3/유튜브/Lecture 5.md",
     "CSAPP/Chapter 3/Chapter 3.5 산술연산과 논리연산.md",
+    "CSAPP/Chapter 3/Chapter 3.4 정보 접근하기.md",
     "CSAPP/Chapter 3/Images/Pasted image 20250920185148.png",
     "CSAPP/Chapter 3/Images/Pasted image 20250920185124.png",
     "CSAPP/Chapter 3/유튜브/Lecture 7.md",
@@ -290,7 +292,6 @@
     "CSAPP/Chapter 3/Images/Pasted image 20250920174831.png",
     "CSAPP/Chapter 3/Images/Pasted image 20250920153638.png",
     "CSAPP/Chapter 3/Images/Pasted image 20250920171956.png",
-    "CSAPP/Chapter 3/유튜브/Lecture 5.md",
     "CSAPP/Chapter 3/Images/Pasted image 20250920171824.png",
     "CSAPP/Chapter 3/Chapter 3.3 데이터의 형식.md",
     "CSAPP/Chapter 3/Chapter 3.2 프로그램의 인코딩.md",
