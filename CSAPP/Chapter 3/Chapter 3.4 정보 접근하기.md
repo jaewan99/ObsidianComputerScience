@@ -6,19 +6,17 @@ Most unique among them is the stack pointer, %rsp, used to indicate the end posi
 
 ![[Pasted image 20250920164225.png]]
 ### 3.4.1 Operand Specifiers
-Mostinstructionshaveoneormoreoperandsspecifyingthesourcevaluestouse inperforminganoperationandthedestinationlocationintowhichtoplacethe result
+Most instructions have one or more operands, specifying the source values to use in performing an operation and the destination location into which to place the result.
 
 page 209 (pdf) for operand forms
 
-.Sourcevalues canbegivenasconstantsorreadfromregistersormemory.
+Source values can be given as constants or read from registers or memory.
 
+The first type, **immediate**, is for constant values.  
+In AT&T format assembly code, these are written with a `$` followed by an integer using standard C notation — for example, `$-577` or `$0x1F`.
 
-Thefirsttype,immediate,isforconstantvalues.InATT formatassemblycode, thesearewrittenwitha‘$’ followedbyanintegerusing standardCnotation—forexample,$-577or$0x1F.
-
-
-Thesecondtype, register,denotes the contentsofaregister,oneofthesixteen8-,4-,2-,or1-bytelow-orderportionsof theregistersforoperandshaving64,32,16,or8bits,respectively
-
-memoryreference, inwhichweaccesssome memorylocationaccordingtoacomputedaddress,oftencalledtheeffectivead dress.
+The second type, **register**, denotes the contents of a register, one of the sixteen 8-, 4-, 2-, or 1-byte low-order portions of the registers for operands having 64, 32, 16, or 8 bits, respectively.
+**Memory reference**, in which we access some memory location according to a computed address, often called the **effective address**.
 
 ### 3.4.2 Data Movement Instructions
 
@@ -29,7 +27,7 @@ movb, movw, movl, and movq. All four of these instructions have similar effects;
 
 ![[Pasted image 20250920171624.png]]
 
-Theonlyexceptionis thatwhenmovlhasaregisterasthedestination, itwillalsosetthehigh-order4 bytesoftheregisterto0
+The only exception is that when `movl` has a register as the destination, it will also set the high-order 4 bytes of the register to 0.
 
 
 ![[Pasted image 20250920171956.png]]
@@ -55,6 +53,6 @@ popq %rax is equivalent to the following pair of instructions:
 
 ![[Pasted image 20250920185148.png]]
 
-thevalue0x123remainsatmemorylocation0x104untilit is overwritten (e.g., by another push operation)
+The value `0x123` remains at memory location `0x104` until it is overwritten (e.g., by another push operation).
 
 
