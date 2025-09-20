@@ -4,9 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "915ced115df27b5d",
+        "id": "5ea5b19402ae4899",
         "type": "tabs",
-        "dimension": 70.16072676450034,
         "children": [
           {
             "id": "7a693fe4a97ba70a",
@@ -20,114 +19,6 @@
               },
               "icon": "lucide-file",
               "title": "Chapter 3.2 프로그램의 인코딩"
-            }
-          }
-        ]
-      },
-      {
-        "id": "5ea5b19402ae4899",
-        "type": "tabs",
-        "dimension": 14.919636617749823,
-        "children": [
-          {
-            "id": "2d91d1ea641a6ab9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSAPP/Chapter 3/유튜브/Lecture 6.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Lecture 6"
-            }
-          },
-          {
-            "id": "0e5a644517fe0171",
-            "type": "leaf",
-            "state": {
-              "type": "mx-url",
-              "state": {
-                "mx": {
-                  "json": {
-                    "media": {
-                      "type": "url:hosted",
-                      "vid": {
-                        "host": "youtube",
-                        "vid": "LqSN8OOdLQw",
-                        "t": null,
-                        "start": null,
-                        "end": null
-                      },
-                      "url": "https://www.youtube.com/watch?v=LqSN8OOdLQw"
-                    },
-                    "hash": {
-                      "type": null,
-                      "title": null,
-                      "volume": null,
-                      "aspectRatio": null,
-                      "crossOrigin": null,
-                      "flip": null,
-                      "audioGain": null,
-                      "playbackRate": null,
-                      "tempFragment": null,
-                      "loop": null,
-                      "muted": null,
-                      "autoPlay": null,
-                      "showControls": null
-                    }
-                  },
-                  "meta": {
-                    "values": {
-                      "media.url": [
-                        "URL"
-                      ],
-                      "hash.type": [
-                        "undefined"
-                      ],
-                      "hash.title": [
-                        "undefined"
-                      ],
-                      "hash.volume": [
-                        "undefined"
-                      ],
-                      "hash.aspectRatio": [
-                        "undefined"
-                      ],
-                      "hash.crossOrigin": [
-                        "undefined"
-                      ],
-                      "hash.flip": [
-                        "undefined"
-                      ],
-                      "hash.audioGain": [
-                        "undefined"
-                      ],
-                      "hash.playbackRate": [
-                        "undefined"
-                      ],
-                      "hash.tempFragment": [
-                        "undefined"
-                      ],
-                      "hash.loop": [
-                        "undefined"
-                      ],
-                      "hash.muted": [
-                        "undefined"
-                      ],
-                      "hash.autoPlay": [
-                        "undefined"
-                      ],
-                      "hash.showControls": [
-                        "undefined"
-                      ]
-                    }
-                  }
-                }
-              },
-              "icon": "youtube",
-              "title": "CMU 15213/15513 CSAPP 深入理解计算机系统 Lecture 06 Machine Level Programming II Control 中英字幕"
             }
           },
           {
@@ -170,100 +61,6 @@
               },
               "icon": "lucide-file",
               "title": "Lecture 9"
-            }
-          }
-        ]
-      },
-      {
-        "id": "5261ba63a50bfeaa",
-        "type": "tabs",
-        "dimension": 14.919636617749823,
-        "children": [
-          {
-            "id": "abf920dab17e6de6",
-            "type": "leaf",
-            "state": {
-              "type": "mx-url",
-              "state": {
-                "mx": {
-                  "json": {
-                    "media": {
-                      "type": "url:hosted",
-                      "vid": {
-                        "host": "youtube",
-                        "vid": "LqSN8OOdLQw",
-                        "t": null,
-                        "start": null,
-                        "end": null
-                      },
-                      "url": "https://www.youtube.com/watch?v=LqSN8OOdLQw"
-                    },
-                    "hash": {
-                      "type": null,
-                      "title": null,
-                      "volume": null,
-                      "aspectRatio": null,
-                      "crossOrigin": null,
-                      "flip": null,
-                      "audioGain": null,
-                      "playbackRate": null,
-                      "tempFragment": null,
-                      "loop": null,
-                      "muted": null,
-                      "autoPlay": null,
-                      "showControls": null
-                    }
-                  },
-                  "meta": {
-                    "values": {
-                      "media.url": [
-                        "URL"
-                      ],
-                      "hash.type": [
-                        "undefined"
-                      ],
-                      "hash.title": [
-                        "undefined"
-                      ],
-                      "hash.volume": [
-                        "undefined"
-                      ],
-                      "hash.aspectRatio": [
-                        "undefined"
-                      ],
-                      "hash.crossOrigin": [
-                        "undefined"
-                      ],
-                      "hash.flip": [
-                        "undefined"
-                      ],
-                      "hash.audioGain": [
-                        "undefined"
-                      ],
-                      "hash.playbackRate": [
-                        "undefined"
-                      ],
-                      "hash.tempFragment": [
-                        "undefined"
-                      ],
-                      "hash.loop": [
-                        "undefined"
-                      ],
-                      "hash.muted": [
-                        "undefined"
-                      ],
-                      "hash.autoPlay": [
-                        "undefined"
-                      ],
-                      "hash.showControls": [
-                        "undefined"
-                      ]
-                    }
-                  }
-                }
-              },
-              "icon": "youtube",
-              "title": "CMU 15213/15513 CSAPP 深入理解计算机系统 Lecture 06 Machine Level Programming II Control 中英字幕"
             }
           }
         ]
@@ -339,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Website/가상메모리(Virtual Memory).md",
+                "file": "CSAPP/Chapter 3/Chapter 3.2 프로그램의 인코딩.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -349,7 +146,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 가상메모리(Virtual Memory)"
+              "title": "Backlinks for Chapter 3.2 프로그램의 인코딩"
             }
           },
           {
@@ -358,12 +155,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Website/가상메모리(Virtual Memory).md",
+                "file": "CSAPP/Chapter 3/Chapter 3.2 프로그램의 인코딩.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 가상메모리(Virtual Memory)"
+              "title": "Outgoing links from Chapter 3.2 프로그램의 인코딩"
             }
           },
           {
@@ -387,16 +184,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Website/가상메모리(Virtual Memory).md",
+                "file": "CSAPP/Chapter 3/Chapter 3.2 프로그램의 인코딩.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 가상메모리(Virtual Memory)"
+              "title": "Outline of Chapter 3.2 프로그램의 인코딩"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -414,11 +212,23 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "media-extended:Open external media": false,
-      "copilot:Open Copilot Chat": false
+      "copilot:Open Copilot Chat": false,
+      "obsidian-kanban:Create new board": false
     }
   },
-  "active": "2d91d1ea641a6ab9",
+  "active": "7a693fe4a97ba70a",
   "lastOpenFiles": [
+    "내 사이트.md",
+    "CSAPP/Chapter 3/Chapter 3.2 프로그램의 인코딩.md",
+    "CSAPP/Chapter 3/유튜브/Lecture 7.md",
+    "코딩테스트/백준.md",
+    "Images/mx-img-egn0d95fq8ohsowtk67ox32h-pt5m52_67s.jpg",
+    "media-lib/url-egn0d95f.md",
+    "CSAPP/Chapter 3/유튜브/Lecture 9.md",
+    "Untitled Kanban.md",
+    "Untitled Kanban 1.md",
+    "Untitled.base",
+    "CSAPP/Chapter 3/유튜브/Lecture 6.md",
     "copilot-custom-prompts/Rewrite as tweet thread.md",
     "copilot-custom-prompts/Rewrite as tweet.md",
     "copilot-custom-prompts/Remove URLs.md",
@@ -433,37 +243,26 @@
     "copilot-custom-prompts/Translate to Chinese.md",
     "copilot-custom-prompts/Fix grammar and spelling.md",
     "copilot-custom-prompts",
-    "CSAPP/Chapter 3/Chapter 3.2 프로그램의 인코딩.md",
     "CSAPP/Chapter 3/유튜브/Lecture 5.md",
-    "CSAPP/Chapter 3/유튜브/Lecture 6.md",
     "CSAPP/Chapter 3/Chapter 3.5 산술연산과 논리연산.md",
     "CSAPP/Chapter 3/Chapter 3.3 데이터의 형식.md",
     "CSAPP/Chapter 3/Chapter 3.1 역사적 관점.md",
-    "CSAPP/Chapter 3/Chapter 3.6 제어문.md",
     "CSAPP/Chapter 3/Images/Pasted image 20250920204448.png",
     "CSAPP/Chapter 3/Images/Pasted image 20250920204144.png",
     "CSAPP/Chapter 3/Images/Pasted image 20250920203959.png",
-    "CSAPP/Chapter 3/유튜브/Lecture 9.md",
-    "CSAPP/Chapter 3/유튜브/Lecture 8.md",
-    "CSAPP/Chapter 3/유튜브/Lecture 7.md",
     "CSAPP/Chapter 3/Images/Pasted image 20250920201552.png",
     "CSAPP/Chapter 3/Images/Pasted image 20250920192908.png",
     "CSAPP/Chapter 3/Images/Pasted image 20250920192811.png",
     "CSAPP/Chapter 3/Images/Pasted image 20250920192619.png",
-    "CSAPP/Chapter 3/Chapter 3.4 정보 접근하기.md",
     "CSAPP/Chapter 3/Images/Pasted image 20250920164224.png",
     "CSAPP/Chapter 3/Images/Pasted image 20250920185148.png",
-    "CSAPP/Chapter 3/Images/Pasted image 20250920185124.png",
-    "CSAPP/Chapter 2/Chapter 2.1 정보의 저장.md",
     "CSAPP/Chapter 3/Images",
-    "CSAPP/Chapter 3/목록.md",
     "CSAPP/Chapter 3/유튜브/Images",
     "Images",
     "media-lib",
     "CSAPP/Chapter 3/유튜브",
     "CSAPP/Chapter 3",
     "C Lang",
-    "CSAPP/Chapter 2/Images",
-    "Website/Images"
+    "CSAPP/Chapter 2/Images"
   ]
 }
