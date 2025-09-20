@@ -14,3 +14,4 @@ SF: Sign flag. The most recent operation yielded a negative value.
 OF: Overflow flag. The most recent operation caused a two’s-complement overflow—either negative or positive
 
 ![[Pasted image 20250920201552.png]]
+### 3.6.2 Accessing the condition codes
