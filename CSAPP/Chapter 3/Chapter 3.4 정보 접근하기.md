@@ -33,3 +33,6 @@ Theonlyexceptionis thatwhenmovlhasaregisterasthedestination, itwillalsosetthehig
 
 
 ![[Pasted image 20250920171956.png]]
+
+![[Pasted image 20250920174831.png]]
+### 3.4.3 Data Movement Example
