@@ -28,15 +28,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSAPP/Chapter 3/Chapter 3.5 산술연산과 논리연산.md",
+                "file": "CSAPP/Chapter 3/유튜브/Lecture 5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 3.5 산술연산과 논리연산"
+              "title": "Lecture 5"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "5ea5b19402ae4899",
@@ -249,14 +250,14 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "7a693fe4a97ba70a",
+  "active": "857e29066a8d31b7",
   "lastOpenFiles": [
-    "CSAPP/Chapter 3/유튜브/Lecture 6.md",
+    "CSAPP/Chapter 3/Chapter 3.5 산술연산과 논리연산.md",
     "CSAPP/Chapter 3/Chapter 3.2 프로그램의 인코딩.md",
+    "CSAPP/Chapter 3/유튜브/Lecture 6.md",
     "CSAPP/Chapter 3/Chapter 3.3 데이터의 형식.md",
     "CSAPP/Chapter 3/Chapter 3.1 역사적 관점.md",
     "CSAPP/Chapter 3/Chapter 3.6 제어문.md",
-    "CSAPP/Chapter 3/Chapter 3.5 산술연산과 논리연산.md",
     "CSAPP/Chapter 3/Images/Pasted image 20250920204448.png",
     "CSAPP/Chapter 3/Images/Pasted image 20250920204144.png",
     "CSAPP/Chapter 3/Images/Pasted image 20250920203959.png",
