@@ -6,7 +6,7 @@
       {
         "id": "915ced115df27b5d",
         "type": "tabs",
-        "dimension": 70.16072676450035,
+        "dimension": 70.16072676450034,
         "children": [
           {
             "id": "7a693fe4a97ba70a",
@@ -42,7 +42,7 @@
       {
         "id": "5ea5b19402ae4899",
         "type": "tabs",
-        "dimension": 29.83927323549965,
+        "dimension": 14.919636617749823,
         "children": [
           {
             "id": "2d91d1ea641a6ab9",
@@ -56,6 +56,93 @@
               },
               "icon": "lucide-file",
               "title": "Lecture 6"
+            }
+          },
+          {
+            "id": "0e5a644517fe0171",
+            "type": "leaf",
+            "state": {
+              "type": "mx-url",
+              "state": {
+                "mx": {
+                  "json": {
+                    "media": {
+                      "type": "url:hosted",
+                      "vid": {
+                        "host": "youtube",
+                        "vid": "LqSN8OOdLQw",
+                        "t": null,
+                        "start": null,
+                        "end": null
+                      },
+                      "url": "https://www.youtube.com/watch?v=LqSN8OOdLQw"
+                    },
+                    "hash": {
+                      "type": null,
+                      "title": null,
+                      "volume": null,
+                      "aspectRatio": null,
+                      "crossOrigin": null,
+                      "flip": null,
+                      "audioGain": null,
+                      "playbackRate": null,
+                      "tempFragment": null,
+                      "loop": null,
+                      "muted": null,
+                      "autoPlay": null,
+                      "showControls": null
+                    }
+                  },
+                  "meta": {
+                    "values": {
+                      "media.url": [
+                        "URL"
+                      ],
+                      "hash.type": [
+                        "undefined"
+                      ],
+                      "hash.title": [
+                        "undefined"
+                      ],
+                      "hash.volume": [
+                        "undefined"
+                      ],
+                      "hash.aspectRatio": [
+                        "undefined"
+                      ],
+                      "hash.crossOrigin": [
+                        "undefined"
+                      ],
+                      "hash.flip": [
+                        "undefined"
+                      ],
+                      "hash.audioGain": [
+                        "undefined"
+                      ],
+                      "hash.playbackRate": [
+                        "undefined"
+                      ],
+                      "hash.tempFragment": [
+                        "undefined"
+                      ],
+                      "hash.loop": [
+                        "undefined"
+                      ],
+                      "hash.muted": [
+                        "undefined"
+                      ],
+                      "hash.autoPlay": [
+                        "undefined"
+                      ],
+                      "hash.showControls": [
+                        "undefined"
+                      ]
+                    }
+                  }
+                }
+              },
+              "icon": "youtube",
+              "title": "CMU 15213/15513 CSAPP 深入理解计算机系统 Lecture 06 Machine Level Programming II Control 中英字幕"
             }
           },
           {
@@ -98,6 +185,101 @@
               },
               "icon": "lucide-file",
               "title": "Lecture 9"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "5261ba63a50bfeaa",
+        "type": "tabs",
+        "dimension": 14.919636617749823,
+        "children": [
+          {
+            "id": "abf920dab17e6de6",
+            "type": "leaf",
+            "state": {
+              "type": "mx-url",
+              "state": {
+                "mx": {
+                  "json": {
+                    "media": {
+                      "type": "url:hosted",
+                      "vid": {
+                        "host": "youtube",
+                        "vid": "LqSN8OOdLQw",
+                        "t": null,
+                        "start": null,
+                        "end": null
+                      },
+                      "url": "https://www.youtube.com/watch?v=LqSN8OOdLQw"
+                    },
+                    "hash": {
+                      "type": null,
+                      "title": null,
+                      "volume": null,
+                      "aspectRatio": null,
+                      "crossOrigin": null,
+                      "flip": null,
+                      "audioGain": null,
+                      "playbackRate": null,
+                      "tempFragment": null,
+                      "loop": null,
+                      "muted": null,
+                      "autoPlay": null,
+                      "showControls": null
+                    }
+                  },
+                  "meta": {
+                    "values": {
+                      "media.url": [
+                        "URL"
+                      ],
+                      "hash.type": [
+                        "undefined"
+                      ],
+                      "hash.title": [
+                        "undefined"
+                      ],
+                      "hash.volume": [
+                        "undefined"
+                      ],
+                      "hash.aspectRatio": [
+                        "undefined"
+                      ],
+                      "hash.crossOrigin": [
+                        "undefined"
+                      ],
+                      "hash.flip": [
+                        "undefined"
+                      ],
+                      "hash.audioGain": [
+                        "undefined"
+                      ],
+                      "hash.playbackRate": [
+                        "undefined"
+                      ],
+                      "hash.tempFragment": [
+                        "undefined"
+                      ],
+                      "hash.loop": [
+                        "undefined"
+                      ],
+                      "hash.muted": [
+                        "undefined"
+                      ],
+                      "hash.autoPlay": [
+                        "undefined"
+                      ],
+                      "hash.showControls": [
+                        "undefined"
+                      ]
+                    }
+                  }
+                }
+              },
+              "icon": "youtube",
+              "title": "CMU 15213/15513 CSAPP 深入理解计算机系统 Lecture 06 Machine Level Programming II Control 中英字幕"
             }
           }
         ]
@@ -250,10 +432,10 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "2d91d1ea641a6ab9",
+  "active": "0e5a644517fe0171",
   "lastOpenFiles": [
-    "CSAPP/Chapter 3/유튜브/Lecture 5.md",
     "CSAPP/Chapter 3/유튜브/Lecture 6.md",
+    "CSAPP/Chapter 3/유튜브/Lecture 5.md",
     "CSAPP/Chapter 3/Chapter 3.5 산술연산과 논리연산.md",
     "CSAPP/Chapter 3/Chapter 3.2 프로그램의 인코딩.md",
     "CSAPP/Chapter 3/Chapter 3.3 데이터의 형식.md",
