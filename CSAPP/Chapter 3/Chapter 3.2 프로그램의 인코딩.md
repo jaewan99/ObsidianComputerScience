@@ -22,3 +22,19 @@ Parts of the processor state are visible that normally are hidden from the C pro
 - a set of vector registers (to hold one more integer, float)
 
 ### 3.2.2 Code Examples
+Allinformationaboutlocalvariablenamesor datatypeshasbeenstrippedaway in the assembly code
+
+.Embeddedwithinthe1,368bytesofthefilemstore.o isa14-bytesequencewiththehexadecimalrepresentation
+- **Machine instructions** (your actual code).
+- **Symbol table**
+	- Keeps track of function names, global variables, and where they will be in memory.
+- **Relocation information**
+	- like printf
+- **Section headers and metadata**
+
+
+Severalfeaturesaboutmachinecodeanditsdisassembledrepresentationare worthnoting:
+x86-64instructionscanrangeinlengthfrom1to15bytes.
+
+
+thereisauniquedecodingofthebytesintomachineinstructions.
