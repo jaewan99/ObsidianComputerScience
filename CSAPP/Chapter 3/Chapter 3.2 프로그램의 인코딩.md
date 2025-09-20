@@ -38,3 +38,12 @@ x86-64instructionscanrangeinlengthfrom1to15bytes.
 
 
 thereisauniquedecodingofthebytesintomachineinstructions.
+
+elinkerhasshiftedthelocationofthiscodetoadifferentrangeofaddresses
+
+Onetask forthelinkeristomatchfunctioncallswiththelocationsoftheexecutablecodefor thosefunctions
+
+growthecodeforthe functionto16bytes,enablingabetterplacementofthenextblockofcodeinterms ofmemorysystemperformance.
+
+
+### 3.2.3 Notes of formatting
