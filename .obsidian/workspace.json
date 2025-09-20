@@ -46,7 +46,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "5ea5b19402ae4899",
@@ -122,7 +122,8 @@
               "title": "Lecture 9"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -273,21 +274,21 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "3ff42f07b048c786",
+  "active": "857944b226da3f6a",
   "lastOpenFiles": [
+    "CSAPP/Chapter 3/유튜브/Lecture 6.md",
+    "CSAPP/Chapter 3/Images/Pasted image 20250920163323.png",
+    "CSAPP/Chapter 3/Images/Pasted image 20250920164224.png",
     "CSAPP/Chapter 3/Chapter 3.4 정보 접근하기.md",
+    "CSAPP/Chapter 3/Images/Pasted image 20250920181145.png",
     "CSAPP/Chapter 3/Images/Pasted image 20250920174847.png",
     "CSAPP/Chapter 3/Images/Pasted image 20250920174831.png",
-    "CSAPP/Chapter 3/Images/Pasted image 20250920164224.png",
-    "CSAPP/Chapter 3/Images/Pasted image 20250920163323.png",
     "CSAPP/Chapter 3/Images/Pasted image 20250920153638.png",
     "CSAPP/Chapter 3/Images/Pasted image 20250920171956.png",
     "CSAPP/Chapter 3/유튜브/Lecture 5.md",
     "CSAPP/Chapter 3/Images/Pasted image 20250920171824.png",
     "CSAPP/Chapter 3/Images/Pasted image 20250920171624.png",
     "CSAPP/Chapter 3/Images/Pasted image 20250920171551.png",
-    "CSAPP/Chapter 3/Images/Pasted image 20250920171228.png",
-    "CSAPP/Chapter 3/유튜브/Lecture 6.md",
     "CSAPP/Chapter 3/유튜브/Lecture 7.md",
     "CSAPP/Chapter 3/유튜브/Lecture 8.md",
     "CSAPP/Chapter 3/유튜브/Lecture 9.md",

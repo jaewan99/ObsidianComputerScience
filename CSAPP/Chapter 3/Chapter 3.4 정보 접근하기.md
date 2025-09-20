@@ -37,3 +37,13 @@ Theonlyexceptionis thatwhenmovlhasaregisterasthedestination, itwillalsosetthehig
 ![[Pasted image 20250920174831.png]]
 ![[Pasted image 20250920174847.png]]
 ### 3.4.3 Data Movement Example
+![[Pasted image 20250920181145.png]]
+
+
+- **`%rax`** → the **value stored in the RAX register** (just a number, no memory access).
+    
+- **`(%rax)`** → the **memory contents at the address held in RAX** (dereferences the pointer).
+    
+- **`0x1232`** → either an **immediate value** (if `$0x1232`) or a **memory address** (if used without `$`), depending on context.
+
+### 3.4.4 Pushing and Popping Stack Data
