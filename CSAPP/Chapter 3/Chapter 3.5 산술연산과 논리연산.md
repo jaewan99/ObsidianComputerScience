@@ -1,3 +1,5 @@
+![[Pasted image 20250920192908.png]]
+
 ### 3.5.1 Load Effective Address
 
 Its first operand appears to be a memory reference, but instead of reading from the designated location, the instruction copies the effective address to the destination.
@@ -14,4 +16,5 @@ binary operations, where the second operand is used as both a source and a desti
 
 ![[Pasted image 20250920192811.png]]
 
-### 3.5.4 
+### 3.5.4 Discussion
+
