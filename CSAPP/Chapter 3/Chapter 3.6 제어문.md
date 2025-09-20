@@ -1,0 +1,2 @@
+Thesigneddivisioninstructionidivltakesas itsdividendthe128-bitquantity inregisters%rdx(high-order64bits)and%rax(low-order64bits).Thedivisoris givenastheinstructionoperand.Theinstructionstoresthequotient inregister %raxandtheremainderinregister%rdx.
+

@@ -18,8 +18,9 @@ binary operations, where the second operand is used as both a source and a desti
 
 ### 3.5.4 Discussion
 
-Onlyrightshiftingrequiresinstructions thatdifferentiatebetweensignedversusunsigneddata
-
+Only right shifting requires instructions that differentiate between signed versus unsigned data.
 ### 3.5.5 Special Arithmetic Operations
 
 For both of these instructions, one argument must be in register %rax, and the other is given as the instruction source operand. The product is then stored in registers %rdx (high-order 64 bits) and %rax (low-order 64 bits).
+
+
