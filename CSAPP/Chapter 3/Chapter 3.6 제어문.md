@@ -15,3 +15,11 @@ OF: Overflow flag. The most recent operation caused a two’s-complement overflo
 
 ![[Pasted image 20250920201552.png]]
 ### 3.6.2 Accessing the condition codes
+![[Pasted image 20250920203959.png]]
+
+### 3.6.3 Jump Instructions
+![[Pasted image 20250920204144.png]]. Ingeneratingthe object-codefile, theassemblerdetermines theaddressesofall labeledinstruc tionsandencodesthejumptargets
+
+![[Pasted image 20250920204448.png]]
+
+### 3.6.4 Jump Instruction Encodings
