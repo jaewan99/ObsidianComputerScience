@@ -47,3 +47,14 @@ Theonlyexceptionis thatwhenmovlhasaregisterasthedestination, itwillalsosetthehig
 - **`0x1232`** → either an **immediate value** (if `$0x1232`) or a **memory address** (if used without `$`), depending on context.
 
 ### 3.4.4 Pushing and Popping Stack Data
+pushq %rbp is equivalent to that of the pair of instructions
+
+![[Pasted image 20250920185124.png]]
+
+popq %rax is equivalent to the following pair of instructions:
+
+![[Pasted image 20250920185148.png]]
+
+thevalue0x123remainsatmemorylocation0x104untilit is overwritten (e.g., by another push operation)
+
+
