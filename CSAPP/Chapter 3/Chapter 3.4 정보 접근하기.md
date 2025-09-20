@@ -19,3 +19,16 @@ Thefirsttype,immediate,isforconstantvalues.InATT formatassemblycode, thesearewri
 Thesecondtype, register,denotes the contentsofaregister,oneofthesixteen8-,4-,2-,or1-bytelow-orderportionsof theregistersforoperandshaving64,32,16,or8bits,respectively
 
 memoryreference, inwhichweaccesssome memorylocationaccordingtoacomputedaddress,oftencalledtheeffectivead dress.
+
+### 3.4.2 Data Movement Instructions
+
+movb, movw, movl, and movq. All four of these instructions have similar effects; they differ primarily in that they operate on data of different sizes: 1, 2, 4, and 8 bytes, respectively
+
+
+![[Pasted image 20250920171228.png]]
+
+![[Pasted image 20250920171624.png]]
+
+Theonlyexceptionis thatwhenmovlhasaregisterasthedestination, itwillalsosetthehigh-order4 bytesoftheregisterto0
+
+![[Pasted image 20250920171824.png]]
