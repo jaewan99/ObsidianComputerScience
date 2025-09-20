@@ -31,4 +31,5 @@ movb, movw, movl, and movq. All four of these instructions have similar effects;
 
 Theonlyexceptionis thatwhenmovlhasaregisterasthedestination, itwillalsosetthehigh-order4 bytesoftheregisterto0
 
-![[Pasted image 20250920171824.png]]
+
+![[Pasted image 20250920171956.png]]

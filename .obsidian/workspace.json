@@ -22,6 +22,18 @@
             }
           },
           {
+            "id": "3ff42f07b048c786",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "CSAPP/Chapter 3/Images/Pasted image 20250920164224.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20250920164224"
+            }
+          },
+          {
             "id": "0f604a412359aac6",
             "type": "leaf",
             "state": {
@@ -33,7 +45,8 @@
               "title": "Pasted image 20250920163323"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "5ea5b19402ae4899",
@@ -260,26 +273,27 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "7a693fe4a97ba70a",
+  "active": "3ff42f07b048c786",
   "lastOpenFiles": [
+    "CSAPP/Chapter 3/Images/Pasted image 20250920163323.png",
+    "CSAPP/Chapter 3/Images/Pasted image 20250920153638.png",
+    "CSAPP/Chapter 3/Chapter 3.4 정보 접근하기.md",
+    "CSAPP/Chapter 3/Images/Pasted image 20250920171956.png",
+    "CSAPP/Chapter 3/유튜브/Lecture 5.md",
     "CSAPP/Chapter 3/Images/Pasted image 20250920171824.png",
     "CSAPP/Chapter 3/Images/Pasted image 20250920171624.png",
     "CSAPP/Chapter 3/Images/Pasted image 20250920171551.png",
     "CSAPP/Chapter 3/Images/Pasted image 20250920171228.png",
     "CSAPP/Chapter 3/Images/Pasted image 20250920164225.png",
     "CSAPP/Chapter 3/Images/Pasted image 20250920164224.png",
-    "CSAPP/Chapter 3/유튜브/Lecture 5.md",
     "CSAPP/Chapter 3/유튜브/Lecture 6.md",
     "CSAPP/Chapter 3/유튜브/Lecture 7.md",
     "CSAPP/Chapter 3/유튜브/Lecture 8.md",
     "CSAPP/Chapter 3/유튜브/Lecture 9.md",
-    "CSAPP/Chapter 3/Chapter 3.4 정보 접근하기.md",
     "CSAPP/Chapter 3/Chapter 3.3 데이터의 형식.md",
-    "CSAPP/Chapter 3/Images/Pasted image 20250920163323.png",
     "CSAPP/Chapter 3/Chapter 3.2 프로그램의 인코딩.md",
     "CSAPP/Chapter 3/Chapter 3.1 역사적 관점.md",
     "CSAPP/Chapter 2/Chapter 2.1 정보의 저장.md",
-    "CSAPP/Chapter 3/Images/Pasted image 20250920153638.png",
     "CSAPP/Chapter 3/Images",
     "CSAPP/Chapter 3/목록.md",
     "CSAPP/Chapter 3/Etc.md",
@@ -297,8 +311,6 @@
     "media-lib/url-egn0d95f.md",
     "CSAPP/Chapter 3/유튜브/유튜브 영상.md",
     "CSAPP/Chapter 3/유튜브/Images/Pasted image 20250919112910.png",
-    "CSAPP/Chapter 3/유튜브/Images/Pasted image 20250918200314.png",
-    "CSAPP/Chapter 3/유튜브/Images/Pasted image 20250918182024.png",
     "CSAPP/Chapter 3/유튜브/Images",
     "Images",
     "media-lib",
