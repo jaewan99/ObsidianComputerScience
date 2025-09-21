@@ -69,3 +69,13 @@ registers %rbx, %rbp, and %r12–%r15 are classified as callee saved registers.
 
 
 When procedure P calls procedure Q, Q must preserve the values of these registers, ensuring that they have the same values when Q returns to P as theydidwhenQwascalled.
+
+
+
+oneprocedure(thecaller)callsanother(thecallee), thecalleedoes not overwrite some register value that the caller planned to use later.
+
+
+registers %rbx, %rbp, and %r12–%r15 are classified as callee saved registers. When procedure P calls procedure Q, Q must preserve the values of these registers, ensuring that they have the same values when Q returns to P as theydidwhenQwascalled
+
+
+All other registers, except for the stack pointer %rsp, are classified as caller saved registers. This means that they can be modified by any function. The name “caller saved”canbeunderstoodinthecontextofaprocedurePhavingsomelocal data in such a register and calling procedure Q
