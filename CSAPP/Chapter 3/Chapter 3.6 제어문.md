@@ -38,3 +38,5 @@ processors achieve high performance through pipelining, where an instruc tion is
 ![[Pasted image 20250921170555.png]]![[Pasted image 20250921170624.png]]
 
 ### 3.6.7 Loops
+Do-while loops
+while loops

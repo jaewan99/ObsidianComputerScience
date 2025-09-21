@@ -172,8 +172,7 @@
               "title": "Lecture 9"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -328,15 +327,15 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "a579e0249adcb263",
+  "active": "141dd80c3d22aeca",
   "lastOpenFiles": [
     "CSAPP/Chapter 3/유튜브/Lecture 6.md",
+    "CSAPP/Chapter 3/유튜브/Lecture 7.md",
     "CSAPP/Chapter 3/Chapter 3.6 제어문.md",
     "CSAPP/Chapter 3/Images/Pasted image 20250921170624.png",
     "CSAPP/Chapter 3/Images/Pasted image 20250921170555.png",
     "CSAPP/Chapter 3/유튜브/Lecture 9.md",
     "CSAPP/Chapter 3/유튜브/Lecture 8.md",
-    "CSAPP/Chapter 3/유튜브/Lecture 7.md",
     "C Lang/The C Programming Language (Kernighan Ritchie).pdf",
     "CSAPP/CSAPP_2016.pdf",
     "C Lang/The C programming language (K&R).md",
