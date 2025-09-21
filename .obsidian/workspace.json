@@ -6,7 +6,7 @@
       {
         "id": "466aa13e6e092426",
         "type": "tabs",
-        "dimension": 37.461300309597526,
+        "dimension": 19.41747572815534,
         "children": [
           {
             "id": "f42a3c9450fe61e5",
@@ -27,7 +27,7 @@
       {
         "id": "60d3fdb492662f17",
         "type": "tabs",
-        "dimension": 25.572755417956657,
+        "dimension": 80.58252427184466,
         "children": [
           {
             "id": "ab7e23af2bddee1f",
@@ -42,16 +42,9 @@
               "icon": "lucide-file",
               "title": "Lecture 9"
             }
-          }
-        ]
-      },
-      {
-        "id": "48deb8f6347e0db4",
-        "type": "tabs",
-        "dimension": 36.965944272445824,
-        "children": [
+          },
           {
-            "id": "7dbbf4d0911a2790",
+            "id": "a3ddc1a0d18979f8",
             "type": "leaf",
             "state": {
               "type": "mx-url",
@@ -78,7 +71,10 @@
                       "flip": null,
                       "audioGain": null,
                       "playbackRate": null,
-                      "tempFragment": null,
+                      "tempFragment": {
+                        "start": 122.02,
+                        "end": -1
+                      },
                       "loop": null,
                       "muted": null,
                       "autoPlay": null,
@@ -114,9 +110,6 @@
                       "hash.playbackRate": [
                         "undefined"
                       ],
-                      "hash.tempFragment": [
-                        "undefined"
-                      ],
                       "hash.loop": [
                         "undefined"
                       ],
@@ -137,7 +130,8 @@
               "title": "CMU 15213/15513 CSAPP 深入理解计算机系统 Lecture 09 Machine Level Programming V Advanced 中英字幕"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -194,7 +188,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.5
+    "width": 261.5,
+    "collapsed": true
   },
   "right": {
     "id": "658074b3dc69e704",
@@ -288,11 +283,11 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "f42a3c9450fe61e5",
+  "active": "a3ddc1a0d18979f8",
   "lastOpenFiles": [
-    "CSAPP/Chapter 3/유튜브/Lecture 5.md",
-    "CSAPP/Chapter 3/Chapter 3.10 기계수준 프로그램에서 제어와 데이터의 결합.md",
     "CSAPP/Chapter 3/유튜브/Lecture 9.md",
+    "CSAPP/Chapter 3/Chapter 3.10 기계수준 프로그램에서 제어와 데이터의 결합.md",
+    "CSAPP/Chapter 3/유튜브/Lecture 5.md",
     "CSAPP/Chapter 3/유튜브/Lecture 7.md",
     "CSAPP/Chapter 3/유튜브/Lecture 8.md",
     "CSAPP/Chapter 3/유튜브/Lecture 6.md",
