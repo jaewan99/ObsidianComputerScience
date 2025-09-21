@@ -5,7 +5,7 @@ Function, procedure or a method - they are roughly the same thing
 Combination of the actual x86 hardware and how it supports it, but also in some ways more importantly a set of conventions that were developed that basically everyone agreed to and it's known as an ABI (Application Binary Interface)
 
 
-- [04:30](https://www.youtube.com/watch?v=A2JFx93ANHs#t=04:30.48) 
+- [03:23](https://www.youtube.com/watch?v=A2JFx93ANHs#t=03:23.28) 
 Mechanism in procedures
  - passing control
 	 - to beginning of procedure code
