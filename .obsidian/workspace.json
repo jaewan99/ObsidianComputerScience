@@ -6,7 +6,7 @@
       {
         "id": "27a6512a2439ec5b",
         "type": "tabs",
-        "dimension": 45.01607717041801,
+        "dimension": 45.016077170418015,
         "children": [
           {
             "id": "141dd80c3d22aeca",
@@ -319,10 +319,7 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "media-extended:Open external media": false,
-      "pdf-plus:PDF++: Toggle auto-copy": false,
-      "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false
+      "media-extended:Open external media": false
     }
   },
   "active": "141dd80c3d22aeca",
