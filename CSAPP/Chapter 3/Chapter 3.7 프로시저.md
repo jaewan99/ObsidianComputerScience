@@ -32,4 +32,16 @@ stackpointer%rspandtheprogramcounter%rip
 
 callq is the instruction to call other functions
 ### 3.7.3 Data Transfer
-![[Pasted image 20250921185640.png]]
+![[Pasted image 20250921185640.png]]Whenafunctionhasmorethansixintegralarguments, theotheronesare passedonthestack
+
+
+ThenthecodeforPmustallocateastackframewith enoughstorageforarguments7throughn,
+
+
+Whenpassingparameters onthestack, alldatasizesareroundeduptobemultiplesofeight
+
+
+ProcedureQcanaccess itsargumentsviaregistersand possiblyfromthestack.
+
+
+![[Pasted image 20250921190746.png]]
