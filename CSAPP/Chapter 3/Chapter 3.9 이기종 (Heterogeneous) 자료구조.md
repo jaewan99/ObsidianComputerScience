@@ -29,3 +29,12 @@ Manycomputer systemsplacerestrictionsontheallowableaddresses for the primitiveda
 
 
 Alignment is enforced by making sure that every data type is organized and allocated in such a way that every object within the type satisfies its alignment restrictions
+![[Pasted image 20250921233628.png]]
+If wepackthisstructureinto9bytes,wecanstillsatisfythealignmentrequirements for fields i and j bymakingsurethat the starting address of the structure satisfies a 4-byte alignment requirement. Consider, however, the following declaration:
+
+struct S2 d[4];
+
+
+these elements will have addresses xd, xd + 9, xd +18, and xd +27. Instead, the compiler allocates 12 bytes for structure S2, with the final 3 bytes being wasted space:
+
+![[Pasted image 20250921233659.png]]
