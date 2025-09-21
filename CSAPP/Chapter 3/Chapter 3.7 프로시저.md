@@ -16,11 +16,9 @@ For discussion purposes, suppose procedure **P** calls procedure **Q**, and **Q*
 
 ![[Pasted image 20250921183125.png]]
 
-When an x86-64 procedure requires storage beyond what it can hold in reg isters, it allocates space on the stack. This region is referred to as the procedure’s stack frame
+When an **x86-64 procedure** requires storage beyond what it can hold in registers, it allocates space on the stack. This region is referred to as the **procedure’s stack frame**.
 
-
-.Indeed, manyfunctionsdonotevenrequireastackframe.Thisoccurswhenallofthelocal variables canbeheldinregistersandthefunctiondoesnotcallanyotherfunctions (sometimes referred to as a leaf procedure, in reference to the tree structure of procedure calls).
-
+Indeed, many functions do not even require a stack frame. This occurs when all of the local variables can be held in registers and the function does not call any other functions (sometimes referred to as a **leaf procedure**, in reference to the tree structure of procedure calls).
 
 ### 3.7.2 Control Transfer
 The **call** instruction has a target indicating the address of the instruction where the called procedure starts. Like jumps, a call can be either **direct** or **indirect**.
