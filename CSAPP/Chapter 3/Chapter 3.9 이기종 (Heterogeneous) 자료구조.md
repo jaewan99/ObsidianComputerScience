@@ -21,3 +21,11 @@ That is, rp->width is equivalent to the expression (*rp).width.
 ### 3.9.2 Unions
 
 UnionsprovideawaytocircumventthetypesystemofC,allowingasingleobject tobereferencedaccordingtomultipletypes.
+
+
+### 3.9.3 Data Alignment
+
+Manycomputer systemsplacerestrictionsontheallowableaddresses for the primitivedatatypes,requiringthattheaddressforsomeobjectsmustbeamultiple ofsomevalue
+
+
+Alignment is enforced by making sure that every data type is organized and allocated in such a way that every object within the type satisfies its alignment restrictions
