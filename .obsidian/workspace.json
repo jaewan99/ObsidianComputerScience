@@ -44,7 +44,7 @@
             }
           },
           {
-            "id": "91b353de6c183057",
+            "id": "62683fc4b4d84152",
             "type": "leaf",
             "state": {
               "type": "mx-url",
@@ -72,7 +72,7 @@
                       "audioGain": null,
                       "playbackRate": null,
                       "tempFragment": {
-                        "start": 1281.58,
+                        "start": 1619.85,
                         "end": -1
                       },
                       "loop": null,
@@ -328,10 +328,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "141dd80c3d22aeca",
+  "active": "62683fc4b4d84152",
   "lastOpenFiles": [
-    "CSAPP/Chapter 3/유튜브/Lecture 6.md",
     "CSAPP/Chapter 3/Chapter 3.6 제어문.md",
+    "CSAPP/Chapter 3/유튜브/Lecture 6.md",
     "CSAPP/Chapter 3/유튜브/Lecture 9.md",
     "CSAPP/Chapter 3/유튜브/Lecture 8.md",
     "CSAPP/Chapter 3/유튜브/Lecture 7.md",
