@@ -22,3 +22,7 @@ OF: Overflow flag. The most recent operation caused a two’s-complement overflo
 ![[Pasted image 20250920204448.png]]
 
 ### 3.6.4 Jump Instruction Encodings
+
+
+
+### 3.6.5 
