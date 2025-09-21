@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "fdcf021b1113f99c",
+        "id": "b04e02387cdb8ab0",
         "type": "tabs",
         "children": [
           {
-            "id": "f072678a7a0bf80d",
+            "id": "0d5ab7a6500b0e8e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "CSAPP/Chapter 3/Chapter 3.6 제어문.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Chapter 3.6 제어문"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "CSAPP/Chapter 3/Chapter 3.6 제어문.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Chapter 3.6 제어문"
             }
           },
           {
@@ -108,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "CSAPP/Chapter 3/Chapter 3.6 제어문.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Chapter 3.6 제어문"
             }
           },
           {
@@ -136,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "CSAPP/Chapter 3/Chapter 3.6 제어문.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Chapter 3.6 제어문"
             }
           }
         ],
@@ -167,7 +174,7 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "f072678a7a0bf80d",
+  "active": "0d5ab7a6500b0e8e",
   "lastOpenFiles": [
     "CSAPP/Chapter 3/유튜브/Lecture 9.md",
     "CSAPP/Chapter 3/유튜브/Lecture 8.md",
