@@ -21,8 +21,21 @@
               "icon": "lucide-file",
               "title": "Chapter 3.7 프로시저"
             }
+          },
+          {
+            "id": "5eb7c7f776344436",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "CSAPP/Chapter 3/Images/Pasted image 20250921183125.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20250921183125"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "60d3fdb492662f17",
@@ -313,10 +326,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "141dd80c3d22aeca",
+  "active": "5eb7c7f776344436",
   "lastOpenFiles": [
-    "CSAPP/Chapter 3/유튜브/Lecture 7.md",
     "CSAPP/Chapter 3/Chapter 3.7 프로시저.md",
+    "CSAPP/Chapter 3/Images/Pasted image 20250921185640.png",
+    "CSAPP/Chapter 3/유튜브/Lecture 7.md",
     "CSAPP/필요한 링크들.md",
     "CSAPP/Chapter 3/Images/Pasted image 20250921183125.png",
     "CSAPP/Chapter 3/유튜브/Lecture 9.md",
@@ -353,9 +367,7 @@
     "Untitled Kanban 1.md",
     "Untitled.base",
     "copilot-custom-prompts/Rewrite as tweet thread.md",
-    "copilot-custom-prompts/Rewrite as tweet.md",
     "copilot-custom-prompts",
-    "CSAPP/Chapter 3/Images/Pasted image 20250920204448.png",
     "CSAPP/Chapter 3/Images",
     "CSAPP/Chapter 3/유튜브/Images",
     "Images",

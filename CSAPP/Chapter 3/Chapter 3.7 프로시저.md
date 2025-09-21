@@ -25,3 +25,11 @@ When an x86-64 procedure requires storage beyond what it can hold in reg isters,
 
 
 ### 3.7.2 Control Transfer
+call instruction has a target indicating the address of the instruction wherethecalledprocedurestarts.Likejumps,acallcanbeeitherdirectorindirect. In assembly code, the target of a direct call is given as a label, while the target of an indirect call is given by ‘*’ followed by an operand specifier
+
+
+stackpointer%rspandtheprogramcounter%rip
+
+callq is the instruction to call other functions
+### 3.7.3 Data Transfer
+![[Pasted image 20250921185640.png]]
