@@ -6,6 +6,7 @@
       {
         "id": "832c92bb323c4ba0",
         "type": "tabs",
+        "dimension": 47.17484008528785,
         "children": [
           {
             "id": "75fc228c3742bb59",
@@ -99,6 +100,7 @@
       {
         "id": "5c392b665dc564b3",
         "type": "tabs",
+        "dimension": 52.82515991471215,
         "children": [
           {
             "id": "0d5ab7a6500b0e8e",
@@ -106,12 +108,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C Lang/Learn C/Learn C - Chapter 1.md",
+                "file": "C Lang/Learn C/K&R 1 - A Tutorial Introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Learn C - Chapter 1"
+              "title": "K&R 1 - A Tutorial Introduction"
             }
           }
         ]
@@ -171,7 +173,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.5
+    "width": 261.5,
+    "collapsed": true
   },
   "right": {
     "id": "658074b3dc69e704",
@@ -268,7 +271,7 @@
   "active": "0d5ab7a6500b0e8e",
   "lastOpenFiles": [
     "C Lang/Learn C/Learn C Outline.md",
-    "C Lang/Learn C/Learn C - Chapter 1.md",
+    "C Lang/Learn C/K&R 1 - A Tutorial Introduction.md",
     "C Lang/Learn C",
     "C Lang/Tutorial.md",
     "CSAPP/Chapter 3/Chapter 3.6 제어문.md",
