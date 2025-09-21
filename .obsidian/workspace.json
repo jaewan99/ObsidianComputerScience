@@ -13,64 +13,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSAPP/Chapter 3/Chapter 3.6 제어문.md",
+                "file": "C Lang/Learn C.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 3.6 제어문"
+              "title": "Learn C"
             }
           },
           {
-            "id": "a2c4c721598a8185",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSAPP/Chapter 3/Chapter 3.4 정보 접근하기.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Chapter 3.4 정보 접근하기"
-            }
-          }
-        ]
-      },
-      {
-        "id": "8c83e44d74ab3509",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "acbe7f7e5aaca16c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSAPP/Chapter 3/유튜브/Lecture 5.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Lecture 5"
-            }
-          },
-          {
-            "id": "3a966a1ff97e056a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSAPP/Chapter 3/유튜브/Lecture 6.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Lecture 6"
-            }
-          },
-          {
-            "id": "6ee3425aaa4c5acd",
+            "id": "75fc228c3742bb59",
             "type": "leaf",
             "state": {
               "type": "mx-url",
@@ -81,12 +33,12 @@
                       "type": "url:hosted",
                       "vid": {
                         "host": "youtube",
-                        "vid": "LqSN8OOdLQw",
-                        "t": null,
+                        "vid": "PaPN51Mm5qQ",
+                        "t": 9449,
                         "start": null,
                         "end": null
                       },
-                      "url": "https://www.youtube.com/watch?v=LqSN8OOdLQw"
+                      "url": "https://www.youtube.com/watch?v=PaPN51Mm5qQ"
                     },
                     "hash": {
                       "type": null,
@@ -98,7 +50,7 @@
                       "audioGain": null,
                       "playbackRate": null,
                       "tempFragment": {
-                        "start": 1281.58,
+                        "start": 9449,
                         "end": -1
                       },
                       "loop": null,
@@ -153,11 +105,11 @@
                 }
               },
               "icon": "youtube",
-              "title": "CMU 15213/15513 CSAPP 深入理解计算机系统 Lecture 06 Machine Level Programming II Control 中英字幕"
+              "title": "Learn C Programming and OOP with Dr. Chuck [feat. classic book by Kernighan and Ritchie]"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -214,8 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.5,
-    "collapsed": true
+    "width": 261.5
   },
   "right": {
     "id": "658074b3dc69e704",
@@ -309,19 +260,21 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "6ee3425aaa4c5acd",
+  "active": "75fc228c3742bb59",
   "lastOpenFiles": [
+    "C Lang/Learn C.md",
+    "C Lang/Tutorial.md",
     "CSAPP/Chapter 3/Chapter 3.6 제어문.md",
+    "CSAPP/Chapter 3/유튜브/Lecture 5.md",
     "CSAPP/Chapter 3/유튜브/Lecture 6.md",
+    "CSAPP/Chapter 3/유튜브/Lecture 7.md",
+    "CSAPP/Chapter 3/유튜브/Lecture 8.md",
+    "CSAPP/Chapter 3/유튜브/Lecture 9.md",
     "CSAPP/Chapter 3/Chapter 3.4 정보 접근하기.md",
     "CSAPP/Chapter 3/Chapter 3.3 데이터의 형식.md",
     "CSAPP/Chapter 3/Chapter 3.2 프로그램의 인코딩.md",
-    "CSAPP/Chapter 3/유튜브/Lecture 5.md",
-    "CSAPP/Chapter 3/유튜브/Lecture 9.md",
-    "CSAPP/Chapter 3/유튜브/Lecture 8.md",
     "copilot-custom-prompts/Make shorter.md",
     "copilot-custom-prompts/Emojify.md",
-    "CSAPP/Chapter 3/유튜브/Lecture 7.md",
     "내 사이트.md",
     "코딩테스트/백준.md",
     "Images/mx-img-egn0d95fq8ohsowtk67ox32h-pt5m52_67s.jpg",
@@ -337,8 +290,6 @@
     "copilot-custom-prompts/Make longer.md",
     "copilot-custom-prompts/Explain like I am 5.md",
     "copilot-custom-prompts/Simplify.md",
-    "copilot-custom-prompts/Summarize.md",
-    "copilot-custom-prompts/Translate to Chinese.md",
     "copilot-custom-prompts",
     "CSAPP/Chapter 3/Images/Pasted image 20250920204448.png",
     "CSAPP/Chapter 3/Images/Pasted image 20250920204144.png",
