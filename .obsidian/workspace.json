@@ -4,116 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "832c92bb323c4ba0",
-        "type": "tabs",
-        "dimension": 47.17484008528785,
-        "children": [
-          {
-            "id": "75fc228c3742bb59",
-            "type": "leaf",
-            "state": {
-              "type": "mx-url",
-              "state": {
-                "mx": {
-                  "json": {
-                    "media": {
-                      "type": "url:hosted",
-                      "vid": {
-                        "host": "youtube",
-                        "vid": "PaPN51Mm5qQ",
-                        "t": 9449,
-                        "start": null,
-                        "end": null
-                      },
-                      "url": "https://www.youtube.com/watch?v=PaPN51Mm5qQ"
-                    },
-                    "hash": {
-                      "type": null,
-                      "title": null,
-                      "volume": null,
-                      "aspectRatio": null,
-                      "crossOrigin": null,
-                      "flip": null,
-                      "audioGain": null,
-                      "playbackRate": null,
-                      "tempFragment": {
-                        "start": 9449,
-                        "end": -1
-                      },
-                      "loop": null,
-                      "muted": null,
-                      "autoPlay": null,
-                      "showControls": null
-                    }
-                  },
-                  "meta": {
-                    "values": {
-                      "media.url": [
-                        "URL"
-                      ],
-                      "hash.type": [
-                        "undefined"
-                      ],
-                      "hash.title": [
-                        "undefined"
-                      ],
-                      "hash.volume": [
-                        "undefined"
-                      ],
-                      "hash.aspectRatio": [
-                        "undefined"
-                      ],
-                      "hash.crossOrigin": [
-                        "undefined"
-                      ],
-                      "hash.flip": [
-                        "undefined"
-                      ],
-                      "hash.audioGain": [
-                        "undefined"
-                      ],
-                      "hash.playbackRate": [
-                        "undefined"
-                      ],
-                      "hash.loop": [
-                        "undefined"
-                      ],
-                      "hash.muted": [
-                        "undefined"
-                      ],
-                      "hash.autoPlay": [
-                        "undefined"
-                      ],
-                      "hash.showControls": [
-                        "undefined"
-                      ]
-                    }
-                  }
-                }
-              },
-              "icon": "youtube",
-              "title": "Learn C Programming and OOP with Dr. Chuck [feat. classic book by Kernighan and Ritchie]"
-            }
-          }
-        ]
-      },
-      {
         "id": "5c392b665dc564b3",
         "type": "tabs",
-        "dimension": 52.82515991471215,
         "children": [
           {
             "id": "0d5ab7a6500b0e8e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "C Lang/Learn C/K&R 1 - A Tutorial Introduction.md",
-                "mode": "source",
-                "source": false
+                "file": "C Lang/The C Programming Language (Kernighan Ritchie).pdf",
+                "page": 8,
+                "left": -8,
+                "top": 65,
+                "zoom": 1.9701680672268909
               },
-              "icon": "lucide-file",
-              "title": "K&R 1 - A Tutorial Introduction"
+              "icon": "lucide-file-text",
+              "title": "The C Programming Language (Kernighan Ritchie)"
             }
           }
         ]
@@ -173,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.5,
-    "collapsed": true
+    "width": 261.5
   },
   "right": {
     "id": "658074b3dc69e704",
@@ -265,15 +171,20 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "media-extended:Open external media": false
+      "media-extended:Open external media": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "75fc228c3742bb59",
+  "active": "0d5ab7a6500b0e8e",
   "lastOpenFiles": [
+    "C Lang/Tutorial.md",
+    "C Lang/The C Programming Language (Kernighan Ritchie).pdf",
+    "C Lang/The C programming language (K&R).md",
     "C Lang/Learn C/K&R 1 - A Tutorial Introduction.md",
     "C Lang/Learn C/Learn C Outline.md",
     "C Lang/Learn C",
-    "C Lang/Tutorial.md",
     "CSAPP/Chapter 3/Chapter 3.6 제어문.md",
     "CSAPP/Chapter 3/유튜브/Lecture 5.md",
     "CSAPP/Chapter 3/유튜브/Lecture 6.md",
@@ -297,7 +208,6 @@
     "copilot-custom-prompts/Remove URLs.md",
     "copilot-custom-prompts/Generate glossary.md",
     "copilot-custom-prompts/Generate table of contents.md",
-    "copilot-custom-prompts/Make longer.md",
     "copilot-custom-prompts",
     "CSAPP/Chapter 3/Images/Pasted image 20250920204448.png",
     "CSAPP/Chapter 3/Images/Pasted image 20250920204144.png",
@@ -313,7 +223,6 @@
     "Images",
     "media-lib",
     "CSAPP/Chapter 3/유튜브",
-    "CSAPP/Chapter 3",
-    "C Lang"
+    "CSAPP/Chapter 3"
   ]
 }
