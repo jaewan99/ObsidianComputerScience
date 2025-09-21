@@ -54,3 +54,18 @@ Therearenotenoughregisterstoholdallofthelocaldata.
 Theaddressoperator‘&’isappliedtoalocalvariable,andhencewemustbe abletogenerateanaddressforit.
 
 Someofthelocalvariablesarearraysorstructuresandhencemustbeaccessed byarrayor structurereferences.
+
+
+![[Pasted image 20250921213846.png]]
+![[Pasted image 20250921213855.png]]
+
+
+### 3.7.5 Local Storage in Registers
+
+noneprocedure(thecaller)callsanother(thecallee), thecalleedoes not overwrite some register value that the caller planned to use later
+
+registers %rbx, %rbp, and %r12–%r15 are classified as callee saved registers.
+
+
+
+When procedure P calls procedure Q, Q must preserve the values of these registers, ensuring that they have the same values when Q returns to P as theydidwhenQwascalled.
