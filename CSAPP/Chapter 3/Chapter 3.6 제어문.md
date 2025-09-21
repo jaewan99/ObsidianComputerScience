@@ -28,7 +28,7 @@ OF: Overflow flag. The most recent operation caused a two’s-complement overflo
 ### 3.6.5 Implementing Conditional Branches with Conditional Control
 
 
-Usinggotostatementsisgenerallyconsideredabadprogramming style,sincetheirusecanmakecodeverydifficulttoreadanddebug.
+Using **goto** statements is generally considered a bad programming style, since their use can make code very difficult to read and debug.
 
 
 ### 3.6.6 Implementing Conditional Branches with Conditional Moves
@@ -49,4 +49,7 @@ for loops
 
 ### 3.6.8 switch statement
 
-data structurecalledajumptable.Ajumptableisanarraywhereentryi istheaddressof acodesegmentimplementingtheactiontheprogramshouldtakewhentheswitch index equalsi.
+A data structure called a **jump table** can help. A jump table is an array where entry _i_ is the address of a code segment implementing the action the program should take when the switch index equals _i_.
+
+![[Pasted image 20250921181251.png]]
+![[Pasted image 20250921181449.png]]
