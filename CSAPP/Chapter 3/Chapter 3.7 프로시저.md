@@ -45,3 +45,12 @@ ProcedureQcanaccess itsargumentsviaregistersand possiblyfromthestack.
 
 
 ![[Pasted image 20250921190746.png]]
+
+
+### 3.7.4 Local Storage on the stack
+
+Therearenotenoughregisterstoholdallofthelocaldata.
+
+Theaddressoperator‘&’isappliedtoalocalvariable,andhencewemustbe abletogenerateanaddressforit.
+
+Someofthelocalvariablesarearraysorstructuresandhencemustbeaccessed byarrayor structurereferences.
