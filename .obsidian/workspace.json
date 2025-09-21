@@ -44,7 +44,7 @@
             }
           },
           {
-            "id": "62683fc4b4d84152",
+            "id": "0d617d84bd04462b",
             "type": "leaf",
             "state": {
               "type": "mx-url",
@@ -72,7 +72,7 @@
                       "audioGain": null,
                       "playbackRate": null,
                       "tempFragment": {
-                        "start": 1619.85,
+                        "start": 2315.11,
                         "end": -1
                       },
                       "loop": null,
@@ -173,7 +173,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -328,10 +328,12 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "62683fc4b4d84152",
+  "active": "a579e0249adcb263",
   "lastOpenFiles": [
-    "CSAPP/Chapter 3/Chapter 3.6 제어문.md",
     "CSAPP/Chapter 3/유튜브/Lecture 6.md",
+    "CSAPP/Chapter 3/Chapter 3.6 제어문.md",
+    "CSAPP/Chapter 3/Images/Pasted image 20250921170624.png",
+    "CSAPP/Chapter 3/Images/Pasted image 20250921170555.png",
     "CSAPP/Chapter 3/유튜브/Lecture 9.md",
     "CSAPP/Chapter 3/유튜브/Lecture 8.md",
     "CSAPP/Chapter 3/유튜브/Lecture 7.md",
@@ -368,8 +370,6 @@
     "CSAPP/Chapter 3/Images/Pasted image 20250920192908.png",
     "CSAPP/Chapter 3/Images/Pasted image 20250920192811.png",
     "CSAPP/Chapter 3/Images/Pasted image 20250920192619.png",
-    "CSAPP/Chapter 3/Images/Pasted image 20250920164224.png",
-    "CSAPP/Chapter 3/Images/Pasted image 20250920185148.png",
     "CSAPP/Chapter 3/Images",
     "CSAPP/Chapter 3/유튜브/Images",
     "Images",

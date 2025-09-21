@@ -35,3 +35,6 @@ Usinggotostatementsisgenerallyconsideredabadprogramming style,sincetheirusecanma
 
 processors achieve high performance through pipelining, where an instruc tion is processed via a sequence of stages, each performing one small portion of the required operations (e.g., fetching the instruction from memory, determining the instruction type, reading from memory, performing an arithmetic operation, writing to memory, and updating the program counter).
 
+![[Pasted image 20250921170555.png]]![[Pasted image 20250921170624.png]]
+
+### 3.6.7 Loops
