@@ -40,3 +40,13 @@ processors achieve high performance through pipelining, where an instruc tion is
 ### 3.6.7 Loops
 Do-while loops
 while loops
+![[Pasted image 20250921180727.png]]
+
+
+for loops
+
+
+
+### 3.6.8 switch statement
+
+data structurecalledajumptable.Ajumptableisanarraywhereentryi istheaddressof acodesegmentimplementingtheactiontheprogramshouldtakewhentheswitch index equalsi.

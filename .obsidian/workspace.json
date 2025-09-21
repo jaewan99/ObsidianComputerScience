@@ -6,7 +6,7 @@
       {
         "id": "27a6512a2439ec5b",
         "type": "tabs",
-        "dimension": 37.79443254817988,
+        "dimension": 40.62165058949625,
         "children": [
           {
             "id": "141dd80c3d22aeca",
@@ -27,7 +27,7 @@
       {
         "id": "60d3fdb492662f17",
         "type": "tabs",
-        "dimension": 62.20556745182013,
+        "dimension": 59.37834941050375,
         "children": [
           {
             "id": "dbc7ced7028d408c",
@@ -44,7 +44,7 @@
             }
           },
           {
-            "id": "0d617d84bd04462b",
+            "id": "3d66eab03706b413",
             "type": "leaf",
             "state": {
               "type": "mx-url",
@@ -172,7 +172,8 @@
               "title": "Lecture 9"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -329,9 +330,12 @@
   },
   "active": "141dd80c3d22aeca",
   "lastOpenFiles": [
+    "CSAPP/Chapter 3/Images/Pasted image 20250921181058.png",
     "CSAPP/Chapter 3/유튜브/Lecture 6.md",
-    "CSAPP/Chapter 3/유튜브/Lecture 7.md",
     "CSAPP/Chapter 3/Chapter 3.6 제어문.md",
+    "CSAPP/Chapter 3/Images/Pasted image 20250921180727.png",
+    "CSAPP/Chapter 3/Images/Pasted image 20250921180725.png",
+    "CSAPP/Chapter 3/유튜브/Lecture 7.md",
     "CSAPP/Chapter 3/Images/Pasted image 20250921170624.png",
     "CSAPP/Chapter 3/Images/Pasted image 20250921170555.png",
     "CSAPP/Chapter 3/유튜브/Lecture 9.md",
@@ -367,8 +371,6 @@
     "CSAPP/Chapter 3/Images/Pasted image 20250920203959.png",
     "CSAPP/Chapter 3/Images/Pasted image 20250920201552.png",
     "CSAPP/Chapter 3/Images/Pasted image 20250920192908.png",
-    "CSAPP/Chapter 3/Images/Pasted image 20250920192811.png",
-    "CSAPP/Chapter 3/Images/Pasted image 20250920192619.png",
     "CSAPP/Chapter 3/Images",
     "CSAPP/Chapter 3/유튜브/Images",
     "Images",
