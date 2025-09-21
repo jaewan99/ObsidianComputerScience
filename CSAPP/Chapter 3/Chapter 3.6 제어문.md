@@ -25,4 +25,10 @@ OF: Overflow flag. The most recent operation caused a two’s-complement overflo
 
 
 
-### 3.6.5 
+### 3.6.5 Implementing Conditional Branches with Conditional Control
+
+
+Usinggotostatementsisgenerallyconsideredabadprogramming style,sincetheirusecanmakecodeverydifficulttoreadanddebug.
+
+
+### 3.6.6 Implementing Conditional Branches with Conditional Moves
