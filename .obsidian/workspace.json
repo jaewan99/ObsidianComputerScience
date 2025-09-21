@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSAPP/Chapter 3/Chapter 3.8 배열의 할당과 접근.md",
+                "file": "CSAPP/Chapter 3/Chapter 3.9 이기종 (Heterogeneous) 자료구조.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 3.8 배열의 할당과 접근"
+              "title": "Chapter 3.9 이기종 (Heterogeneous) 자료구조"
             }
           },
           {
@@ -136,7 +136,8 @@
               "title": "Lecture 9"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -193,8 +194,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.5,
-    "collapsed": true
+    "width": 261.5
   },
   "right": {
     "id": "658074b3dc69e704",
@@ -288,14 +288,16 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "9038f6889ab6e0a9",
+  "active": "2af2ad5d09de9ab1",
   "lastOpenFiles": [
+    "CSAPP/Chapter 3/유튜브/Lecture 9.md",
+    "CSAPP/Chapter 3/유튜브/Lecture 8.md",
+    "CSAPP/Chapter 3/Chapter 3.9 이기종 (Heterogeneous) 자료구조.md",
+    "CSAPP/Chapter 3/Chapter 3.8 배열의 할당과 접근.md",
+    "CSAPP/Chapter 3/Images/Pasted image 20250921225539.png",
     "CSAPP/Chapter 3/Images/Pasted image 20250921224851.png",
     "CSAPP/Chapter 3/Images/Pasted image 20250921224850.png",
     "CSAPP/Chapter 3/Images/Pasted image 20250921223428.png",
-    "CSAPP/Chapter 3/유튜브/Lecture 8.md",
-    "CSAPP/Chapter 3/Chapter 3.8 배열의 할당과 접근.md",
-    "CSAPP/Chapter 3/유튜브/Lecture 9.md",
     "CSAPP/Chapter 3/유튜브/Lecture 7.md",
     "CSAPP/Chapter 3/Chapter 3.3 데이터의 형식.md",
     "CSAPP/Chapter 3/Chapter 3.2 프로그램의 인코딩.md",
@@ -314,8 +316,6 @@
     "CSAPP/필요한 링크들.md",
     "CSAPP/Chapter 3/유튜브/Lecture 6.md",
     "CSAPP/Chapter 3/Images/Pasted image 20250921181449.png",
-    "CSAPP/Chapter 3/Images/Pasted image 20250921181251.png",
-    "CSAPP/Chapter 3/Images/Pasted image 20250921181058.png",
     "C Lang/The C programming language (K&R).md",
     "C Lang/Tutorial.md",
     "C Lang/Learn C Tutorial/K&R 1 - A Tutorial Introduction.md",
