@@ -35,7 +35,8 @@
               "title": "Lecture 8"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -186,10 +187,11 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "7e6740227a5f9669",
+  "active": "2d2c386d6b395afd",
   "lastOpenFiles": [
-    "CSAPP/Chapter 3/Chapter 3.10 기계수준 프로그램에서 제어와 데이터의 결합.md",
     "CSAPP/Chapter 3/유튜브/Lecture 9.md",
+    "CSAPP/Chapter 3/Chapter 3.11  부동소수점 코드.md",
+    "CSAPP/Chapter 3/Chapter 3.10 기계수준 프로그램에서 제어와 데이터의 결합.md",
     "CSAPP/Chapter 3/유튜브/Lecture 8.md",
     "CSAPP/Chapter 3/Chapter 3.9 이기종 (Heterogeneous) 자료구조.md",
     "CSAPP/Chapter 3/유튜브/Lecture 7.md",
@@ -200,7 +202,6 @@
     "CSAPP/Chapter 3/유튜브/Lecture 5.md",
     "CSAPP/Chapter 3/목록.md",
     "CSAPP/Chapter 3/Etc.md",
-    "CSAPP/Chapter 3/Chapter 3.11  부동소수점 코드.md",
     "CSAPP/Chapter 3/Chapter 3.4 정보 접근하기.md",
     "CSAPP/Chapter 3/Images/Pasted image 20250922144408.png",
     "CSAPP/Chapter 3/Images/Pasted image 20250922144104.png",
