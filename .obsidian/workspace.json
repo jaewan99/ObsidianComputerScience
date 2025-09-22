@@ -6,6 +6,7 @@
       {
         "id": "466aa13e6e092426",
         "type": "tabs",
+        "dimension": 21.85792349726776,
         "children": [
           {
             "id": "f42a3c9450fe61e5",
@@ -40,6 +41,7 @@
       {
         "id": "ad500f1465e7418f",
         "type": "tabs",
+        "dimension": 32.349726775956285,
         "children": [
           {
             "id": "ab7e23af2bddee1f",
@@ -67,6 +69,100 @@
               },
               "icon": "lucide-file",
               "title": "Lecture 8"
+            }
+          }
+        ]
+      },
+      {
+        "id": "3fdeb017b4b4054d",
+        "type": "tabs",
+        "dimension": 45.79234972677595,
+        "children": [
+          {
+            "id": "1b1b13d6cde742e9",
+            "type": "leaf",
+            "state": {
+              "type": "mx-url",
+              "state": {
+                "mx": {
+                  "json": {
+                    "media": {
+                      "type": "url:hosted",
+                      "vid": {
+                        "host": "youtube",
+                        "vid": "V6bY22KZbRc",
+                        "t": null,
+                        "start": null,
+                        "end": null
+                      },
+                      "url": "https://www.youtube.com/watch?v=V6bY22KZbRc"
+                    },
+                    "hash": {
+                      "type": null,
+                      "title": null,
+                      "volume": null,
+                      "aspectRatio": null,
+                      "crossOrigin": null,
+                      "flip": null,
+                      "audioGain": null,
+                      "playbackRate": null,
+                      "tempFragment": {
+                        "start": 1765.33,
+                        "end": -1
+                      },
+                      "loop": null,
+                      "muted": null,
+                      "autoPlay": null,
+                      "showControls": null
+                    }
+                  },
+                  "meta": {
+                    "values": {
+                      "media.url": [
+                        "URL"
+                      ],
+                      "hash.type": [
+                        "undefined"
+                      ],
+                      "hash.title": [
+                        "undefined"
+                      ],
+                      "hash.volume": [
+                        "undefined"
+                      ],
+                      "hash.aspectRatio": [
+                        "undefined"
+                      ],
+                      "hash.crossOrigin": [
+                        "undefined"
+                      ],
+                      "hash.flip": [
+                        "undefined"
+                      ],
+                      "hash.audioGain": [
+                        "undefined"
+                      ],
+                      "hash.playbackRate": [
+                        "undefined"
+                      ],
+                      "hash.loop": [
+                        "undefined"
+                      ],
+                      "hash.muted": [
+                        "undefined"
+                      ],
+                      "hash.autoPlay": [
+                        "undefined"
+                      ],
+                      "hash.showControls": [
+                        "undefined"
+                      ]
+                    }
+                  }
+                }
+              },
+              "icon": "youtube",
+              "title": "CMU 15213/15513 CSAPP 深入理解计算机系统 Lecture 09 Machine Level Programming V Advanced 中英字幕"
             }
           }
         ]
@@ -221,11 +317,11 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "f42a3c9450fe61e5",
+  "active": "1b1b13d6cde742e9",
   "lastOpenFiles": [
-    "CSAPP/Chapter 3/Chapter 3.10 기계수준 프로그램에서 제어와 데이터의 결합.md",
-    "CSAPP/Chapter 3/Chapter 3.11  부동소수점 코드.md",
     "CSAPP/Chapter 3/유튜브/Lecture 9.md",
+    "CSAPP/Chapter 3/Chapter 3.11  부동소수점 코드.md",
+    "CSAPP/Chapter 3/Chapter 3.10 기계수준 프로그램에서 제어와 데이터의 결합.md",
     "CSAPP/Chapter 3/Images/Pasted image 20250922131708.png",
     "CSAPP/Chapter 3/유튜브/Lecture 8.md",
     "CSAPP/Chapter 3/Chapter 3.4 정보 접근하기.md",
