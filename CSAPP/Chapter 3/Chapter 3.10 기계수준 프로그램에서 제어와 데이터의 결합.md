@@ -1,3 +1,21 @@
 
 
 ### 3.10.1 Understanding Pointers
+Pointers can also point to functions
+
+int fun(int x, int *p);
+
+
+
+### 3.10.2 Life in Real World: Using the GDB debugger
+
+GDB (GNU Debugger) allows you to analyze and control the execution of machine-level programs. Instead of inferring a program’s behavior by reading code alone, GDB lets you **observe it in action**, inspect registers and memory, and control execution step by step.
+
+
+### 3.10.3 Out-of-Bounds Memory References and Buffer Overflow
+
+
+sbufferoverflow. Typically, some character array is allocated on the stack to hold a string, but the size of the string exceeds the space allocated for the array.
+
+
+![[Pasted image 20250922131708.png]]
