@@ -6,7 +6,7 @@
       {
         "id": "466aa13e6e092426",
         "type": "tabs",
-        "dimension": 19.41747572815534,
+        "dimension": 41.35922330097087,
         "children": [
           {
             "id": "f42a3c9450fe61e5",
@@ -27,7 +27,7 @@
       {
         "id": "60d3fdb492662f17",
         "type": "tabs",
-        "dimension": 80.58252427184466,
+        "dimension": 58.64077669902913,
         "children": [
           {
             "id": "ab7e23af2bddee1f",
@@ -126,8 +126,7 @@
                   }
                 }
               },
-              "icon": "youtube",
-              "title": "CMU 15213/15513 CSAPP 深入理解计算机系统 Lecture 09 Machine Level Programming V Advanced 中英字幕"
+              "icon": "youtube"
             }
           }
         ],
