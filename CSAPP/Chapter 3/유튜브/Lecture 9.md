@@ -97,9 +97,18 @@ ASLR - Address space layout randomization
 			- Encoded by single byte 0xc3
 		- Code positions fixed from run to run
 		- Code is executable
+![[Pasted image 20250922115927.png]]
+- So imagine taking your program you're trying to execute and breaking it up into these little fragments, and find little block of code somewhere to implement each of these fragments
+- return ends in c3
 
-
-
+![[Pasted image 20250922120422.png]]
 
 - [1:13:09](https://www.youtube.com/watch?v=V6bY22KZbRc#t=1:13:09.34) 
-- 
+![[Pasted image 20250922120749.png]]
+
+- Union Allocations
+- Struct add the padding bytes
+- Union only allocates enough storage for the maximum field in it, and it assumes that you're only going to be using one of the possible fields.
+	- And it will literally store on top of each other. So that if you try to use multiple fields you can mess things up.
+	- It's for the purpose of for example if I know I'm only going to use one of these
+	- Or it's another way to create essentially an alias that will let you reference memory in different ways
