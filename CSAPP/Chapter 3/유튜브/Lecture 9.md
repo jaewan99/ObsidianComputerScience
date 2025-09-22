@@ -74,6 +74,14 @@ ASLR - Address space layout randomization
 
 
 ![[Pasted image 20250922111627.png]]
+![[Pasted image 20250922114014.png]]
+
 
 - Stack Canaries
-	- 
+	- Where the canary value is stored
+		- The canonical value is stored in a process-wide location (often in thread-local storage for per-thread guards). On Linux/glibc you’ll commonly see a symbol like `__stack_chk_guard`. It’s initialized at process start (using randomness) or via a fallback.
+
+
+- [1:04:52](https://www.youtube.com/watch?v=V6bY22KZbRc#t=1:04:52.70) 
+- Return-Oriented Programming Attacks
+- 
