@@ -19,3 +19,11 @@ sbufferoverflow. Typically, some character array is allocated on the stack to ho
 
 
 ![[Pasted image 20250922131708.png]]
+
+
+### 3.10.4 Thwarting buffer overflow attacks
+
+Stack Randomization
+Stack Corruption Detection
+Limiting Executable Code Regions
+[[Lecture 9]]
