@@ -48,4 +48,21 @@ https://www.youtube.com/watch?v=V6bY22KZbRc&list=PLcQU3vbfgCc9sVAiHf5761UUApjZ3Z
 
 - [43:52](https://www.youtube.com/watch?v=V6bY22KZbRc#t=43:52.42) 
 - Avoid overflow vulnerabilities
-- 
+ ![[Pasted image 20250922105848.png]]
+
+- fgets - has a parameter which is the maximum value of bytes that the program should read, if there's more bytes it will just truncate
+
+![[Pasted image 20250922110119.png]]
+
+ASLR - Address space layout randomization
+- every time the program runs the addresses change a little bit or a lot
+	- so that you can't reliably know where things are going to be in the code
+	- before in the sort of run-up of your program when it first starts up, it will just do a allocation on the stack of some random number of bytes of storage. A fair amount like maybe a megabyte roughly of storage where the exact number is randomly chosen.  
+
+![[Pasted image 20250922110602.png]]
+
+
+![[Pasted image 20250922110740.png]]
+
+- why the local and heap addresses change?
+	- Code injection vulnerability - 
