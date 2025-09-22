@@ -27,3 +27,9 @@ Stack Randomization
 Stack Corruption Detection
 Limiting Executable Code Regions
 [[Lecture 9]]
+
+
+### 3.10.5 Supporting Variable-Size Stack Frames
+
+ 
+ To manage a variable-size stack frame, x86-64 code uses register `%rbp` to serve as a frame pointer.

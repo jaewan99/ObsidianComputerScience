@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSAPP/Chapter 3/Chapter 3.10 기계수준 프로그램에서 제어와 데이터의 결합.md",
+                "file": "CSAPP/Chapter 3/Chapter 3.11  부동소수점 코드.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 3.10 기계수준 프로그램에서 제어와 데이터의 결합"
+              "title": "Chapter 3.11  부동소수점 코드"
             }
           },
           {
@@ -223,8 +223,9 @@
   },
   "active": "f42a3c9450fe61e5",
   "lastOpenFiles": [
-    "CSAPP/Chapter 3/유튜브/Lecture 9.md",
     "CSAPP/Chapter 3/Chapter 3.10 기계수준 프로그램에서 제어와 데이터의 결합.md",
+    "CSAPP/Chapter 3/Chapter 3.11  부동소수점 코드.md",
+    "CSAPP/Chapter 3/유튜브/Lecture 9.md",
     "CSAPP/Chapter 3/Images/Pasted image 20250922131708.png",
     "CSAPP/Chapter 3/유튜브/Lecture 8.md",
     "CSAPP/Chapter 3/Chapter 3.4 정보 접근하기.md",
