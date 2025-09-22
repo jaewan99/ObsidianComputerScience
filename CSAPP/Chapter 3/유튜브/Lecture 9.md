@@ -26,6 +26,10 @@ https://www.youtube.com/watch?v=V6bY22KZbRc&list=PLcQU3vbfgCc9sVAiHf5761UUApjZ3Z
 - [29:25](https://www.youtube.com/watch?v=V6bY22KZbRc#t=29:25.33) 
 - Buffer example
 
+![[Pasted image 20250922103139.png]]
+
+![[Pasted image 20250922103328.png]]
+![[Pasted image 20250922103528.png]]
 
 - [43:52](https://www.youtube.com/watch?v=V6bY22KZbRc#t=43:52.42) 
 - Avoid overflow vulnerabilities
