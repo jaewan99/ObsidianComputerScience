@@ -11,6 +11,7 @@ Those that reference memory are scalar instructions, meaning that they operate o
 ### 3.11.2 Floating-Point Code in Procedures
 ![[Pasted image 20250922144408.png]]
 
+안 읽음
 ### 3.11.3 Floating-Point Arithmetic Operations
 
 ### 3.11.4 Defining and Using Floating-point constants
@@ -20,3 +21,6 @@ Those that reference memory are scalar instructions, meaning that they operate o
 ### 3.11.6 Floating-Point Comparison Operations
 
 ### 3.11.7 Observation about Floating-Point Code
+
+Weseethatthegeneralstyleofmachinecodegeneratedforoperatingonfloating pointdatawithAVX2issimilartowhatwehaveseenforoperatingonintegerdata. Bothuseacollectionofregisterstoholdandoperateonvalues,andtheyusethese registersforpassingfunctionarguments.
+
