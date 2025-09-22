@@ -282,9 +282,11 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "ab7e23af2bddee1f",
+  "active": "bcff985c6318d508",
   "lastOpenFiles": [
     "CSAPP/Chapter 3/유튜브/Lecture 9.md",
+    "CSAPP/Chapter 3/유튜브/Images/Pasted image 20250922102320.png",
+    "CSAPP/Chapter 3/유튜브/Images/Pasted image 20250922102317.png",
     "CSAPP/Chapter 3/Chapter 3.10 기계수준 프로그램에서 제어와 데이터의 결합.md",
     "CSAPP/Chapter 3/유튜브/Lecture 5.md",
     "CSAPP/Chapter 3/유튜브/Lecture 7.md",
@@ -307,8 +309,6 @@
     "CSAPP/Chapter 3/Images/Pasted image 20250921224850.png",
     "CSAPP/Chapter 3/Images/Pasted image 20250921223428.png",
     "CSAPP/Chapter 3/Chapter 3.3 데이터의 형식.md",
-    "CSAPP/Chapter 3/Images/Pasted image 20250921213855.png",
-    "CSAPP/Chapter 3/Images/Pasted image 20250921213846.png",
     "CSAPP/CSAPP_2016.pdf",
     "C Lang/The C Programming Language (Kernighan Ritchie).pdf",
     "CSAPP/필요한 링크들.md",
@@ -322,7 +322,6 @@
     "내 사이트.md",
     "코딩테스트/백준.md",
     "media-lib/url-egn0d95f.md",
-    "Untitled Kanban.md",
     "Untitled.base",
     "copilot-custom-prompts",
     "CSAPP/Chapter 3/Images",
