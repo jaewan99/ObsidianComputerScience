@@ -112,3 +112,5 @@ ASLR - Address space layout randomization
 	- And it will literally store on top of each other. So that if you try to use multiple fields you can mess things up.
 	- It's for the purpose of for example if I know I'm only going to use one of these
 	- Or it's another way to create essentially an alias that will let you reference memory in different ways
+
+![[Pasted image 20250922121152.png]]

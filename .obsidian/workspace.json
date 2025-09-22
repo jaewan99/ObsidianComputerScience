@@ -6,7 +6,6 @@
       {
         "id": "466aa13e6e092426",
         "type": "tabs",
-        "dimension": 41.35922330097087,
         "children": [
           {
             "id": "f42a3c9450fe61e5",
@@ -14,12 +13,54 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSAPP/Chapter 3/Chapter 3.10 기계수준 프로그램에서 제어와 데이터의 결합.md",
+                "file": "CSAPP/Chapter 3/Chapter 3.2 프로그램의 인코딩.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 3.10 기계수준 프로그램에서 제어와 데이터의 결합"
+              "title": "Chapter 3.2 프로그램의 인코딩"
+            }
+          },
+          {
+            "id": "3129ddf6435409a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSAPP/Chapter 3/Chapter 3.3 데이터의 형식.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Chapter 3.3 데이터의 형식"
+            }
+          },
+          {
+            "id": "636d671040539a81",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSAPP/Chapter 3/Chapter 3.4 정보 접근하기.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Chapter 3.4 정보 접근하기"
+            }
+          },
+          {
+            "id": "3e86a31819170cf6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSAPP/Chapter 3/유튜브/Lecture 8.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Lecture 8"
             }
           },
           {
@@ -37,101 +78,7 @@
             }
           }
         ],
-        "currentTab": 1
-      },
-      {
-        "id": "60d3fdb492662f17",
-        "type": "tabs",
-        "dimension": 58.64077669902913,
-        "children": [
-          {
-            "id": "bcff985c6318d508",
-            "type": "leaf",
-            "state": {
-              "type": "mx-url",
-              "state": {
-                "mx": {
-                  "json": {
-                    "media": {
-                      "type": "url:hosted",
-                      "vid": {
-                        "host": "youtube",
-                        "vid": "V6bY22KZbRc",
-                        "t": null,
-                        "start": null,
-                        "end": null
-                      },
-                      "url": "https://www.youtube.com/watch?v=V6bY22KZbRc"
-                    },
-                    "hash": {
-                      "type": null,
-                      "title": null,
-                      "volume": null,
-                      "aspectRatio": null,
-                      "crossOrigin": null,
-                      "flip": null,
-                      "audioGain": null,
-                      "playbackRate": null,
-                      "tempFragment": null,
-                      "loop": null,
-                      "muted": null,
-                      "autoPlay": null,
-                      "showControls": null
-                    }
-                  },
-                  "meta": {
-                    "values": {
-                      "media.url": [
-                        "URL"
-                      ],
-                      "hash.type": [
-                        "undefined"
-                      ],
-                      "hash.title": [
-                        "undefined"
-                      ],
-                      "hash.volume": [
-                        "undefined"
-                      ],
-                      "hash.aspectRatio": [
-                        "undefined"
-                      ],
-                      "hash.crossOrigin": [
-                        "undefined"
-                      ],
-                      "hash.flip": [
-                        "undefined"
-                      ],
-                      "hash.audioGain": [
-                        "undefined"
-                      ],
-                      "hash.playbackRate": [
-                        "undefined"
-                      ],
-                      "hash.tempFragment": [
-                        "undefined"
-                      ],
-                      "hash.loop": [
-                        "undefined"
-                      ],
-                      "hash.muted": [
-                        "undefined"
-                      ],
-                      "hash.autoPlay": [
-                        "undefined"
-                      ],
-                      "hash.showControls": [
-                        "undefined"
-                      ]
-                    }
-                  }
-                }
-              },
-              "icon": "youtube",
-              "title": "CMU 15213/15513 CSAPP 深入理解计算机系统 Lecture 09 Machine Level Programming V Advanced 中英字幕"
-            }
-          }
-        ]
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -282,35 +229,34 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "ab7e23af2bddee1f",
+  "active": "636d671040539a81",
   "lastOpenFiles": [
+    "CSAPP/Chapter 3/Chapter 3.3 데이터의 형식.md",
+    "CSAPP/Chapter 3/Chapter 3.2 프로그램의 인코딩.md",
+    "CSAPP/Chapter 3/Chapter 3.10 기계수준 프로그램에서 제어와 데이터의 결합.md",
+    "CSAPP/Chapter 3/Chapter 3.9 이기종 (Heterogeneous) 자료구조.md",
+    "CSAPP/Chapter 3/Chapter 3.8 배열의 할당과 접근.md",
+    "CSAPP/Chapter 3/Chapter 3.7 프로시저.md",
+    "CSAPP/Chapter 3/유튜브/Lecture 8.md",
+    "CSAPP/Chapter 3/유튜브/Lecture 9.md",
+    "CSAPP/Chapter 3/유튜브/Images/Pasted image 20250922121152.png",
     "CSAPP/Chapter 3/유튜브/Images/Pasted image 20250922120749.png",
     "CSAPP/Chapter 3/유튜브/Images/Pasted image 20250922120422.png",
     "CSAPP/Chapter 3/유튜브/Images/Pasted image 20250922115927.png",
-    "CSAPP/Chapter 3/유튜브/Lecture 9.md",
-    "CSAPP/Chapter 3/유튜브/Lecture 8.md",
     "CSAPP/Chapter 3/유튜브/Images/Pasted image 20250922114014.png",
     "CSAPP/Chapter 3/유튜브/Images/Pasted image 20250922111627.png",
     "CSAPP/Chapter 3/유튜브/Images/Pasted image 20250922111212.png",
     "CSAPP/Chapter 3/유튜브/Images/Pasted image 20250922110740.png",
     "CSAPP/Chapter 3/유튜브/Images/Pasted image 20250922110602.png",
     "CSAPP/Chapter 3/유튜브/Images/Pasted image 20250922110119.png",
-    "CSAPP/Chapter 3/유튜브/Images/Pasted image 20250922105848.png",
-    "CSAPP/Chapter 3/유튜브/Images/Pasted image 20250922104705.png",
     "Pasted image 20250922104238.png.md",
-    "CSAPP/Chapter 3/Chapter 3.10 기계수준 프로그램에서 제어와 데이터의 결합.md",
     "CSAPP/Chapter 3/유튜브/Lecture 5.md",
     "CSAPP/Chapter 3/유튜브/Lecture 7.md",
     "CSAPP/Chapter 3/유튜브/Lecture 6.md",
     "CSAPP/Chapter 3/Chapter 3.1 역사적 관점.md",
-    "CSAPP/Chapter 3/Chapter 3.2 프로그램의 인코딩.md",
-    "CSAPP/Chapter 3/Chapter 3.9 이기종 (Heterogeneous) 자료구조.md",
     "CSAPP/Chapter 3/Chapter 3.4 정보 접근하기.md",
     "CSAPP/Chapter 3/Chapter 3.5 산술연산과 논리연산.md",
     "CSAPP/Chapter 3/Chapter 3.6 제어문.md",
-    "CSAPP/Chapter 3/Chapter 3.7 프로시저.md",
-    "CSAPP/Chapter 3/Chapter 3.8 배열의 할당과 접근.md",
-    "CSAPP/Chapter 3/Chapter 3.3 데이터의 형식.md",
     "CSAPP/CSAPP_2016.pdf",
     "C Lang/The C Programming Language (Kernighan Ritchie).pdf",
     "CSAPP/필요한 링크들.md",
