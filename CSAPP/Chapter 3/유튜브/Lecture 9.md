@@ -65,4 +65,15 @@ ASLR - Address space layout randomization
 ![[Pasted image 20250922110740.png]]
 
 - why the local and heap addresses change?
-	- Code injection vulnerability - 
+	- Code injection vulnerability relies on the fact that you can load up this buffer with some executable code. But somehow you know how to get to the start of that code - to encode it in the right part of the string so it will show up where the return pointer is supposed to be. And jump to that location.
+
+![[Pasted image 20250922111212.png]]
+
+- Why is there supposed to be code on the stack in the first place. Isn't the code supposed to be located down in the text segment. Where it can be sort of specially identified as being executable.
+- Added a another bit that can check if it's executable, which fort this particular attack because i have to be able to execute these bytes that I've injected into the system.
+
+
+![[Pasted image 20250922111627.png]]
+
+- Stack Canaries
+	- 
