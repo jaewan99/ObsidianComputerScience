@@ -43,8 +43,9 @@ https://www.youtube.com/watch?v=V6bY22KZbRc&list=PLcQU3vbfgCc9sVAiHf5761UUApjZ3Z
 	- So what will happens is the program counter will happily jump to this spot
 	- and start executing whatever it encounters which are the instructions that you've inserted
 	- And by that means then you can inject code into a machine potentially somewhere else in the internet 
-
+	- Example, i just made sure that the length of my exploit code plus the padding is 24 bytes, then right after that comes the return address
 
 
 - [43:52](https://www.youtube.com/watch?v=V6bY22KZbRc#t=43:52.42) 
 - Avoid overflow vulnerabilities
+- 
