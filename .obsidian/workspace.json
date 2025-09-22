@@ -6,7 +6,7 @@
       {
         "id": "466aa13e6e092426",
         "type": "tabs",
-        "dimension": 40.32258064516129,
+        "dimension": 53.930131004366814,
         "children": [
           {
             "id": "f42a3c9450fe61e5",
@@ -41,7 +41,7 @@
       {
         "id": "ad500f1465e7418f",
         "type": "tabs",
-        "dimension": 29.838709677419356,
+        "dimension": 46.069868995633186,
         "children": [
           {
             "id": "92a3bf419df8ceb6",
@@ -55,100 +55,6 @@
               },
               "icon": "lucide-file",
               "title": "Lecture 8"
-            }
-          }
-        ]
-      },
-      {
-        "id": "255ed605a42ee069",
-        "type": "tabs",
-        "dimension": 29.838709677419356,
-        "children": [
-          {
-            "id": "ef829b408e639c9a",
-            "type": "leaf",
-            "state": {
-              "type": "mx-url",
-              "state": {
-                "mx": {
-                  "json": {
-                    "media": {
-                      "type": "url:hosted",
-                      "vid": {
-                        "host": "youtube",
-                        "vid": "nLIhml8ni-A",
-                        "t": null,
-                        "start": null,
-                        "end": null
-                      },
-                      "url": "https://www.youtube.com/watch?v=nLIhml8ni-A"
-                    },
-                    "hash": {
-                      "type": null,
-                      "title": null,
-                      "volume": null,
-                      "aspectRatio": null,
-                      "crossOrigin": null,
-                      "flip": null,
-                      "audioGain": null,
-                      "playbackRate": null,
-                      "tempFragment": {
-                        "start": 4429.35,
-                        "end": -1
-                      },
-                      "loop": null,
-                      "muted": null,
-                      "autoPlay": null,
-                      "showControls": null
-                    }
-                  },
-                  "meta": {
-                    "values": {
-                      "media.url": [
-                        "URL"
-                      ],
-                      "hash.type": [
-                        "undefined"
-                      ],
-                      "hash.title": [
-                        "undefined"
-                      ],
-                      "hash.volume": [
-                        "undefined"
-                      ],
-                      "hash.aspectRatio": [
-                        "undefined"
-                      ],
-                      "hash.crossOrigin": [
-                        "undefined"
-                      ],
-                      "hash.flip": [
-                        "undefined"
-                      ],
-                      "hash.audioGain": [
-                        "undefined"
-                      ],
-                      "hash.playbackRate": [
-                        "undefined"
-                      ],
-                      "hash.loop": [
-                        "undefined"
-                      ],
-                      "hash.muted": [
-                        "undefined"
-                      ],
-                      "hash.autoPlay": [
-                        "undefined"
-                      ],
-                      "hash.showControls": [
-                        "undefined"
-                      ]
-                    }
-                  }
-                }
-              },
-              "icon": "youtube",
-              "title": "CMU 15213/15513 CSAPP 深入理解计算机系统 Lecture 08  Machine Level Programming IV  Data 中英字幕"
             }
           }
         ]
@@ -303,12 +209,16 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "ef829b408e639c9a",
+  "active": "f42a3c9450fe61e5",
   "lastOpenFiles": [
+    "CSAPP/Chapter 3/Images/Pasted image 20250922143458.png",
     "CSAPP/Chapter 3/유튜브/Lecture 8.md",
+    "CSAPP/Chapter 3/Chapter 3.11  부동소수점 코드.md",
+    "CSAPP/Chapter 3/유튜브/Images/Pasted image 20250922143121.png",
+    "CSAPP/Chapter 3/유튜브/Images/Pasted image 20250922143021.png",
+    "CSAPP/Chapter 3/유튜브/Images/Pasted image 20250922142951.png",
     "CSAPP/Chapter 3/유튜브/Images/Pasted image 20250922142255.png",
     "CSAPP/Chapter 3/유튜브/Lecture 9.md",
-    "CSAPP/Chapter 3/Chapter 3.11  부동소수점 코드.md",
     "CSAPP/Chapter 3/Chapter 3.10 기계수준 프로그램에서 제어와 데이터의 결합.md",
     "CSAPP/Chapter 3/Images/Pasted image 20250922131708.png",
     "CSAPP/Chapter 3/Chapter 3.4 정보 접근하기.md",
@@ -323,9 +233,6 @@
     "CSAPP/Chapter 3/유튜브/Images/Pasted image 20250922120422.png",
     "CSAPP/Chapter 3/유튜브/Images/Pasted image 20250922115927.png",
     "CSAPP/Chapter 3/유튜브/Images/Pasted image 20250922114014.png",
-    "CSAPP/Chapter 3/유튜브/Images/Pasted image 20250922111627.png",
-    "CSAPP/Chapter 3/유튜브/Images/Pasted image 20250922111212.png",
-    "CSAPP/Chapter 3/유튜브/Images/Pasted image 20250922110740.png",
     "Pasted image 20250922104238.png.md",
     "CSAPP/Chapter 3/유튜브/Lecture 5.md",
     "CSAPP/Chapter 3/유튜브/Lecture 7.md",

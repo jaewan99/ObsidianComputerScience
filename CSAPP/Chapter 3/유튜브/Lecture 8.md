@@ -36,5 +36,10 @@ greedy algorithm will work
 
 - [1:13:49](https://www.youtube.com/watch?v=nLIhml8ni-A#t=1:13:49.35) 
 - Floating point
+![[Pasted image 20250922142951.png]]
+
+![[Pasted image 20250922143021.png]]
 
 ![[Pasted image 20250922142255.png]]
+
+![[Pasted image 20250922143121.png]]
