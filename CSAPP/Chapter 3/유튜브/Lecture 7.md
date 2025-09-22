@@ -64,10 +64,10 @@ Mechanism in procedures
 		- particular allocation pattern that's used in memory and as I mentioned earlier. one of the feature of calling and returning is you can imagine when you have a nested series of calls to a function. 
 		- When a particular function is executing, it only needs to reference the data within that function or values that have passed to it. So rest of the functions are sort of frozen.
 		- Stack frame - it's a frame for a particular instance of a procedure and a particular call to a procedure. 
-		- Contents
-			- Return information
-			- Local Storage (if needed)
-			- Temporary space (if needed)
+		- **Contents**
+			- **Return information**
+			- **Local Storage (if needed)**
+			- **Temporary space (if needed)**
 		- Management
 			- Space allocated when enter procedure
 				- "set-up" code
