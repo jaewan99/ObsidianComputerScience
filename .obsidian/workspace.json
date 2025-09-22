@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSAPP/Chapter 3/Chapter 3.7 프로시저.md",
+                "file": "CSAPP/Chapter 3/Chapter 3.8 배열의 할당과 접근.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 3.7 프로시저"
+              "title": "Chapter 3.8 배열의 할당과 접근"
             }
           }
         ]
@@ -192,11 +192,11 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "636d671040539a81",
+  "active": "857e29066a8d31b7",
   "lastOpenFiles": [
+    "CSAPP/Chapter 3/Chapter 3.7 프로시저.md",
     "CSAPP/CSAPP_2016.pdf",
     "CSAPP/Chapter 3/유튜브/Lecture 7.md",
-    "CSAPP/Chapter 3/Chapter 3.7 프로시저.md",
     "CSAPP/Chapter 3/유튜브/Lecture 6.md",
     "CSAPP/Chapter 3/유튜브/Lecture 5.md",
     "CSAPP/Chapter 3/목록.md",
