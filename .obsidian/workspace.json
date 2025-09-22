@@ -21,14 +21,7 @@
               "icon": "lucide-file",
               "title": "Chapter 3.10 기계수준 프로그램에서 제어와 데이터의 결합"
             }
-          }
-        ]
-      },
-      {
-        "id": "60d3fdb492662f17",
-        "type": "tabs",
-        "dimension": 58.64077669902913,
-        "children": [
+          },
           {
             "id": "ab7e23af2bddee1f",
             "type": "leaf",
@@ -42,9 +35,17 @@
               "icon": "lucide-file",
               "title": "Lecture 9"
             }
-          },
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "60d3fdb492662f17",
+        "type": "tabs",
+        "dimension": 58.64077669902913,
+        "children": [
           {
-            "id": "a3ddc1a0d18979f8",
+            "id": "bcff985c6318d508",
             "type": "leaf",
             "state": {
               "type": "mx-url",
@@ -71,10 +72,7 @@
                       "flip": null,
                       "audioGain": null,
                       "playbackRate": null,
-                      "tempFragment": {
-                        "start": 122.02,
-                        "end": -1
-                      },
+                      "tempFragment": null,
                       "loop": null,
                       "muted": null,
                       "autoPlay": null,
@@ -110,6 +108,9 @@
                       "hash.playbackRate": [
                         "undefined"
                       ],
+                      "hash.tempFragment": [
+                        "undefined"
+                      ],
                       "hash.loop": [
                         "undefined"
                       ],
@@ -126,11 +127,11 @@
                   }
                 }
               },
-              "icon": "youtube"
+              "icon": "youtube",
+              "title": "CMU 15213/15513 CSAPP 深入理解计算机系统 Lecture 09 Machine Level Programming V Advanced 中英字幕"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -187,8 +188,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.5,
-    "collapsed": true
+    "width": 261.5
   },
   "right": {
     "id": "658074b3dc69e704",
@@ -282,7 +282,7 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "a3ddc1a0d18979f8",
+  "active": "ab7e23af2bddee1f",
   "lastOpenFiles": [
     "CSAPP/Chapter 3/유튜브/Lecture 9.md",
     "CSAPP/Chapter 3/Chapter 3.10 기계수준 프로그램에서 제어와 데이터의 결합.md",
