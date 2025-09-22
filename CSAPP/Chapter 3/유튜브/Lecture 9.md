@@ -84,4 +84,22 @@ ASLR - Address space layout randomization
 
 - [1:04:52](https://www.youtube.com/watch?v=V6bY22KZbRc#t=1:04:52.70) 
 - Return-Oriented Programming Attacks
+	- Challenges (for hackers)
+		- stack randomization makes it hard to predict buffer locations
+		- Marking stack nonexecutable makes it hard to insert binary code
+	- Alternative Strategy
+		- Use existing code
+			- E.g. library code from stdlib
+		- String together fragments to achieve overall desired outcome
+		- Does not overcome stack canaries
+	- Construct program from gadgets
+		- Sequence of instructions ending it ret
+			- Encoded by single byte 0xc3
+		- Code positions fixed from run to run
+		- Code is executable
+
+
+
+
+- [1:13:09](https://www.youtube.com/watch?v=V6bY22KZbRc#t=1:13:09.34) 
 - 
