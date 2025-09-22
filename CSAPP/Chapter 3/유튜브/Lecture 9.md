@@ -31,5 +31,20 @@ https://www.youtube.com/watch?v=V6bY22KZbRc&list=PLcQU3vbfgCc9sVAiHf5761UUApjZ3Z
 ![[Pasted image 20250922103328.png]]
 ![[Pasted image 20250922103528.png]]
 
+
+- [33:32](https://www.youtube.com/watch?v=V6bY22KZbRc#t=33:32.64) 
+- Code injection Attack
+
+
+![[Pasted image 20250922104705.png]]
+- P calls q
+	- q should return back to p
+	- But now i've overwritten that return address with this buffer position
+	- So what will happens is the program counter will happily jump to this spot
+	- and start executing whatever it encounters which are the instructions that you've inserted
+	- And by that means then you can inject code into a machine potentially somewhere else in the internet 
+
+
+
 - [43:52](https://www.youtube.com/watch?v=V6bY22KZbRc#t=43:52.42) 
 - Avoid overflow vulnerabilities
