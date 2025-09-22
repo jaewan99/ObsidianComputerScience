@@ -13,32 +13,46 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSAPP/Chapter 3/Chapter 3.8 배열의 할당과 접근.md",
+                "file": "CSAPP/Chapter 3/Chapter 3.9 이기종 (Heterogeneous) 자료구조.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 3.8 배열의 할당과 접근"
+              "title": "Chapter 3.9 이기종 (Heterogeneous) 자료구조"
+            }
+          },
+          {
+            "id": "15f3397657d16467",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSAPP/Chapter 3/유튜브/Lecture 9.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Lecture 9"
             }
           }
         ]
       },
       {
-        "id": "209ba43503d3ae90",
+        "id": "a0f47ddd575f34d3",
         "type": "tabs",
         "children": [
           {
-            "id": "5c1ec267c0cc9ad6",
+            "id": "830c36097dca57e3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSAPP/Chapter 3/유튜브/Lecture 6.md",
+                "file": "CSAPP/Chapter 3/유튜브/Lecture 8.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 6"
+              "title": "Lecture 8"
             }
           }
         ]
@@ -192,30 +206,30 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "857e29066a8d31b7",
+  "active": "636d671040539a81",
   "lastOpenFiles": [
+    "CSAPP/Chapter 3/유튜브/Lecture 9.md",
+    "CSAPP/Chapter 3/Chapter 3.9 이기종 (Heterogeneous) 자료구조.md",
+    "CSAPP/Chapter 3/유튜브/Lecture 8.md",
+    "CSAPP/Chapter 3/유튜브/Lecture 7.md",
+    "CSAPP/Chapter 3/Chapter 3.8 배열의 할당과 접근.md",
     "CSAPP/Chapter 3/Chapter 3.7 프로시저.md",
     "CSAPP/CSAPP_2016.pdf",
-    "CSAPP/Chapter 3/유튜브/Lecture 7.md",
     "CSAPP/Chapter 3/유튜브/Lecture 6.md",
     "CSAPP/Chapter 3/유튜브/Lecture 5.md",
     "CSAPP/Chapter 3/목록.md",
     "CSAPP/Chapter 3/Etc.md",
     "CSAPP/Chapter 3/Chapter 3.10 기계수준 프로그램에서 제어와 데이터의 결합.md",
-    "CSAPP/Chapter 3/유튜브/Lecture 9.md",
     "CSAPP/Chapter 3/Chapter 3.11  부동소수점 코드.md",
     "CSAPP/Chapter 3/Chapter 3.4 정보 접근하기.md",
     "CSAPP/Chapter 3/Images/Pasted image 20250922144408.png",
     "CSAPP/Chapter 3/Images/Pasted image 20250922144104.png",
     "CSAPP/Chapter 3/Images/Pasted image 20250922143458.png",
-    "CSAPP/Chapter 3/유튜브/Lecture 8.md",
     "CSAPP/Chapter 3/유튜브/Images/Pasted image 20250922143121.png",
     "CSAPP/Chapter 3/유튜브/Images/Pasted image 20250922143021.png",
     "CSAPP/Chapter 3/유튜브/Images/Pasted image 20250922142951.png",
     "CSAPP/Chapter 3/유튜브/Images/Pasted image 20250922142255.png",
     "CSAPP/Chapter 3/Images/Pasted image 20250922131708.png",
-    "CSAPP/Chapter 3/Chapter 3.9 이기종 (Heterogeneous) 자료구조.md",
-    "CSAPP/Chapter 3/Chapter 3.8 배열의 할당과 접근.md",
     "CSAPP/Chapter 3/Chapter 3.6 제어문.md",
     "CSAPP/Chapter 3/Chapter 3.2 프로그램의 인코딩.md",
     "CSAPP/Chapter 3/Chapter 3.3 데이터의 형식.md",
