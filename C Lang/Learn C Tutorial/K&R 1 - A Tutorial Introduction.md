@@ -12,3 +12,6 @@
 - Exercise 1-17
 
 
+
+- [2:00:51](https://www.youtube.com/watch?v=PaPN51Mm5qQ#t=2:00:51.52) 
+- Start of the chapter 1 

@@ -8,17 +8,110 @@
         "type": "tabs",
         "children": [
           {
-            "id": "de94fb2f56b2ef4e",
+            "id": "1ee595a37abaccf3",
+            "type": "leaf",
+            "state": {
+              "type": "mx-url",
+              "state": {
+                "mx": {
+                  "json": {
+                    "media": {
+                      "type": "url:hosted",
+                      "vid": {
+                        "host": "youtube",
+                        "vid": "PaPN51Mm5qQ",
+                        "t": null,
+                        "start": null,
+                        "end": null
+                      },
+                      "url": "https://www.youtube.com/watch?v=PaPN51Mm5qQ"
+                    },
+                    "hash": {
+                      "type": null,
+                      "title": null,
+                      "volume": null,
+                      "aspectRatio": null,
+                      "crossOrigin": null,
+                      "flip": null,
+                      "audioGain": null,
+                      "playbackRate": null,
+                      "tempFragment": {
+                        "start": 7154.77,
+                        "end": -1
+                      },
+                      "loop": null,
+                      "muted": null,
+                      "autoPlay": null,
+                      "showControls": null
+                    }
+                  },
+                  "meta": {
+                    "values": {
+                      "media.url": [
+                        "URL"
+                      ],
+                      "hash.type": [
+                        "undefined"
+                      ],
+                      "hash.title": [
+                        "undefined"
+                      ],
+                      "hash.volume": [
+                        "undefined"
+                      ],
+                      "hash.aspectRatio": [
+                        "undefined"
+                      ],
+                      "hash.crossOrigin": [
+                        "undefined"
+                      ],
+                      "hash.flip": [
+                        "undefined"
+                      ],
+                      "hash.audioGain": [
+                        "undefined"
+                      ],
+                      "hash.playbackRate": [
+                        "undefined"
+                      ],
+                      "hash.loop": [
+                        "undefined"
+                      ],
+                      "hash.muted": [
+                        "undefined"
+                      ],
+                      "hash.autoPlay": [
+                        "undefined"
+                      ],
+                      "hash.showControls": [
+                        "undefined"
+                      ]
+                    }
+                  }
+                }
+              },
+              "icon": "youtube",
+              "title": "Learn C Programming and OOP with Dr. Chuck [feat. classic book by Kernighan and Ritchie]"
+            }
+          }
+        ]
+      },
+      {
+        "id": "3151cacfc3ae299a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "496c0734b4d58fea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C Lang/Mistakes that I have made/실수들.md",
+                "file": "C Lang/Learn C Tutorial/K&R 1 - A Tutorial Introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "실수들"
+              "title": "K&R 1 - A Tutorial Introduction"
             }
           }
         ]
@@ -78,7 +171,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.5
+    "width": 261.5,
+    "collapsed": true
   },
   "right": {
     "id": "658074b3dc69e704",
@@ -172,15 +266,16 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "de94fb2f56b2ef4e",
+  "active": "496c0734b4d58fea",
   "lastOpenFiles": [
-    "Pasted image 20250922104238.png.md",
+    "C Lang/Learn C Tutorial/K&R 1 - A Tutorial Introduction.md",
+    "C Lang/Tutorial.md",
+    "C Lang/The C Programming Language (Kernighan Ritchie).pdf",
     "C Lang/Mistakes that I have made/실수들.md",
+    "Pasted image 20250922104238.png.md",
     "C Lang/Learn C Tutorial/Learn C Outline.md",
     "C Lang/Mistakes that I have made",
-    "C Lang/Tutorial.md",
     "C Lang/The C programming language (K&R).md",
-    "C Lang/The C Programming Language (Kernighan Ritchie).pdf",
     "코딩테스트/플로이드 와샬 (Floyd-Warshall).md",
     "코딩테스트/Images/Pasted image 20250923121842.png",
     "코딩테스트/Images/Pasted image 20250923121813.png",
@@ -205,7 +300,6 @@
     "CSAPP/Chapter 3/유튜브/Lecture 7.md",
     "CSAPP/Chapter 3/유튜브/Lecture 6.md",
     "CSAPP/Chapter 3/유튜브/Lecture 5.md",
-    "CSAPP/Chapter 3/Chapter 3.1 역사적 관점.md",
     "CSAPP/CSAPP_2016.pdf",
     "CSAPP/Chapter 3/Images/Pasted image 20250922144408.png",
     "CSAPP/Chapter 3/Images/Pasted image 20250922144104.png",
