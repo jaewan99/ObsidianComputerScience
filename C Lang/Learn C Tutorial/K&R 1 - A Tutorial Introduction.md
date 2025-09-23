@@ -19,7 +19,7 @@
 
 
 - [2:26:48](https://www.youtube.com/watch?v=PaPN51Mm5qQ#t=2:26:48.46) 
-- For statement
+1.3 For statement
 
 The choice between `while` and `for` is arbitrary, based on what seems clearer. The `for` is usually appropriate for loops in which the initialization and re-initialization are single statements and logically related, since it is more compact than `while` and keeps the loop control statements together in one place.
 
@@ -38,3 +38,11 @@ main() /* Fahrenheit-Celsius table */
 ````
 
 
+
+- [2:29:25](https://www.youtube.com/watch?v=PaPN51Mm5qQ#t=2:29:25.78) 
+1.4 Symbolic Constants
+
+
+
+- [2:32:06](https://www.youtube.com/watch?v=PaPN51Mm5qQ#t=2:32:06.89) 
+1.5 A collections of useful program
