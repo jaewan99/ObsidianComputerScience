@@ -15,3 +15,26 @@
 
 - [2:00:51](https://www.youtube.com/watch?v=PaPN51Mm5qQ#t=2:00:51.52) 
 - Start of the chapter 1 
+
+
+
+- [2:26:48](https://www.youtube.com/watch?v=PaPN51Mm5qQ#t=2:26:48.46) 
+- For statement
+
+The choice between `while` and `for` is arbitrary, based on what seems clearer. The `for` is usually appropriate for loops in which the initialization and re-initialization are single statements and logically related, since it is more compact than `while` and keeps the loop control statements together in one place.
+
+````C
+#include <stdio.h>
+
+main() /* Fahrenheit-Celsius table */
+{
+    int fahr;
+
+    for (fahr = 0; fahr <= 300; fahr = fahr + 20)
+        printf("%4d %6.1f\n", fahr, (5.0/9.0)*(fahr-32));
+}
+
+
+````
+
+
