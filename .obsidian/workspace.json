@@ -277,15 +277,15 @@
         ],
         "direction": "vertical",
         "x": 0,
-        "y": 690,
-        "width": 967,
-        "height": 462,
+        "y": 794,
+        "width": 1180,
+        "height": 358,
         "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "27e3e873113368d6",
+  "active": "fa8afcc7c213b513",
   "lastOpenFiles": [
     "C Lang/Learn C Tutorial/K&R 1 - A Tutorial Introduction.md",
     "C Lang/Tutorial.md",
