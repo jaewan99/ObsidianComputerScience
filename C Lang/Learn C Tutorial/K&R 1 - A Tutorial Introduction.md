@@ -47,3 +47,17 @@ main() /* Fahrenheit-Celsius table */
 - [2:32:06](https://www.youtube.com/watch?v=PaPN51Mm5qQ#t=2:32:06.89) 
 1.5 A collections of useful program
 
+````C
+#include <stdio.h>
+
+main() /* Fahrenheit-Celsius table */
+{
+    int c;
+    
+    while ((c = getchar()) != EOF)
+	    putchar(c);
+}
+/* Typing -1 sends the characters - and 1, not the EOF signal. So this will not work */
+
+
+````
