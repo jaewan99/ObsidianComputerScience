@@ -30,4 +30,5 @@ Extension
 // please set this enabled
 Pylance = disable
 Pylint = disable
+Python = disable
 ````
