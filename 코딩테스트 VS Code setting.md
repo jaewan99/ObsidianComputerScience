@@ -1,5 +1,5 @@
 
-
+1.
 ctrl + shift + p를 눌러서 설정
 "preferences: open user settings (JSON)" 안에서
 
@@ -23,3 +23,11 @@ ctrl + shift + p를 눌러서 설정
 
 ````
 
+2.
+Extension
+
+````JSON
+// please set this enabled
+Pylance = disable
+Pylint = disable
+````
