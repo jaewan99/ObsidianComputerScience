@@ -70,4 +70,13 @@ main() /* Fahrenheit-Celsius table */
 
 - [3:12:08](https://www.youtube.com/watch?v=PaPN51Mm5qQ#t=3:12:08.48) 
 - Arguments - call by value
-- 
+- I think this is important
+
+
+- [3:17:27](https://www.youtube.com/watch?v=PaPN51Mm5qQ#t=3:17:27.33) 
+- Character Arrays
+
+
+
+- [3:28:17](https://www.youtube.com/watch?v=PaPN51Mm5qQ#t=3:28:17.26) 
+- 1.10 Scope
