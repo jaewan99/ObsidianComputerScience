@@ -3,3 +3,13 @@ https://www.youtube.com/watch?v=T5DxuF4_uRs&list=PL22J-I2Pi-Gf0s1CGDVtt4vuvlyjLx
 
 How can i make the program run faster
 Make the code compiler friendly
+
+
+
+- [08:03](https://www.youtube.com/watch?v=T5DxuF4_uRs#t=08:03.27) 
+- General optimization technique
+
+
+- [13:52](https://www.youtube.com/watch?v=T5DxuF4_uRs#t=13:52.89) 
+- Procedure calls
+- 
