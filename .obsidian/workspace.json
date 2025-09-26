@@ -4,11 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "7b0169cf2a2764ee",
+        "id": "86d29c31770b03a2",
         "type": "tabs",
+        "dimension": 53.03837953091685,
         "children": [
           {
-            "id": "2fc60cba71630c73",
+            "id": "544d7da6b906d81d",
             "type": "leaf",
             "state": {
               "type": "mx-url",
@@ -19,12 +20,12 @@
                       "type": "url:hosted",
                       "vid": {
                         "host": "youtube",
-                        "vid": "T5DxuF4_uRs",
+                        "vid": "PaPN51Mm5qQ",
                         "t": null,
                         "start": null,
                         "end": null
                       },
-                      "url": "https://www.youtube.com/watch?v=T5DxuF4_uRs"
+                      "url": "https://www.youtube.com/watch?v=PaPN51Mm5qQ"
                     },
                     "hash": {
                       "type": null,
@@ -35,7 +36,10 @@
                       "flip": null,
                       "audioGain": null,
                       "playbackRate": null,
-                      "tempFragment": null,
+                      "tempFragment": {
+                        "start": 10552.56,
+                        "end": -1
+                      },
                       "loop": null,
                       "muted": null,
                       "autoPlay": null,
@@ -71,9 +75,6 @@
                       "hash.playbackRate": [
                         "undefined"
                       ],
-                      "hash.tempFragment": [
-                        "undefined"
-                      ],
                       "hash.loop": [
                         "undefined"
                       ],
@@ -91,14 +92,15 @@
                 }
               },
               "icon": "youtube",
-              "title": "CMU 15213/15513 CSAPP 深入理解计算机系统 Lecture 10 Program Optimization 中英字幕"
+              "title": "Learn C Programming and OOP with Dr. Chuck [feat. classic book by Kernighan and Ritchie]"
             }
           }
         ]
       },
       {
-        "id": "86d29c31770b03a2",
+        "id": "41c007381bc73723",
         "type": "tabs",
+        "dimension": 46.96162046908315,
         "children": [
           {
             "id": "6e3ba6c841c2c752",
@@ -106,12 +108,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSAPP/Chapter 5/Optimizations.md",
+                "file": "C Lang/Learn C Tutorial/K&R 1 - A Tutorial Introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Optimizations"
+              "title": "K&R 1 - A Tutorial Introduction"
             }
           }
         ]
@@ -266,11 +268,12 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "2fc60cba71630c73",
+  "active": "544d7da6b906d81d",
   "lastOpenFiles": [
+    "C Lang/Learn C Tutorial/K&R 1 - A Tutorial Introduction.md",
+    "C Lang/Learn C Tutorial/Learn C Outline.md",
     "CSAPP/Chapter 5/Optimizations.md",
     "내 사이트.md",
-    "C Lang/Learn C Tutorial/K&R 1 - A Tutorial Introduction.md",
     "CSAPP/노트 적을때 따라야할 규칙.md",
     "CSAPP/Chapter 5",
     "CSAPP/Untitled.md",
@@ -297,7 +300,6 @@
     "C Lang/Tutorial.md",
     "C Lang/Mistakes that I have made/실수들.md",
     "Pasted image 20250922104238.png.md",
-    "C Lang/Learn C Tutorial/Learn C Outline.md",
     "C Lang/Mistakes that I have made",
     "C Lang/The C programming language (K&R).md",
     "코딩테스트 개념/Images/Pasted image 20250923121842.png",
