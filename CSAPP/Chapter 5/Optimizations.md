@@ -12,4 +12,11 @@ Make the code compiler friendly
 
 - [13:52](https://www.youtube.com/watch?v=T5DxuF4_uRs#t=13:52.89) 
 - Procedure calls
-- 
+
+
+
+
+- [31:47](https://www.youtube.com/watch?v=T5DxuF4_uRs#t=31:47.89) 
+- More detailed optimizations
+	- Out of order execution
+	- 
