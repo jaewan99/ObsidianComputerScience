@@ -19,4 +19,7 @@ Make the code compiler friendly
 - [31:47](https://www.youtube.com/watch?v=T5DxuF4_uRs#t=31:47.89) 
 - More detailed optimizations
 	- Out of order execution
-	- 
+
+
+- [37:13](https://www.youtube.com/watch?v=T5DxuF4_uRs#t=37:13.02) 
+- Benchmark performance
