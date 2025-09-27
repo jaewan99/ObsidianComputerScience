@@ -105,4 +105,17 @@ main()
 }
 ````
 
-V
+2.11 Conditional Expression
+
+ ````C
+#include <stdio.h>
+main()
+{
+	if(a > b)
+		z = a;
+	else
+		z = b;
+	
+	z = (a > b) ? a:b
+}
+````
