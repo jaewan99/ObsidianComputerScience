@@ -1,5 +1,5 @@
-
-
+Use power toys
+https://learn.microsoft.com/en-us/windows/powertoys/install
 
  https://www.cc4e.com/lessons/tutorial#
 
