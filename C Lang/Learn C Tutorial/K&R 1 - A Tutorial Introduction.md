@@ -91,4 +91,9 @@ main() /* Fahrenheit-Celsius table */
 
 - [4:02:10](https://www.youtube.com/watch?v=PaPN51Mm5qQ#t=4:02:10.43) 
 - Start of the book - chapter 2
--  
+
+
+
+- [4:38:34](https://www.youtube.com/watch?v=PaPN51Mm5qQ#t=4:38:34.85) 
+- 2.8 Increment and decrement operator
+- 
