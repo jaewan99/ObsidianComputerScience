@@ -127,3 +127,7 @@ main()
 
 - [6:05:09](https://www.youtube.com/watch?v=PaPN51Mm5qQ#t=6:05:09.34) 
 - Chapter4
+
+- [6:35:02](https://www.youtube.com/watch?v=PaPN51Mm5qQ#t=6:35:02.13) 
+- Chapter 4 -reading - function and program structure
+
