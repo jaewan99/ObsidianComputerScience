@@ -96,4 +96,12 @@ main() /* Fahrenheit-Celsius table */
 
 - [4:38:34](https://www.youtube.com/watch?v=PaPN51Mm5qQ#t=4:38:34.85) 
 - 2.8 Increment and decrement operator
-- 
+ ````C
+#include <stdio.h>
+main()
+{
+	x = n++; //only sets the x to x=n+1
+	x = ++n; //sets for both x and n like x=n+1 and n+=1 
+}
+````
+
