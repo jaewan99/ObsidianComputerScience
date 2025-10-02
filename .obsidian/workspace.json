@@ -100,12 +100,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSAPP/Chapter 6/Chapter 6.1 저장장치 기술.md",
+                "file": "CSAPP/Chapter 3/Chapter 3.4 정보 접근하기.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 6.1 저장장치 기술"
+              "title": "Chapter 3.4 정보 접근하기"
             }
           }
         ],
@@ -166,8 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 284.5,
-    "collapsed": true
+    "width": 284.5
   },
   "right": {
     "id": "658074b3dc69e704",
@@ -263,6 +262,13 @@
   },
   "active": "0ed00e5f0ccb2163",
   "lastOpenFiles": [
+    "CSAPP/Chapter 3/Chapter 3.9 이기종 (Heterogeneous) 자료구조.md",
+    "CSAPP/Chapter 3/Chapter 3.8 배열의 할당과 접근.md",
+    "CSAPP/Chapter 3/Chapter 3.7 프로시저.md",
+    "CSAPP/Chapter 3/Chapter 3.6 제어문.md",
+    "CSAPP/Chapter 3/Chapter 3.5 산술연산과 논리연산.md",
+    "CSAPP/Chapter 3/Chapter 3.4 정보 접근하기.md",
+    "CSAPP/Chapter 3/Chapter 3.3 데이터의 형식.md",
     "CSAPP/Chapter 6/Chapter 6.1 저장장치 기술.md",
     "CSAPP/CSAPP_2016.pdf",
     "CSAPP/Chapter 6/Images/Pasted image 20251002172417.png",
@@ -296,12 +302,6 @@
     "코딩테스트 개념/스택 (stack).md",
     "코딩테스트 개념/분할정복 (divide and conquer).md",
     "코딩테스트 개념/이분탐색 (binary search).md",
-    "코딩테스트 개념/재귀 (Recursion).md",
-    "코딩테스트 개념/큐 (queue).md",
-    "코딩테스트 개념/트리 순회.md",
-    "코딩테스트 개념/파이썬 dictionary.md",
-    "코딩테스트 개념/플로이드 와샬 (Floyd-Warshall).md",
-    "코딩테스트 개념/힙 (heap).md",
     "C Lang/Mistakes that I have made",
     "코딩테스트 개념/Images/Pasted image 20250923121842.png",
     "코딩테스트 개념/Images/Pasted image 20250923121813.png",
