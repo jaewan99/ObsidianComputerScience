@@ -15,7 +15,6 @@
 - Passing **functions as arguments** is common in thread or timer callbacks.
 - Understand **return values** and **side effects** of functions.
 ### **5. Control Structures**
-
 - Loops: `for`, `while`, `do-while`.
 - Conditional statements: `if`, `switch`.
 - Essential for scheduling loops, system call dispatching, and error handling.
