@@ -49,3 +49,11 @@ https://www.youtube.com/watch?v=FDBqMES--TY&list=PL22J-I2Pi-Gf0s1CGDVtt4vuvlyjLx
 
 - [32:06](https://www.youtube.com/watch?v=FDBqMES--TY#t=32:06.08) 
 - solid state disk (SSDs)
+
+
+
+- [39:21](https://www.youtube.com/watch?v=FDBqMES--TY#t=39:21.49) 
+- The CPU-Memory Gap
+	- to make their processors faster they would just double the clock frequency. they decreased the feature size of the chips that they were making- that would allow to put things closer together, and then increase the clock frequency by a proportional amount.
+	- In 2003, they cant handled the heat generated from decreasing the size of the chip
+		- They put more processor cores onto the chips
