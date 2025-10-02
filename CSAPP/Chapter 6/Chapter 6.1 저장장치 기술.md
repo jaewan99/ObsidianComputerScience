@@ -44,4 +44,8 @@ https://www.youtube.com/watch?v=FDBqMES--TY&list=PL22J-I2Pi-Gf0s1CGDVtt4vuvlyjLx
 - cpu is completely oblivious to the fact that this transfer is going on
 
 ![[Pasted image 20251002172417.png]]
-- 
+
+
+
+- [32:06](https://www.youtube.com/watch?v=FDBqMES--TY#t=32:06.08) 
+- solid state disk (SSDs)
