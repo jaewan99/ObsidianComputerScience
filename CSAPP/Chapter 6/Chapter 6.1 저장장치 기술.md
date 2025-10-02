@@ -33,4 +33,15 @@ https://www.youtube.com/watch?v=FDBqMES--TY&list=PL22J-I2Pi-Gf0s1CGDVtt4vuvlyjLx
 ![[Pasted image 20251002170806.png]]
 - [22:30](https://www.youtube.com/watch?v=FDBqMES--TY#t=22:30.92) 
 - Disk access time
+- 물리적으로 한계가 있음
 
+- [25:14](https://www.youtube.com/watch?v=FDBqMES--TY#t=25:14.80) 
+- logical disk blocks
+- command, logical block number, and memory address
+![[Pasted image 20251002172249.png]]
+
+![[Pasted image 20251002172311.png]]
+- cpu is completely oblivious to the fact that this transfer is going on
+
+![[Pasted image 20251002172417.png]]
+- 
