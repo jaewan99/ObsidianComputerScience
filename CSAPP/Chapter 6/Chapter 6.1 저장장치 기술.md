@@ -24,4 +24,13 @@ https://www.youtube.com/watch?v=FDBqMES--TY&list=PL22J-I2Pi-Gf0s1CGDVtt4vuvlyjLx
 
 - [19:08](https://www.youtube.com/watch?v=FDBqMES--TY#t=19:08.65) 
 - Disk operations
-- 
+
+
+
+- [20:41](https://www.youtube.com/watch?v=FDBqMES--TY#t=20:41.87) 
+- Disk access 
+
+![[Pasted image 20251002170806.png]]
+- [22:30](https://www.youtube.com/watch?v=FDBqMES--TY#t=22:30.92) 
+- Disk access time
+
