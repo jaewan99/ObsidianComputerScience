@@ -1,7 +1,7 @@
 https://www.youtube.com/watch?v=FDBqMES--TY&list=PL22J-I2Pi-Gf0s1CGDVtt4vuvlyjLxfem&index=11
 
 
-
+video
 - [02:31](https://www.youtube.com/watch?v=FDBqMES--TY#t=02:31.25) 
 - Random-Access Memory (RAM)
 	- RAM is traditionally packaged as a chip.
@@ -56,4 +56,14 @@ https://www.youtube.com/watch?v=FDBqMES--TY&list=PL22J-I2Pi-Gf0s1CGDVtt4vuvlyjLx
 - The CPU-Memory Gap
 	- to make their processors faster they would just double the clock frequency. they decreased the feature size of the chips that they were making- that would allow to put things closer together, and then increase the clock frequency by a proportional amount.
 	- In 2003, they cant handled the heat generated from decreasing the size of the chip
-		- They put more processor cores onto the chips
+		- So now they subdivided a CPU chip into individual processors cores
+		- by running in parallel, you can more effective - the effective CPU cycle time go down
+	- The only way to really get more performance, is to increase the number of independent cores
+
+
+
+- [44:16](https://www.youtube.com/watch?v=FDBqMES--TY#t=44:16.77) 
+- Locality - stop here 6.2
+
+
+book

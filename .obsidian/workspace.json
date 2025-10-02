@@ -4,99 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "954dbe0d0a06ce14",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "0958b8708022bf1f",
-            "type": "leaf",
-            "state": {
-              "type": "mx-url",
-              "state": {
-                "mx": {
-                  "json": {
-                    "media": {
-                      "type": "url:hosted",
-                      "vid": {
-                        "host": "youtube",
-                        "vid": "FDBqMES--TY",
-                        "t": null,
-                        "start": null,
-                        "end": null
-                      },
-                      "url": "https://www.youtube.com/watch?v=FDBqMES--TY"
-                    },
-                    "hash": {
-                      "type": null,
-                      "title": null,
-                      "volume": null,
-                      "aspectRatio": null,
-                      "crossOrigin": null,
-                      "flip": null,
-                      "audioGain": null,
-                      "playbackRate": null,
-                      "tempFragment": null,
-                      "loop": null,
-                      "muted": null,
-                      "autoPlay": null,
-                      "showControls": null
-                    }
-                  },
-                  "meta": {
-                    "values": {
-                      "media.url": [
-                        "URL"
-                      ],
-                      "hash.type": [
-                        "undefined"
-                      ],
-                      "hash.title": [
-                        "undefined"
-                      ],
-                      "hash.volume": [
-                        "undefined"
-                      ],
-                      "hash.aspectRatio": [
-                        "undefined"
-                      ],
-                      "hash.crossOrigin": [
-                        "undefined"
-                      ],
-                      "hash.flip": [
-                        "undefined"
-                      ],
-                      "hash.audioGain": [
-                        "undefined"
-                      ],
-                      "hash.playbackRate": [
-                        "undefined"
-                      ],
-                      "hash.tempFragment": [
-                        "undefined"
-                      ],
-                      "hash.loop": [
-                        "undefined"
-                      ],
-                      "hash.muted": [
-                        "undefined"
-                      ],
-                      "hash.autoPlay": [
-                        "undefined"
-                      ],
-                      "hash.showControls": [
-                        "undefined"
-                      ]
-                    }
-                  }
-                }
-              },
-              "icon": "youtube",
-              "title": "CMU 15213/15513 CSAPP 深入理解计算机系统 Lecture 11 The Memory Hierarchy 中英字幕"
-            }
-          }
-        ]
-      },
-      {
         "id": "ea152bf76497a39b",
         "type": "tabs",
         "children": [
@@ -171,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 284.5,
-    "collapsed": true
+    "width": 284.5
   },
   "right": {
     "id": "658074b3dc69e704",
@@ -268,6 +174,7 @@
   },
   "active": "0ed00e5f0ccb2163",
   "lastOpenFiles": [
+    "CSAPP/CSAPP_2016.pdf",
     "CSAPP/Chapter 6/Chapter 6.1 저장장치 기술.md",
     "CSAPP/Chapter 6/Images/Pasted image 20251002172417.png",
     "CSAPP/Chapter 6/Images/Pasted image 20251002172311.png",
@@ -311,7 +218,6 @@
     "코딩테스트 개념/Images/Pasted image 20250923121813.png",
     "코딩테스트 개념/Images",
     "Website/Images/virtual_memory-1024.webp",
-    "CSAPP/CSAPP_2016.pdf",
     "CSAPP/Chapter 3/Images/Pasted image 20250922144408.png"
   ]
 }
