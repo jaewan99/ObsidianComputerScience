@@ -8,93 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "93aa99571f306574",
-            "type": "leaf",
-            "state": {
-              "type": "mx-url",
-              "state": {
-                "mx": {
-                  "json": {
-                    "media": {
-                      "type": "url:hosted",
-                      "vid": {
-                        "host": "youtube",
-                        "vid": "FDBqMES--TY",
-                        "t": null,
-                        "start": null,
-                        "end": null
-                      },
-                      "url": "https://www.youtube.com/watch?v=FDBqMES--TY"
-                    },
-                    "hash": {
-                      "type": null,
-                      "title": null,
-                      "volume": null,
-                      "aspectRatio": null,
-                      "crossOrigin": null,
-                      "flip": null,
-                      "audioGain": null,
-                      "playbackRate": null,
-                      "tempFragment": {
-                        "start": 1926.08,
-                        "end": -1
-                      },
-                      "loop": null,
-                      "muted": null,
-                      "autoPlay": null,
-                      "showControls": null
-                    }
-                  },
-                  "meta": {
-                    "values": {
-                      "media.url": [
-                        "URL"
-                      ],
-                      "hash.type": [
-                        "undefined"
-                      ],
-                      "hash.title": [
-                        "undefined"
-                      ],
-                      "hash.volume": [
-                        "undefined"
-                      ],
-                      "hash.aspectRatio": [
-                        "undefined"
-                      ],
-                      "hash.crossOrigin": [
-                        "undefined"
-                      ],
-                      "hash.flip": [
-                        "undefined"
-                      ],
-                      "hash.audioGain": [
-                        "undefined"
-                      ],
-                      "hash.playbackRate": [
-                        "undefined"
-                      ],
-                      "hash.loop": [
-                        "undefined"
-                      ],
-                      "hash.muted": [
-                        "undefined"
-                      ],
-                      "hash.autoPlay": [
-                        "undefined"
-                      ],
-                      "hash.showControls": [
-                        "undefined"
-                      ]
-                    }
-                  }
-                }
-              },
-              "icon": "youtube",
-              "title": "CMU 15213/15513 CSAPP 深入理解计算机系统 Lecture 11 The Memory Hierarchy 中英字幕"
-            }
-          },
-          {
             "id": "0ed00e5f0ccb2163",
             "type": "leaf",
             "state": {
@@ -108,8 +21,7 @@
               "title": "Chapter 3.4 정보 접근하기"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -262,12 +174,12 @@
   },
   "active": "0ed00e5f0ccb2163",
   "lastOpenFiles": [
+    "CSAPP/Chapter 3/Chapter 3.4 정보 접근하기.md",
     "CSAPP/Chapter 3/Chapter 3.9 이기종 (Heterogeneous) 자료구조.md",
     "CSAPP/Chapter 3/Chapter 3.8 배열의 할당과 접근.md",
     "CSAPP/Chapter 3/Chapter 3.7 프로시저.md",
     "CSAPP/Chapter 3/Chapter 3.6 제어문.md",
     "CSAPP/Chapter 3/Chapter 3.5 산술연산과 논리연산.md",
-    "CSAPP/Chapter 3/Chapter 3.4 정보 접근하기.md",
     "CSAPP/Chapter 3/Chapter 3.3 데이터의 형식.md",
     "CSAPP/Chapter 6/Chapter 6.1 저장장치 기술.md",
     "CSAPP/CSAPP_2016.pdf",
