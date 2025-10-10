@@ -108,8 +108,7 @@
               "title": "CMU 15213/15513 CSAPP 深入理解计算机系统 Lecture 11 The Memory Hierarchy 中英字幕"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -261,7 +260,7 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "d035579f6cca19bf",
+  "active": "0ed00e5f0ccb2163",
   "lastOpenFiles": [
     "CSAPP/Chapter 6/Chapter 6.1 저장장치 기술.md",
     "CSAPP/Chapter 6/Chapter 6.2 지역성.md",
