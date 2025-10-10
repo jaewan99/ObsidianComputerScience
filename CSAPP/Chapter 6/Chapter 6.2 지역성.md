@@ -16,3 +16,15 @@ book
 At the hardware level, the principle of locality allows computer designers to speed upmainmemoryaccesses by introducing small fast memories known as cache memories that hold blocks of the most recently referenced instructions and data items. At the operating system level, the principle of locality allows the system tousethemainmemoryasacache of the most recently referenced chunks of the virtual address space. Similarly, the operatingsystemusesmainmemorytocachethemostrecentlyuseddiskblocksin the disk file system
 
 ### 6.2.1 Locality of References to Program Data
+
+Sincethefunctionhaseithergoodspatialortemporal localitywithrespecttoeachvariableintheloopbody,wecanconcludethatthe sumvecfunctionenjoysgoodlocality
+
+Stride-1referencepatternsareacommonandimportantsource ofspatiallocalityinprograms.Ingeneral,asthestrideincreases,thespatiallocality decreases.
+
+
+### 6.2.2 Locality of Instruction Fetches
+
+Sinceprograminstructionsarestoredinmemoryandmustbefetched(read) bytheCPU,wecanalsoevaluatethelocalityofaprogramwithrespect toits instructionfetches.
+- . Instruction references
+. Reference instructions in sequence. - Spatial locality
+. Cycle through loop repeatedly. - temporal locality
