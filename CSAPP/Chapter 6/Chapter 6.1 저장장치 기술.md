@@ -63,7 +63,7 @@ video
 
 
 - [44:16](https://www.youtube.com/watch?v=FDBqMES--TY#t=44:16.77) 
-- Locality - stop here 6.2
-
+- Locality 
+	- the programs tend to use data and instructions whose addresses are near or equal to those that they have used recently
 
 book
