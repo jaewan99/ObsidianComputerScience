@@ -59,3 +59,6 @@ video
 		- So now they subdivided a CPU chip into individual processors cores
 		- by running in parallel, you can more effective - the effective CPU cycle time go down
 	- The only way to really get more performance, is to increase the number of independent cores
+
+
+### 6.1.2 Disk Storage
