@@ -77,3 +77,14 @@ video
 	- Because of locality, programs tend to access the data at level k more often than they access the data at level k+1.
 	- Thus, the storage at level k+1 can be slower, and thus larger and cheaper per bit.
 - Big Idea: The memory hierarchy creates a large pool storage that costs as much as the cheap storage near bottom, but that serves data to programs at the rate of fast storage near the top.
+
+- General Caching Concepts: Types of Cache Misses
+	- Cold (compulsory) miss
+		- Cold misses occur because the cache is empty.
+	- Conflict miss
+		- Most caches limit blocks at level k+1 to a small subset (sometimes a singleton) of the block positions at level k.
+			- E.g. Block i at level k+1 must be placed in block (i mod 4) at level k.
+		- Conflict misses occur when the level k cache is large enough, but multiple data objects all map to the same level k block.
+			- E.g. Referencing blocks 0, 8, 0, 8, 0, 8, ... would miss every time.
+	- Capacity miss
+		- Occurs when the set of active cache blocks (working set) is larger than the cache.
