@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "코딩테스트 VS Code setting.md",
+                "file": "JAVA/Spring/Spring.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "코딩테스트 VS Code setting"
+              "title": "Spring"
             }
           }
         ],
@@ -189,6 +189,10 @@
   },
   "active": "75571d34605fd272",
   "lastOpenFiles": [
+    "JAVA/Spring",
+    "코딩테스트 VS Code setting.md",
+    "JAVA/Spring/Spring.md",
+    "JAVA",
     "CSAPP/Chapter 3/Chapter 3.4 정보 접근하기.md",
     "CSAPP/Chapter 3/Chapter 3.9 이기종 (Heterogeneous) 자료구조.md",
     "CSAPP/Chapter 3/Chapter 3.8 배열의 할당과 접근.md",
@@ -217,7 +221,6 @@
     "CSAPP/Untitled.md",
     "CSAPP/필요한 링크들.md",
     "코딩테스트 문제/dp/백준 11049.md",
-    "코딩테스트 VS Code setting.md",
     "코딩테스트 문제/dp",
     "코딩테스트 문제",
     "코딩테스트 개념/동적 프로그래밍.md",
@@ -227,12 +230,9 @@
     "코딩테스트 개념/위상 정렬 (topology sort).md",
     "코딩테스트 개념/연결 리스트 (linked list).md",
     "코딩테스트 개념/스택 (stack).md",
-    "코딩테스트 개념/분할정복 (divide and conquer).md",
-    "코딩테스트 개념/이분탐색 (binary search).md",
     "C Lang/Mistakes that I have made",
     "코딩테스트 개념/Images/Pasted image 20250923121842.png",
     "코딩테스트 개념/Images/Pasted image 20250923121813.png",
-    "코딩테스트 개념/Images",
     "Website/Images/virtual_memory-1024.webp",
     "CSAPP/Chapter 3/Images/Pasted image 20250922144408.png"
   ]

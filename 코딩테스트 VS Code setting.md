@@ -1,4 +1,4 @@
-
+ 
 1.
 ctrl + shift + p를 눌러서 설정
 "preferences: open user settings (JSON)" 안에서
