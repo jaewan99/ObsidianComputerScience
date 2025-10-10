@@ -10,3 +10,9 @@ https://www.youtube.com/watch?v=FDBqMES--TY&list=PL22J-I2Pi-Gf0s1CGDVtt4vuvlyjLx
 - Good locality = Good performance
 
 book
+
+### 6.2 Locality
+
+At the hardware level, the principle of locality allows computer designers to speed upmainmemoryaccesses by introducing small fast memories known as cache memories that hold blocks of the most recently referenced instructions and data items. At the operating system level, the principle of locality allows the system tousethemainmemoryasacache of the most recently referenced chunks of the virtual address space. Similarly, the operatingsystemusesmainmemorytocachethemostrecentlyuseddiskblocksin the disk file system
+
+### 6.2.1 Locality of References to Program Data
