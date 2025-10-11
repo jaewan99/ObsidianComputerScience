@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSAPP/Chapter 6/Chapter 6.1 저장장치 기술.md",
+                "file": "Website/가상메모리(Virtual Memory).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 6.1 저장장치 기술"
+              "title": "가상메모리(Virtual Memory)"
             }
           }
         ]
@@ -174,13 +174,14 @@
   },
   "active": "0ed00e5f0ccb2163",
   "lastOpenFiles": [
+    "CSAPP.md",
+    "CSAPP/Chapter 6/Chapter 6.3 메모리 계층구조.md",
+    "CSAPP/Chapter 6/Chapter 6.4.md",
     "CSAPP/Chapter 6/Chapter 6.1 저장장치 기술.md",
     "CSAPP/Chapter 6/Chapter 6.2 지역성.md",
-    "CSAPP/Chapter 6/Chapter 6.3 메모리 계층구조.md",
     "CSAPP/Chapter 3/Chapter 3.4 정보 접근하기.md",
     "CSAPP/Chapter 3/Chapter 3.8 배열의 할당과 접근.md",
     "CSAPP/CSAPP_2016.pdf",
-    "CSAPP/Chapter 6/Untitled.md",
     "JAVA/Spring/Spring.md",
     "JAVA/Spring",
     "코딩테스트 VS Code setting.md",
@@ -199,7 +200,6 @@
     "CSAPP/Chapter 6/Images",
     "CSAPP/Chapter 5/Optimizations.md",
     "CSAPP/Chapter 6",
-    "CSAPP.md",
     "C Lang/Learn C Tutorial/K&R - Video outline.md",
     "2025-09-30.md",
     "C Lang/Learn C Tutorial/Learn C Outline.md",
