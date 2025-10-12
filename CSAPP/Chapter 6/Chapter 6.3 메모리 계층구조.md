@@ -35,3 +35,9 @@ In general, the storage devices get slower, cheaper, and larger as we move from 
 
 ### 6.3.1. Caching in Memory Hierarchy
 
+- Cache Hit
+	- Ifd happens to be cached at level k, then we have what is called a cache hit.
+- Cache Misses
+	- If, on the other hand, the data object d is not cached at level k, then we have what is called a cache miss.
+- Kinds of Cache Misses
+	- 
