@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Website/가상메모리(Virtual Memory).md",
+                "file": "CSAPP/Chapter 6/Chapter 6.4.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "가상메모리(Virtual Memory)"
+              "title": "Chapter 6.4"
             }
           }
         ]
@@ -174,9 +174,10 @@
   },
   "active": "0ed00e5f0ccb2163",
   "lastOpenFiles": [
+    "CSAPP/Chapter 6/Chapter 6.4.md",
+    "Website/가상메모리(Virtual Memory).md",
     "CSAPP.md",
     "CSAPP/Chapter 6/Chapter 6.3 메모리 계층구조.md",
-    "CSAPP/Chapter 6/Chapter 6.4.md",
     "CSAPP/Chapter 6/Chapter 6.1 저장장치 기술.md",
     "CSAPP/Chapter 6/Chapter 6.2 지역성.md",
     "CSAPP/Chapter 3/Chapter 3.4 정보 접근하기.md",
