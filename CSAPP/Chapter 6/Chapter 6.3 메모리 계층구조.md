@@ -22,3 +22,16 @@ https://www.youtube.com/watch?v=FDBqMES--TY&list=PL22J-I2Pi-Gf0s1CGDVtt4vuvlyjLx
 			- E.g. Referencing blocks 0, 8, 0, 8, 0, 8, ... would miss every time.
 	- Capacity miss
 		- Occurs when the set of active cache blocks (working set) is larger than the cache.
+
+Book
+
+### 6.3 Memory Hierarchy
+
+In general, the storage devices get slower, cheaper, and larger as we move from higher to lower levels. 
+- At the highest level (L0) are a small number of fast CPU registers that the CPU can access in a single clock cycle. 
+- Next are one or more small to moderate-size SRAM-based cache memories that can be accessed in a few CPU clock cycles. 
+- These are followed by a large DRAM-based main memory that can be accessed in tens to hundreds of clock cycles. Next are slow but enormous local disks. 
+- Finally, some systems even include an additional level of disks on remote servers that can be accessed over a network.
+
+### 6.3.1. Caching in Memory Hierarchy
+
