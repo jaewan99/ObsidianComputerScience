@@ -34,10 +34,8 @@ In general, the storage devices get slower, cheaper, and larger as we move from 
 - Finally, some systems even include an additional level of disks on remote servers that can be accessed over a network.
 
 ### 6.3.1. Caching in Memory Hierarchy
+- **Cache Hit**
+    - If _d_ happens to be cached at level _k_, then we have what is called a **cache hit**.
+- **Cache Miss**
+    - If, on the other hand, the data object _d_ is not cached at level _k_, then we have what is called a **cache miss**.
 
-- Cache Hit
-	- Ifd happens to be cached at level k, then we have what is called a cache hit.
-- Cache Misses
-	- If, on the other hand, the data object d is not cached at level k, then we have what is called a cache miss.
-- Kinds of Cache Misses
-	- 
