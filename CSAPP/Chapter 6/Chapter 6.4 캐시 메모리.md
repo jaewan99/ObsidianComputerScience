@@ -46,4 +46,20 @@ Example: Direct Mapped Cache (E = 1)
 
 - [35:32](https://www.youtube.com/watch?v=AauOs6vq9yI#t=35:32.26) 
 - What about writes?
-- Multiple copies of the daya
+- Multiple copies of data exist:
+	- L1, L2, L3, Main Memory, Disk
+- What to do on a write-hit?
+	- Write-through (write immediately to memory)
+	- Write-back (defer write to memory until replacement of line)
+		- Need a dirty bit (line different from memory or not)
+- What to do on a write-miss?
+	- Write-allocate (load into cache, update line in cache)
+		- Good if more writes to the location follow
+	- No-write-allocate (writes straight to memory, does not load into cache)
+- Typical
+	- Write-through + No-write-allocate
+	- ***Write-back + Write-allocate**
+
+
+- [39:29](https://www.youtube.com/watch?v=AauOs6vq9yI#t=39:29.54) 
+- 
