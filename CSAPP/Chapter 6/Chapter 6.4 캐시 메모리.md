@@ -114,3 +114,5 @@ Example: Direct Mapped Cache (E = 1)
 
 - [1:15:43](https://www.youtube.com/watch?v=AauOs6vq9yI#t=1:15:43.46) 
 - Temporal - cache miss analysis 
+- ![[Pasted image 20251017134401.png]]
+
