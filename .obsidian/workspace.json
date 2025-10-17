@@ -266,8 +266,11 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "dccb49d3d12f9f95",
+  "active": "0ed00e5f0ccb2163",
   "lastOpenFiles": [
+    "CSAPP/Chapter 7/Images/Pasted image 20251017163101.png",
+    "CSAPP/Chapter 7/Images/Pasted image 20251017163009.png",
+    "CSAPP/Chapter 7/Images",
     "CSAPP/Chapter 7/7.1 링커.md",
     "CSAPP/Chapter 6/Chapter 6.1 저장장치 기술.md",
     "CSAPP/Chapter 6/Chapter 6.4 캐시 메모리.md",
@@ -281,7 +284,6 @@
     "CSAPP/Chapter 6/Images/Pasted image 20251017111346.png",
     "CSAPP/Chapter 6/Images/Pasted image 20251017111120.png",
     "CSAPP/Chapter 6/Images/Pasted image 20251017103924.png",
-    "CSAPP/Chapter 6/Images/Pasted image 20251017103807.png",
     "CSAPP/Chapter 6/Chapter 6.3 메모리 계층구조.md",
     "CSAPP/Chapter 6/Chapter 6.2 지역성.md",
     "코딩테스트 개념/스택 (stack).md",
@@ -309,10 +311,8 @@
     "CSAPP/Chapter 5/Optimizations.md",
     "CSAPP/Chapter 6",
     "C Lang/Learn C Tutorial/K&R - Video outline.md",
-    "2025-09-30.md",
     "CSAPP/Chapter 5",
     "코딩테스트 문제/dp",
-    "코딩테스트 문제",
-    "CSAPP/Chapter 4"
+    "코딩테스트 문제"
   ]
 }
