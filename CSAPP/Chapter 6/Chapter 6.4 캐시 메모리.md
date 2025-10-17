@@ -23,4 +23,5 @@ Example: Direct Mapped Cache (E = 1)
 - ![[Pasted image 20251017103807.png]]
 - ![[Pasted image 20251017103924.png]]
 - if the valid bit was false and the tag match then that would also be a miss
-- 
+
+- Direct -Mapped Cache Simulation
