@@ -276,7 +276,7 @@ https://www.youtube.com/watch?v=mO9l0n3BmLw&list=PL22J-I2Pi-Gf0s1CGDVtt4vuvlyjLx
             -   `-L.` - 현재 디렉토리에서 먼저 라이브러리 파일을 찾으세요.
             -   오브젝트 모듈 libtest - 'lmine.a'에 정의된 함수를 호출합니다.
             -   `-lmine` == lmine.a
-            -   `libtest.o: In function 'main':` (오류 발생)
+            -   `libtest.o: In function 'main':`
         -   `unix> gcc -L. -lmine libtest.o`
             -   `-lmine`은 잘 동작합니다.
             -   `libtest.o` - 'libfun'에 대한 해결되지 않은 참조 (이는 '-lmine'에서 얻을 수 있습니다)
