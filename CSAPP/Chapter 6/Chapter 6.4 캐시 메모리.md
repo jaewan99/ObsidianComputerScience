@@ -8,6 +8,19 @@ Cache Memories
 
 
 - [07:45](https://www.youtube.com/watch?v=AauOs6vq9yI#t=07:45.38) 
-- The address of the word is 64 bits in case of x86-64 bits
-- s bits is unsigned
-- all remaining bits constitutes t bits
+- Cache Read
+	- The address of the word is 64 bits in case of x86-64 bits
+	- s bits is unsigned
+	- all remaining bits constitutes to t bits
+	- ![[Pasted image 20251017103448.png]]
+
+
+
+- [11:51](https://www.youtube.com/watch?v=AauOs6vq9yI#t=11:51.48) 
+Example: Direct Mapped Cache (E = 1)
+- Direct mapped: One line per set 
+- Assume: cache block size 8 bytes
+- ![[Pasted image 20251017103807.png]]
+- ![[Pasted image 20251017103924.png]]
+- if the valid bit was false and the tag match then that would also be a miss
+- 
