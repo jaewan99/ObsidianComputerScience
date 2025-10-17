@@ -24,4 +24,15 @@ Example: Direct Mapped Cache (E = 1)
 - ![[Pasted image 20251017103924.png]]
 - if the valid bit was false and the tag match then that would also be a miss
 
+
+
+- [19:44](https://www.youtube.com/watch?v=AauOs6vq9yI#t=19:44.98) 
 - Direct -Mapped Cache Simulation
+
+
+- [20:57](https://www.youtube.com/watch?v=AauOs6vq9yI#t=20:57.12) 
+- E- way Set Associative Cache (Here: E =2)
+- E = 2: Two lines per set
+- Assume: cache block size 8 bytes
+- Question: what determines the block size
+	- It's determined by the design of the memory system
