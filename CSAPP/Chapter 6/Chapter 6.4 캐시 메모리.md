@@ -109,3 +109,8 @@ Example: Direct Mapped Cache (E = 1)
 	- Number of bytes read from memory per second (MB/s)
 - Memory mountain: Measured read throughput as a function of spatial and temporal locality.
 	- Compact way to characterize memory system performance.
+
+
+
+- [1:15:43](https://www.youtube.com/watch?v=AauOs6vq9yI#t=1:15:43.46) 
+- Temporal - cache miss analysis 
