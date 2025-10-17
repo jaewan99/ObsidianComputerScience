@@ -98,4 +98,14 @@ Example: Direct Mapped Cache (E = 1)
 	- Minimize the misses in the inner loops
 		- Repeated references to variables are good (temporal locality) - using local variables are better - since we can put it on the register
 		- Stride-1 reference patterns are good (spatial locality)
+			- because of the existence of the block
+			- Stride-1 ref will have half the miss rate as a stride-2 ref
+- key idea: Our qualitative notion of locality is quantified through our understanding of cache memories
 
+
+- [50:44](https://www.youtube.com/watch?v=AauOs6vq9yI#t=50:44.65) 
+- The Memory Mountain
+- Read throughput (read bandwidth)
+	- Number of bytes read from memory per second (MB/s)
+- Memory mountain: Measured read throughput as a function of spatial and temporal locality.
+	- Compact way to characterize memory system performance.
