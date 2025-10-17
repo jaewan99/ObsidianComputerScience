@@ -107,29 +107,19 @@
               "icon": "youtube",
               "title": "CMU 15213/15513 CSAPP 深入理解计算机系统 Lecture 13  Linking 中英字幕"
             }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "75e2d767c72e0db2",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "c493feaea16bf270",
+            "id": "c34c60bf7f515a51",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSAPP/Chapter 7/deepseek_markdown_20251017_b4dff5.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "deepseek_markdown_20251017_b4dff5"
+              "title": "New tab"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -281,10 +271,10 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "d84c767503af2189",
+  "active": "c34c60bf7f515a51",
   "lastOpenFiles": [
-    "CSAPP/Chapter 7/deepseek_markdown_20251017_b4dff5.md",
     "CSAPP/Chapter 7/7.1 링커.md",
+    "CSAPP/Chapter 7/deepseek_markdown_20251017_b4dff5.md",
     "CSAPP/Chapter 7/7.1 링커_한글번역.md",
     "CSAPP/Chapter 7/Images/Pasted image 20251017195249.png",
     "CSAPP/Chapter 7/Images/Pasted image 20251017193446.png",
