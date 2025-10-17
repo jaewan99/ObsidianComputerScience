@@ -62,4 +62,40 @@ Example: Direct Mapped Cache (E = 1)
 
 
 - [39:29](https://www.youtube.com/watch?v=AauOs6vq9yI#t=39:29.54) 
-- 
+- ![[Pasted image 20251017113252.png]]
+- L2 unified cache - contains the L1 d and instruction cache
+
+- Cache Performance Metrics
+	- Miss Rate
+		- Fraction of memory references not found in cache (misses / accesses)
+			- = 1 - hit rate
+		- Typical numbers (in percentages):
+			- 3-10% for L1
+			- can be quite small (e.g., < 1%) for L2, depending on size, etc.
+	- Hit Time - (This is the best time that we can do)
+		- Time to deliver a line in the cache to the processor
+			- includes time to determine whether the line is in the cache
+		- Typical numbers:
+			- 4 clock cycle for L1
+			- 10 clock cycles for L2
+	- Miss Penalty
+		- Additional time required because of a miss
+			- typically 50-200 cycles for main memory (Trend: increasing!)
+
+- Let's think about those numbers
+	- Huge difference between a hit and a miss
+		- Could be 100x, if just L1 and main memory
+	- Would you believe 99% hits is twice as good as 97%?
+		- Consider:
+			- cache hit time of 1 cycle
+			- miss penalty of 100 cycles
+		- 97% hits: 1 cycle + 0.03 * 100 cycles = 4 cycles
+		- 99% hits: 1 cycle + 0.01 * 100 cycles = 2 cycles
+
+- Writing Cache Friendly Code
+	- Make the common case go fast - the most commonly called functions
+		- Focus on the inner loops of the core functions
+	- Minimize the misses in the inner loops
+		- Repeated references to variables are good (temporal locality) - using local variables are better - since we can put it on the register
+		- Stride-1 reference patterns are good (spatial locality)
+
