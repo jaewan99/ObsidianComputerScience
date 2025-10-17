@@ -35,4 +35,7 @@ Example: Direct Mapped Cache (E = 1)
 - E = 2: Two lines per set
 - Assume: cache block size 8 bytes
 - Question: what determines the block size
-	- It's determined by the design of the memory system
+	- It's determined by the design of the memory system- so that's fixed parameter of the memory system
+	- 
+- [35:27](https://www.youtube.com/watch?v=AauOs6vq9yI#t=35:27.69) 
+![[Pasted image 20251017111120.png]]
