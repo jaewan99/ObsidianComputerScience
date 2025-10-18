@@ -99,3 +99,11 @@ Fault Example: Page Fault
 - ![[Pasted image 20251018153439.png]]
 
 Fault Example: Invalid Memory Reference
+- ![[Pasted image 20251018153548.png]]
+- Sends SIGSEGV signal to user process
+- User process exits with "segmentation fault"
+
+
+- [18:24](https://www.youtube.com/watch?v=79yH0NeoEv4#t=18:24.94) 
+Processes
+- A program can exists in many different places, in can exist as text in C file, .text section of binary, bytes that have been loaded into memory. While a process is an instance of a program that's runnin
