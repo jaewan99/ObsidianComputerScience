@@ -269,3 +269,23 @@ Reaping Child Processes
 			- See textbook for details
 - ![[Pasted image 20251018170238.png]]
 
+
+- [1:00:22](https://www.youtube.com/watch?v=79yH0NeoEv4#t=1:00:22.25) 
+- To run a different program inside of a process we use function called execve
+- int execve (char *filename, char *argv[], char *envp[])
+- Loads and runs in the current process:
+	- Executable file filename
+		- Can be object file or script file beginning with # ! interpreter (e.g., #!/bin/bash)
+	- ... with argument list argv
+		- By convention argv [0] == filename
+	- ... and environment variable list envp
+		- "name=value" strings (e.g., USER=droh)
+		- getenv, putenv, printenv
+	- Overwrites code, data, and stack
+		- Retains PID, open files and signal context
+	- Called once and never returns
+		- ...except if there is an error
+
+- [1:03:27](https://www.youtube.com/watch?v=79yH0NeoEv4#t=1:03:27.69) 
+- After execve finishes its work, it creates new stack, new code and data, new empty heap, everything is new. 
+- argv[0] - when you run a program you specify the program name. And then arguments seperated by spaces
