@@ -221,4 +221,15 @@ Creating Processes
 - Fork example
 - ![[Pasted image 20251018163444.png]] 
 
-- 
+- Modeling fork with Process Graphs
+	- A process graph is a useful tool for capturing the partial ordering of statements in a concurrent program:
+		- Each vertex is the execution of a statement
+		- a -> b means a happens before b
+		- Edges can be labeled with current value of variables
+		- printf vertices can be labeled with output
+		- Each graph begins with a vertex with no inedges
+	- Any topological sort of the graph corresponds to a feasible total ordering.
+		- Total ordering of vertices where all edges point from left to right
+		- The logical flow represented this child have to occur in order, first 'e' and 'f'
+		- ![[Pasted image 20251018164529.png]]
+	- 
