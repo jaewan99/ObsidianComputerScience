@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSAPP/Chapter 8/Chapter 8.md",
+                "file": "CSAPP/Chapter 8/deepseek_markdown_20251018_0f4d52.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 8"
+              "title": "deepseek_markdown_20251018_0f4d52"
             }
           }
         ],
@@ -187,10 +187,11 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "68b0d1609d38ad5d",
+  "active": "857e29066a8d31b7",
   "lastOpenFiles": [
-    "CSAPP/Chapter 8/Images/Pasted image 20251018172306.png",
     "CSAPP/Chapter 8/Chapter 8.md",
+    "CSAPP/Chapter 8/deepseek_markdown_20251018_0f4d52.md",
+    "CSAPP/Chapter 8/Images/Pasted image 20251018172306.png",
     "CSAPP/Chapter 8/Images/Pasted image 20251018170238.png",
     "CSAPP/Chapter 8/Images/Pasted image 20251018165958.png",
     "CSAPP/Chapter 8/Images/Pasted image 20251018165817.png",
@@ -200,7 +201,6 @@
     "CSAPP/Chapter 8/Images/Pasted image 20251018164709.png",
     "CSAPP/Chapter 8/Images/Pasted image 20251018164529.png",
     "CSAPP/Chapter 8/Images/Pasted image 20251018163444.png",
-    "CSAPP/Chapter 8/Images/Pasted image 20251018162533.png",
     "CSAPP/Chapter 7/7.1 링커.md",
     "Pasted image 20251018151050.png.md",
     "CSAPP/Chapter 8/Images",
