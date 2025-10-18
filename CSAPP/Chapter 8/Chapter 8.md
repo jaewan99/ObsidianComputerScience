@@ -63,6 +63,39 @@ Asynchronous Exceptions (Interrupts)
 		- Arrival of a packet from a network
 		- Arrival of data from a disk
 
-- OS kernel provides all kinds of services to a program but your program doesn't have direct access. Your program can't call functions in the kernel, can't access data directly in the kernel, because that memory is protected and unavailable to user programs. 
-- So what the kernel does is they provide a interface that allows programs to make request to effectively, call functions within the kernel and to make requests to various services. And this interface is called system call.
-	- System call - looks like a function call but it's really transferring control into the kernel.
+Synchronous Exceptions
+- Caused by events that occur as a result of executing an instruction:
+- Traps
+	- Intentional
+	- Examples: system calls, breakpoint traps, special instructions
+	- Returns control to "next" instruction
+	- OS kernel provides all kinds of services to a program but your program doesn't have direct access. Your program can't call functions in the kernel, can't access data directly in the kernel, because that memory is protected and unavailable to user programs. 
+	- So what the kernel does is they provide a interface that allows programs to make request to effectively, call functions within the kernel and to make requests to various services. And this interface is called system call.
+		- System call - looks like a function call but it's really transferring control into the kernel.
+- Faults
+	- Unintentional but possibly recoverable
+	- Examples: page faults (recoverable), protection faults (unrecoverable), floating point exceptions
+		- protection faults - accessing the portion of memory that's not allocated
+	- Either re-executes faulting ("current") instruction or aborts
+- Aborts
+	- Unintentional and unrecoverable
+	- Examples: illegal instruction, parity error, machine check
+		- when the memory is corruptedm or when there are problems in machine
+	- Aborts current program
+
+
+- [13:33](https://www.youtube.com/watch?v=79yH0NeoEv4#t=13:33.06) 
+![[Pasted image 20251018152903.png]]
+
+System Call Example: Opening File
+- User calls: open(filename, options)
+- Calls __open function, which invokes system call instruction syscall
+- ![[Pasted image 20251018153245.png]]
+
+Fault Example: Page Fault
+- User writes to memory location
+- That portion (page) of user's memory is currently on disk
+- it needs to be loaded from disk into memory
+- ![[Pasted image 20251018153439.png]]
+
+Fault Example: Invalid Memory Reference
