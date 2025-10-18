@@ -288,4 +288,21 @@ Reaping Child Processes
 
 - [1:03:27](https://www.youtube.com/watch?v=79yH0NeoEv4#t=1:03:27.69) 
 - After execve finishes its work, it creates new stack, new code and data, new empty heap, everything is new. 
-- argv[0] - when you run a program you specify the program name. And then arguments seperated by spaces
+- argv - when you run a program you specify the program name. And then arguments separated by spaces
+	- list of pointers to arg strings above
+- envp - environment variable strings is a set of key equal value pairs.
+
+
+- [1:06:23](https://www.youtube.com/watch?v=79yH0NeoEv4#t=1:06:23.38) 
+- Executes "/bin/ls -lt /usr/include" in child process using current environment:
+- ls - list the files in /usr/include
+- -lt - show the long form of the listing and sort them in time order. From most recent
+- ![[Pasted image 20251018172306.png]]
+- Summary
+	- Exceptions
+		- Events that require nonstandard control flow
+		- Generated externally (interrupts) or internally (traps and faults)
+	- Processes
+		- At any given time, system has multiple active processes
+		- Only one can execute at a time on a single core, though
+		- Each process appears to have total control of processor + private memory space
