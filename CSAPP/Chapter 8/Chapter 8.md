@@ -19,4 +19,30 @@ Altering the Control Flow
 		- User hits Ctrl-C at the keyboard
 		- System timer expires
 	- "Exceptional Control Flow"
-- 
+Exceptional Control Flow
+- Exists at all levels of a computer system
+- Low level mechanisms
+	- 1. Exceptions
+		- Change in control flow in response to a system event (i.e., change in system state)
+		- Implemented using combination of hardware and OS software
+- High level mechanisms
+	- 2. Process context switch
+		- Implemented by OS software and hardware timer
+	- 3.Signals
+		- Implemented by OS software
+	- 4.Nonlocal jumps: setjmp () and longjmp ()
+		- Implemented by C runtime library
+
+Exceptions
+-  An exception is a transfer of control to the OS kernel in response to some event (i.e., change in processor state)
+	- Kernel is the memory-resident part of the OS
+		- like to list files, to change directories and list current progresses.
+	- Examples of events: Divide by 0, arithmetic overflow, page fault, I/O request completes, typing Ctrl-C
+	- ![[Pasted image 20251018151115.png]]
+
+
+- [07:00](https://www.youtube.com/watch?v=79yH0NeoEv4#t=07:00.08) 
+Exception Control
+- The actual transfer of control like in change in the program counter or %rip is done by the hardware. 
+- But the code that executes as a result of that exception is set up and determined by the OS kernel
+- So every type of event 
