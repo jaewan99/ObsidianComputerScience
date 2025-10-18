@@ -191,4 +191,34 @@ Creating and Terminating Processes
 - From a programmer's perspective, we can think of a process as being in one of three states
 - Running
 	- Process is either executing, or waiting to be executed and will eventually be scheduled (i.e., chosen to execute) by the kernel
+- Stopped
+	- Process execution is suspended and will not be scheduled until further notice (next lecture when we study signals)
+- Terminated
+	- Process is stopped permanently
+
+Terminating Processes
+- Process becomes terminated for one of three reasons:
+	- Receiving a signal whose default action is to terminate (next lecture)
+	- Returning from the main routine
+	- Calling the exit function
+- void exit (int status)
+	- Terminates with an exit status of status
+	- Convention: normal return status is 0, nonzero on error
+	- Another way to explicitly set the exit status is to return an integer value from the main routine
+- exit is called once but never returns.
+
+Creating Processes
+- Parent process creates a new running child process by calling fork
+- int fork (void)
+	- Returns 0 to the child process, child's PID to parent process
+	- Child is almost identical to parent:
+		- Child get an identical (but separate) copy of the parent's virtual address space.
+			- All the global var, stack and code are exactly the same as the parents.
+		- Child gets identical copies of the parent's open file descriptors
+			- like stdio
+		- Child has a different PID than the parent
+- fork is interesting (and often confusing) because it is called once but returns twice
+- Fork example
+- ![[Pasted image 20251018163444.png]] 
+
 - 
