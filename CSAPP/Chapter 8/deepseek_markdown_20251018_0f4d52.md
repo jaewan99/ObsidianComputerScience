@@ -32,7 +32,7 @@ https://www.youtube.com/watch?v=79yH0NeoEv4&list=PL22J-I2Pi-Gf0s1CGDVtt4vuvlyjLx
         - OS 소프트웨어와 하드웨어 타이머에 의해 구현됨
     - 3. 시그널(Signals)
         - OS 소프트웨어에 의해 구현됨
-    - 4. 비지역性 점프(Nonlocal jumps): setjmp() 및 longjmp()
+    - 4. 비지역 점프(Nonlocal jumps): setjmp() 및 longjmp()
         - C 런타임 라이브러리에 의해 구현됨
 
 예외
