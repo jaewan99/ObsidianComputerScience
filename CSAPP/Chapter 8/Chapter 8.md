@@ -306,3 +306,14 @@ Reaping Child Processes
 		- At any given time, system has multiple active processes
 		- Only one can execute at a time on a single core, though
 		- Each process appears to have total control of processor + private memory space
+	- Spawning processes
+		- Call fork
+		- One call, two returns
+	- Process Completion
+		- Call exit
+		- One call, no return
+	- Reaping and waiting for processes
+		- Call wait and waitpid
+	- Loading and running programs
+		- Call execve (or variant)
+		- One call, (normally) no return
