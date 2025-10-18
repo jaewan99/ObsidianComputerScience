@@ -42,7 +42,27 @@ Exceptions
 
 
 - [07:00](https://www.youtube.com/watch?v=79yH0NeoEv4#t=07:00.08) 
-Exception Control
+Exception Table
 - The actual transfer of control like in change in the program counter or %rip is done by the hardware. 
 - But the code that executes as a result of that exception is set up and determined by the OS kernel
-- So every type of event 
+- every type of event has a unique exception number
+	- which serves as an index into a jump table called an exception table
+	- when event k happens, the hardware uses k as an index into this exception table. Gets the address of the exception handler for that exception
+
+- [07:50](https://www.youtube.com/watch?v=79yH0NeoEv4#t=07:50.06) 
+Asynchronous Exceptions (Interrupts)
+- Caused by events external to the processor
+	- Indicated by setting the processor's interrupt pin
+	- Handler returns to "next" instruction
+- Examples:
+	- Timer interrupt
+		- Every few ms, an external timer chip triggers an interrupt
+		- Used by the kernel to take back control from user programs
+	- I/O interrupt from external device
+		- Hitting Ctrl-C at the keyboard
+		- Arrival of a packet from a network
+		- Arrival of data from a disk
+
+- OS kernel provides all kinds of services to a program but your program doesn't have direct access. Your program can't call functions in the kernel, can't access data directly in the kernel, because that memory is protected and unavailable to user programs. 
+- So what the kernel does is they provide a interface that allows programs to make request to effectively, call functions within the kernel and to make requests to various services. And this interface is called system call.
+	- System call - looks like a function call but it's really transferring control into the kernel.
