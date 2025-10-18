@@ -39,6 +39,7 @@ Exceptions
 		- like to list files, to change directories and list current progresses.
 	- Examples of events: Divide by 0, arithmetic overflow, page fault, I/O request completes, typing Ctrl-C
 	- ![[Pasted image 20251018151115.png]]
+- Exception handler is nothing more a piece of code in the os telling what should be done when the exception happens
 
 
 - [07:00](https://www.youtube.com/watch?v=79yH0NeoEv4#t=07:00.08) 
