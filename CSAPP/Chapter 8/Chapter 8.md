@@ -85,7 +85,8 @@ Synchronous Exceptions
 
 
 - [13:33](https://www.youtube.com/watch?v=79yH0NeoEv4#t=13:33.06) 
-![[Pasted image 20251018152903.png]]
+![[Pasted image 20251018162157.png]]
+
 
 System Call Example: Opening File
 - User calls: open(filename, options)
@@ -168,4 +169,26 @@ Context Switching
 	- Important: the kernel is not a separate process, but rather runs as part of some existing process.
 - Control flow passes from one process to another via a context switch
 - Process A - Exception
-	- Transfer control to kernel
+	- Transfer control to kernel - kernel invokes its scheduler which decides whether to let A continue to run or to do context switch and run a new another process.
+		- This case, the scheduler decided to run process B
+		- Repoints the address space and registers for process B.
+		- ![[Pasted image 20251018161752.png]]
+
+
+- [28:20](https://www.youtube.com/watch?v=79yH0NeoEv4#t=28:20.22) 
+System Call Error Handling
+- On error, Linux system-level functions typically return -1 and set global variable errno to indicate cause.
+- Hard and fast rule:
+	- You must check the return status of every system-level function
+	- Only exception is the handful of functions that return void - such as exit or free
+	- ![[Pasted image 20251018161958.png]]
+	- if -1, error
+	- ![[Pasted image 20251018162353.png]]
+
+
+- [33:14](https://www.youtube.com/watch?v=79yH0NeoEv4#t=33:14.72) 
+Creating and Terminating Processes
+- From a programmer's perspective, we can think of a process as being in one of three states
+- Running
+	- Process is either executing, or waiting to be executed and will eventually be scheduled (i.e., chosen to execute) by the kernel
+- 
