@@ -130,4 +130,20 @@ Process provides each program with two key abstractions:
 	- Register values for nonexecuting processes saved in memory
 
 - ![[Pasted image 20251018155515.png]]
-- It copies the current registers 
+- It copies the current register values into memory and saves them
+
+- ![[Pasted image 20251018155646.png]]
+
+- ![[Pasted image 20251018155720.png]]
+
+- ![[Pasted image 20251018155812.png]]
+- So it switches the address space for this process - address space and register values are the context. So context switch is the change in the address space and the register values.
+
+-  Multicore processors
+	- Multiple CPUs on single chip
+	- Share main memory (and some of the caches)
+	- Each can execute a separate process
+		- Scheduling of processors done by kernel
+
+
+- [23:41](https://www.youtube.com/watch?v=79yH0NeoEv4#t=23:41.36) 
