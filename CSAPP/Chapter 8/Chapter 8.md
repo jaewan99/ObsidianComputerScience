@@ -249,4 +249,23 @@ Reaping Child Processes
 	- Parent is given exit status information
 	- Kernel then deletes zombie child process
 - What if parent doesn't reap?
-	- If any parent terminates without reaping a child, then the orphang
+	- If any parent terminates without reaping a child, then the orphanage child will be reaped by init process (pid == 1)
+	- So, only need explicit reaping in long-running processes
+		- e.g., shells and servers
+		- ![[Pasted image 20251018165817.png]]
+		- Child was zombie
+		
+		- ![[Pasted image 20251018165958.png]]
+
+- [54:22](https://www.youtube.com/watch?v=79yH0NeoEv4#t=54:22.09) 
+- wait: Synchronizing with Children
+	- Parent reaps a child by calling the wait function
+	- int wait(int *child_status)
+		- Suspends current process until one of its children terminates
+		- Return value is the pid of the child process that terminated
+		- If child_status != NULL, then the integer it points to will be set to a value that indicates reason the child terminated and the exit status:
+			- Checked using macros defined in wait.h
+			- WIFEXITED, WEXITSTATIS, WIFSIGNALED, WTERMSIG, WIFSTOPPED, WSTOPSIG, WIFCONTINUED
+			- See textbook for details
+- ![[Pasted image 20251018170238.png]]
+
