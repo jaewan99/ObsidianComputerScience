@@ -232,4 +232,21 @@ Creating Processes
 		- Total ordering of vertices where all edges point from left to right
 		- The logical flow represented this child have to occur in order, first 'e' and 'f'
 		- ![[Pasted image 20251018164529.png]]
-	- 
+		- ![[Pasted image 20251018164709.png]]
+		- ![[Pasted image 20251018165005.png]]
+		- ![[Pasted image 20251018165024.png]]
+
+
+- [48:18](https://www.youtube.com/watch?v=79yH0NeoEv4#t=48:18.50) 
+Reaping Child Processes
+- Idea
+	- When process terminates, it still consumes system resources
+		- Examples: Exit status, various OS tables
+	- Called a "zombie"
+		- Living corpse, half alive and half dead
+- Reaping
+	- Performed by parent on terminated child (using wait or waitpid)
+	- Parent is given exit status information
+	- Kernel then deletes zombie child process
+- What if parent doesn't reap?
+	- If any parent terminates without reaping a child, then the orphang
