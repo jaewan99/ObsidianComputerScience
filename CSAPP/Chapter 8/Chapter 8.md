@@ -106,4 +106,28 @@ Fault Example: Invalid Memory Reference
 
 - [18:24](https://www.youtube.com/watch?v=79yH0NeoEv4#t=18:24.94) 
 Processes
-- A program can exists in many different places, in can exist as text in C file, .text section of binary, bytes that have been loaded into memory. While a process is an instance of a program that's runnin
+- A program can exists in many different places, in can exist as text in C file, .text section of binary, bytes that have been loaded into memory. While a process is an instance of a program that's running in execution
+
+Process provides each program with two key abstractions:
+- Logical control flow
+	- Each program seems to have exclusive use of the CPU
+	- Provided by kernel mechanism called context switching
+	- it gives the illusion that that you gave exclusive access/use to CPU and registers.
+	- When you're running program in a process. you never have to worry about any other programs modifying your registers and you can't even tell that there's even other processes running on the system. 
+- Private address space
+	- Each program seems to have exclusive use of main memory.
+	- Provided by kernel mechanism called virtual memory
+	- another, illusion that we have our own address space, and this is provided by mechanism called virtual memory. So each running program has its own code, data, heap, stack.
+
+![[Pasted image 20251018155116.png]]![[Pasted image 20251018155154.png]]
+
+
+- [21:39](https://www.youtube.com/watch?v=79yH0NeoEv4#t=21:39.11) 
+- In reality, for example if we are having single core, we are actually sharing the system and OS is the one that manages the system.
+- Single processor executes multiple processes concurrently
+	- Process executions interleaved (multitasking)
+	- Address spaces managed by virtual memory system
+	- Register values for nonexecuting processes saved in memory
+
+- ![[Pasted image 20251018155515.png]]
+- It copies the current registers 
