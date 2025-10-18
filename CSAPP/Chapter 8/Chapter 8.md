@@ -147,3 +147,25 @@ Process provides each program with two key abstractions:
 
 
 - [23:41](https://www.youtube.com/watch?v=79yH0NeoEv4#t=23:41.36) 
+Concurrent Processes
+- Each process is a logical control flow.
+- Two processes run concurrently (are concurrent) if their flows overlap in time
+- Otherwise, they are sequential
+- Examples (running on single core):
+	- Concurrent: A&B, A&C
+	- ![[Pasted image 20251018161014.png]]
+
+	- User View of Concurrent Processes
+		- Control flows for concurrent processes are physically disjoint in time
+		- However, we can think of concurrent processes as running in parallel with each other
+		
+	- ![[Pasted image 20251018161046.png]]
+
+
+- [26:38](https://www.youtube.com/watch?v=79yH0NeoEv4#t=26:38.36) 
+Context Switching
+- Processes are managed by a shared chunk of memory-resident OS code called the kernel
+	- Important: the kernel is not a separate process, but rather runs as part of some existing process.
+- Control flow passes from one process to another via a context switch
+- Process A - Exception
+	- Transfer control to kernel
