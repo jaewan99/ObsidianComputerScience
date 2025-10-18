@@ -281,8 +281,10 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "65976c9e35c8b411",
+  "active": "68b0d1609d38ad5d",
   "lastOpenFiles": [
+    "CSAPP/Chapter 8/Images/Pasted image 20251018150314.png",
+    "CSAPP/Chapter 8/Images",
     "CSAPP/Chapter 8/Chapter 8.md",
     "CSAPP/Chapter 7/7.1 링커.md",
     "CSAPP/Chapter 8",
@@ -324,10 +326,8 @@
     "CSAPP/Chapter 3/Chapter 3.7 프로시저.md",
     "CSAPP/Chapter 3/Chapter 3.6 제어문.md",
     "CSAPP/Chapter 3/Chapter 3.5 산술연산과 논리연산.md",
-    "CSAPP/Chapter 3/Chapter 3.3 데이터의 형식.md",
     "CSAPP/Chapter 6/Images",
     "CSAPP/Chapter 6",
-    "CSAPP/Chapter 5",
-    "코딩테스트 문제/dp"
+    "CSAPP/Chapter 5"
   ]
 }
