@@ -20,6 +20,114 @@
               "icon": "lucide-file",
               "title": "Chapter 8"
             }
+          },
+          {
+            "id": "68b0d1609d38ad5d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSAPP/Chapter 8/Chapter 8.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Chapter 8"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "051fc5cee3555515",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "65976c9e35c8b411",
+            "type": "leaf",
+            "state": {
+              "type": "mx-url",
+              "state": {
+                "mx": {
+                  "json": {
+                    "media": {
+                      "type": "url:hosted",
+                      "vid": {
+                        "host": "youtube",
+                        "vid": "79yH0NeoEv4",
+                        "t": null,
+                        "start": null,
+                        "end": null
+                      },
+                      "url": "https://www.youtube.com/watch?v=79yH0NeoEv4"
+                    },
+                    "hash": {
+                      "type": null,
+                      "title": null,
+                      "volume": null,
+                      "aspectRatio": null,
+                      "crossOrigin": null,
+                      "flip": null,
+                      "audioGain": null,
+                      "playbackRate": null,
+                      "tempFragment": null,
+                      "loop": null,
+                      "muted": null,
+                      "autoPlay": null,
+                      "showControls": null
+                    }
+                  },
+                  "meta": {
+                    "values": {
+                      "media.url": [
+                        "URL"
+                      ],
+                      "hash.type": [
+                        "undefined"
+                      ],
+                      "hash.title": [
+                        "undefined"
+                      ],
+                      "hash.volume": [
+                        "undefined"
+                      ],
+                      "hash.aspectRatio": [
+                        "undefined"
+                      ],
+                      "hash.crossOrigin": [
+                        "undefined"
+                      ],
+                      "hash.flip": [
+                        "undefined"
+                      ],
+                      "hash.audioGain": [
+                        "undefined"
+                      ],
+                      "hash.playbackRate": [
+                        "undefined"
+                      ],
+                      "hash.tempFragment": [
+                        "undefined"
+                      ],
+                      "hash.loop": [
+                        "undefined"
+                      ],
+                      "hash.muted": [
+                        "undefined"
+                      ],
+                      "hash.autoPlay": [
+                        "undefined"
+                      ],
+                      "hash.showControls": [
+                        "undefined"
+                      ]
+                    }
+                  }
+                }
+              },
+              "icon": "youtube",
+              "title": "CMU 15213/15513 CSAPP 深入理解计算机系统 Lecture 14  Exceptional Control Flow  Exception 中英字幕"
+            }
           }
         ]
       }
@@ -78,7 +186,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 284.5
+    "width": 284.5,
+    "collapsed": true
   },
   "right": {
     "id": "658074b3dc69e704",
@@ -172,10 +281,10 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "0ed00e5f0ccb2163",
+  "active": "68b0d1609d38ad5d",
   "lastOpenFiles": [
-    "CSAPP/Chapter 7/7.1 링커.md",
     "CSAPP/Chapter 8/Chapter 8.md",
+    "CSAPP/Chapter 7/7.1 링커.md",
     "CSAPP/Chapter 8",
     "CSAPP/Chapter 7/deepseek_markdown_20251017_b4dff5.md",
     "CSAPP/Chapter 7/7.1 링커_한글번역.md",
