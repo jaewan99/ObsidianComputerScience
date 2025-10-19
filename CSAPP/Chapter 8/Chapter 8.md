@@ -335,3 +335,8 @@ https://www.youtube.com/watch?v=zc96AQLPrGY&list=PL22J-I2Pi-Gf0s1CGDVtt4vuvlyjLx
 				- daemons - which are long running programs that provides services typically, so for example, web server  or other kinds of services that you always want running on the system.
 			- Login shell - which provide command line interface to users
 				-  so when you login to linux system 
+				- executes programs in my behalf
+				-  when we types something in your shelf like "ls" - we are asking the shell to run the executable program called 'ls'
+					- so it will create a child and execute ls 
+- Shell program
+	- 
