@@ -318,3 +318,13 @@ Reaping Child Processes
 	- Loading and running programs
 		- Call execve (or variant)
 		- One call, (normally) no return
+
+https://www.youtube.com/watch?v=zc96AQLPrGY&list=PL22J-I2Pi-Gf0s1CGDVtt4vuvlyjLxfem&index=15
+
+
+
+- [01:10](https://www.youtube.com/watch?v=zc96AQLPrGY#t=01:10.65) 
+- Linux process hierarchy
+	- There is only one way to create processes on a linux system - that is using the fork call.
+	- In fact, the all of the processes on the system 
+		- All processes on th
