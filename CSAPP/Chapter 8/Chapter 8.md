@@ -339,4 +339,16 @@ https://www.youtube.com/watch?v=zc96AQLPrGY&list=PL22J-I2Pi-Gf0s1CGDVtt4vuvlyjLx
 				-  when we types something in your shelf like "ls" - we are asking the shell to run the executable program called 'ls'
 					- so it will create a child and execute ls 
 - Shell program
-	- 
+	- Problem with Simple Shell Example
+		- Our example shell correctly waits for and reaps foreground jobs
+	- But what about background jobs?
+		- Will become zombies when they terminate
+		- Will never be reaped because shell (typically) will not terminate
+		- Will create a memory leak that could run the kernel out of memory
+- ECF to the Rescue!
+	- Solution: Exceptional control flow
+		- The kernel will interrupt regular processing to alert us when a background process completes
+		- In Unix, the alert mechanism is called a signal
+
+- [09:36](https://www.youtube.com/watch?v=zc96AQLPrGY#t=09:36.85) 
+- 
