@@ -327,4 +327,11 @@ https://www.youtube.com/watch?v=zc96AQLPrGY&list=PL22J-I2Pi-Gf0s1CGDVtt4vuvlyjLx
 - Linux process hierarchy
 	- There is only one way to create processes on a linux system - that is using the fork call.
 	- In fact, the all of the processes on the system 
-		- All processes on th
+		- All processes on the system actually form a hierarchy
+		- So that the very first process created when you boot the system up is the init process
+			- which has the process id of 1
+			- all other processes on the system are descendants of that init process
+			- Init process - when it starts up it creates daemons
+				- daemons - which are long running programs that provides services typically, so for example, web server  or other kinds of services that you always want running on the system.
+			- Login shell - which provide command line interface to users
+				-  so when you login to linux system 
