@@ -363,4 +363,29 @@ https://www.youtube.com/watch?v=zc96AQLPrGY&list=PL22J-I2Pi-Gf0s1CGDVtt4vuvlyjLx
 	- Kernel sends a signal for one of the following reasons:
 		- Kernel has detected a system event such as divide-by-zero (SIGFPE) or the termination of a child process (SGCHLD)
 		- Another process has invoked the kil1 system call to explicitly request the kernel to send a signal to the destination process
+- Signal Concepts: Receiving a Signal
+	- A destination process receives a signal when it is forced by the kernel to react in some way to the delivery of the signal
+	- Some possible ways to react:
+		- Ignore the signal (do nothing)
+		- Terminate the process (with optional core dump)
+		- Catch the signal by executing a user-level function called signal handler
+		- Akin to a hardware exception handler being called in response to an asynchronous interrupt:
+- Signal Concepts: Pending and Blocked Signals
+	- A signal is pending if sent but not yet received
+		- There can be at most one pending signal of any particular type
+		- Important: Signals are not queued
+			- If a process has a pending signal of type k, then subsequent signals of type k that are sent to that process are discarded
+		- A process can block the receipt of certain signals
+			- Blocked signals can be delivered, but will not be received until the signal is unblocked
+		- A pending signal is received at most once
+	- Kernel maintains pending and blocked bit vectors in the context of each process
+		- pending: represents the set of pending signals
+			- Kernel sets bit k in pending when a signal of type k is delivered
+			- Kernel clears bit k in pending when a signal of type k is receive
+		- blocked: represents the set of blocked signals
+			- Can be set and cleared by using the sigprocmask function
+			-  Also referred to as the signal mask
+
+
+- [20:12](https://www.youtube.com/watch?v=zc96AQLPrGY#t=20:12.49) 
 - 
