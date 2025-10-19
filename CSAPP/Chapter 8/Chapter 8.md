@@ -325,6 +325,7 @@ https://www.youtube.com/watch?v=zc96AQLPrGY&list=PL22J-I2Pi-Gf0s1CGDVtt4vuvlyjLx
 
 - [01:10](https://www.youtube.com/watch?v=zc96AQLPrGY#t=01:10.65) 
 - Linux process hierarchy
+- ![[Pasted image 20251019233216.png]]
 	- There is only one way to create processes on a linux system - that is using the fork call.
 	- In fact, the all of the processes on the system 
 		- All processes on the system actually form a hierarchy
@@ -351,4 +352,15 @@ https://www.youtube.com/watch?v=zc96AQLPrGY&list=PL22J-I2Pi-Gf0s1CGDVtt4vuvlyjLx
 		- In Unix, the alert mechanism is called a signal
 
 - [09:36](https://www.youtube.com/watch?v=zc96AQLPrGY#t=09:36.85) 
+- Signals
+	- A signal is a small message that notifies a process that an event of some type has occurred in the system
+		- Akin to exceptions and interrupts
+		- Sent from the kernel (sometimes at the request of another process) to a process
+		- Signal type is identified by small integer ID's (1-30)
+		- Only information in a signal is its ID and the fact that it arrived
+- Signal Concepts: Sending a Signal
+	- Kernel sends (delivers) a signal to a destination process by updating some state in the context of the destination process
+	- Kernel sends a signal for one of the following reasons:
+		- Kernel has detected a system event such as divide-by-zero (SIGFPE) or the termination of a child process (SGCHLD)
+		- Another process has invoked the kil1 system call to explicitly request the kernel to send a signal to the destination process
 - 
