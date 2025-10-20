@@ -451,4 +451,29 @@ https://www.youtube.com/watch?v=zc96AQLPrGY&list=PL22J-I2Pi-Gf0s1CGDVtt4vuvlyjLx
 			- receives a signal - it causes a transfer of control to this handler
 				- This is a concurrent flow that overlaps in time with while loop in process A eventually this handlers return to back process A
 		- Signal handlers runs in the same process as the main program
-			- so it shares all global variables of the program
+			- so it shares all global variables of the program 
+	- ![[Pasted image 20251020104441.png]]
+	- ![[Pasted image 20251020104647.png]]
+
+- [39:01](https://www.youtube.com/watch?v=zc96AQLPrGY#t=39:01.34) 
+- Blocking and Unblocking Signals
+	- Implicit blocking mechanism
+		- Kernel blocks any pending signals of type currently being handled.
+		- E.g., A SIGINT handler can't be interrupted by another SIGINT
+		- It can be interrupted by a signal of another type but not by a signal of the same type
+	- Explicit blocking and unblocking mechanism
+		- sigprocmask function
+			- allows you to block and unblock set of signals
+	- Supporting functions
+		- sigemptyset - Create empty set
+		- sigfillset - Add every signal number to set
+		- sigaddset - Add signal number to set
+		- sigdelset - Delete signal number from set
+- ![[Pasted image 20251020105203.png]]
+- /* Block SIGINT and save previous blocked set */
+- /* Code region that will not be interrupted by SIGINT */
+- /* Restore previous blocked set, unblocking SIGINT */
+
+
+- [42:31](https://www.youtube.com/watch?v=zc96AQLPrGY#t=42:31.36) 
+- 
