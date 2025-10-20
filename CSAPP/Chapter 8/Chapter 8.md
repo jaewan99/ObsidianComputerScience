@@ -400,5 +400,33 @@ https://www.youtube.com/watch?v=zc96AQLPrGY&list=PL22J-I2Pi-Gf0s1CGDVtt4vuvlyjLx
 		- SIGINT - default action is to terminate each process
 		- SIGTSTP - default action is to stop (suspend) each process
 		- ![[Pasted image 20251020101018.png]]
-		- ![[Pasted image 20251020101201.png]]
-	- 
+		- ![[Pasted image 20251020101201.png]] 
+		- [27:12](https://www.youtube.com/watch?v=zc96AQLPrGY#t=27:12.73) 
+		- Sending signals with kill function
+
+
+- [28:05](https://www.youtube.com/watch?v=zc96AQLPrGY#t=28:05.43) 
+- Receiving Signals
+	- There's a control passes into the kernel because of some exception
+		- That exception can be either a timer going off, interrupt or it can be trap user calls a system call.
+		- Transfer control into the kernel is always caused by some exception
+		- From process A to B - kernel code
+			-  Calls the scheduler function and decides to do context switch from process A to process B
+			- Right before it returns from the exception and right before it's ready to pass control back to process the user code and process B
+				- It checks for the any signals that any pending signals
+				- Kernel computes pnb = pending & ~blocked
+					- The set of pending nonblocked signals for process p
+					- These are the pending system that should be received
+				- If (pnb == 0)
+					- Pass control to next instruction in the logical flow for p
+				- Else
+					- Choose least nonzero bit k in pnb and force process p to receive signal k
+					- The receipt of the signal triggers some action by p
+					- Repeat for all nonzero k in pnb
+					- Pass control to next instruction in logical flow for p
+- Default actions
+	- Each signal type has a predefined default action, which is one of:
+		- The process terminates
+		- The process stops until restarted by a SIGCONT signal
+		- The process ignores the signal
+- 
