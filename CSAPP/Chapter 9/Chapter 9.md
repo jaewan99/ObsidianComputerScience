@@ -105,4 +105,29 @@ Virtual Machine
 			 - Well-chosen mappings can improve locality
  - Each process has its own virtual address space, and kernel implements this by giving each process its own separate page table. In the context of that process so it's just a data structure in the kernel, that kernel keeps for the process.
  - In this way we can present a view to the programmer and tools, that each process has a very similar address space, virtual space, same size address space, code and data start at the same place. but then the actual pages that process used can be scattered in memory. It gives us the most efficient way to use the memory
-	 - 
+	 - ![[Pasted image 20251020142343.png]]
+ - VM as a Tool for Memory Management
+	 - Simplifying memory allocation
+		 - Each virtual page can be mapped to any physical page
+		 - A virtual page can be stored in different physical pages at different times
+			 - ex. if VP1 can be mapped to PP2 and PP6 when PP2 is no longer used
+	 - Sharing code and data among processes
+		 - Map virtual pages to the same physical page (here: PP 6)
+			 - To share certain code or data
+				 - ex. lib.c just needs to be loaded into physical address, other VP just mapped to physical address.
+	
+- [29:22](https://www.youtube.com/watch?v=Fy9cnP9TXUc#t=29:22.22) 
+- Simplifying Linking and Loading
+	- Linking
+		- Each program has similar virtual address space
+		- Code, data, and heap always start at the same addresses.
+	- Loading
+		- execve allocates virtual pages for .text and data sections & creates PTEs marked as invalid
+		- The . text and .data sections are copied, page by page, on demand by the virtual memory system
+
+
+- [32:57](https://www.youtube.com/watch?v=Fy9cnP9TXUc#t=32:57.70) 
+- VM as a Tool for Memory Protection
+	- Extend PTEs with permission bits
+	- MMU checks these bits on each access
+	- 
