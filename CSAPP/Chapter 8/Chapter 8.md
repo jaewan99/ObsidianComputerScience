@@ -532,3 +532,16 @@ https://www.youtube.com/watch?v=zc96AQLPrGY&list=PL22J-I2Pi-Gf0s1CGDVtt4vuvlyjLx
 		- Avoid the possibility of the child handler executing before parent can add the corresponding job to job queue.
 			- We can't control whether the child executes first or the parent execute first or can't control how long the child runs.
 			- But we can control when the sigchild handler runs because we can block signals.
+		
+		- ![[Pasted image 20251020114409.png]]
+		- ![[Pasted image 20251020114507.png]]
+		- This is not a good solution, since we are waiting over and over, and we don't know how long should we wait.
+		
+		- ![[Pasted image 20251020114626.png]]
+		- we still need while loop, because we have to keep checking for the specific signal handler of sigchild handler to run instead of other handlers that might run
+			- ex. sigint - terminates the parent - not good
+			- pause() - race - if the signal is received after pid is checked - which is possible but unlikely, before the pause() executes
+				- and will execute the pause() - and wait forever since the signal was arrived
+			- sleep(1) - too slow - or what values should be use
+		- ![[Pasted image 20251020115213.png]]
+		- 
