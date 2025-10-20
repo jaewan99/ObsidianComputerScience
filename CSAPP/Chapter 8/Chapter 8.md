@@ -516,3 +516,12 @@ https://www.youtube.com/watch?v=zc96AQLPrGY&list=PL22J-I2Pi-Gf0s1CGDVtt4vuvlyjLx
 					- gets interrupted by the signal
 					- and in signal handler does the printf - and waiting forever waiting the lock to be released
 		- Unfortunate fact: write is the only async-signal-safe output function
+		- ![[Pasted image 20251020112822.png]]
+		- ![[Pasted image 20251020112847.png]]
+		- ![[Pasted image 20251020112924.png]]
+		- Portable Signal Handling
+			- Ugh! Different versions of Unix can have different signal handling semantics
+				- Some older systems restore action to default after catching signal
+				- Some interrupted system calls can return with errno == EINTR
+				- Some systems don't block signals of the type being handled
+			- Solution: sigaction
