@@ -130,4 +130,9 @@ Virtual Machine
 - VM as a Tool for Memory Protection
 	- Extend PTEs with permission bits
 	- MMU checks these bits on each access
-	- 
+	- ![[Pasted image 20251020143617.png]]
+
+
+- [37:23](https://www.youtube.com/watch?v=Fy9cnP9TXUc#t=37:23.98) 
+- ![[Pasted image 20251020143830.png]]
+- 
