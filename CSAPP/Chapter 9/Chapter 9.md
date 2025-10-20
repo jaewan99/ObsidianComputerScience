@@ -29,4 +29,19 @@ Virtual Machine
 		
 - [08:54](https://www.youtube.com/watch?v=Fy9cnP9TXUc#t=08:54.25)
 - VM as a tool for caching
-	- 
+	- ![[Pasted image 20251020132918.png]]
+	- So conceptually we can think virtual memory as a sequence of bytes stored in the disk. And then the contents of that virtual memory stored on disk are cached in DRAM.
+	- Conceptually, virtual memory is an array of N contiguous bytes stored on disk.
+	- The contents of the array on disk are cached in physical memory (DRAM cache)
+		- These cache blocks are called pages (size is P = 2P bytes)
+	
+	- DRAM Cache Organization
+		- DRAM cache organization driven by the enormous miss penalty
+			- DRAM is about 10x slower than SRAM
+			- Disk is about 10,000x slower than DRAM
+		- Consequences
+			- Large page (block) size: typically 4 KB, sometimes 4 MB
+			- Fully associative
+				- Remember we saw direct mapped caches that were subject to these conflict misses, if we increase the associativity of the cache, we reduce the proba
+				- Any VP can be placed in any PP
+				- 
