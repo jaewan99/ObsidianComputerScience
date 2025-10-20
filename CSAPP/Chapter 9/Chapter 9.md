@@ -55,4 +55,17 @@ Virtual Machine
 - [15:37](https://www.youtube.com/watch?v=Fy9cnP9TXUc#t=15:37.44) 
 - Enabling Data Structure: Page Table
 - A page table is an array of page table entries (PTEs) that maps virtual pages to physical pages.
-	-  A data structure in memory that the kernel maintains for as part of each process context, so every process
+	- Per-process kernel data structure in DRAM
+	-  A data structure in memory that the kernel maintains for as part of each process context, so every process has its own page table.
+	- PTE K - contains the physical address of the physical page k in DRAM
+	- Page tables keeps track of where those are storred.
+		- This PTE 1 corresponds to VP 1, and VP 1 is mapped to PP 0
+		- VP2 is mapped to PP1
+		- Some of these pages aren't in memory are stored on disks the allocated pages, for those pages, the page tables entry contains a pointer to the location of that page on disk.
+		- null is not allocated
+	- ![[Pasted image 20251020134944.png]]
+	
+	- Page Hit
+	- Page hit: reference to VM word that is in physical memory (DRAM cache hit)
+	- ![[Pasted image 20251020135106.png]]
+	- Ex. movl instruction that generates the virtual address from CPU, the MMU looks up in the page table and let's say this Virtual address is somewhere within virtual page  (PTE2), it extracts the physical address of th
