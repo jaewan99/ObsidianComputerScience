@@ -98,4 +98,11 @@ Virtual Machine
 		- Thrashing: Performance meltdown where pages are swapped in and out continuously
  
  - [24:04](https://www.youtube.com/watch?v=Fy9cnP9TXUc#t=24:04.08) 
- - 
+ - VM as a Tool for Memory Management
+	 - Key idea: each process has its own virtual address space
+		 - It can view memory as a simple linear array
+		 - Mapping function scatters addresses through physical memory
+			 - Well-chosen mappings can improve locality
+ - Each process has its own virtual address space, and kernel implements this by giving each process its own separate page table. In the context of that process so it's just a data structure in the kernel, that kernel keeps for the process.
+ - In this way we can present a view to the programmer and tools, that each process has a very similar address space, virtual space, same size address space, code and data start at the same place. but then the actual pages that process used can be scattered in memory. It gives us the most efficient way to use the memory
+	 - 
