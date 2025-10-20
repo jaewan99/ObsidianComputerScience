@@ -176,4 +176,7 @@ Virtual Machine
 - ![[Pasted image 20251020154028.png]]
 - ![[Pasted image 20251020154116.png]]
 - ![[Pasted image 20251020154225.png]]
+- ![[Pasted image 20251020154842.png]]
+- ![[Pasted image 20251020155128.png]]
+- ghj
 - 
