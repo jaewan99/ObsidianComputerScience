@@ -6,6 +6,7 @@
       {
         "id": "068f49d7a8cb0d81",
         "type": "tabs",
+        "dimension": 59.008528784648185,
         "children": [
           {
             "id": "fa2287594c67a695",
@@ -41,6 +42,7 @@
       {
         "id": "6b370738c986123a",
         "type": "tabs",
+        "dimension": 40.991471215351815,
         "children": [
           {
             "id": "14e641b4a8297a43",
@@ -126,7 +128,7 @@
                 }
               },
               "icon": "youtube",
-              "title": "CMU 15213/15513 CSAPP 深入理解计算机系统 Lecture 17 Virtual Memory Concepts 中英字幕"
+              "title": "YouTube - Fy9cnP9TXUc"
             }
           }
         ]
@@ -186,7 +188,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 284.5
+    "width": 284.5,
+    "collapsed": true
   },
   "right": {
     "id": "658074b3dc69e704",

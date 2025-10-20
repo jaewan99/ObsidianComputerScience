@@ -185,3 +185,9 @@ Virtual Machine
 - Summary
 	- Programmer's view of virtual memory
 		- Each process has its own private linear address space
+		- Cannot be corrupted by other processes
+	- System view of virtual memory
+		- Uses memory efficiently by caching virtual memory pages
+			- Efficient only because of locality
+		- Simplifies memory management and programming
+		- Simplifies protection by providing a convenient interpositioning point to check permissions
