@@ -67,5 +67,19 @@ Virtual Machine
 	
 	- Page Hit
 	- Page hit: reference to VM word that is in physical memory (DRAM cache hit)
-	- ![[Pasted image 20251020135106.png]]
-	- Ex. movl instruction that generates the virtual address from CPU, the MMU looks up in the page table and let's say this Virtual address is somewhere within virtual page  (PTE2), it extracts the physical address of th
+	- ![[Pasted image 20251020135415.png]]
+	- Ex. movl instruction that generates the virtual address from CPU, the MMU looks up in the page table and let's say this Virtual address is somewhere within virtual page  (PTE2), it extracts the physical address of that virtual page 2. So in this case, the page is in memory, it's cached in memory, so it's a hit. And now the memory can return the physical memory to MMU
+	
+	- Page Fault
+	- Page fault: reference to VM word that is not in physical memory (DRAM cache miss)
+	- ![[Pasted image 20251020135541.png]]
+	- the hardware triggers the exception - causes the transfer of control to the chunk of code in the kernel called the page fault handler, which then select a victim to be evicted, in this case VP4
+	- ![[Pasted image 20251020135753.png]]
+	
+	- It fetches virtual page 3 from the disk, loads it up in the physical memory.  and then update this page table entry to reflect the fact that VP4 is now stored on disk.
+	- If Virtual Page 4 had been modified at any time it would have to write the contents of it that to disk as well.
+	- Once the handler copies virtual page 3 into memory, the instruction that called the page fault now can be re-executed. Now when MMU checks the PTE corresponding to that page, and it finds.
+	- Key point: waiting uni
+	- ![[Pasted image 20251020135935.png]]
+	
+	- 
