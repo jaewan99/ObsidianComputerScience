@@ -388,4 +388,17 @@ https://www.youtube.com/watch?v=zc96AQLPrGY&list=PL22J-I2Pi-Gf0s1CGDVtt4vuvlyjLx
 
 
 - [20:12](https://www.youtube.com/watch?v=zc96AQLPrGY#t=20:12.49) 
-- 
+- ![[Pasted image 20251020100448.png]]
+- Sending Signals: Process Groups
+	- Every process belongs to exactly one process group
+		- getpgrp () - Return process group of current process
+		- setpgid () - Change process group of a process
+- Process group allows us to send signals to the group of processes at the same time.
+- ![[Pasted image 20251020100841.png]]
+- Sending Signals from the Keyboard
+	- Typing ctrl-c (ctrl-z) causes the kernel to send a SIGINT (SIGTSTP) to every job in the foreground process group.
+		- SIGINT - default action is to terminate each process
+		- SIGTSTP - default action is to stop (suspend) each process
+		- ![[Pasted image 20251020101018.png]]
+		- ![[Pasted image 20251020101201.png]]
+	- 
