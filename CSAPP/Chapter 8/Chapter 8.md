@@ -500,3 +500,19 @@ https://www.youtube.com/watch?v=zc96AQLPrGY&list=PL22J-I2Pi-Gf0s1CGDVtt4vuvlyjLx
 		- Flag declared this way does not need to be protected
 
 
+
+- [49:23](https://www.youtube.com/watch?v=zc96AQLPrGY#t=49:23.63) 
+- Async-Signal-Safety
+- Function is async-signal-safe if either reentrant (e.g., all variables stored on stack frame, CS:APP3e 12.7.2) or non-interruptible by signals.
+	- Reentrant - is a function where all of its access is on its own stack - no global variables, no pointers to global variables. Everything is stored on the stack locally. So we can write multiple instances of that function, and they all have their own separate copies of all the variables that they're using. 
+- Posix guarantees 117 functions to be async-signal-safe
+	- Source: "man 7 signal"
+	- Popular functions on the list:
+		- exit, write, wait, waitpid, sleep, kill
+	- Popular functions that are not on the list:
+		- printf, sprintf, malloc, exit
+			- printf can have deadlock
+				- Main routine with executing printf  - requires a lock on the terminal
+					- gets interrupted by the signal
+					- and in signal handler does the printf - and waiting forever waiting the lock to be released
+		- Unfortunate fact: write is the only async-signal-safe output function
