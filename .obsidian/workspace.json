@@ -6,6 +6,7 @@
       {
         "id": "068f49d7a8cb0d81",
         "type": "tabs",
+        "dimension": 54.892761394101875,
         "children": [
           {
             "id": "267f4b24a0e5fd39",
@@ -26,6 +27,7 @@
       {
         "id": "50f475dff14410df",
         "type": "tabs",
+        "dimension": 45.107238605898125,
         "children": [
           {
             "id": "0359dd0151c16061",
@@ -33,12 +35,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSAPP/Chapter 9/Chapter 9.md",
+                "file": "CSAPP/Chapter 6/Chapter 6.4 캐시 메모리.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 9"
+              "title": "Chapter 6.4 캐시 메모리"
             }
           }
         ]
@@ -193,7 +195,7 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "267f4b24a0e5fd39",
+  "active": "0359dd0151c16061",
   "lastOpenFiles": [
     "CSAPP/Chapter 9/Chapter 9.md",
     "CSAPP/Chapter 9/deepseek_markdown_20251020_1455ec.md",
