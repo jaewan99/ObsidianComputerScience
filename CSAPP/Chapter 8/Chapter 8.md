@@ -476,4 +476,10 @@ https://www.youtube.com/watch?v=zc96AQLPrGY&list=PL22J-I2Pi-Gf0s1CGDVtt4vuvlyjLx
 
 
 - [42:31](https://www.youtube.com/watch?v=zc96AQLPrGY#t=42:31.36) 
-- 
+- g3
+	- Temporarily block signals while you access that data structure, both in the main routine and your signal handler 
+		- if you main routine is updating that global data structure and then it gets interrupted, and the signal handler is reading that data structure, it's going to find it in an consistent state
+- volatile - reads and writes will always go to and from memory
+	- if not, the compiler will put in the register, you may miss that variable to be updated.
+		- Signal handler is setting a global variable
+		- Main routine is spinning waiting that global va
