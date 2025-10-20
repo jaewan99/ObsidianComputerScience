@@ -444,4 +444,11 @@ https://www.youtube.com/watch?v=zc96AQLPrGY&list=PL22J-I2Pi-Gf0s1CGDVtt4vuvlyjLx
 
 
 - [34:01](https://www.youtube.com/watch?v=zc96AQLPrGY#t=34:01.42) 
-- 
+- Signals are another form of concurrency 
+	- Handler is just another logical flow that runs concurrently along the process
+		- Process A 
+			- While loop is executing
+			- receives a signal - it causes a transfer of control to this handler
+				- This is a concurrent flow that overlaps in time with while loop in process A eventually this handlers return to back process A
+		- Signal handlers runs in the same process as the main program
+			- so it shares all global variables of the program
