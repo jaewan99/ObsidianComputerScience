@@ -138,4 +138,9 @@ Virtual Machine
 
 - 1. Given one virtual address - that consist of n bits; and blocks that consists of whose size can be represented with p bits.
 	- Virtual page offsets are analogous to the block offsets that we saw with caches
-	- Virtual page number - since VM is fully associative, there's only one set,
+	- Virtual page number - since VM is fully associative, there's only one set, so think of this as like a tag [[Chapter 6.4 캐시 메모리#Example Direct Mapped Cache (E = 1)]]
+		- what uniquely identifies this block.
+	- When CPU presents virtual address to MMU - it takes the VPN and uses that index into that page table
+		- And physical page number comes out from the page table entry
+	- The offsets in a virtual block is going to be the same as the offset in a physical block
+		-  the same size block

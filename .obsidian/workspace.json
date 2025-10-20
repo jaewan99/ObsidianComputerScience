@@ -13,6 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "CSAPP/Chapter 6/Chapter 6.4 캐시 메모리.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Chapter 6.4 캐시 메모리"
+            }
+          },
+          {
+            "id": "267f4b24a0e5fd39",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "CSAPP/Chapter 9/Chapter 9.md",
                 "mode": "source",
                 "source": false
@@ -21,14 +35,15 @@
               "title": "Chapter 9"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
-        "id": "f76bcee4bcf6d090",
+        "id": "6b370738c986123a",
         "type": "tabs",
         "children": [
           {
-            "id": "267f4b24a0e5fd39",
+            "id": "14e641b4a8297a43",
             "type": "leaf",
             "state": {
               "type": "mx-url",
@@ -55,7 +70,10 @@
                       "flip": null,
                       "audioGain": null,
                       "playbackRate": null,
-                      "tempFragment": null,
+                      "tempFragment": {
+                        "start": 2243.98,
+                        "end": -1
+                      },
                       "loop": null,
                       "muted": null,
                       "autoPlay": null,
@@ -89,9 +107,6 @@
                         "undefined"
                       ],
                       "hash.playbackRate": [
-                        "undefined"
-                      ],
-                      "hash.tempFragment": [
                         "undefined"
                       ],
                       "hash.loop": [
@@ -171,8 +186,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 284.5,
-    "collapsed": true
+    "width": 284.5
   },
   "right": {
     "id": "658074b3dc69e704",
@@ -269,6 +283,8 @@
   "active": "267f4b24a0e5fd39",
   "lastOpenFiles": [
     "CSAPP/Chapter 9/Chapter 9.md",
+    "CSAPP/Chapter 6/Chapter 6.4 캐시 메모리.md",
+    "CSAPP/Chapter 7/7.1 링커.md",
     "CSAPP/Chapter 9/Images/Pasted image 20251020143830.png",
     "CSAPP/Chapter 9/Images/Pasted image 20251020143617.png",
     "CSAPP/Chapter 9/Images/Pasted image 20251020142343.png",
@@ -286,7 +302,6 @@
     "CSAPP/CSAPP_2016.pdf",
     "코딩테스트 개념/Red Black Tree.md",
     "코딩테스트 개념/Untitled",
-    "CSAPP/Chapter 7/7.1 링커.md",
     "Pasted image 20251018151050.png.md",
     "CSAPP/Chapter 8/Images",
     "CSAPP/Chapter 8",
@@ -294,7 +309,6 @@
     "CSAPP/Chapter 7/7.1 링커_한글번역.md",
     "CSAPP/Chapter 7/Images",
     "CSAPP/Chapter 6/Chapter 6.1 저장장치 기술.md",
-    "CSAPP/Chapter 6/Chapter 6.4 캐시 메모리.md",
     "CSAPP/Chapter 7",
     "CSAPP/Chapter 6/Chapter 6.3 메모리 계층구조.md",
     "CSAPP/Chapter 6/Chapter 6.2 지역성.md",

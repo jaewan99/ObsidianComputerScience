@@ -17,7 +17,8 @@ Cache Memories
 
 
 - [11:51](https://www.youtube.com/watch?v=AauOs6vq9yI#t=11:51.48) 
-Example: Direct Mapped Cache (E = 1)
+### Example: Direct Mapped Cache (E = 1)
+
 - Direct mapped: One line per set 
 - Assume: cache block size 8 bytes
 - ![[Pasted image 20251017103807.png]]
