@@ -168,3 +168,12 @@ Virtual Machine
 	- Page table entries (PTEs) are cached in L1 like any other memory word
 		- PTEs may be evicted by other data references
 		- PTE hit still requires a small L1 delay
+	- Solution: Translation Lookaside Buffer (TLB)
+		- TLB is a hardware cache that caches PTEs
+		- Small set-associative hardware cache in MMU
+		- Maps virtual page numbers to physical page numbers
+		- Contains complete page table entries for small number of pages
+- ![[Pasted image 20251020154028.png]]
+- ![[Pasted image 20251020154116.png]]
+- ![[Pasted image 20251020154225.png]]
+- 
