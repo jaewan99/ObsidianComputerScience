@@ -525,3 +525,10 @@ https://www.youtube.com/watch?v=zc96AQLPrGY&list=PL22J-I2Pi-Gf0s1CGDVtt4vuvlyjLx
 				- Some interrupted system calls can return with errno == EINTR
 				- Some systems don't block signals of the type being handled
 			- Solution: sigaction
+			
+		- ![[Pasted image 20251020113704.png]]
+		- ![[Pasted image 20251020113731.png]]
+		- ![[Pasted image 20251020113807.png]]
+		- Avoid the possibility of the child handler executing before parent can add the corresponding job to job queue.
+			- We can't control whether the child executes first or the parent execute first or can't control how long the child runs.
+			- But we can control when the sigchild handler runs because we can block signals.
