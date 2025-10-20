@@ -161,4 +161,7 @@ Virtual Machine
 - 7) Handler returns to original process, restarting faulting instruction
 
 
-page table entries (PTEs)
+
+- [45:52](https://www.youtube.com/watch?v=Fy9cnP9TXUc#t=45:52.57) 
+- ![[Pasted image 20251020151653.png]]
+- 
