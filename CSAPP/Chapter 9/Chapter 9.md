@@ -135,4 +135,7 @@ Virtual Machine
 
 - [37:23](https://www.youtube.com/watch?v=Fy9cnP9TXUc#t=37:23.98) 
 - ![[Pasted image 20251020143830.png]]
-- 
+
+- 1. Given one virtual address - that consist of n bits; and blocks that consists of whose size can be represented with p bits.
+	- Virtual page offsets are analogous to the block offsets that we saw with caches
+	- Virtual page number - since VM is fully associative, there's only one set,
