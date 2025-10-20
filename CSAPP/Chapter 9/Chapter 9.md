@@ -144,3 +144,21 @@ Virtual Machine
 		- And physical page number comes out from the page table entry
 	- The offsets in a virtual block is going to be the same as the offset in a physical block
 		-  the same size block
+	- ![[Pasted image 20251020150615.png]]
+- Address Translation: Page Hit
+	- 1) Processor sends virtual address to MMU
+	- 2-3) MMU fetches PTE from page table in memory
+	- 4) MMU sends physical address to cache/memory
+	- 5) Cache/memory sends data word to processor
+	- ![[Pasted image 20251020150701.png]]
+
+- Address Translation: Page Fault
+- 1) Processor sends virtual address to MMU
+- 2-3) MMU fetches PTE from page table in memory
+- 4) Valid bit is zero, so MMU triggers page fault exception
+- 5) Handler identifies victim (and, if dirty, pages it out to disk)
+- 6) Handler pages in new page and updates PTE in memory
+- 7) Handler returns to original process, restarting faulting instruction
+
+
+page table entries (PTEs)
