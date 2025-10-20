@@ -79,7 +79,23 @@ Virtual Machine
 	- It fetches virtual page 3 from the disk, loads it up in the physical memory.  and then update this page table entry to reflect the fact that VP4 is now stored on disk.
 	- If Virtual Page 4 had been modified at any time it would have to write the contents of it that to disk as well.
 	- Once the handler copies virtual page 3 into memory, the instruction that called the page fault now can be re-executed. Now when MMU checks the PTE corresponding to that page, and it finds.
-	- Key point: waiting uni
+	- Key point: waiting until the miss to copy the page to DRAM is known as demand paging
 	- ![[Pasted image 20251020135935.png]]
-	
-	- 
+
+
+- [21:11](https://www.youtube.com/watch?v=Fy9cnP9TXUc#t=21:11.15) 
+- Allocating space (like by using sbrk) just changes this page table entry and then when page is actually touched then it'll be brought into the cache
+- Allocating a new page (VP 5) of virtual memory.
+- ![[Pasted image 20251020140620.png]]
+
+- Locality to the Rescue Again!
+	- Virtual memory seems terribly inefficient, but it works because of locality.
+	- At any point in time, programs tend to access a set of active virtual pages called the working set
+		- Programs with better temporal locality will have smaller working sets
+	- If (working set size < main memory size)
+		- Good performance for one process after compulsory misses
+	- If ( SUM(working set sizes) > main memory size )
+		- Thrashing: Performance meltdown where pages are swapped in and out continuously
+ 
+ - [24:04](https://www.youtube.com/watch?v=Fy9cnP9TXUc#t=24:04.08) 
+ - 
