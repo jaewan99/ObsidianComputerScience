@@ -177,6 +177,10 @@ Virtual Machine
 - ![[Pasted image 20251020154116.png]]
 - ![[Pasted image 20251020154225.png]]
 - ![[Pasted image 20251020154842.png]]
+- How does this saves space?
+	- If we don't use the page level, we need a page table that would have an entry for each virtual page, even if it's used or not.
+	- With this multi-level scheme, we only need to generate level two page tables, enough level two pages to cover the portion of the virtual address space that we're actually using. And that the portion of the virtual address space that you're not using at this gap right here. (the "gap" in the picture) there's no need to have the page table.
+
 - ![[Pasted image 20251020155128.png]]
 - ghj
 - 
