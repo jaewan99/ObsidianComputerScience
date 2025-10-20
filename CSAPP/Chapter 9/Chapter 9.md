@@ -164,4 +164,7 @@ Virtual Machine
 
 - [45:52](https://www.youtube.com/watch?v=Fy9cnP9TXUc#t=45:52.57) 
 - ![[Pasted image 20251020151653.png]]
-- 
+- Speeding up Translation with a TLB
+	- Page table entries (PTEs) are cached in L1 like any other memory word
+		- PTEs may be evicted by other data references
+		- PTE hit still requires a small L1 delay
