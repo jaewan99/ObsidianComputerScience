@@ -429,4 +429,19 @@ https://www.youtube.com/watch?v=zc96AQLPrGY&list=PL22J-I2Pi-Gf0s1CGDVtt4vuvlyjLx
 		- The process terminates
 		- The process stops until restarted by a SIGCONT signal
 		- The process ignores the signal
+- Installing Signal Handlers
+	- The signal function modifies the default action associated with the receipt of signal signum:
+		- handler_t *signal(int signum, handler_t *handler)
+	- Different values for handler:
+		- SIG_IGN: ignore signals of type signum
+		- SIG_DFL: revert to the default action on receipt of signals of type signum
+		- Otherwise, handler is the address of a user-level signal handler
+			- Called when process receives signal of type signum
+			- Referred to as "installing" the handler
+			- Executing handler is called "catching" or "handling" the signal
+			- When the handler executes its return statement, control passes to the instruction in the control flow of the process that was interrupted on receipt of the signal.
+	- ![[Pasted image 20251020102834.png]]
+
+
+- [34:01](https://www.youtube.com/watch?v=zc96AQLPrGY#t=34:01.42) 
 - 
