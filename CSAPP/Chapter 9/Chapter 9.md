@@ -42,6 +42,17 @@ Virtual Machine
 		- Consequences
 			- Large page (block) size: typically 4 KB, sometimes 4 MB
 			- Fully associative
-				- Remember we saw direct mapped caches that were subject to these conflict misses, if we increase the associativity of the cache, we reduce the proba
+				- Remember we saw direct mapped caches that were subject to these conflict misses, if we increase the associativity of the cache, we reduce the probability of those conflict misses. But we can never eliminate them until we have fully associative cache with just one set.
 				- Any VP can be placed in any PP
-				- 
+					- It's fully associative, there's only one set, and each virtual page can go anywhere in the cache.
+				- Requires a "large" mapping function - different from cache memories
+			- Highly sophisticated, expensive replacement algorithms
+				- Too complicated and open-ended to be implemented in hardware
+					- Cache memory, the hardware did a search within the set, a parallel search try to find a cache line
+					- But software cache, like VM, it's not feasible
+			- Write-back rather than write-through
+				- They try to defer writing anything back to the disk as long as possible
+- [15:37](https://www.youtube.com/watch?v=Fy9cnP9TXUc#t=15:37.44) 
+- Enabling Data Structure: Page Table
+- A page table is an array of page table entries (PTEs) that maps virtual pages to physical pages.
+	-  A data structure in memory that the kernel maintains for as part of each process context, so every process
