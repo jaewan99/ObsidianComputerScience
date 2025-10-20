@@ -27,109 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSAPP/Chapter 8/Chapter 8.md",
+                "file": "CSAPP/Chapter 9/Chapter 9.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 8"
+              "title": "Chapter 9"
             }
           }
         ],
         "currentTab": 1
-      },
-      {
-        "id": "3dd77c6f1c22f0ec",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "aa9d154a4a33c736",
-            "type": "leaf",
-            "state": {
-              "type": "mx-url",
-              "state": {
-                "mx": {
-                  "json": {
-                    "media": {
-                      "type": "url:hosted",
-                      "vid": {
-                        "host": "youtube",
-                        "vid": "zc96AQLPrGY",
-                        "t": null,
-                        "start": null,
-                        "end": null
-                      },
-                      "url": "https://www.youtube.com/watch?v=zc96AQLPrGY"
-                    },
-                    "hash": {
-                      "type": null,
-                      "title": null,
-                      "volume": null,
-                      "aspectRatio": null,
-                      "crossOrigin": null,
-                      "flip": null,
-                      "audioGain": null,
-                      "playbackRate": null,
-                      "tempFragment": null,
-                      "loop": null,
-                      "muted": null,
-                      "autoPlay": null,
-                      "showControls": null
-                    }
-                  },
-                  "meta": {
-                    "values": {
-                      "media.url": [
-                        "URL"
-                      ],
-                      "hash.type": [
-                        "undefined"
-                      ],
-                      "hash.title": [
-                        "undefined"
-                      ],
-                      "hash.volume": [
-                        "undefined"
-                      ],
-                      "hash.aspectRatio": [
-                        "undefined"
-                      ],
-                      "hash.crossOrigin": [
-                        "undefined"
-                      ],
-                      "hash.flip": [
-                        "undefined"
-                      ],
-                      "hash.audioGain": [
-                        "undefined"
-                      ],
-                      "hash.playbackRate": [
-                        "undefined"
-                      ],
-                      "hash.tempFragment": [
-                        "undefined"
-                      ],
-                      "hash.loop": [
-                        "undefined"
-                      ],
-                      "hash.muted": [
-                        "undefined"
-                      ],
-                      "hash.autoPlay": [
-                        "undefined"
-                      ],
-                      "hash.showControls": [
-                        "undefined"
-                      ]
-                    }
-                  }
-                }
-              },
-              "icon": "youtube",
-              "title": "CMU 15213/15513 CSAPP 深入理解计算机系统 Lecture 15 Exceptional Control Flow Signals and Nonlocal Jumps 中英字幕"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -282,6 +189,10 @@
   },
   "active": "b4705b68ef6342da",
   "lastOpenFiles": [
+    "CSAPP/Chapter 8/Chapter 8.md",
+    "CSAPP/Chapter 9/Chapter 9.md",
+    "CSAPP/Chapter 9",
+    "CSAPP/Chapter 8/Images/Pasted image 20251020115626.png",
     "CSAPP/Chapter 8/Images/Pasted image 20251020115213.png",
     "CSAPP/Chapter 8/Images/Pasted image 20251020114626.png",
     "CSAPP/Chapter 8/Images/Pasted image 20251020114507.png",
@@ -291,9 +202,6 @@
     "CSAPP/Chapter 8/Images/Pasted image 20251020113704.png",
     "CSAPP/Chapter 8/Images/Pasted image 20251020113034.png",
     "CSAPP/Chapter 8/Images/Pasted image 20251020112924.png",
-    "CSAPP/Chapter 8/Images/Pasted image 20251020112847.png",
-    "CSAPP/Chapter 8/Images/Pasted image 20251020112822.png",
-    "CSAPP/Chapter 8/Chapter 8.md",
     "CSAPP/CSAPP_2016.pdf",
     "CSAPP/Chapter 8/deepseek_markdown_20251018_0f4d52.md",
     "코딩테스트 개념/Red Black Tree.md",
@@ -326,7 +234,6 @@
     "코딩테스트 VS Code setting.md",
     "JAVA",
     "CSAPP/Chapter 3/Chapter 3.9 이기종 (Heterogeneous) 자료구조.md",
-    "CSAPP/Chapter 6/Images",
-    "CSAPP/Chapter 6"
+    "CSAPP/Chapter 6/Images"
   ]
 }

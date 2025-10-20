@@ -544,4 +544,6 @@ https://www.youtube.com/watch?v=zc96AQLPrGY&list=PL22J-I2Pi-Gf0s1CGDVtt4vuvlyjLx
 				- and will execute the pause() - and wait forever since the signal was arrived
 			- sleep(1) - too slow - or what values should be use
 		- ![[Pasted image 20251020115213.png]]
-		- 
+		- There's no chance of a signal interrupting this program in between the sigprocmask and the pause
+		- ![[Pasted image 20251020115626.png]]
+		- Not wasting the resources but we've eliminated the race
