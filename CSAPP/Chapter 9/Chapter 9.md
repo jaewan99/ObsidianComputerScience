@@ -182,5 +182,6 @@ Virtual Machine
 	- With this multi-level scheme, we only need to generate level two page tables, enough level two pages to cover the portion of the virtual address space that we're actually using. And that the portion of the virtual address space that you're not using at this gap right here. (the "gap" in the picture) there's no need to have the page table.
 
 - ![[Pasted image 20251020155128.png]]
-- ghj
-- 
+- Summary
+	- Programmer's view of virtual memory
+		- Each process has its own private linear address space
