@@ -476,10 +476,27 @@ https://www.youtube.com/watch?v=zc96AQLPrGY&list=PL22J-I2Pi-Gf0s1CGDVtt4vuvlyjLx
 
 
 - [42:31](https://www.youtube.com/watch?v=zc96AQLPrGY#t=42:31.36) 
-- g3
-	- Temporarily block signals while you access that data structure, both in the main routine and your signal handler 
-		- if you main routine is updating that global data structure and then it gets interrupted, and the signal handler is reading that data structure, it's going to find it in an consistent state
-- volatile - reads and writes will always go to and from memory
-	- if not, the compiler will put in the register, you may miss that variable to be updated.
-		- Signal handler is setting a global variable
-		- Main routine is spinning waiting that global va
+- Guidelines for Writing Safe Handlers
+	- GO: Keep your handlers as simple as possible
+		- e.g., Set a global flag and return
+	- G1: Call only async-signal-safe functions in your handlers
+		- printf, sprintf, malloc, and exit are not safe!
+	- G2: Save and restore errno on entry and exit
+		- So that other handlers don't overwrite your value of errno
+	- G3: Protect accesses to shared data structures by temporarily blocking all signals
+		- To prevent possible corruption
+		- Temporarily block signals while you access that data structure, both in the main routine and your signal handler 
+			- if you main routine is updating that global data structure and then it gets interrupted, and the signal handler is reading that data structure, it's going to find it in an consistent state
+	- G4: Declare global variables as volatile
+		- To prevent compiler from storing them in a register
+		- volatile - reads and writes will always go to and from memory
+			- if not, the compiler will put in the register, you may miss that variable to be updated.
+			- Signal handler is setting a global variable
+			- Main routine is spinning waiting that global variable to be set.
+				- If it's in a register, the write to that variable will just update the register.
+				- The main routine is in danger of just spinning forever and not seeing the change right.
+	- G5 Declare global flags as volatile sig_atomic
+		- flag: variable that is only read or written (e.g. flag = 1, not flag++)
+		- Flag declared this way does not need to be protected
+
+
