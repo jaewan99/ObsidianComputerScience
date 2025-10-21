@@ -134,7 +134,6 @@ Virtual Machine
 
 
 - [37:23](https://www.youtube.com/watch?v=Fy9cnP9TXUc#t=37:23.98) 
-- ![[Pasted image 20251020143830.png]]
 
 - 1. Given one virtual address - that consist of n bits; and blocks that consists of whose size can be represented with p bits.
 	- Virtual page offsets are analogous to the block offsets that we saw with caches
@@ -194,4 +193,10 @@ Virtual Machine
 
 https://www.youtube.com/watch?v=lu1B1faqpUw&list=PL22J-I2Pi-Gf0s1CGDVtt4vuvlyjLxfem&index=18
 
-Simple Memory
+![[Pasted image 20251020143830.png]]
+
+
+- [00:57](https://www.youtube.com/watch?v=lu1B1faqpUw#t=00:57.25) 
+- Addressing - 
+	- ![[Pasted image 20251021101535.png]]
+	- 
