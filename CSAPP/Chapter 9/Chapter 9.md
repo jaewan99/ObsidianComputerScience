@@ -272,4 +272,9 @@ https://www.youtube.com/watch?v=lu1B1faqpUw&list=PL22J-I2Pi-Gf0s1CGDVtt4vuvlyjLx
 - length = tries to map that portion of the virtual address space to the object with 'offset'
 - fd = to some objects specified in this file descriptor
 - prot = PROT_READ, PROT_WRITE
-- flags = MAP_ANON, MAP_PRIVATE, MAP
+- flags = MAP_ANON, MAP_PRIVATE, MAP_SHARED
+- return a pointer to the start of the mapped area (may not be start)
+- ![[Pasted image 20251021155436.png]]
+- not gets copied, it's just mapping.
+- ![[Pasted image 20251021155737.png]]
+- 

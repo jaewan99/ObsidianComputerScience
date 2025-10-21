@@ -6,7 +6,6 @@
       {
         "id": "50f475dff14410df",
         "type": "tabs",
-        "dimension": 44.97487437185929,
         "children": [
           {
             "id": "0359dd0151c16061",
@@ -20,100 +19,6 @@
               },
               "icon": "lucide-file",
               "title": "Chapter 9"
-            }
-          }
-        ]
-      },
-      {
-        "id": "b2a4b1d7bd7c873e",
-        "type": "tabs",
-        "dimension": 55.02512562814071,
-        "children": [
-          {
-            "id": "c3fdd42b1f3dcc07",
-            "type": "leaf",
-            "state": {
-              "type": "mx-url",
-              "state": {
-                "mx": {
-                  "json": {
-                    "media": {
-                      "type": "url:hosted",
-                      "vid": {
-                        "host": "youtube",
-                        "vid": "lu1B1faqpUw",
-                        "t": null,
-                        "start": null,
-                        "end": null
-                      },
-                      "url": "https://www.youtube.com/watch?v=lu1B1faqpUw"
-                    },
-                    "hash": {
-                      "type": null,
-                      "title": null,
-                      "volume": null,
-                      "aspectRatio": null,
-                      "crossOrigin": null,
-                      "flip": null,
-                      "audioGain": null,
-                      "playbackRate": null,
-                      "tempFragment": null,
-                      "loop": null,
-                      "muted": null,
-                      "autoPlay": null,
-                      "showControls": null
-                    }
-                  },
-                  "meta": {
-                    "values": {
-                      "media.url": [
-                        "URL"
-                      ],
-                      "hash.type": [
-                        "undefined"
-                      ],
-                      "hash.title": [
-                        "undefined"
-                      ],
-                      "hash.volume": [
-                        "undefined"
-                      ],
-                      "hash.aspectRatio": [
-                        "undefined"
-                      ],
-                      "hash.crossOrigin": [
-                        "undefined"
-                      ],
-                      "hash.flip": [
-                        "undefined"
-                      ],
-                      "hash.audioGain": [
-                        "undefined"
-                      ],
-                      "hash.playbackRate": [
-                        "undefined"
-                      ],
-                      "hash.tempFragment": [
-                        "undefined"
-                      ],
-                      "hash.loop": [
-                        "undefined"
-                      ],
-                      "hash.muted": [
-                        "undefined"
-                      ],
-                      "hash.autoPlay": [
-                        "undefined"
-                      ],
-                      "hash.showControls": [
-                        "undefined"
-                      ]
-                    }
-                  }
-                }
-              },
-              "icon": "youtube",
-              "title": "CMU 15213/15513 CSAPP 深入理解计算机系统 Lecture 18 Virtual Memory Systems 中英字幕"
             }
           }
         ]
@@ -173,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 284.5
+    "width": 284.5,
+    "collapsed": true
   },
   "right": {
     "id": "658074b3dc69e704",
@@ -269,6 +175,8 @@
   },
   "active": "0359dd0151c16061",
   "lastOpenFiles": [
+    "CSAPP/Chapter 9/Images/Pasted image 20251021155737.png",
+    "CSAPP/Chapter 9/Images/Pasted image 20251021155436.png",
     "CSAPP/Chapter 9/Images/Pasted image 20251021154419.png",
     "CSAPP/Chapter 9/Chapter 9.md",
     "CSAPP/Chapter 9/Images/Pasted image 20251021152849.png",
@@ -282,8 +190,6 @@
     "CSAPP/Chapter 9/Images/Pasted image 20251021101535.png",
     "CSAPP/Chapter 9/deepseek_markdown_20251020_1455ec.md",
     "CSAPP/Chapter 6/Chapter 6.4 캐시 메모리.md",
-    "CSAPP/Chapter 9/Images/Pasted image 20251020155128.png",
-    "CSAPP/Chapter 9/Images/Pasted image 20251020154842.png",
     "CSAPP/Chapter 7/7.1 링커.md",
     "CSAPP/Chapter 9/Images",
     "CSAPP/Chapter 8/deepseek_markdown_20251018_0f4d52.md",
