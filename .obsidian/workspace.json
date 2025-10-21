@@ -6,6 +6,7 @@
       {
         "id": "50f475dff14410df",
         "type": "tabs",
+        "dimension": 22.60127931769723,
         "children": [
           {
             "id": "0359dd0151c16061",
@@ -26,6 +27,7 @@
       {
         "id": "b2a4b1d7bd7c873e",
         "type": "tabs",
+        "dimension": 77.39872068230277,
         "children": [
           {
             "id": "c3fdd42b1f3dcc07",
@@ -266,7 +268,7 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "c3fdd42b1f3dcc07",
+  "active": "0359dd0151c16061",
   "lastOpenFiles": [
     "CSAPP/Chapter 9/Chapter 9.md",
     "CSAPP/Chapter 9/Images/Pasted image 20251021112043.png",

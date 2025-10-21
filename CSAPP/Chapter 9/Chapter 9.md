@@ -212,3 +212,9 @@ https://www.youtube.com/watch?v=lu1B1faqpUw&list=PL22J-I2Pi-Gf0s1CGDVtt4vuvlyjLx
 		- 
 - [05:51](https://www.youtube.com/watch?v=lu1B1faqpUw#t=05:51.28) 
 - Address Translation Example
+	- Check the actual book
+- [18:04](https://www.youtube.com/watch?v=lu1B1faqpUw#t=18:04.86) 
+	- Each core can execute instructions separately.
+	- Each of the core has a register file.
+	- Some hardware that fetches instructions.
+	- 
