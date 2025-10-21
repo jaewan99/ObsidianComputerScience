@@ -210,3 +210,5 @@ https://www.youtube.com/watch?v=lu1B1faqpUw&list=PL22J-I2Pi-Gf0s1CGDVtt4vuvlyjLx
 		- Direct mapped
 		- ![[Pasted image 20251021112043.png]]
 		- 
+- [05:51](https://www.youtube.com/watch?v=lu1B1faqpUw#t=05:51.28) 
+- Address Translation Example
