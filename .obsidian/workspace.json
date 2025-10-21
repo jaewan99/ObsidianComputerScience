@@ -173,8 +173,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 284.5,
-    "collapsed": true
+    "width": 284.5
   },
   "right": {
     "id": "658074b3dc69e704",
@@ -268,8 +267,9 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "c3fdd42b1f3dcc07",
+  "active": "0359dd0151c16061",
   "lastOpenFiles": [
+    "CSAPP/Chapter 9/Images/Pasted image 20251021152849.png",
     "CSAPP/Chapter 9/Chapter 9.md",
     "CSAPP/Chapter 8/Chapter 8.md",
     "CSAPP/Chapter 9/Images/Pasted image 20251021130023.png",

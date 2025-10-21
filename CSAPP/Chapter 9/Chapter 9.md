@@ -254,4 +254,8 @@ https://www.youtube.com/watch?v=lu1B1faqpUw&list=PL22J-I2Pi-Gf0s1CGDVtt4vuvlyjLx
 			- Fault handler returns and it restarts that instruction. And now the write is writing to the copy
 
 - [1:05:26](https://www.youtube.com/watch?v=lu1B1faqpUw#t=1:05:26.80) 
+- Execve - running a new program in a new virtual address space within the current process. So it frees all the area_struct and page tables for the current process, then it creates new area_structs and page tables for the new areas.
+- The program (i think it's .text) and initialized data (.data) - those areas are backed by the file in this case the executable binary.
+	- And their program is backed by the portion of the executable that contains code 
+- ![[Pasted image 20251021152849.png]]
 - 
