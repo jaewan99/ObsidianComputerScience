@@ -227,4 +227,8 @@ https://www.youtube.com/watch?v=lu1B1faqpUw&list=PL22J-I2Pi-Gf0s1CGDVtt4vuvlyjLx
 	- 'Virtually indexed, physically tagged"
 	- Cache carefully sized to make this possible
 	- From book: Aside Optimizing address translation
--  
+- [51:30](https://www.youtube.com/watch?v=lu1B1faqpUw#t=51:30.11) 
+-  Memory Mapping
+	- VM areas initialized by associating them with disk objects.
+		- Process is known as memory mapping
+	- 
