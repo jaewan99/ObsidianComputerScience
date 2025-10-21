@@ -191,3 +191,7 @@ Virtual Machine
 			- Efficient only because of locality
 		- Simplifies memory management and programming
 		- Simplifies protection by providing a convenient interpositioning point to check permissions
+
+https://www.youtube.com/watch?v=lu1B1faqpUw&list=PL22J-I2Pi-Gf0s1CGDVtt4vuvlyjLxfem&index=18
+
+Simple Memory
