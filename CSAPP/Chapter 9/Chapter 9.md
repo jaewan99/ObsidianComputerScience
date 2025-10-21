@@ -256,6 +256,14 @@ https://www.youtube.com/watch?v=lu1B1faqpUw&list=PL22J-I2Pi-Gf0s1CGDVtt4vuvlyjLx
 - [1:05:26](https://www.youtube.com/watch?v=lu1B1faqpUw#t=1:05:26.80) 
 - Execve - running a new program in a new virtual address space within the current process. So it frees all the area_struct and page tables for the current process, then it creates new area_structs and page tables for the new areas.
 - The program (i think it's .text) and initialized data (.data) - those areas are backed by the file in this case the executable binary.
-	- And their program is backed by the portion of the executable that contains code 
+	- And their program is backed by the portion of the executable that contains code
+	- data segment is backed by the portion of the executable file that contains the initialized data
+		- These two are private - shouldn't being shared with anything else. 
+		- file-backed - these portion is backed with file
+- .bss - demand zero - the system initialize this to zero
+- Once the loader sets the %RIP to the entry point - the first instruction in this text segment
+	- Then linux will fault in all the code and data that's needed on demand
+	- Therefore, the loading of the page of code or data is deferred, until that code or data page is actually referenced and accessed.
+
 - ![[Pasted image 20251021152849.png]]
 - 
