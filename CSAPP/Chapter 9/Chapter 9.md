@@ -264,6 +264,12 @@ https://www.youtube.com/watch?v=lu1B1faqpUw&list=PL22J-I2Pi-Gf0s1CGDVtt4vuvlyjLx
 - Once the loader sets the %RIP to the entry point - the first instruction in this text segment
 	- Then linux will fault in all the code and data that's needed on demand
 	- Therefore, the loading of the page of code or data is deferred, until that code or data page is actually referenced and accessed.
-
 - ![[Pasted image 20251021152849.png]]
-- 
+
+- [1:11:40](https://www.youtube.com/watch?v=lu1B1faqpUw#t=1:11:40.93) 
+- ![[Pasted image 20251021154419.png]]
+- *start = some pointer to virtual address space
+- length = tries to map that portion of the virtual address space to the object with 'offset'
+- fd = to some objects specified in this file descriptor
+- prot = PROT_READ, PROT_WRITE
+- flags = MAP_ANON, MAP_PRIVATE, MAP
