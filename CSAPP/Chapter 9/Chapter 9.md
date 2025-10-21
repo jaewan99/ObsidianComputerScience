@@ -199,4 +199,14 @@ https://www.youtube.com/watch?v=lu1B1faqpUw&list=PL22J-I2Pi-Gf0s1CGDVtt4vuvlyjLx
 - [00:57](https://www.youtube.com/watch?v=lu1B1faqpUw#t=00:57.25) 
 - Addressing - 
 	- ![[Pasted image 20251021101535.png]]
-	- 
+	- ![[Pasted image 20251021111443.png]]
+	
+	- ![[Pasted image 20251021111552.png]]
+	- Each page entry consists of a physical page number, and a valid bit, if's on, the page is in the memory. This VPN column doesn't exist in the page table.
+
+	- Simple Memory System cache
+		- 16 lines, 4 byte block size
+		- Physically addressed
+		- Direct mapped
+		- ![[Pasted image 20251021112043.png]]
+		- 
