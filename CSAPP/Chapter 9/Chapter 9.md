@@ -217,4 +217,6 @@ https://www.youtube.com/watch?v=lu1B1faqpUw&list=PL22J-I2Pi-Gf0s1CGDVtt4vuvlyjLx
 	- Each core can execute instructions separately.
 	- Each of the core has a register file.
 	- Some hardware that fetches instructions.
-	  - 
+	-  ![[Pasted image 20251021124015.png]]
+	- ![[Pasted image 20251021124038.png]]
+- 
