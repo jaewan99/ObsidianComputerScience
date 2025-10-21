@@ -226,3 +226,5 @@ https://www.youtube.com/watch?v=lu1B1faqpUw&list=PL22J-I2Pi-Gf0s1CGDVtt4vuvlyjLx
 	- Generally we hit in TLB, so PPN bits (CT bits) available next
 	- 'Virtually indexed, physically tagged"
 	- Cache carefully sized to make this possible
+	- From book: Aside Optimizing address translation
+-  
