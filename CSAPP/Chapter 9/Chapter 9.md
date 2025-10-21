@@ -231,4 +231,13 @@ https://www.youtube.com/watch?v=lu1B1faqpUw&list=PL22J-I2Pi-Gf0s1CGDVtt4vuvlyjLx
 -  Memory Mapping
 	- VM areas initialized by associating them with disk objects.
 		- Process is known as memory mapping
+		- Every are and thus page within that area is associated with some portion of a file
+			- Initial contents of the pages in that area come from that file
+	- Area can be backed by (i.e., get its Initial values from)
+		- Regular file on dis (e.g., an executable object file)
+			- Initial page bytes come from a section of a file
+		- Anonymous file (e.g, nothing)
+			- First fault will allocate a physical page full of 0's (demand-zero page)
+			- Once the page it written to (dirtied), it is like any other page
+	- Dirty pages are copied back and forth between memory and a special swap file.
 	- 
