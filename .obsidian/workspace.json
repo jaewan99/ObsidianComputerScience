@@ -113,7 +113,7 @@
                 }
               },
               "icon": "youtube",
-              "title": "YouTube - lu1B1faqpUw"
+              "title": "CMU 15213/15513 CSAPP 深入理解计算机系统 Lecture 18 Virtual Memory Systems 中英字幕"
             }
           }
         ]
@@ -268,10 +268,10 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "0359dd0151c16061",
+  "active": "c3fdd42b1f3dcc07",
   "lastOpenFiles": [
-    "CSAPP/Chapter 8/Chapter 8.md",
     "CSAPP/Chapter 9/Chapter 9.md",
+    "CSAPP/Chapter 8/Chapter 8.md",
     "CSAPP/Chapter 9/Images/Pasted image 20251021130023.png",
     "CSAPP/Chapter 9/Images/Pasted image 20251021124038.png",
     "CSAPP/Chapter 9/Images/Pasted image 20251021124015.png",
