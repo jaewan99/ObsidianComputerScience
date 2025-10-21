@@ -6,7 +6,7 @@
       {
         "id": "50f475dff14410df",
         "type": "tabs",
-        "dimension": 22.60127931769723,
+        "dimension": 44.97487437185929,
         "children": [
           {
             "id": "0359dd0151c16061",
@@ -27,7 +27,7 @@
       {
         "id": "b2a4b1d7bd7c873e",
         "type": "tabs",
-        "dimension": 77.39872068230277,
+        "dimension": 55.02512562814071,
         "children": [
           {
             "id": "c3fdd42b1f3dcc07",
@@ -113,7 +113,7 @@
                 }
               },
               "icon": "youtube",
-              "title": "CMU 15213/15513 CSAPP 深入理解计算机系统 Lecture 18 Virtual Memory Systems 中英字幕"
+              "title": "YouTube - lu1B1faqpUw"
             }
           }
         ]
@@ -268,8 +268,9 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "c3fdd42b1f3dcc07",
+  "active": "0359dd0151c16061",
   "lastOpenFiles": [
+    "CSAPP/Chapter 8/Chapter 8.md",
     "CSAPP/Chapter 9/Chapter 9.md",
     "CSAPP/Chapter 9/Images/Pasted image 20251021130023.png",
     "CSAPP/Chapter 9/Images/Pasted image 20251021124038.png",
@@ -280,7 +281,6 @@
     "CSAPP/Chapter 9/Images/Pasted image 20251021101535.png",
     "CSAPP/Chapter 9/deepseek_markdown_20251020_1455ec.md",
     "CSAPP/Chapter 6/Chapter 6.4 캐시 메모리.md",
-    "CSAPP/Chapter 8/Chapter 8.md",
     "CSAPP/Chapter 9/Images/Pasted image 20251020155128.png",
     "CSAPP/Chapter 9/Images/Pasted image 20251020154842.png",
     "CSAPP/Chapter 9/Images/Pasted image 20251020154225.png",
