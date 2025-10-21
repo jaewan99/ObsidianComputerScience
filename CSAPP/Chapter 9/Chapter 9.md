@@ -240,4 +240,18 @@ https://www.youtube.com/watch?v=lu1B1faqpUw&list=PL22J-I2Pi-Gf0s1CGDVtt4vuvlyjLx
 			- First fault will allocate a physical page full of 0's (demand-zero page)
 			- Once the page it written to (dirtied), it is like any other page
 	- Dirty pages are copied back and forth between memory and a special swap file.
-	- 
+
+	- The fork Function Revisited
+		- a VM and memory mapping explain how fork provides private address space for each process.
+		- To create virtual address space for new child process
+			- Create exact copies of current mm_struct, vm_area_struct, and page tables.
+			- Fag each page in both proceses as read-only
+			- Flag each vn_area_struct in both processes as private Copy On Write
+		- On return, each process has exact copy of virtual memory
+		- Subsequent writes create new pages using COW mechanism.
+		- So it's tries to do a write the page is flagged as read-only (in the PTE), that triggers fault
+			- the kernel looks at that looks up the flags for that particular page sees that it's COW, so it makes a copy of that target page and maps it to a new region of the physical address space. 
+			- Fault handler returns and it restarts that instruction. And now the write is writing to the copy
+
+- [1:05:26](https://www.youtube.com/watch?v=lu1B1faqpUw#t=1:05:26.80) 
+- 
