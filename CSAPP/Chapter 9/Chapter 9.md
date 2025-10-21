@@ -152,6 +152,8 @@ Virtual Machine
 	- ![[Pasted image 20251020150701.png]]
 
 - Address Translation: Page Fault
+- ![[Pasted image 20251021223445.png]]
+
 - 1) Processor sends virtual address to MMU
 - 2-3) MMU fetches PTE from page table in memory
 - 4) Valid bit is zero, so MMU triggers page fault exception
