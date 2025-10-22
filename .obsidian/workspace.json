@@ -20,9 +20,15 @@
               "icon": "lucide-file",
               "title": "Chapter 9"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "517b0e5086a26a0a",
+        "type": "tabs",
+        "children": [
           {
-            "id": "60c657a8b39fea3b",
+            "id": "8316d278bbfaf09c",
             "type": "leaf",
             "state": {
               "type": "mx-url",
@@ -108,8 +114,7 @@
               "title": "CMU 15213/15513 CSAPP 深入理解计算机系统 Lecture 18 Virtual Memory Systems 中英字幕"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -166,7 +171,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 284.5
+    "width": 284.5,
+    "collapsed": true
   },
   "right": {
     "id": "658074b3dc69e704",
@@ -260,7 +266,7 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "60c657a8b39fea3b",
+  "active": "8316d278bbfaf09c",
   "lastOpenFiles": [
     "CSAPP/Chapter 9/Chapter 9.md",
     "CSAPP/CSAPP_2016.pdf",
