@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "50f475dff14410df",
+        "id": "9fa285b53c54e438",
         "type": "tabs",
         "children": [
           {
-            "id": "0359dd0151c16061",
+            "id": "312088353c70396f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,7 +22,7 @@
             }
           },
           {
-            "id": "cd9e3e67690c03eb",
+            "id": "60c657a8b39fea3b",
             "type": "leaf",
             "state": {
               "type": "mx-url",
@@ -33,12 +33,12 @@
                       "type": "url:hosted",
                       "vid": {
                         "host": "youtube",
-                        "vid": "Fy9cnP9TXUc",
+                        "vid": "lu1B1faqpUw",
                         "t": null,
                         "start": null,
                         "end": null
                       },
-                      "url": "https://www.youtube.com/watch?v=Fy9cnP9TXUc"
+                      "url": "https://www.youtube.com/watch?v=lu1B1faqpUw"
                     },
                     "hash": {
                       "type": null,
@@ -50,7 +50,7 @@
                       "audioGain": null,
                       "playbackRate": null,
                       "tempFragment": {
-                        "start": 2752.57,
+                        "start": 1084.86,
                         "end": -1
                       },
                       "loop": null,
@@ -108,7 +108,8 @@
               "title": "CMU 15213/15513 CSAPP 深入理解计算机系统 Lecture 18 Virtual Memory Systems 中英字幕"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -259,11 +260,12 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "857e29066a8d31b7",
+  "active": "60c657a8b39fea3b",
   "lastOpenFiles": [
+    "CSAPP/Chapter 9/Chapter 9.md",
+    "CSAPP/CSAPP_2016.pdf",
     "CSAPP/Chapter 8/Chapter 8.md",
     "CSAPP/Chapter 7/7.1 링커.md",
-    "CSAPP/Chapter 9/Chapter 9.md",
     "CSAPP/Chapter 9/deepseek_markdown_20251020_1455ec.md",
     "CSAPP/Chapter 8/deepseek_markdown_20251018_0f4d52.md",
     "CSAPP/Chapter 7/deepseek_markdown_20251017_b4dff5.md",
@@ -285,7 +287,6 @@
     "CSAPP/Chapter 6/Chapter 6.4 캐시 메모리.md",
     "CSAPP/Chapter 9/Images",
     "CSAPP/Chapter 9",
-    "CSAPP/CSAPP_2016.pdf",
     "코딩테스트 개념/Untitled",
     "Pasted image 20251018151050.png.md",
     "CSAPP/Chapter 8/Images",
