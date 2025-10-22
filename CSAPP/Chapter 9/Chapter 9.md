@@ -229,8 +229,11 @@ https://www.youtube.com/watch?v=lu1B1faqpUw&list=PL22J-I2Pi-Gf0s1CGDVtt4vuvlyjLx
 				- The index and the offset bits in the physical addresses are identical / exactly correspond to the PPO in the physical address which is exactly identical to the VPO in the virtual address
 				- That means is that when the MMU is given a virtual address.
 					- It can send the VPO off to the L1 cache
-					- Even though, L1 is physically addressed
-					- 
+					- Even though, L1 is physically addressed, we can send the VPO in the virtual address to the L1 cache because of this phenomenon that the PPO is identical to the VPO
+					- So even before the MMU is doing any address translation, it can send this these VPO bits to cache.
+					- And then the cache can get busy extracting the index the cache index bits
+						- Looking up all of the lines, in that set. and then have everything ready for the tag check.
+							- can only occur after the address translation happens
 
 - Observation
 	- Bit that determine Cl identical in virtual and physical address
