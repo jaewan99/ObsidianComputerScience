@@ -222,7 +222,10 @@ https://www.youtube.com/watch?v=lu1B1faqpUw&list=PL22J-I2Pi-Gf0s1CGDVtt4vuvlyjLx
 	-  ![[Pasted image 20251021124015.png]]
 	- ![[Pasted image 20251021124038.png]]
 - ![[Pasted image 20251021130023.png]]
-- To this point, we have been using a model where the MMU takes th
+- To this point, we have been using a model where the MMU does the address translation and creates a complete physical address - and send that physical address to cache.
+	- But in reality, intel does this little trick to speed up L1 cache accesses
+		- We are given the virtual addres
+
 - Observation
 	- Bit that determine Cl identical in virtual and physical address
 	- Can index into cache while address translation taking place
