@@ -224,7 +224,13 @@ https://www.youtube.com/watch?v=lu1B1faqpUw&list=PL22J-I2Pi-Gf0s1CGDVtt4vuvlyjLx
 - ![[Pasted image 20251021130023.png]]
 - To this point, we have been using a model where the MMU does the address translation and creates a complete physical address - and send that physical address to cache.
 	- But in reality, intel does this little trick to speed up L1 cache accesses
-		- We are given the virtual addres
+		- We are given the virtual address
+			- In this virtual address
+				- The index and the offset bits in the physical addresses are identical / exactly correspond to the PPO in the physical address which is exactly identical to the VPO in the virtual address
+				- That means is that when the MMU is given a virtual address.
+					- It can send the VPO off to the L1 cache
+					- Even though, L1 is physically addressed
+					- 
 
 - Observation
 	- Bit that determine Cl identical in virtual and physical address
