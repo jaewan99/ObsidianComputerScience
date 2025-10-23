@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSAPP/Chapter 8/Chapter 8.md",
+                "file": "CSAPP/Chapter 9/Chapter 9.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 8"
+              "title": "Chapter 9"
             }
           },
           {
@@ -188,9 +188,9 @@
   },
   "active": "312088353c70396f",
   "lastOpenFiles": [
+    "CSAPP/Chapter 8/Chapter 8.md",
     "CSAPP/Chapter 9/Chapter 9.md",
     "CSAPP/필요한 링크들.md",
-    "CSAPP/Chapter 8/Chapter 8.md",
     "CSAPP/CSAPP_2016.pdf",
     "CSAPP/Chapter 7/7.1 링커.md",
     "CSAPP/Chapter 9/deepseek_markdown_20251020_1455ec.md",
