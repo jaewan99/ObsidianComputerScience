@@ -535,3 +535,17 @@ Types of allocators
 		- Coalescing with next block
 		- ![[Pasted image 20251024195049.png]]
 		- But how do we coalesce with "previous" block
+			- This would be linear in size of the heap because in order to check the previous block we'd have to walk starting at the very beginning and walk the entire heap.
+	
+- [46:19](https://www.youtube.com/watch?v=FblqVNY5N58#t=46:19.75) 
+- Implicit list: Bidirectional Coalescing
+	- Boundary tags by Knuth73
+		- Replicate size/allocated word at "bottom" (end) of free blocks
+		- Allows us to traverse the "list" backwards, but requires extra space
+		- Important and general technique!
+		- ![[Pasted image 20251024195642.png]]
+		- given the block that we want to free, we know the size that block will just be one word previous in memory so it's always a fixed offset of one word.
+			- So given a pointer to the header of the block, we can look one word back to see the size and the allocation status of the previous block
+			- This allows to free the block in constant time
+			- ![[Pasted image 20251024200030.png]]
+			- the thing is that it's identical has the identical size and allocation status
