@@ -568,8 +568,41 @@ Types of allocators
 - Can it be optimized?
 	- Which blocks need the footer tag?
 	- What does that mean?
-	- the allocated block doesn't need a footer tag
-	- If we have 8 byte alignment
-		-  we know the ending bits are implicitly
-			- the first one belong the block
-			- the the previous block is allocated is 2nd allocated bit
+	- the allocated block doesn't need a footer / boundary tag
+		- If we have 8 byte alignment
+			-  we know the ending bits are implicitly
+				- the first one belong the block
+				- the the previous block is allocate d is 2nd allocated bit
+
+
+- [59:51](https://www.youtube.com/watch?v=FblqVNY5N58#t=59:51.48) 
+- Summary of Key Allocator Policies
+	- Placement policy:
+		- First-fit, next-fit, best-fit, etc.
+		- Trades off lower throughput for less fragmentation
+		- Interesting observation: segregated free lists (next lecture) approximate a best fit placement policy without having to search entire free list
+	- Splitting policy:
+		- When do we go ahead and split free blocks?
+		- How much internal fragmentation are we willing to tolerate?
+	- Coalescing policy:
+		- Immediate coalescing: coalesce each time free is called
+		- Deferred coalescing: try to improve performance of free by coalescing until needed.
+			- Examples:
+				- Coalesce as you scan the free list for malloc
+				- Coalesce when the amount of external fragmentation reach some threshold
+
+
+- [1:04:43](https://www.youtube.com/watch?v=FblqVNY5N58#t=1:04:43.49) 
+- Implicit lists: summary
+- Implementation: very simple
+- Allocate cost:
+	- linear time worst case
+- Free cost:
+	- constant time worst case
+	- even with coalescing
+- Memory usage:
+	- will depend on placement policy
+	- First-fit, next-fit or best-fit
+- Not used in practice for malloc/free because of linear-time allocation
+	- used in many special purpose applications
+- However, the concepts of splitting and boundary tag coalescing are general to "all" allocators
