@@ -485,4 +485,15 @@ Types of allocators
 	- ![[Pasted image 20251024191913.png]]
 		- Any 8 byte aligned block has to be size 8 and it has to start on address that's multiple of 8
 		- The block size (like actual value holding the size) is block will always have 3 or 4 low-order bits set to 0.
-			- we use that low order bit to store th
+			- we use that low order bit to store the allocation status, and then the remaining bits correspond to the size 
+				- Whenever we want to extract the size we just mask out this allocation status and always set it to zero
+	![[Pasted image 20251024193152.png]]
+	- (1) - we are indicating a free block consisting of 8 bytes
+	- (2) - allocating 16 bytes - 2 words
+		-  internal fragmentation where we have this extra block in order to maintain the alignment requirement so that ensures that the next block payload starts at an 8 byte aligned boundary and so on.
+	- (3) - this eliminates some sort of special cases when we start to coalesce free blocks.
+		- is also helpful terminating
+
+
+- [36:56](https://www.youtube.com/watch?v=FblqVNY5N58#t=36:56.00) 
+- Implicit 
