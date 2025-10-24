@@ -414,7 +414,7 @@ Types of allocators
 
 
 - [17:21](https://www.youtube.com/watch?v=FblqVNY5N58#t=17:21.77) 
-- Fragmentation
+- Fragmentation - 단편화
 - Poor memory utilization caused by fragmentation
 	- internal fragmentation
 	- external fragmentation
@@ -437,3 +437,12 @@ Types of allocators
 		- The allocator has to go and get more virtual memory and extend the heap out this way to get a large enough free block.
 	- Depends on the pattern of the future request.
 		-  Thus, difficult to measure.
+
+
+- [21:44](https://www.youtube.com/watch?v=FblqVNY5N58#t=21:44.44) 
+- Implementation Issues
+	- How do we know how much memory to free given just a pointer?
+	- How do we keep track of the free blocks?
+	- What do we do with the extra space when allocating a structure that is smaller than the free block it is placed in?
+	- How do we pick a block to use for allocation -- many might fit?
+	- How do we reinsert freed block?
