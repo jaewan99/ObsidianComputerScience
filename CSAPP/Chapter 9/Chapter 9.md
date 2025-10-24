@@ -312,6 +312,20 @@ Allocator maintains heap as collection of variable sized blocks, which are eithe
 Types of allocators
 - Explicit allocator: application allocates and frees space
 	- E.g., malloc and free in C
-	- The system wont fre
+	- The system wont free up any memory that you allocate unless you do it.
 - Implicit allocator: application allocates, but does not free space
 	- E.g. garbage collection in Java, ML, and Lisp
+	- The system takes care of freeing the memory
+		- The burden of freeing the memory is shifted from the application program to the system.
+		- It frees this memory implicitly sort of behind the scenes using the process called garbage collection
+
+
+- [03:30](https://www.youtube.com/watch?v=FblqVNY5N58#t=03:30.93) 
+- The malloc Package
+- #include <stdlib.h>
+- void *malloc(size_t size)
+	- The function is used to allocate memory and it takes as input size argument which is in bytes and then it returns a pointer to a memory block that contains at least the input size bytes.
+	- Successful:
+		- Returns a pointer to a memory block of at least size bytes aligned to an 8-byte (x86) or 16-byte (x86-64) boundary
+	- Unsuccessful: returns NULL (0) and sets errno
+- 
