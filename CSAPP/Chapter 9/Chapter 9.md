@@ -549,3 +549,19 @@ Types of allocators
 			- This allows to free the block in constant time
 			- ![[Pasted image 20251024200030.png]]
 			- the thing is that it's identical has the identical size and allocation status
+
+- [48:34](https://www.youtube.com/watch?v=FblqVNY5N58#t=48:34.30) 
+- Constant time coalescing
+	- ![[Pasted image 20251024200450.png]]
+	- Case 1
+		- ![[Pasted image 20251024200524.png]]
+	- Case 2
+		- ![[Pasted image 20251024200621.png]]
+	- Case 3
+		- ![[Pasted image 20251024200720.png]]
+	- Case 4
+		- ![[Pasted image 20251024200751.png]]
+
+- [52:30](https://www.youtube.com/watch?v=FblqVNY5N58#t=52:30.51) 
+- Disadvantages of boundary tags
+	- can create additional internal fragmentation - they are overhead
