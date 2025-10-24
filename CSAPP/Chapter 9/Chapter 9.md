@@ -518,4 +518,20 @@ Types of allocators
 		- Since allocated space might be smaller than free space, we might want to split the block
 		- ![[Pasted image 20251024193939.png]]
 		- If the malloc package is determined that it in order to satisfy the application request it needs a block of size 4 - including the header.
-		- 
+		- ![[Pasted image 20251024194218.png]]
+
+- [42:48](https://www.youtube.com/watch?v=FblqVNY5N58#t=42:48.11) 
+- Implicit list: Freeing a block
+	- Simplest implementation:
+		- Need only clear the "allocated" flag
+			- ![[Pasted image 20251024194556.png]]
+		- But can lead to "false fragmentation"
+		- ![[Pasted image 20251024194655.png]]
+		- There's enough free space, but the allocator won't be able to add
+
+- [43:58](https://www.youtube.com/watch?v=FblqVNY5N58#t=43:58.34) 
+- Implicit list: Coalescing
+	- Join (coalesce) with next / previous blocks, if they are free
+		- Coalescing with next block
+		- ![[Pasted image 20251024195049.png]]
+		- But how do we coalesce with "previous" block
