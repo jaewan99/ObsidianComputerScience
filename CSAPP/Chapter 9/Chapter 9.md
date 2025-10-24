@@ -364,3 +364,30 @@ Types of allocators
 		- Must respond immediately to malloc requests
 			- i.e., can't reorder or buffer requests
 		- Must allocate blocks from free memory
+			- i.e., can only place allocated blocks in free memory
+		- Must align blocks so they satisfy all alignment requirements
+			- 8-byte (x86) or 16-byte (x86-64) alignment on Linux boxes
+		- Can manipulate and modify only free memory
+		- Can't move the allocated blocks once they are malloc'd
+			- i.e., compaction is not allowed
+
+
+- [12:35](https://www.youtube.com/watch?v=FblqVNY5N58#t=12:35.02) 
+- Performance Goal: Throughput
+	- Given some sequence of malloc and free requests:
+		- Ro Ry. ... , Rw ... , R(n-1)
+	- Goals: maximize throughput and peak memory utilization
+		- These goals are often conflicting
+	- Throughput:
+		- Number of completed requests per unit time
+			- Example:
+				- 5,000 malloc calls and 5,000 free calls in 10 seconds
+				- Throughput is 1,000 operations/second
+	- Measuring how efficiently are malloc can process these requests from an application.
+- asd
+- Measuring how efficiently the allocator uses the heap
+	- How much is wasted on sort of overheads in the data structure that the allocator has to uses to in its implementation
+- When application makes a call to malloc it's requesting a certain size block. And that block is called payload. So if we call malloc with an argument of 10 bytes. We're requesting a block that has a payload that's at least size 10.
+	- And the 10 bytes that we request that are called the payload.
+	- Everything else in that block is overhead.
+- The perfect allocator 
