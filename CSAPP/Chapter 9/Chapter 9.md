@@ -467,4 +467,4 @@ Types of allocators
 - ![[Pasted image 20251024172748.png]]
 - We could actually some of the words in the block to create a linked list of some kind either singly or doubly linked list.
 	- So here we visit the first free block and then there's a pointer to the next free block and so on.
-	- This might be little more efficient because if we want to 
+	- This might be little more efficient because if we want to traverse the free list. The method 1, it's going to be linear. With this, any traversal just be linear in the size of the free list.
