@@ -459,4 +459,12 @@ Types of allocators
 		- Consisting of at least 4 payload words, and then a header block, a header word at the beginning that indicates the total size of that block. and it returns to the pointer p0 in this case to the beginning of the payload.
 
 - [24:27](https://www.youtube.com/watch?v=FblqVNY5N58#t=24:27.24) 
-- 
+- Keeping Track of Free Blocks
+- ![[Pasted image 20251024172607.png]]
+- since we know the size of the block which means that we know the start of the next block
+- There's no list of free blocks - but we can traverse that all of the free block in the heap by traversing all of the blocks in the heap and just ignoring the allocated blocks.
+
+- ![[Pasted image 20251024172748.png]]
+- We could actually some of the words in the block to create a linked list of some kind either singly or doubly linked list.
+	- So here we visit the first free block and then there's a pointer to the next free block and so on.
+	- This might be little more efficient because if we want to 
