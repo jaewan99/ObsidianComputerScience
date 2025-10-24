@@ -384,10 +384,26 @@ Types of allocators
 				- 5,000 malloc calls and 5,000 free calls in 10 seconds
 				- Throughput is 1,000 operations/second
 	- Measuring how efficiently are malloc can process these requests from an application.
-- asd
-- Measuring how efficiently the allocator uses the heap
-	- How much is wasted on sort of overheads in the data structure that the allocator has to uses to in its implementation
-- When application makes a call to malloc it's requesting a certain size block. And that block is called payload. So if we call malloc with an argument of 10 bytes. We're requesting a block that has a payload that's at least size 10.
-	- And the 10 bytes that we request that are called the payload.
-	- Everything else in that block is overhead.
-- The perfect allocator 
+- Performance Goal: Peak Memory Utilization
+	- Measuring how efficiently the allocator uses the heap
+		- How much is wasted on sort of overheads in the data structure that the allocator has to uses to in its implementation
+	- Given some sequence of malloc and free requests:
+		- Ro Ry ... , Rw ... , Rn.1
+	
+		- Def: Aggregate payload Pk
+			- malloc (p) results in a block with a payload of p bytes
+			- After request Rk has completed, the aggregate payload Pk is the sum of currently allocated payloads
+			- When application makes a call to malloc it's requesting a certain size block. And that block is called payload. So if we call malloc with an argument of 10 bytes. We're requesting a block that has a payload that's at least size 10.
+			- And the 10 bytes that we request that are called the payload.
+			- Everything else in that block is overhead.
+			- The perfect allocator - the aggregate payload would equal the amount of memory - to total size of all the allocated blocks because there would be no overhead
+				- Every block would be pure payload.
+		
+		- Def: Current heap size Hk
+			- Assume Hk is monotonically nondecreasing
+				- i.e., heap only grows when allocator uses sbrk
+			- but not true in a real malloc package.
+			
+		- Def: Peak memory utilization after k+1 requests
+			-![[Pasted image 20251024164200.png]]
+			
