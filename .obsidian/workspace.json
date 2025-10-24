@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9fa285b53c54e438",
+        "id": "d83ce78e41dde05e",
         "type": "tabs",
         "children": [
           {
-            "id": "312088353c70396f",
+            "id": "d5463e001d42c86d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -213,8 +213,9 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "312088353c70396f",
+  "active": "d5463e001d42c86d",
   "lastOpenFiles": [
+    "CSAPP/Chapter 9/Chapter 9.md",
     "CSAPP/Chapter 9/Images/Pasted image 20251024200751.png",
     "CSAPP/Chapter 9/Images/Pasted image 20251024200720.png",
     "CSAPP/Chapter 9/Images/Pasted image 20251024200621.png",
@@ -225,8 +226,6 @@
     "CSAPP/Chapter 9/Images/Pasted image 20251024195642.png",
     "CSAPP/Chapter 9/Images/Pasted image 20251024195049.png",
     "CSAPP/Chapter 9/Images/Pasted image 20251024195046.png",
-    "CSAPP/Chapter 9/Images/Pasted image 20251024194655.png",
-    "CSAPP/Chapter 9/Chapter 9.md",
     "CSAPP/Chapter 9/deepseek_markdown_20251020_1455ec.md",
     "CSAPP/필요한 링크들.md",
     "CSAPP.md",

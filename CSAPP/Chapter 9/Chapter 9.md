@@ -565,3 +565,11 @@ Types of allocators
 - [52:30](https://www.youtube.com/watch?v=FblqVNY5N58#t=52:30.51) 
 - Disadvantages of boundary tags
 	- can create additional internal fragmentation - they are overhead
+- Can it be optimized?
+	- Which blocks need the footer tag?
+	- What does that mean?
+	- the allocated block doesn't need a footer tag
+	- If we have 8 byte alignment
+		-  we know the ending bits are implicitly
+			- the first one belong the block
+			- the the previous block is allocated is 2nd allocated bit
