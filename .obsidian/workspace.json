@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d83ce78e41dde05e",
+        "id": "30486f489aa2b887",
         "type": "tabs",
         "children": [
           {
-            "id": "d5463e001d42c86d",
+            "id": "3d53bbb24d920cf8",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,46 +19,6 @@
               },
               "icon": "lucide-file",
               "title": "Chapter 9"
-            }
-          }
-        ]
-      },
-      {
-        "id": "4eb45c83b704bc89",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "0991bbbe0d2a3d77",
-            "type": "leaf",
-            "state": {
-              "type": "mx-url",
-              "state": {
-                "mx": {
-                  "json": {
-                    "media": {
-                      "type": "url:hosted",
-                      "vid": {
-                        "host": "youtube",
-                        "vid": "FblqVNY5N58",
-                        "t": null,
-                        "start": null,
-                        "end": null
-                      },
-                      "url": "https://www.youtube.com/watch?v=FblqVNY5N58"
-                    },
-                    "hash": {}
-                  },
-                  "meta": {
-                    "values": {
-                      "media.url": [
-                        "URL"
-                      ]
-                    }
-                  }
-                }
-              },
-              "icon": "youtube",
-              "title": "CMU 15213/15513 CSAPP 深入理解计算机系统 Lecture 19 Dynamic Memory Allocation Basic Concepts 中英字幕"
             }
           }
         ]
@@ -118,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 284.5,
-    "collapsed": true
+    "width": 284.5
   },
   "right": {
     "id": "658074b3dc69e704",
@@ -213,8 +172,12 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "0991bbbe0d2a3d77",
+  "active": "857e29066a8d31b7",
   "lastOpenFiles": [
+    "CSAPP/CSAPP_2016.pdf",
+    "CSAPP/Chapter 8/deepseek_markdown_20251018_0f4d52.md",
+    "CSAPP/Chapter 9/deepseek_markdown_20251018_0f4d52.md",
+    "CSAPP/Chapter 9/deepseek_markdown_20251020_1455ec.md",
     "CSAPP/Chapter 9/Chapter 9.md",
     "CSAPP/Chapter 9/Images/Pasted image 20251024200751.png",
     "CSAPP/Chapter 9/Images/Pasted image 20251024200720.png",
@@ -226,14 +189,11 @@
     "CSAPP/Chapter 9/Images/Pasted image 20251024195642.png",
     "CSAPP/Chapter 9/Images/Pasted image 20251024195049.png",
     "CSAPP/Chapter 9/Images/Pasted image 20251024195046.png",
-    "CSAPP/Chapter 9/deepseek_markdown_20251020_1455ec.md",
     "CSAPP/필요한 링크들.md",
     "CSAPP.md",
     "코딩테스트 문제/dp/백준 11049.md",
     "CSAPP/Chapter 8/Chapter 8.md",
-    "CSAPP/CSAPP_2016.pdf",
     "CSAPP/Chapter 7/7.1 링커.md",
-    "CSAPP/Chapter 8/deepseek_markdown_20251018_0f4d52.md",
     "CSAPP/Chapter 7/deepseek_markdown_20251017_b4dff5.md",
     "코딩테스트 개념/스택 (stack).md",
     "코딩테스트 개념/분할정복 (divide and conquer).md",
@@ -257,7 +217,6 @@
     "코딩테스트 개념/트라이 (Trie).md",
     "코딩테스트 개념/큐 (queue).md",
     "Website/가상메모리(Virtual Memory).md",
-    "CSAPP/Chapter 3/Chapter 3.4 정보 접근하기.md",
     "JAVA/Spring",
     "JAVA"
   ]
