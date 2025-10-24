@@ -475,4 +475,14 @@ Types of allocators
 	- Can use a balanced tree (e.g. Red-Black tree) to sort the blocks and use the tree to sort them by size order.
 
 - [31:33](https://www.youtube.com/watch?v=FblqVNY5N58#t=31:33.49) 
-- 
+- Method 1: Implicit List
+	- For each block we need both size and allocation status
+		- Could store this information in two words: wasteful!
+	- Standard trick
+		- If blocks are aligned, some low-order address bits are always 0
+		- Instead of storing an always-0 bit, use it as a allocated/free flag
+		- When reading size word, must mask out this bit
+	- ![[Pasted image 20251024191913.png]]
+		- Any 8 byte aligned block has to be size 8 and it has to start on address that's multiple of 8
+		- The block size (like actual value holding the size) is block will always have 3 or 4 low-order bits set to 0.
+			- we use that low order bit to store th
