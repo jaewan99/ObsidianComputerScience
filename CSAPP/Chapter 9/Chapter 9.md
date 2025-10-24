@@ -468,3 +468,11 @@ Types of allocators
 - We could actually some of the words in the block to create a linked list of some kind either singly or doubly linked list.
 	- So here we visit the first free block and then there's a pointer to the next free block and so on.
 	- This might be little more efficient because if we want to traverse the free list. The method 1, it's going to be linear. With this, any traversal just be linear in the size of the free list.
+- ![[Pasted image 20251024174239.png]]
+	- We can have multiple free list, where each free list contains blocks of certain size or certain range of sizes.
+	- If you have really popular size classes in your request. Then you could just make you know special case free list to handle those request
+- ![[Pasted image 20251024174339.png]]
+	- Can use a balanced tree (e.g. Red-Black tree) to sort the blocks and use the tree to sort them by size order.
+
+- [31:33](https://www.youtube.com/watch?v=FblqVNY5N58#t=31:33.49) 
+- 
