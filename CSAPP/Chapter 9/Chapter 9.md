@@ -344,4 +344,23 @@ Types of allocators
 
 - [07:29](https://www.youtube.com/watch?v=FblqVNY5N58#t=07:29.51) 
 - Assumptions Made in This Lecture
-- Memory is word addressed (each word can hold a pointer) - but actually, it's byte address. And words are 4 bytes 
+	- Memory is word addressed (each word can hold a pointer) - but actually, it's byte address. And words are 4 bytes 
+- And blocks are contiguous chunks of those words that can be either allocated or free. 
+- (1) So here we have a portion of the heap, which consists of a 4 word allocated block followed by a 2 words free block.
+- ![[Pasted image 20251024161412.png]]
+
+
+- ![[Pasted image 20251024161657.png]]
+- The allocator looks to see if it can find a free block that has enough room and it finds this free block free that has 5 free words and then it allocates the requested block inside that free block
+
+
+- [10:11](https://www.youtube.com/watch?v=FblqVNY5N58#t=10:11.65) 
+- Constraints
+	- Applications
+		- Can issue arbitrary sequence of malloc and free requests
+		- free request must be to a malloc'd block
+	- Allocators
+		- Can't control number or size of allocated blocks
+		- Must respond immediately to malloc requests
+			- i.e., can't reorder or buffer requests
+		- Must allocate blocks from free memory
