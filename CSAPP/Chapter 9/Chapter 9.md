@@ -496,4 +496,26 @@ Types of allocators
 
 
 - [36:56](https://www.youtube.com/watch?v=FblqVNY5N58#t=36:56.00) 
-- Implicit 
+- Implicit list: Finding a free block
+	- First fit:
+		- Search list from beginning, choose first free block that fits:
+		- ![[Pasted image 20251024193241.png]]
+		- Can take linear time in total number of blocks (allocated and free)
+		- In practice it can cause "splinters" at beginning of list
+		- Ex. we are asking for a block of size 10, we start at the beginning of the heap and we walked a heap, looking for a free block that's at least size 10 (plus the size of the header)
+	- Next fit:
+		- Like first fit, but search list starting where previous search finished
+		- Should often be faster than first fit: avoids re-scanning unhelpful blocks
+		- Some research suggests that fragmentation is worse
+	- Best fit:
+		- Search the list, choose the best free block: fits, with fewest bytes left on heap.
+		- Keeps fragments small-usually improves memory utilization
+		- Will typically run slower than first fit
+	
+- [40:31](https://www.youtube.com/watch?v=FblqVNY5N58#t=40:31.38) 
+- Implicit list: Allocating in free block
+	- Allocating in a free block: splitting
+		- Since allocated space might be smaller than free space, we might want to split the block
+		- ![[Pasted image 20251024193939.png]]
+		- If the malloc package is determined that it in order to satisfy the application request it needs a block of size 4 - including the header.
+		- 
