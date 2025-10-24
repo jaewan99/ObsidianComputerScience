@@ -419,4 +419,21 @@ Types of allocators
 	- internal fragmentation
 	- external fragmentation
 - Internal fragmentation
-	- This can be caused by either padding in the block or some kind of data structure in the block that the allocator needs.
+	- For a given block, internal fragmentation occurs if payload is smaller than block size
+	- ![[Pasted image 20251024165232.png]]
+	- Caused by
+		- This can be caused by either padding in the block or some kind of data structure in the block that the allocator needs.
+		- Overhead of maintaining heap data structures
+		- Padding for alignment purposes
+		- Explicit policy decisions (e.g., to return a big block to satisfy a small request)
+	- Depends only on the pattern of previous requests
+		- Thus, easy to measure
+		- At any point in time, we can just look at all the previous requests that we've made. And look at the size of the payload for each one of those request, so we can determine the level of internal fragmentation just by looking at the previous request.
+- External fragmentation
+	- Occurs when there is enough aggregate heap memory, but no single free block is large enough
+		- When the application makes a request for a block but nowhere in the heap is a free block that's large enough to satisfy that request.
+	- ![[Pasted image 20251024165923.png]]
+	- The total number of free words in our heap is 7 words. And now we get a request for 6 words.
+		- The allocator has to go and get more virtual memory and extend the heap out this way to get a large enough free block.
+	- Depends on the pattern of the future request.
+		-  Thus, difficult to measure.
