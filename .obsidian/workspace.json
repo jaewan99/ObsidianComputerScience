@@ -22,6 +22,46 @@
             }
           }
         ]
+      },
+      {
+        "id": "4eb45c83b704bc89",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0991bbbe0d2a3d77",
+            "type": "leaf",
+            "state": {
+              "type": "mx-url",
+              "state": {
+                "mx": {
+                  "json": {
+                    "media": {
+                      "type": "url:hosted",
+                      "vid": {
+                        "host": "youtube",
+                        "vid": "FblqVNY5N58",
+                        "t": null,
+                        "start": null,
+                        "end": null
+                      },
+                      "url": "https://www.youtube.com/watch?v=FblqVNY5N58"
+                    },
+                    "hash": {}
+                  },
+                  "meta": {
+                    "values": {
+                      "media.url": [
+                        "URL"
+                      ]
+                    }
+                  }
+                }
+              },
+              "icon": "youtube",
+              "title": "CMU 15213/15513 CSAPP 深入理解计算机系统 Lecture 19 Dynamic Memory Allocation Basic Concepts 中英字幕"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,7 +118,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 284.5
+    "width": 284.5,
+    "collapsed": true
   },
   "right": {
     "id": "658074b3dc69e704",
@@ -172,16 +213,16 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "312088353c70396f",
+  "active": "0991bbbe0d2a3d77",
   "lastOpenFiles": [
-    "CSAPP/필요한 링크들.md",
     "CSAPP/Chapter 9/Chapter 9.md",
+    "CSAPP/Chapter 9/deepseek_markdown_20251020_1455ec.md",
+    "CSAPP/필요한 링크들.md",
     "CSAPP.md",
     "코딩테스트 문제/dp/백준 11049.md",
     "CSAPP/Chapter 8/Chapter 8.md",
     "CSAPP/CSAPP_2016.pdf",
     "CSAPP/Chapter 7/7.1 링커.md",
-    "CSAPP/Chapter 9/deepseek_markdown_20251020_1455ec.md",
     "CSAPP/Chapter 8/deepseek_markdown_20251018_0f4d52.md",
     "CSAPP/Chapter 7/deepseek_markdown_20251017_b4dff5.md",
     "코딩테스트 개념/스택 (stack).md",

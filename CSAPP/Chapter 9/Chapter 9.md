@@ -294,4 +294,24 @@ https://www.youtube.com/watch?v=lu1B1faqpUw&list=PL22J-I2Pi-Gf0s1CGDVtt4vuvlyjLx
 - ![[Pasted image 20251021155436.png]]
 - not gets copied, it's just mapping.
 - ![[Pasted image 20251021155737.png]]
-- 
+
+
+
+https://www.youtube.com/watch?v=FblqVNY5N58&list=PL22J-I2Pi-Gf0s1CGDVtt4vuvlyjLxfem&index=19
+
+Dynamic memory allocation
+Programmers use dynamic memory allocators (such as malloc) to acquire VM at run time.
+- For data structures whose size is only known at runtime.
+Dynamic memory allocators manage an area of process virtual memory known as the heap.
+
+Allocator maintains heap as collection of variable sized blocks, which are either allocated or free
+- Allocated means that they're being used by some program / application
+- Free meaning that there available to be used by an application
+
+Allocator maintains heap as collection of variable sized blocks, which are either allocated or free.
+Types of allocators
+- Explicit allocator: application allocates and frees space
+	- E.g., malloc and free in C
+	- The system wont fre
+- Implicit allocator: application allocates, but does not free space
+	- E.g. garbage collection in Java, ML, and Lisp
