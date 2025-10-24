@@ -406,4 +406,17 @@ Types of allocators
 			
 		- Def: Peak memory utilization after k+1 requests
 			-![[Pasted image 20251024164200.png]]
-			
+			- sum of all the payloads divided by the total size of the heap
+			- The best case - each block consist of pure payload - so the utilization would be 1
+			- But in practice, each block the allocator is going to place data structures and padding inside of each block - that keep it from getting a perfect utilization.
+			- One obvious thing is that since block have to be aligned. To some you know if they're 16-byte aligned then blocks have to start on 16 byte boundaries, and have to be at least 16-bytes.
+				- So if you were to request a payload of 2 bytes. You'd have a lot of wasted bytes right that would sort of decrease the utilization.
+
+
+- [17:21](https://www.youtube.com/watch?v=FblqVNY5N58#t=17:21.77) 
+- Fragmentation
+- Poor memory utilization caused by fragmentation
+	- internal fragmentation
+	- external fragmentation
+- Internal fragmentation
+	- This can be caused by either padding in the block or some kind of data structure in the block that the allocator needs.
