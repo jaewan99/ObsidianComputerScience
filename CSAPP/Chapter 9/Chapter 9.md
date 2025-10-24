@@ -328,4 +328,20 @@ Types of allocators
 	- Successful:
 		- Returns a pointer to a memory block of at least size bytes aligned to an 8-byte (x86) or 16-byte (x86-64) boundary
 	- Unsuccessful: returns NULL (0) and sets errno
-- 
+- void free (void *p)
+	- Returns the block pointed at by p to pool of available memory
+	- p must come from a previous call to malloc or realloc
+- Other functions
+	- calloc: Version of malloc that initializes allocated block to zero
+	- realloc: changes the size of a previously allocated block.
+	- sbrk: Used internally by allocators to grow or shrink the heap
+		- when allocator needs more memory, it calls sbrk to get that additional virtual memory
+
+
+- [05:44](https://www.youtube.com/watch?v=FblqVNY5N58#t=05:44.82) 
+- ![[Pasted image 20251024160958.png]]
+
+
+- [07:29](https://www.youtube.com/watch?v=FblqVNY5N58#t=07:29.51) 
+- Assumptions Made in This Lecture
+- Memory is word addressed (each word can hold a pointer) - but actually, it's byte address. And words are 4 bytes 

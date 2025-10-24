@@ -213,8 +213,10 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "0991bbbe0d2a3d77",
+  "active": "312088353c70396f",
   "lastOpenFiles": [
+    "CSAPP/Chapter 9/Images/Pasted image 20251024160958.png",
+    "CSAPP/Chapter 9/Images/Pasted image 20251024160726.png",
     "CSAPP/Chapter 9/Chapter 9.md",
     "CSAPP/Chapter 9/deepseek_markdown_20251020_1455ec.md",
     "CSAPP/필요한 링크들.md",
@@ -239,7 +241,6 @@
     "CSAPP/Chapter 9/Images/Pasted image 20251021124038.png",
     "CSAPP/Chapter 9/Images/Pasted image 20251021124015.png",
     "CSAPP/Chapter 9/Images/Pasted image 20251021112043.png",
-    "CSAPP/Chapter 9/Images/Pasted image 20251021111552.png",
     "CSAPP/Chapter 6/Chapter 6.4 캐시 메모리.md",
     "CSAPP/Chapter 9/Images",
     "CSAPP/Chapter 9",
@@ -258,7 +259,6 @@
     "코딩테스트 개념/큐 (queue).md",
     "Website/가상메모리(Virtual Memory).md",
     "CSAPP/Chapter 3/Chapter 3.4 정보 접근하기.md",
-    "CSAPP/Chapter 3/Chapter 3.8 배열의 할당과 접근.md",
     "JAVA/Spring",
     "JAVA"
   ]
