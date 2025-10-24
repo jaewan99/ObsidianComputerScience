@@ -446,3 +446,17 @@ Types of allocators
 	- What do we do with the extra space when allocating a structure that is smaller than the free block it is placed in?
 	- How do we pick a block to use for allocation -- many might fit?
 	- How do we reinsert freed block?
+
+
+- [23:16](https://www.youtube.com/watch?v=FblqVNY5N58#t=23:16.26) 
+- Knowing How much to free
+	- Standard method
+		- Keep the length of a block in the word preceding the block.
+			- This word is often called the header field or header
+		- requires an extra word for every allocated block
+	- **![[Pasted image 20251024171537.png]]
+	- If application malloc a payload of size 4, then the allocator needs to find a block of size 5.
+		- Consisting of at least 4 payload words, and then a header block, a header word at the beginning that indicates the total size of that block. and it returns to the pointer p0 in this case to the beginning of the payload.
+
+- [24:27](https://www.youtube.com/watch?v=FblqVNY5N58#t=24:27.24) 
+- 
