@@ -610,5 +610,7 @@ Types of allocators
 https://www.youtube.com/watch?v=z-Vp5W1qHK8&list=PL22J-I2Pi-Gf0s1CGDVtt4vuvlyjLxfem&index=20
 
 Dynamic Memory Allocation: Advanced Concepts
-- ![[Pasted image 20251025185419.png]]
-- 
+- Explicit free list
+	- we put pointers that implement the doubly linked list inside the body of the free block.
+	- ![[Pasted image 20251025190236.png]]
+	- The allocator is not allowed to touch anything in the inside the payload of an allocated block. Nobody is using the free block, so the allocator can put the the pointers that implement that data structure inside what was the old payload.
