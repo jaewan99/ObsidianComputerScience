@@ -22,46 +22,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "a4cdbce191424f1b",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "8898349003a413ea",
-            "type": "leaf",
-            "state": {
-              "type": "mx-url",
-              "state": {
-                "mx": {
-                  "json": {
-                    "media": {
-                      "type": "url:hosted",
-                      "vid": {
-                        "host": "youtube",
-                        "vid": "FblqVNY5N58",
-                        "t": null,
-                        "start": null,
-                        "end": null
-                      },
-                      "url": "https://www.youtube.com/watch?v=FblqVNY5N58"
-                    },
-                    "hash": {}
-                  },
-                  "meta": {
-                    "values": {
-                      "media.url": [
-                        "URL"
-                      ]
-                    }
-                  }
-                }
-              },
-              "icon": "youtube",
-              "title": "CMU 15213/15513 CSAPP 深入理解计算机系统 Lecture 19 Dynamic Memory Allocation Basic Concepts 中英字幕"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -213,7 +173,7 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "8898349003a413ea",
+  "active": "3d53bbb24d920cf8",
   "lastOpenFiles": [
     "CSAPP/Chapter 9/Chapter 9.md",
     "CSAPP/CSAPP_2016.pdf",
