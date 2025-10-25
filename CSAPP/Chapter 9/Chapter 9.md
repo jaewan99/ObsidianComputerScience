@@ -614,3 +614,9 @@ Dynamic Memory Allocation: Advanced Concepts
 	- we put pointers that implement the doubly linked list inside the body of the free block.
 	- ![[Pasted image 20251025190236.png]]
 	- The allocator is not allowed to touch anything in the inside the payload of an allocated block. Nobody is using the free block, so the allocator can put the the pointers that implement that data structure inside what was the old payload.
+
+	- ![[Pasted image 20251025190456.png]]
+
+
+- [10:29](https://www.youtube.com/watch?v=z-Vp5W1qHK8#t=10:29.40) 
+- 
