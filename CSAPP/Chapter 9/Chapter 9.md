@@ -608,3 +608,5 @@ Types of allocators
 - However, the concepts of splitting and boundary tag coalescing are general to "all" allocators
 
 https://www.youtube.com/watch?v=z-Vp5W1qHK8&list=PL22J-I2Pi-Gf0s1CGDVtt4vuvlyjLxfem&index=20
+
+Dynamic Memory Allocation: Advanced Concepts
