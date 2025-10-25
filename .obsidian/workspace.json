@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 284.5,
-    "collapsed": true
+    "width": 284.5
   },
   "right": {
     "id": "658074b3dc69e704",
@@ -173,8 +172,10 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "3d53bbb24d920cf8",
+  "active": "857e29066a8d31b7",
   "lastOpenFiles": [
+    "Pasted image 20251018151050.png.md",
+    "Pasted image 20251025191926.png.md",
     "CSAPP/Chapter 9/Chapter 9.md",
     "CSAPP/Chapter 9/Images/Pasted image 20251025194852.png",
     "CSAPP/Chapter 9/Images/Pasted image 20251025194402.png",
@@ -182,7 +183,6 @@
     "CSAPP/Chapter 9/Images/Pasted image 20251025193605.png",
     "CSAPP/Chapter 9/Images/Pasted image 20251025193256.png",
     "CSAPP/Chapter 9/Images/Pasted image 20251025192130.png",
-    "Pasted image 20251025191926.png.md",
     "CSAPP/Chapter 9/Images/Pasted image 20251025191926.png",
     "CSAPP/Chapter 9/Images/Pasted image 20251025190456.png",
     "CSAPP/Chapter 9/Images/Pasted image 20251025190236.png",
@@ -206,7 +206,6 @@
     "CSAPP/Chapter 9/Images",
     "CSAPP/Chapter 9",
     "코딩테스트 개념/Untitled",
-    "Pasted image 20251018151050.png.md",
     "CSAPP/Chapter 8/Images",
     "CSAPP/Chapter 8",
     "CSAPP/Chapter 7/7.1 링커_한글번역.md",
