@@ -700,3 +700,5 @@ Dynamic Memory Allocation: Advanced Concepts
 		- Better memory utilization
 			- First-fit search of segregated free list approximates a best-fit search of entire heap.
 			- Extreme case: Giving each block its own size class is equivalent to best-fit.
+- [45:59](https://www.youtube.com/watch?v=z-Vp5W1qHK8#t=45:59.61) 
+- Stopped here

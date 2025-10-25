@@ -22,46 +22,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "b5c9937f11ae3277",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "f2416f9aa035b8cb",
-            "type": "leaf",
-            "state": {
-              "type": "mx-url",
-              "state": {
-                "mx": {
-                  "json": {
-                    "media": {
-                      "type": "url:hosted",
-                      "vid": {
-                        "host": "youtube",
-                        "vid": "z-Vp5W1qHK8",
-                        "t": null,
-                        "start": null,
-                        "end": null
-                      },
-                      "url": "https://www.youtube.com/watch?v=z-Vp5W1qHK8"
-                    },
-                    "hash": {}
-                  },
-                  "meta": {
-                    "values": {
-                      "media.url": [
-                        "URL"
-                      ]
-                    }
-                  }
-                }
-              },
-              "icon": "youtube",
-              "title": "CMU 15213/15513 CSAPP 深入理解计算机系统 Lecture 20 Dynamic Memory Allocation Advanced Concepts 中英字幕"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -215,19 +175,18 @@
   },
   "active": "3d53bbb24d920cf8",
   "lastOpenFiles": [
+    "CSAPP/Chapter 9/Chapter 9.md",
     "CSAPP/Chapter 9/Images/Pasted image 20251025194852.png",
     "CSAPP/Chapter 9/Images/Pasted image 20251025194402.png",
     "CSAPP/Chapter 9/Images/Pasted image 20251025194216.png",
     "CSAPP/Chapter 9/Images/Pasted image 20251025193605.png",
     "CSAPP/Chapter 9/Images/Pasted image 20251025193256.png",
-    "CSAPP/Chapter 9/Chapter 9.md",
     "CSAPP/Chapter 9/Images/Pasted image 20251025192130.png",
     "Pasted image 20251025191926.png.md",
     "CSAPP/Chapter 9/Images/Pasted image 20251025191926.png",
     "CSAPP/Chapter 9/Images/Pasted image 20251025190456.png",
     "CSAPP/Chapter 9/Images/Pasted image 20251025190236.png",
     "CSAPP/Chapter 9/Images/Pasted image 20251025185419.png",
-    "CSAPP/Chapter 9/Images/Pasted image 20251025185418.png",
     "CSAPP/CSAPP_2016.pdf",
     "CSAPP/Chapter 8/deepseek_markdown_20251018_0f4d52.md",
     "CSAPP/Chapter 9/deepseek_markdown_20251018_0f4d52.md",
