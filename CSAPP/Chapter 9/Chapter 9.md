@@ -610,3 +610,5 @@ Types of allocators
 https://www.youtube.com/watch?v=z-Vp5W1qHK8&list=PL22J-I2Pi-Gf0s1CGDVtt4vuvlyjLxfem&index=20
 
 Dynamic Memory Allocation: Advanced Concepts
+- ![[Pasted image 20251025185419.png]]
+- 
