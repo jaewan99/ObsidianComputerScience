@@ -614,9 +614,28 @@ Dynamic Memory Allocation: Advanced Concepts
 	- we put pointers that implement the doubly linked list inside the body of the free block.
 	- ![[Pasted image 20251025190236.png]]
 	- The allocator is not allowed to touch anything in the inside the payload of an allocated block. Nobody is using the free block, so the allocator can put the the pointers that implement that data structure inside what was the old payload.
-
+	- Maintain list(s) of free blocks, not all blocks
+		- The "next" free block could be anywhere
+			- So we need to store forward/back pointers, not just sizes
+		- Still need boundary tags for coalescing
+		- Luckily we track only free blocks, so we can use payload area
 	- ![[Pasted image 20251025190456.png]]
 
 
 - [10:29](https://www.youtube.com/watch?v=z-Vp5W1qHK8#t=10:29.40) 
-- 
+- ![[Pasted image 20251025192130.png]]
+- The idea is we want to allocate out of this middle block
+	- so, we allocate the block of the size that we need
+	- And then we just update the forward and back pointers of the previous and next blocks.
+- updating six pointers
+
+- [23:40](https://www.youtube.com/watch?v=z-Vp5W1qHK8#t=23:40.12) 
+- Freeing With Explicit Free Lists
+	- Insertion policy: Where in the free list do you put a newly freed block?
+	- LIFO (last-in-first-out) policy
+		- Insert freed block at the beginning of the free list
+		- Pro: simple and constant time
+		- Con: studies suggest fragmentation is worse than address ordered
+		- Put it at the beginning of the list. So the last block freed is the first block allocated if it fits
+	- Address-ordered policy
+		- 
