@@ -650,4 +650,15 @@ Dynamic Memory Allocation: Advanced Concepts
 	- The free block is the first block in the free list
 	-  we update the root to to point to this newly freed block and we update the forward pointer of that block to point what used to be the first block in the heap.
 - Freeing with a LIFO policy (case 2)
-	- 
+	- ![[Pasted image 20251025193605.png]]
+	- Splice out predecessor block, coalesce both memory blocks, and insert the new block at the root of the list
+	- Optimization - When we coalesce, we could just leave that block just there in the free list, and just don't update anything, create this newly coalesce block - adjusting the header and footer. 
+	
+- Freeing with a LIFO policy (case 3)
+	- ![[Pasted image 20251025194216.png]]
+	- Splice out successor block, coalesce both memory blocks and insert the new block at the root of the list
+
+- Freeing with a LIFO policy (case 4)
+	- ![[Pasted image 20251025194402.png]]
+	
+-  
