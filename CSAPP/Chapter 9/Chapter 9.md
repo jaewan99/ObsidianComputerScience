@@ -638,4 +638,16 @@ Dynamic Memory Allocation: Advanced Concepts
 		- Con: studies suggest fragmentation is worse than address ordered
 		- Put it at the beginning of the list. So the last block freed is the first block allocated if it fits
 	- Address-ordered policy
-		- 
+		- Insert freed blocks so that free list blocks are always in address order:
+			- addr(prev) < addr(curr) < addr(next)
+		- Con: requires search
+		- Pro: studies suggest fragmentation is lower than LIFO
+		- We have to search to find the proper place to insert it.
+
+- [28:22](https://www.youtube.com/watch?v=z-Vp5W1qHK8#t=28:22.01) 
+- Freeing with a LIFO policy (case 1)
+	- ![[Pasted image 20251025193256.png]]
+	- The free block is the first block in the free list
+	-  we update the root to to point to this newly freed block and we update the forward pointer of that block to point what used to be the first block in the heap.
+- Freeing with a LIFO policy (case 2)
+	- 
