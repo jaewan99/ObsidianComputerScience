@@ -661,4 +661,42 @@ Dynamic Memory Allocation: Advanced Concepts
 - Freeing with a LIFO policy (case 4)
 	- ![[Pasted image 20251025194402.png]]
 	
--  
+- Explicit List Summary
+	- Comparison to implicit list:
+		- Allocate is linear time in number of free blocks instead of all blocks
+			- Much faster when most of the memory is full
+		- Slightly more complicated allocate and free since needs to splice blocks in and out of the list
+		- Some extra space for the links (2 extra words needed for each block)
+			- Does this increase internal fragmentation?
+			- Create more overhead
+	- Most common use of linked lists is in conjunction with segregated free lists
+		- Keep multiple linked lists of different size classes, or possibly for different types of objects
+
+- [39:03](https://www.youtube.com/watch?v=z-Vp5W1qHK8#t=39:03.56) 
+- Method 3: segregated list
+	- Each size class of blocks has its own free list
+	- ![[Pasted image 20251025194852.png]]
+	- Often have separate classes for each small size
+	- For larger sizes: One class for each two-power size
+
+- [40:11](https://www.youtube.com/watch?v=z-Vp5W1qHK8#t=40:11.77) 
+- Seglist Allocator
+	- Given an array of free lists, each one for some size class
+	- To allocate a block of size n:
+		- Search appropriate free list for block of size m > n
+		- If an appropriate block is found:
+			- Split block and place fragment on appropriate list (optional)
+		- If no block is found, try next larger class
+		- Repeat until block is found
+	- If no block is found:
+		- Request additional heap memory from OS (using sbrk ())
+		- Allocate block of n bytes from this new memory
+		- Place remainder as a single free block in largest size class.
+	- To free a block:
+		- Coalesce and place on appropriate list
+	- Advantages of seglist allocators
+		- Higher throughput
+			- log time for power-of-two size classes
+		- Better memory utilization
+			- First-fit search of segregated free list approximates a best-fit search of entire heap.
+			- Extreme case: Giving each block its own size class is equivalent to best-fit.
