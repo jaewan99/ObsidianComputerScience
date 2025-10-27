@@ -706,8 +706,25 @@ Dynamic Memory Allocation: Advanced Concepts
 	- Form of memory managers called implicit memory managers that do the freeing for you
 		- So the application allocate spaces but they never have to worry about freeing space the system does that automatically.
 	- Garbage collection: automatic reclamation of heap-allocated storage-application never has to free.
-	- Garbage - areas of memory that can never be referenced 
+	- Garbage - areas of memory that can never be referenced anymore
 	- ![[Pasted image 20251027190744.png]]
+		- Malloc(128) - 128 bytes - when it returns this pointer is lost forever right because p is a local variable on the stack.
+		- Once this function returns the block of memory pointed to by p is garbage - can never be referenced again.
+		- Exactly the same as the free call 
 	- Common in many dynamic languages:
 		- Python, Ruby, Java, Perl, ML, Lisp, Mathematica
-	- Variants ("conservative" garbage collectors) exist for
+	- Variants ("conservative" garbage collectors) exist for C language
+		- However, cannot necessarily collect all garbage
+			- Because of the C's pointer properties, some garbage block won't be free because the allocator can't determine that they are indeed garbage
+
+- [48:01](https://www.youtube.com/watch?v=z-Vp5W1qHK8#t=48:01.70) 
+- Garbage Collection
+	- How does the memory manager know when memory can be freed?
+		- In general we cannot know what is going to be used in the future since it depends on conditionals
+		- But we can tell that certain blocks cannot be used if there are no pointers to them
+	- Must make certain assumptions about pointers
+		- Memory manager can distinguish pointers from non-pointers
+			- We can't do in C language, they are just integral values - it could be pointing to a data 
+		- All pointers point to the start of a block
+		- Cannot hide pointers
+			- (e.g., by coercing them to an int, and then back again)
