@@ -834,4 +834,25 @@ Dynamic Memory Allocation: Advanced Concepts
 - ![[Pasted image 20251027202814.png]]
 - ![[Pasted image 20251027202829.png]]
 	- Not checking the size of the buffer
-- ![[Pasted image 20251027202938.png]]
+- ![[Pasted image 20251027203028.png]]
+	- This will increment it by 16 not by 4
+- ![[Pasted image 20251027203249.png]]
+	- *(size --)
+- ![[Pasted image 20251027203305.png]]
+- ![[Pasted image 20251027203337.png]]
+- ![[Pasted image 20251027203347.png]]
+- ![[Pasted image 20251027203401.png]]
+- Dealing With Memory Bugs
+	- Debugger: gdb
+		- Good for finding bad pointer dereferences
+		- Hard to detect the other memory bugs
+	- Data structure consistency checker
+		- Runs silently, prints message only on error
+		- Use as a probe to zero in on error
+	- Binary translator: valgrind
+		- Powerful debugging and analysis technique
+		- Rewrites text section of executable object file
+		- Checks each individual reference at runtime
+			- Bad pointers, overwrites, refs outside of allocated block
+	- glibc malloc contains checking code
+		- seteny MALLOC_LOC_CHECK 3
