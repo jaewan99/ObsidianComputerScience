@@ -753,5 +753,21 @@ Dynamic Memory Allocation: Advanced Concepts
 		- Each pointer is an edge in the graph
 		- Locations not in the heap that contain pointers into the heap are called root nodes (e.g. registers, locations on the stack, global variables)
 			- They point to the memory locations in the heap, but there they're outside the heap
+		- ![[Pasted image 20251027193006.png]]
+		- So all of these is white blocks in the heap are reachable
+			- because you can start at a root node and just follow some sequence of pointers to get to that node.
 		- A node (block) is reachable if there is a path from any root to that node in heap
-		- 
+		- Non-reachable nodes are garbage (cannot be needed by the application) - once we free them, they are removed from the graph
+		
+- Mark and Sweep Collecting
+	- Can build on top of malloc/free package
+		- Allocate using malloc until you "run out of space"
+			- Ex. maximum heap size that we're willing to use
+				- or at some point the os will just stop giving you virtual memory
+	- When out of space:
+		- Use extra mark bit in the head of each block (in header)
+		- Mark: Start at roots and set mark bit on each reachable block
+			- It traverse the set of nodes that are reachable from the root and it sets the mark bit in each one of those nodes. Sweep happens once marking is done.
+		- Sweep: Scan all blocks and free blocks that are not marked
+			- scan all the blocks and free blocks that are not marked.
+			- 
