@@ -824,4 +824,14 @@ Dynamic Memory Allocation: Advanced Concepts
 - [1:04:05](https://www.youtube.com/watch?v=z-Vp5W1qHK8#t=1:04:05.65) 
 - C operators
 	- ![[Pasted image 20251027201524.png]]
-- 
+- ![[Pasted image 20251027202228.png]]
+
+- ![[Pasted image 20251027202320.png]]
+- ![[Pasted image 20251027202435.png]]
+	- Malloc doesn't return values that are all zero
+- ![[Pasted image 20251027202640.png]]
+	- We're incorrectly assuming that int are the same sizes as pointers
+- ![[Pasted image 20251027202814.png]]
+- ![[Pasted image 20251027202829.png]]
+	- Not checking the size of the buffer
+- ![[Pasted image 20251027202938.png]]
