@@ -788,3 +788,12 @@ Dynamic Memory Allocation: Advanced Concepts
 		- is_ptr (p) : determines whether p is a pointer
 		- length (b): returns the length of block b, not including the header
 		- get_roots () : returns all the roots
+	- 
+	- ![[Pasted image 20251027200446.png]]
+	- ptr p is the root
+	- ![[Pasted image 20251027200515.png]]
+	- > “This block was allocated, but the program no longer references it.”
+
+
+- [1:00:16](https://www.youtube.com/watch?v=z-Vp5W1qHK8#t=1:00:16.66) 
+- 
