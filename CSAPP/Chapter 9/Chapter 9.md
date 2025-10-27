@@ -724,7 +724,34 @@ Dynamic Memory Allocation: Advanced Concepts
 		- But we can tell that certain blocks cannot be used if there are no pointers to them
 	- Must make certain assumptions about pointers
 		- Memory manager can distinguish pointers from non-pointers
-			- We can't do in C language, they are just integral values - it could be pointing to a data 
+			- We can't do in C language, they are just integral values - it could be pointing to a data structure or it could just be large integer. We don't know
 		- All pointers point to the start of a block
+			- Not true in C either, so if we have a pointer and we identify that it's a pointer then we know that it points to some block. But if it points inside of a block how do we find the beginning of that block.
+			- It has to point to the beginning of the block where the header tells us the size
 		- Cannot hide pointers
 			- (e.g., by coercing them to an int, and then back again)
+
+- [50:20](https://www.youtube.com/watch?v=z-Vp5W1qHK8#t=50:20.78) 
+- Classical GC Algorithms
+	- Mark-and-sweep collection (McCarthy, 1960)
+		- Does not move blocks (unless you also "compact")
+	- Reference counting (Collins, 1960)
+		- Does not move blocks (not discussed)
+	- Copying collection (Minsky, 1963)
+		- Moves blocks (not discussed)
+	- Generational Collectors (Lieberman and Hewitt, 1983)
+		- Collection based on lifetimes
+			- Most allocations become garbage very soon
+			- So focus reclamation work on zones of memory recently allocated
+	- For more information:
+		- Jones and Lin, Garbage Collection: Algorithms for Aut Dynamic Memory , John Wiley & Sons, 1996.
+
+- [51:08](https://www.youtube.com/watch?v=z-Vp5W1qHK8#t=51:08.33) 
+- Memory as a Graph
+	- We view memory as a directed graph
+		- Each (heap) block is a node in the graph
+		- Each pointer is an edge in the graph
+		- Locations not in the heap that contain pointers into the heap are called root nodes (e.g. registers, locations on the stack, global variables)
+			- They point to the memory locations in the heap, but there they're outside the heap
+		- A node (block) is reachable if there is a path from any root to that node in heap
+		- 
