@@ -792,8 +792,36 @@ Dynamic Memory Allocation: Advanced Concepts
 	- ![[Pasted image 20251027200446.png]]
 	- ptr p is the root
 	- ![[Pasted image 20251027200515.png]]
-	- > “This block was allocated, but the program no longer references it.”
+	- 	- if (markBitSet(p))
+		clearMarkBit();
+		- If you leave old marks in place, the collector will _never reclaim_ objects that were once marked. Over time, **memory usage grows unchecked** — effectively a leak
+	- else if (allocateBitSet(p))
+		- “This block was allocated, but the program no longer references it.”
 
 
 - [1:00:16](https://www.youtube.com/watch?v=z-Vp5W1qHK8#t=1:00:16.66) 
+- Conservative Mark & Sweep in C
+- A "conservative garbage collector" for C programs
+	- is_ptr () determines if a word is a pointer by checking if it points to an allocated block of memory
+	- But, in C pointers can point to the middle of a block
+	- ![[Pasted image 20251027201157.png]]
+- So how to find the beginning of the block?
+	- Can use a balanced binary tree to keep track of all allocated blocks (key is start-of-block)
+	- Balanced-tree pointers can be stored in header (use two additional words)
+	- ![[Pasted image 20251027201246.png]]
+
+- [1:02:03](https://www.youtube.com/watch?v=z-Vp5W1qHK8#t=1:02:03.45) 
+- Memory-related perils and pitfalls
+	- Dereferencing bad pointers
+	- Reading uninitialized memory
+	- Overwriting memory
+	- Referencing nonexistent variables
+	- Freeing blocks multiple times
+	- Referencing freed blocks
+	- Failing to free blocks
+
+
+- [1:04:05](https://www.youtube.com/watch?v=z-Vp5W1qHK8#t=1:04:05.65) 
+- C operators
+	- ![[Pasted image 20251027201524.png]]
 - 
