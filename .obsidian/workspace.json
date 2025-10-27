@@ -33,12 +33,14 @@
             "id": "d3c5c2961db17dfa",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "CSAPP/CSAPP_2016.pdf"
+                "file": "CSAPP/Chapter 9/Chapter 9.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "CSAPP_2016"
+              "icon": "lucide-file",
+              "title": "Chapter 9"
             }
           }
         ]
@@ -192,12 +194,13 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "d3c5c2961db17dfa",
+  "active": "857e29066a8d31b7",
   "lastOpenFiles": [
-    "CSAPP/Chapter 9/9.10 Garbage Collection.md",
     "CSAPP/Chapter 9/9.1-9.8.md",
-    "CSAPP/Chapter 9/Chapter 9.md",
     "CSAPP/Chapter 9/동적할당 9.9.md",
+    "CSAPP/CSAPP_2016.pdf",
+    "CSAPP/Chapter 9/9.10 Garbage Collection.md",
+    "CSAPP/Chapter 9/Chapter 9.md",
     "CSAPP/Chapter 9/Untitled.md",
     "CSAPP/Chapter 9/Translated_Korean.md",
     "CSAPP/Chapter 9/Images/Pasted image 20251027203401.png",
@@ -216,7 +219,6 @@
     "CSAPP/Chapter 9/deepseek_markdown_20251025_f60c40.md",
     "Pasted image 20251018151050.png.md",
     "Pasted image 20251025191926.png.md",
-    "CSAPP/CSAPP_2016.pdf",
     "CSAPP/Chapter 8/deepseek_markdown_20251018_0f4d52.md",
     "CSAPP/Chapter 9/deepseek_markdown_20251018_0f4d52.md",
     "CSAPP/필요한 링크들.md",
@@ -235,7 +237,6 @@
     "코딩테스트 개념/Untitled",
     "CSAPP/Chapter 8/Images",
     "CSAPP/Chapter 8",
-    "CSAPP/Chapter 7/7.1 링커_한글번역.md",
     "CSAPP/Chapter 7/Images",
     "CSAPP/Chapter 7",
     "JAVA/Spring",
