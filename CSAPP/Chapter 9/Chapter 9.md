@@ -701,4 +701,13 @@ Dynamic Memory Allocation: Advanced Concepts
 			- First-fit search of segregated free list approximates a best-fit search of entire heap.
 			- Extreme case: Giving each block its own size class is equivalent to best-fit.
 - [45:59](https://www.youtube.com/watch?v=z-Vp5W1qHK8#t=45:59.61) 
-- Stopped here
+- Implicit Memory Management
+- Garbage collection
+	- Form of memory managers called implicit memory managers that do the freeing for you
+		- So the application allocate spaces but they never have to worry about freeing space the system does that automatically.
+	- Garbage collection: automatic reclamation of heap-allocated storage-application never has to free.
+	- Garbage - areas of memory that can never be referenced 
+	- ![[Pasted image 20251027190744.png]]
+	- Common in many dynamic languages:
+		- Python, Ruby, Java, Perl, ML, Lisp, Mathematica
+	- Variants ("conservative" garbage collectors) exist for
