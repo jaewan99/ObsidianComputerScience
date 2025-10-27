@@ -770,4 +770,21 @@ Dynamic Memory Allocation: Advanced Concepts
 			- It traverse the set of nodes that are reachable from the root and it sets the mark bit in each one of those nodes. Sweep happens once marking is done.
 		- Sweep: Scan all blocks and free blocks that are not marked
 			- scan all the blocks and free blocks that are not marked.
-			- 
+			- ![[Pasted image 20251027195256.png]]
+			- The arrows in this example denote memory references, not free list pointers
+			- Start with the start of the payload of the block
+
+
+- [57:02](https://www.youtube.com/watch?v=z-Vp5W1qHK8#t=57:02.29) 
+- Assumptions For a Simple Implementation
+	- Application
+		- new (n) : returns pointer to new block with all locations cleared
+		- read (b, i) : read location i of block b into register
+		- write (b,i, v) : write v into location i of block b
+	- Each block will have a header word
+		- addressed as b [-1], for a block b
+		- Used for different purposes in different collectors
+	- Instructions used by the Garbage Collector
+		- is_ptr (p) : determines whether p is a pointer
+		- length (b): returns the length of block b, not including the header
+		- get_roots () : returns all the roots
