@@ -4,28 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "2719b8c98145a766",
-        "type": "tabs",
-        "dimension": 29.045307443365697,
-        "children": [
-          {
-            "id": "77351942409cdcd5",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "CSAPP/CSAPP_2016.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "CSAPP_2016"
-            }
-          }
-        ]
-      },
-      {
         "id": "68e8c2b8e1f98945",
         "type": "tabs",
-        "dimension": 70.9546925566343,
         "children": [
           {
             "id": "d3c5c2961db17dfa",
@@ -192,12 +172,12 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "77351942409cdcd5",
+  "active": "d3c5c2961db17dfa",
   "lastOpenFiles": [
+    "CSAPP/CSAPP_2016.pdf",
     "CSAPP/Chapter 9/Chapter 9.md",
     "CSAPP/Chapter 9/9.1-9.8.md",
     "CSAPP/Chapter 9/동적할당 9.9.md",
-    "CSAPP/CSAPP_2016.pdf",
     "CSAPP/Chapter 9/9.10 Garbage Collection.md",
     "CSAPP/Chapter 9/Untitled.md",
     "CSAPP/Chapter 9/Translated_Korean.md",
