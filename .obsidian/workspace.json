@@ -247,9 +247,9 @@
           }
         ],
         "direction": "vertical",
-        "x": 448,
-        "y": 176,
-        "width": 1024,
+        "x": 358,
+        "y": 16,
+        "width": 1025,
         "height": 800,
         "maximize": false,
         "zoom": 0
@@ -258,6 +258,8 @@
   },
   "active": "16db37757dc8ec38",
   "lastOpenFiles": [
+    "CSAPP/Chapter 10/Images/Pasted image 20251030215429.png",
+    "CSAPP/Chapter 10/Images/Pasted image 20251030215347.png",
     "CSAPP/Chapter 10/Images/Pasted image 20251030215250.png",
     "CSAPP/Chapter 10/Images/Pasted image 20251030215142.png",
     "CSAPP/Chapter 10/Images/Pasted image 20251030214821.png",
@@ -267,8 +269,6 @@
     "CSAPP/Chapter 10/Images/Pasted image 20251030214153.png",
     "CSAPP/Chapter 10/Images/Pasted image 20251030214044.png",
     "CSAPP/Chapter 10/Images/Pasted image 20251030213658.png",
-    "CSAPP/Chapter 10/Images/Pasted image 20251030213656.png",
-    "CSAPP/Chapter 10/Images/Pasted image 20251030212349.png",
     "CSAPP/Chapter 10/Chapter 10.md",
     "CSAPP/Chapter 10/Images",
     "CSAPP/필요한 링크들.md",

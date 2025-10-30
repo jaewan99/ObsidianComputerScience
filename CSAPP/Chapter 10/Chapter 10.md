@@ -225,4 +225,49 @@
 			- ![[Pasted image 20251030215142.png]]
 - Buffering in Standard I/O
 	- ![[Pasted image 20251030215250.png]]
-	- 
+	- Standard I/O functions use buffered I/O
+	- ![[Pasted image 20251030215347.png]]
+- closing remark
+	- ![[Pasted image 20251030215429.png]]
+- Pros and Cons of Unix I/O
+	- Pros
+	- Unix I/O is the most general and lowest overhead form of I/O
+		- All other I/O packages are implemented using Unix I/O functions
+	- Unix I/O provides functions for accessing file metadata
+	- Unix I/O functions are async-signal-safe and can be used safely in signal handlers
+	- Cons
+	- Dealing with short counts is tricky and error prone
+	- Efficient reading of text lines requires some form of buffering, also tricky and error prone
+	- Both of these issues are addressed by the standard I/O and RIO packages
+- Pros and Cons of Standard I/O
+	- Pros:
+	- Buffering increases efficiency by decreasing the number of read and write system calls
+	- Short counts are handled automatically
+	- Cons:
+	- Provides no function for accessing file metadata
+	- Standard I/O functions are not async-signal-safe, and not appropriate for signal handlers
+	- Standard I/O is not appropriate for input and output on network sockets
+		- There are poorly documented restrictions on streams that interact badly with restrictions on sockets (CS:APP3e, Sec 10.11)
+- Choosing I/O Functions
+	- General rule: use the highest-level I/O functions you can
+		- Many C programmers are able to do all of their work using the standard I/O functions
+		- But, be sure to understand the functions you use!
+	- When to use standard I/O
+		- When working with disk or terminal files
+	- When to use raw Unix I/O
+		- Inside signal handlers, because Unix I/O is async-signal-safe
+		- In rare cases when you need absolute highest performance
+	- When to use RIO
+		- When you are reading and writing network sockets
+		- Avoid using standard I/O on sockets
+- Aside: Working with Binary Files
+	- Binary File
+		- Sequence of arbitrary bytes
+		- Including byte value 0x00
+	- Functions you should never use on binary files
+		- Text-oriented I/O: such as fgets, scanf, rio_readlineb
+			- Interpret EOL characters.
+			- Use functions like rio_readn or rio_readnb instead
+		- String functions
+			- strlen, strcpy, strcat
+			- Interprets byte value 0 (end of string) as special
