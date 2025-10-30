@@ -169,3 +169,14 @@
 		- chmod 000 - set all protection to zero
 		- ![[Pasted image 20251030212231.png]]
 		- man 2 stat
+		- ![[Pasted image 20251030212349.png]]
+- How the Unix Kernel Represents Open Files
+	- Two descriptors referencing two distinct open files. Descriptor 1 (stdout) points to terminal, and descriptor 4 points to open disk file
+	- The main point is that associated with any executing process - which we can think of a process as a running program - is something called a descriptor table
+		- And what that contain is for every open file you have it has a pointer to a data structure called  open file table
+			- open file table - a table that's maintained by the operating system globally and which describes each of the open files.
+				- Actually, every time a file is opened that allocates a record in this open file table
+	- Open file table
+		- File pos - In regular file at least, there's associated position of where in the file was your last read or write. Or  where would be your next read or write
+		- refcnt = used by OS to keep track of 
+			- There's possibil
