@@ -27,7 +27,7 @@
 			
 	- Other file types beyond our scope
 		- Named pipes (FIFOs)
-		- Symbolic links
+		- Symbolic links - 바로가기 폴더
 		- Character and block devices
 	
 -  Regular Files
