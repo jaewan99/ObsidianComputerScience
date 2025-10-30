@@ -195,4 +195,34 @@
 		- Note: situation unchanged by exec functions (use fcntl to change)
 		- ![[Pasted image 20251030214153.png]]
 		- The child inherits a lot of information from its parent, and one of the things it inherits is the descriptor table it gets the replica of the descriptor table
-		- 
+		- ![[Pasted image 20251030214343.png]]
+- I/O redirection
+	- Question: How does a shell implement I/O redirection?
+		- linux> ls > foo.txt
+	- Answer: By calling the dup2(oldfd, newfd) function
+		- Copies (per-process) descriptor table entry oldfd to entry newfd
+		- ![[Pasted image 20251030214710.png]]
+	- step #1: open file to which stdout should be redirected
+		- Happens in child executing shell code, before exec
+		- ![[Pasted image 20251030214756.png]]
+	- Step #2: call dup2(4,1)
+		- cause fd=1 (stdout) to refer to disk file pointed at by fd=4
+		- ![[Pasted image 20251030214821.png]]
+- Standard I/O Functions
+	- The C standard library (libc.so) contains a collection of higher-level standard I/O functions
+	- Examples of standard I/O functions:
+		- Opening and closing files (fopen and fclose)
+		- Reading and writing bytes (fread and fwrite)
+		- Reading and writing text lines (fgets and fputs)
+		- Formatted reading and writing (fscanf and fprintf)
+	- Implementing as Unix I/O calls expensive
+		- read and write require Unix kernel calls
+			- > 10,000 clock cycles
+	- Solution: Buffered read
+		- Use Unix read to grab block of bytes
+		- User input functions take one byte at a time from buffer
+			- Refill buffer when empty
+			- ![[Pasted image 20251030215142.png]]
+- Buffering in Standard I/O
+	- ![[Pasted image 20251030215250.png]]
+	- 
