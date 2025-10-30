@@ -81,3 +81,19 @@
 	- Returns a small identifying integer file descriptor
 		- file descriptor - that lists which particular one of the open files that's being used by this particular program are you referring to.
 		- fd == -1 indicates that an error occurred
+	- Each process created by a Linux shell begins life with three open files associated with a terminal:
+		- 0: standard input (stdin)
+		- 1: standard output (stdout)
+		- 2: standard error (stderr)
+- Closing Files
+	- Closing a file informs the kernel that you are finished accessing that file
+	- ![[Pasted image 20251030201830.png]]
+	- put the 'fd' - the file descriptor number not the name of the file
+	- Closing an already closed file is a recipe for disaster in threaded programs (more on this later)
+	- Moral: Always check return codes, even for seemingly benign functions such as close()
+- Reading files
+	- Reading a file copies bytes from the current file position to memory, and then updates file position
+	- ![[Pasted image 20251030202100.png]]
+	- buf - a pointer to the buffer that we've allocated either static or via malloc
+	- sizeof(buf) - how long is the buffer so that it can't overflow that buffer
+	- 
