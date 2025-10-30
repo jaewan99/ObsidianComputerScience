@@ -48,3 +48,29 @@
 		- Two classes of systems have different ways of interpreting of encoding when is the end of a line.
 			- linux or MAC file it's just this character code 0xa
 			- In windows files with two characters.
+- Directories
+	- Directory consists of an array of links
+		- Each link maps a filename to a file
+	- Each directory contains at least two entries
+		- . (dot) is a link to itself
+		- .. (dot dot) is a link to the parent directory in the directory hierarchy (next slide)
+	- Commands for manipulating directories
+		- mkdir: create empty directory
+		- ls: view directory contents
+		- rmdir: delete empty directory
+	- Directory is stored as a file but it's a file that the file system part of operating system interprets in very specific ways.
+- Directory Hierarchy
+	- All files are organized as a hierarchy anchored by root directory named / (slash)
+	- ![[Pasted image 20251030195826.png]]
+	- Kernel maintains current working directory (cwd) for each process
+		- Modified using the cd command
+	- There's a hierarchical organizations that's maintained as a series of files each being the directory and the directory then is a pointer to its subdirectory which again are files
+- Pathnames
+	- Is a way to navigate through the hierarchy of file and identify the particular file 
+	- Locations of files in the hierarchy denoted by pathnames
+		- Absolute pathname starts with ‘/’ and denotes path from root
+			- /home/droh/hello.c
+	- Relative pathname denotes path from current working directory
+		- ../home/droh/hello.c
+- Opening Files
+	- Opening a file informs the kernel that you are getting ready to access that file
