@@ -179,4 +179,20 @@
 	- Open file table
 		- File pos - In regular file at least, there's associated position of where in the file was your last read or write. Or  where would be your next read or write
 		- refcnt = used by OS to keep track of 
-			- There's possibil
+			- There's possibility that multiple processes sharing, an entry on this open file table.
+			- Uses this reference count which is a standard way of keeping track of memory allocation to know when it no longer needs that entry when the file is no longer accessible and therefore this entry is not needed
+	- Virtual node table
+		- Information about file
+		- ![[Pasted image 20251030213658.png]]
+- File sharing
+	- Two distinct descriptors sharing the same disk file through two distinct open file table entries
+		- E.g., Calling open twice with the same filename argument
+	- Within a single program, you call open twice on the same function
+		- This file descriptors might be referring to the same file but they're actually at different positions within the file
+		- ![[Pasted image 20251030214044.png]]
+- How Processes Share Files: fork
+	- A child process inherits its parent’s open files
+		- Note: situation unchanged by exec functions (use fcntl to change)
+		- ![[Pasted image 20251030214153.png]]
+		- The child inherits a lot of information from its parent, and one of the things it inherits is the descriptor table it gets the replica of the descriptor table
+		- 
