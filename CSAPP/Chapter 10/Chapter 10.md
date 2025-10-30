@@ -96,4 +96,23 @@
 	- ![[Pasted image 20251030202100.png]]
 	- buf - a pointer to the buffer that we've allocated either static or via malloc
 	- sizeof(buf) - how long is the buffer so that it can't overflow that buffer
-	- 
+	- read() - just means read as many bytes as you feel like but no more than the number we tell you to.
+		- Returns number of bytes read from file fd into buf
+			- Return type ssize_t is signed integer
+			- nbytes < 0 indicates that an error occurred 
+				- if it's negative then it's a error code
+			- Short counts (nbytes < sizeof(buf) ) are possible and are not errors!
+			- if it's positive then that's the number of bytes that were read
+- Writing Files
+	- Writing a file copies bytes from memory to the current file position, and then updates current file position
+	- ![[Pasted image 20251030202940.png]]
+	- Returns number of bytes written from buf to file fd
+		- nbytes < 0 indicates that an error occurred
+		- As with reads, short counts are possible and are not errors!
+			- it can potentially not send them all
+		
+- Simple Unix I/O example
+	- Copying file to stdout, one byte at a time
+	- ![[Pasted image 20251030203115.png]]
+		-  This is really bad code - Read and write is expensive call
+			- It means kicking your whole operation up to the operating system doing what's called a context switch. Meaning it will go in
