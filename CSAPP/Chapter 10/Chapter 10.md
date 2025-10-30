@@ -74,3 +74,10 @@
 		- ../home/droh/hello.c
 - Opening Files
 	- Opening a file informs the kernel that you are getting ready to access that file
+	- ![[Pasted image 20251030200455.png]]
+		- Given a pathname and integer code - what do you want to do when you open this file and in what form do you want to open it. And this will return a file descriptor
+		- ![[Pasted image 20251030201204.png]]
+		- 1024 says that you can't have more than 1024 files open at any given time
+	- Returns a small identifying integer file descriptor
+		- file descriptor - that lists which particular one of the open files that's being used by this particular program are you referring to.
+		- fd == -1 indicates that an error occurred
