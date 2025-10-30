@@ -115,4 +115,19 @@
 	- Copying file to stdout, one byte at a time
 	- ![[Pasted image 20251030203115.png]]
 		-  This is really bad code - Read and write is expensive call
-			- It means kicking your whole operation up to the operating system doing what's called a context switch. Meaning it will go in
+			- It means kicking your whole operation up to the operating system doing what's called a context switch. Meaning it will go into the kernel of the system invoke operating system functions. Do whatever the read or write tells it to do come back out switch back to your job. It will typically take maybe 20000 to 40000 clock cycles
+	- ![[Pasted image 20251030203748.png]]
+	- ./cpstdin - the code above
+	- strace - will detect every system call to the operating system functions that you make when you run a program.
+	- ![[Pasted image 20251030203910.png]]
+	- ![[Pasted image 20251030203938.png]]
+- On Short Counts
+	- Short counts can occur in these situations:
+		- Encountering (end-of-file) EOF on reads
+			- Case 1 - we are near the end of a file, we have hundred bytes left and you say read 200, 
+		- Reading text lines from a terminal
+		- Reading and writing network sockets
+	- Short counts never occur in these situations:
+		- Reading from disk files (except for EOF)
+		- Writing to disk files
+	- Best practice is to always allow for short counts.
