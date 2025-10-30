@@ -144,3 +144,15 @@
 			- Buffered input of text lines and binary data
 				- rio_readlineb and rio_readnb
 					- Buffered RIO routines are thread-safe and can be interleaved arbitrarily on the same descriptor
+					- Within the user code build up a little buffer of bytes before it's actually out of the network.
+	- Unbuffered RIO Input and Output
+		- Same interface as Unix read and write
+		- Especially useful for transferring data on network sockets
+		- rio_readn returns short count only if it encounters EOF 
+			- Only use it when you know how many bytes to read
+		- rio_writen never returns a short count
+		- Calls to rio_readn and rio_writen can be interleaved arbitrarily on the same descriptor
+		- ![[Pasted image 20251030210059.png]]
+	- Buffered RIO Input Functions
+		- For reading from file
+		- File has associated buffer to hold bytes that have been read from file but not yet read by user code
