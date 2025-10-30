@@ -156,3 +156,6 @@
 	- Buffered RIO Input Functions
 		- For reading from file
 		- File has associated buffer to hold bytes that have been read from file but not yet read by user code
+		- ![[Pasted image 20251030211020.png]]
+		- ![[Pasted image 20251030211244.png]]
+		- 
