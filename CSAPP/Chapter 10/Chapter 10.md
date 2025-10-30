@@ -158,4 +158,14 @@
 		- File has associated buffer to hold bytes that have been read from file but not yet read by user code
 		- ![[Pasted image 20251030211020.png]]
 		- ![[Pasted image 20251030211244.png]]
-		- 
+		- ![[Pasted image 20251030211418.png]]
+- File Metadata
+	- Metadata is data about data, in this case file data
+	- Per-file metadata maintained by kernel
+		- accessed by users with the stat and fstat functions
+		- Read / write protection, info about the ownership of that file, what type it is, and time - when created, when change, when modified.
+		- ![[Pasted image 20251030211555.png]]
+		- ![[Pasted image 20251030211950.png]]
+		- chmod 000 - set all protection to zero
+		- ![[Pasted image 20251030212231.png]]
+		- man 2 stat
