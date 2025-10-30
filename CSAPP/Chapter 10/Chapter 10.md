@@ -124,10 +124,23 @@
 - On Short Counts
 	- Short counts can occur in these situations:
 		- Encountering (end-of-file) EOF on reads
-			- Case 1 - we are near the end of a file, we have hundred bytes left and you say read 200, 
+			- Case 1 - we are near the end of a file, we have hundred bytes left and you say read 200.
+				- First call to read will get 100 character it would say 100 and it will get that number.
+				- Second call again the second time and it will return zero. 
+					- The only case that we will get a read of zero is at the end-of-file.
 		- Reading text lines from a terminal
 		- Reading and writing network sockets
 	- Short counts never occur in these situations:
 		- Reading from disk files (except for EOF)
 		- Writing to disk files
 	- Best practice is to always allow for short counts.
+
+- The RIO Package
+	- RIO is a set of wrappers that provide efficient and robust I/O in apps, such as network programs that are subject to short counts
+		- RIO provides two different kinds of functions
+			- Unbuffered input and output of binary data
+				- rio_readn and rio_writen
+					- Ex. rio_readn with some number of bytes - then that function will not return until it's read that number of bytes so better be careful that many bytes are there if it's a network socket or a file, because it will hang up.
+			- Buffered input of text lines and binary data
+				- rio_readlineb and rio_readnb
+					- Buffered RIO routines are thread-safe and can be interleaved arbitrarily on the same descriptor
