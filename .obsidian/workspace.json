@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSAPP/Chapter 8/Chapter 8.md",
+                "file": "CSAPP/Chapter 5/Optimizations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 8"
+              "title": "Optimizations"
             }
           },
           {
@@ -188,10 +188,16 @@
   },
   "active": "d3c5c2961db17dfa",
   "lastOpenFiles": [
+    "CSAPP/Chapter 6/Chapter 6.4 캐시 메모리.md",
+    "CSAPP/Chapter 6/Chapter 6.3 메모리 계층구조.md",
+    "CSAPP/Chapter 6/Chapter 6.2 지역성.md",
+    "CSAPP/Chapter 6/Chapter 6.1 저장장치 기술.md",
+    "CSAPP/Chapter 7/7.1 링커.md",
+    "CSAPP/Chapter 8/Chapter 8.md",
+    "CSAPP/Chapter 10",
     "CSAPP/Chapter 9/9.10 Garbage Collection.md",
     "CSAPP/Chapter 9/Chapter 9.md",
     "CSAPP/Chapter 9/Untitled.md",
-    "CSAPP/Chapter 8/Chapter 8.md",
     "CSAPP/필요한 링크들.md",
     "CSAPP/CSAPP_2016.pdf",
     "CSAPP/Chapter 9/9.1-9.8.md",
@@ -217,13 +223,9 @@
     "CSAPP/Chapter 9/deepseek_markdown_20251018_0f4d52.md",
     "CSAPP.md",
     "코딩테스트 문제/dp/백준 11049.md",
-    "CSAPP/Chapter 7/7.1 링커.md",
     "CSAPP/Chapter 7/deepseek_markdown_20251017_b4dff5.md",
     "코딩테스트 개념/분할정복 (divide and conquer).md",
     "코딩테스트 개념/백준.md",
-    "코딩테스트 개념/동적 프로그래밍.md",
-    "코딩테스트 개념/Red Black Tree.md",
-    "CSAPP/Chapter 6/Chapter 6.4 캐시 메모리.md",
     "CSAPP/Chapter 9/Images",
     "CSAPP/Chapter 9",
     "코딩테스트 개념/Untitled",
@@ -231,7 +233,6 @@
     "CSAPP/Chapter 8",
     "CSAPP/Chapter 7/Images",
     "CSAPP/Chapter 7",
-    "JAVA/Spring",
-    "JAVA"
+    "JAVA/Spring"
   ]
 }
