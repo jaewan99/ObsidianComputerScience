@@ -378,3 +378,19 @@ A Client-Server Transaction
 		- Fork process to execute program
 	- Otherwise serve static content
 		- Copy file to output
+- Tiny serving static content
+	- ![[Pasted image 20251031212323.png]]
+- Serving Dynamic Content
+	- Client sends request to server
+	- If request URI contains the string “/cgi-bin”, the Tiny server assumes that the request is for dynamic content
+	- ![[Pasted image 20251031212744.png]]
+	- The server creates a child process and runs the program identified by the URI in that process
+	- ![[Pasted image 20251031212800.png]]
+	- Issues in Serving Dynamic Content
+		- How does the client pass program arguments to the server?
+		- How does the server pass these arguments to the child?
+		- How does the server pass other info relevant to the request to the child?
+		- How does the server capture the content produced by the child?
+		- These issues are addressed by the Common Gateway Interface (CGI) specification.
+		- ![[Pasted image 20251031212847.png]]
+		- ![[Pasted image 20251031212901.png]]

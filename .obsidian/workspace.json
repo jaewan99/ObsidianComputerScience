@@ -106,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 284.5
+    "width": 284.5,
+    "collapsed": true
   },
   "right": {
     "id": "658074b3dc69e704",
@@ -212,6 +213,11 @@
   },
   "active": "16db37757dc8ec38",
   "lastOpenFiles": [
+    "CSAPP/Chapter 11/Images/Pasted image 20251031212901.png",
+    "CSAPP/Chapter 11/Images/Pasted image 20251031212847.png",
+    "CSAPP/Chapter 11/Images/Pasted image 20251031212800.png",
+    "CSAPP/Chapter 11/Images/Pasted image 20251031212744.png",
+    "CSAPP/Chapter 11/Images/Pasted image 20251031212323.png",
     "CSAPP/Chapter 11/Images/Pasted image 20251031211522.png",
     "코딩테스트 VS Code setting.md",
     "CSAPP/Chapter 11/Chapter 11.md",
@@ -223,11 +229,6 @@
     "CSAPP/Chapter 11/Images/Pasted image 20251031205029.png",
     "CSAPP/Chapter 11/Images/Pasted image 20251031204942.png",
     "CSAPP/Chapter 11/Images/Pasted image 20251031204520.png",
-    "CSAPP/Chapter 11/Images/Pasted image 20251031204224.png",
-    "CSAPP/Chapter 11/Images/Pasted image 20251031203632.png",
-    "CSAPP/Chapter 11/Images/Pasted image 20251031203548.png",
-    "CSAPP/Chapter 11/Images/Pasted image 20251031203143.png",
-    "CSAPP/Chapter 11/Images/Pasted image 20251031202537.png",
     "CSAPP/필요한 링크들.md",
     "CSAPP/CSAPP_2016.pdf",
     "CSAPP/Chapter 11/Images",
