@@ -262,4 +262,6 @@ A Client-Server Transaction
 	- ![[Pasted image 20251031195437.png]]
 	- ![[Pasted image 20251031195516.png]]
 	- ![[Pasted image 20251031200218.png]]
+- getnameinfo
+	- ![[Pasted image 20251031201459.png]]
 	- 
