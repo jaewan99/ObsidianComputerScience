@@ -258,3 +258,6 @@ A Client-Server Transaction
 	- ![[Pasted image 20251031194730.png]]
 	- Each addrinfo struct returned by getaddrinfo contains arguments that can be passed directly to socket function
 	- Also points to a socket address struct that can be passed directly to connect and bind functions.
+	- ![[Pasted image 20251031195415.png]]
+	- ![[Pasted image 20251031195437.png]]
+	- ![[Pasted image 20251031195516.png]]
