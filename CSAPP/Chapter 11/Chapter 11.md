@@ -95,3 +95,32 @@ A Client-Server Transaction
 - A Programmer’s View of the Internet
 	- 1. Hosts are mapped to a set of 32-bit IP addresses
 		- 128.2.203.179
+		- 127.0.0.1 (always localhost)
+		- passed and stored in network byte order which is big endian byte order
+	- 2. The set of IP addresses is mapped to a set of identifiers called Internet domain names
+		- 128.2.217.3 is mapped to www.cs.cmu.edu
+			- 128.2... == cmu
+	- 3. A process on one Internet host can communicate with a process on another Internet host over a connection
+- Aside: IPv4 and IPv6
+	- The original Internet Protocol, with its 32-bit addresses, is known as Internet Protocol Version 4 (IPv4)
+	- 1996: Internet Engineering Task Force (IETF) introduced Internet Protocol Version 6 (IPv6) with 128-bit addresses
+		- Intended as the successor to IPv4
+- (1) IP Addresses
+	- 32-bit IP addresses are stored in an IP address struct
+		- IP addresses are always stored in memory in network byte order (big-endian byte order)
+		- True in general for any integer transferred in a packet header from one machine to another.
+			- E.g., the port number used to identify an Internet connection.
+			- ![[Pasted image 20251031174449.png]]
+		- Useful network byte-order conversion functions ("I" = 32 bits, "s" = 16 bits)
+			- htonl : convert uint32_t from host to network byte order
+			- htons : convert uint16_t from host to network byte order
+			- ntohl : convert uint32_t from network to host byte order
+			- ntohs : convert uint16_t from network to host byte order
+- Dotted Decimal Notation
+	- By convention, each byte in a 32-bit IP address is represented by its decimal value and separated by a period
+		- IP address: 0x8002C2F2 = 128.2.194.242 (Big Endian)
+	- Functions for converting between binary IP addresses and dotted decimal strings:
+		- inet pton: dotted decimal string > IP address in network byte order
+		- inet_ntop: IP address in network byte order > dotted decimal string
+		- "n" denotes network
+		- "p" denotes presentation
