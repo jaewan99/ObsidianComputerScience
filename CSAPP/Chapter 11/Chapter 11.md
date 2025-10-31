@@ -275,4 +275,11 @@ A Client-Server Transaction
 	- ![[Pasted image 20251031203632.png]]
 
 - Echo Server Example
-	- ./echoserveri ()
+	- ./echoserveri (iterative - one client - in this case one cmd at a time) 15213
+		- 
+	- ./echoclient localhost 15213
+		- ![[Pasted image 20251031204224.png]]
+- Echo Client
+	- ![[Pasted image 20251031204520.png]]
+- Iterative Echo Server: Main Routine
+	- 
