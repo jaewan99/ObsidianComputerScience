@@ -239,3 +239,22 @@ A Client-Server Transaction
 	- getaddrinfo is the modern way to convert string representations of hostnames, host addresses, ports, and service names to socket address structures.
 		- Replaces obsolete gethostbyname and getservbyname funcs
 	- Advantages:
+		- Reentrant (can be safely used by threaded programs).
+		- Allows us to write portable protocol-independent code
+			- Works with both IPv4 and IPv6
+	- Disadvantages
+		- Somewhat complex
+		- Fortunately, a small number of usage patterns suffice in most cases.
+	- Given host and service, getaddrinfo returns result that points to a linked list of addrinfo structs, each of which points to a corresponding socket address struct, and which contains arguments for the sockets interface functions.
+	- Helper functions:
+		- freeadderinfo frees the entire linked list
+		- gai_strerror converts error code to an error message
+		- ![[Pasted image 20251031194337.png]]
+	- Linked List Returned by getaddrinfo
+		- ![[Pasted image 20251031194546.png]]
+		- Clients: walk this list, trying each socket address in turn the calls to socket and connect succeed.
+		- Servers: walk the list until calls to socket and bind
+- addrinfo Struct
+	- ![[Pasted image 20251031194730.png]]
+	- Each addrinfo struct returned by getaddrinfo contains arguments that can be passed directly to socket function
+	- Also points to a socket address struct that can be passed directly to connect and bind functions.
