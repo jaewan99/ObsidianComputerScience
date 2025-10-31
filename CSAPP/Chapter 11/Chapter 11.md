@@ -67,3 +67,14 @@ A Client-Server Transaction
 		- An internet protocol defines a uniform format for host addresses
 		- Each host (and router) is assigned at least one of these internet addresses that uniquely identifies it
 	- Provides a delivery mechanism
+		- An internet protocol defines a standard transfer unit (packet)
+			- packets are around 1000-2000 bytes
+		- Packet consists of header and payload
+			- Header: contains info such as packet size, source and destination addresses
+			- Payload: contains data bits sent from source host
+- Transferring internet data via encapsulation
+	- we want to send a packet from Host A to Host B
+	- Idea of packet communication
+		-  Put little headers on that contain the routing information equivalent on the front of an envelope of a letter
+	- The LAN1 adapter, the network interface card or adaptor 
+		- is responsible for putting that out over this local communication capability
