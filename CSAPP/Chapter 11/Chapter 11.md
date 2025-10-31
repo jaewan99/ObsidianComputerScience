@@ -205,3 +205,28 @@ A Client-Server Transaction
 	- The process can read bytes that arrive on the connection whose endpoint is addr by reading from descriptor sockfd.
 	- Similarly, writes to sockfd are transferred along connection whose endpoint is addr.
 	- Best practice is to use getaddrinfo to supply the arguments addr and addrlen.
+	- This designates which particular service this program is going to be hosting
+- Sockets Interface: listen
+	- By default, kernel assumes that descriptor from socket function is an active socket that will be on the client end of a connection.
+	- A server calls the listen function to tell the kernel that a descriptor will be used by a server rather than a client:
+	- ![[Pasted image 20251031192145.png]]
+	- 
+	- Converts sockfd from an active socket to a listening socket that can accept connection requests from clients.
+	- backlog is a hint about the number of outstanding connection requests that the kernel should queue up before starting to refuse requests.
+- Sockets Interface: accept
+	- Servers wait for connection requests from clients by calling accept:
+	- ![[Pasted image 20251031192438.png]]
+	- Waits for connection request to arrive on the connection bound to listenfd, then fills in client's socket address in addr and size of the socket address in addrlen.
+	- Returns a connected descriptor that can be used to communicate with the client via Unix I/O routines.
+	- 
+- Socket interface : connect
+	- A client establishes a connection with a server by calling connect:
+		- s
+	- Attempts to establish a connection with server at socket address addr
+		- If successful, then clientfd is now ready for reading and writing.
+		- Resulting connection is characterized by socket pair
+			- (x:y, addr.sin_addr:addr.sin_port)
+			- x is client address
+			- y is ephemeral port that uniquely identifies client process on client host
+- Accept Illustrated
+	- ![[Pasted image 20251031192631.png]]
