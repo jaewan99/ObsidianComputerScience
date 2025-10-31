@@ -129,4 +129,37 @@ A Client-Server Transaction
 	- Conceptually, programmers can view the DNS database as a collection of millions of host entries.
 		- Each host entry defines the mapping between a set of domain names and IP addresses.
 		- In a mathematical sense, a host entry is an equivalence class of domain names and IP addresses.
-	- We can think of a big database that gives me a mapping where I can give a domain name and it will get back to me a one or more IP addresses.
+	- We can think of a big database that gives me a mapping where I can give a domain name and it will get back to me a one or more IP addresses. Or the other way, I can give an IP address and it will come back with one or more domain names.
+- Properties of DNS Mappings
+	- Can explore properties of DNS mappings using nslookup
+	- Each host has a locally defined domain name localhost which always maps to the loopback address 127.0.0.1
+	- ![[Pasted image 20251031180146.png]]
+	- Use hostname to determine real domain name of local host:
+	- ![[Pasted image 20251031180158.png]]
+	- Simple case: one-to-one mapping between domain name and IP address:
+	- ![[Pasted image 20251031180355.png]]
+	- Multiple domain names mapped to the same IP address:
+	- ![[Pasted image 20251031180411.png]]
+	- Multiple domain names mapped to multiple IP addresses:
+	- ![[Pasted image 20251031180443.png]]
+	- Some valid domain names don’t map to any IP address:
+	- ![[Pasted image 20251031180459.png]]
+- (3) Internet Connections
+	- Clients and servers communicate by sending streams of bytes over connections. Each connection is:
+		- Point-to-point: connects a pair of processes.
+		- Full-duplex: data can flow in both directions at the same time,
+		- Reliable: stream of bytes sent by the source is eventually received by the destination in the same order it was sent.
+	- A socket is an endpoint of a connection
+		- Socket address is an IPaddress:port pair
+	- A port is a 16-bit integer that identifies a process
+		- Ephemeral port: Assigned automatically by client kernel when client makes a connection request.
+			- Usually connected with the limited amount of time
+		- Well-known port: Associated with some service provided by a server (e.g., port 80 is associated with Web servers)
+- Well-known Service Names and Ports
+	- Popular services have permanently assigned well-known ports and corresponding well-known service names:
+		- echo servers: echo 7
+		- ftp servers: ftp 21
+		- ssh servers: ssh 22
+		- email servers: smtp 25
+		- Web servers: http 80
+	-  Mappings between well-known ports and service names is contained in the file /etc/services on each Linux machine.
