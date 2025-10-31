@@ -394,3 +394,26 @@ A Client-Server Transaction
 		- These issues are addressed by the Common Gateway Interface (CGI) specification.
 		- ![[Pasted image 20251031212847.png]]
 		- ![[Pasted image 20251031212901.png]]
+- Serving Dynamic Content With GET
+	- Question: How does the client pass arguments to the server?
+		- Answer: The arguments are appended to the URI
+	- Can be encoded directly in a URL typed to a browser or a URL in an HTML link
+		- adder is the CGI program on the server that will do the addition.
+		- argument list starts with “?”
+		- arguments separated by “&”
+		- spaces represented by “+” or “%20”
+- Serving Dynamic Content With GET
+	- Question: How does the server pass these arguments to the child?
+	- Answer: In environment variable QUERY_STRING
+		- A single string containing everything after the “?”
+		- For add: QUERY_STRING = “15213&18213”
+		- ![[Pasted image 20251031213202.png]]
+- Serving Dynamic Content with GET
+	- Question: How does the server capture the content produced by the child?
+	- Answer: The child generates its output on stdout. Server uses dup2 to redirect stdout to its connected socket.
+	- ![[Pasted image 20251031213411.png]]
+- Serving Dynamic Content with GET
+	- Notice that only the CGI child process knows the content type and length, so it must generate those headers.
+	- The one that forked out and execved
+	- ![[Pasted image 20251031213528.png]]
+	- ![[Pasted image 20251031213844.png]]
