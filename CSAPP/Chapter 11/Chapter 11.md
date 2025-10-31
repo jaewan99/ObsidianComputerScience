@@ -221,7 +221,7 @@ A Client-Server Transaction
 	- 
 - Socket interface : connect
 	- A client establishes a connection with a server by calling connect:
-		- s
+		- ![[Pasted image 20251031192912.png]]
 	- Attempts to establish a connection with server at socket address addr
 		- If successful, then clientfd is now ready for reading and writing.
 		- Resulting connection is characterized by socket pair
@@ -230,3 +230,12 @@ A Client-Server Transaction
 			- y is ephemeral port that uniquely identifies client process on client host
 - Accept Illustrated
 	- ![[Pasted image 20251031192631.png]]
+		- The server went through bind and listen. It created listening port from that which is t the one that its listening for connection requests on
+		- From the client's socket sends out the connection request that goes out over the network and lands on the server and the kernel hands that off to the program that's running on that particular port. And hands it off to that call be handled by call to accept by the server.
+		- Accept returns a new file descriptor which the server will then use as its connection point to this particular client
+			- As a server be handling multiple clients at the same time
+			- Same port different file descriptors
+- Host and Service Conversion: getaddrinfo
+	- getaddrinfo is the modern way to convert string representations of hostnames, host addresses, ports, and service names to socket address structures.
+		- Replaces obsolete gethostbyname and getservbyname funcs
+	- Advantages:
