@@ -344,4 +344,37 @@ A Client-Server Transaction
 		- A URL is a type of URI (Uniform Resource Identifier)
 	- version is HTTP version of request (HTTP/1.0 or HTTP/1.1)
 	- Request headers:
-		- provide additional 
+		- provide additional information to the server (e.g. brand name of the browser)
+- HTTP Responses
+	- HTTP response is a response line followed by zero or more response headers, possibly followed by content, with blank line (“\r\n”) separating headers from content.
+	- Response line:
+		- version status_code status_msg
+		- version is HTTP version of the response
+		- status code is numeric status
+		- status msg is corresponding English text
+			- 200 OK - Request was handled without error
+			- 301 Moved - Provide alternate URL
+			- 404 Not found - Server couldn’t find the file
+	- Response headers: header_name: header_data
+		- provide additional information about response
+		- Content-Type: MIME type of content in response body
+		- Content-Length: Length of content in response body
+		- ![[Pasted image 20251031211522.png]]
+- Tiny Web Server
+	- Tiny Web server described in text
+		- Tiny is a sequential Web server
+		- Serves static and dynamic content to real browsers
+			- text files, HTML files, GIF, PNG, and JPEG images
+		- 239 lines of commented C code
+		- Not as complete or robust as a real Web server
+			- You can break it with poorly-formed HTTP requests (e.g., terminate lines with “\n” instead of “\r\n”)
+- Tiny Operation
+	- Accept connection from client
+	- Read request from client (via connected socket)
+	- Split into method uri version
+		- If method not GET, then return error
+	- If URI contains “cgi-bin” then serve dynamic content
+		- (Would do wrong thing if had file “abcgi-bingo.html”)
+		- Fork process to execute program
+	- Otherwise serve static content
+		- Copy file to output
