@@ -24,4 +24,46 @@ A Client-Server Transaction
 	- An internetwork (internet) is an interconnected set of networks
 		- The Global IP Internet (uppercase "I") is the most famous example of an internet (lowercase "i")
 - Lowest Level: Ethernet Segment
-	- 
+	- ![[Pasted image 20251031171146.png]]
+	- Ethernet segment consists of a collection of hosts connected by wires (twisted pairs) to a hub
+		-  Sharing a single communication channel
+	- Spans room or floor in a building
+	- Operation
+		- Each Ethernet adapter has a unique 48-bit address (MAC address)
+			- E.g., 00:16:ea:e3:54:e6
+		- Hosts send bits to any other host in chunks called frames
+		- Hub slavishly copies each bit from each port to every other port
+			- Every host sees every bit
+		- Note: Hubs are obsolete. Bridges (switches, routers) became cheap enough to replace them
+- Next Level: Bridged Ethernet Segment
+	- ![[Pasted image 20251031171158.png]]
+	- Spans building or campus
+	- Bridges cleverly learn which hosts are reachable from which ports and then selectively copy frames from port to port
+- Conceptual View of LANs
+	- For simplicity, hubs, bridges, and wires are often shown as a collection of hosts attached to a single wire:
+	- Bunch of hosts, where they can easily communication on one other
+	- ![[Pasted image 20251031171326.png]]
+- Next Level: internets
+	- Multiple incompatible LANs can be physically connected by specialized computers called routers
+	- The connected networks are called an internet (lower case)
+	- ![[Pasted image 20251031171416.png]]
+	- LAN 1 and LAN 2 might be completely different, totally incompatible (e.g., Ethernet, Fibre Channel, 802.11*, T1-links, DSL, …)
+- Logical Structure of an internet
+	- Whole bunch of host spread potentially all across the world and then some magical system of routers that will get a message from one place to the other, based on the mode of addressing. And it will hub through multiple routers to get from one place to the other.
+	- ![[Pasted image 20251031171722.png]]
+	- Ad hoc interconnection of networks
+		- No particular topology
+		- Vastly different router & link capacities
+	- Send packets from source to destination by hopping through networks
+		- Router forms bridge from one network to another
+		- Different packets may take different routes
+- The Notion of an internet Protocol
+	- How is it possible to send bits across incompatible LANs and WANs?
+	- Solution: protocol software running on each host and router
+		- Protocol is a set of rules that governs how hosts and routers should cooperate when they transfer data from network to network.
+		- Smooths out the differences between the different networks
+- What Does an internet Protocol Do?
+	- Provides a naming scheme
+		- An internet protocol defines a uniform format for host addresses
+		- Each host (and router) is assigned at least one of these internet addresses that uniquely identifies it
+	- Provides a delivery mechanism
