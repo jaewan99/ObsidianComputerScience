@@ -282,4 +282,33 @@ A Client-Server Transaction
 - Echo Client
 	- ![[Pasted image 20251031204520.png]]
 - Iterative Echo Server: Main Routine
-	- 
+	- ![[Pasted image 20251031204942.png]]
+- Echo Server: echo function
+	- The server uses RIO to read and echo text lines until EOF (end-of-file) condition is encountered.
+		- EOF condition caused by client calling close(clientfd)
+		- ![[Pasted image 20251031205100.png]]
+- Testing Servers Using telnet
+	- The telnet program is invaluable for testing servers that transmit ASCII strings over Internet connections
+		- Our simple echo server
+		- Web servers
+		- Mail servers
+- Web Server Basics
+	- Clients and servers communicate using the HyperText Transfer Protocol (HTTP)
+		- Client and server establish TCP connection
+		- Client requests content
+		- Server responds with requested content
+		- Client and server close connection (eventually)
+	- Current version is HTTP/1.1
+		- RFC 2616, June, 1999
+		- HTTP/2 is so different that it might as well be a new protocol.
+		- ![[Pasted image 20251031205607.png]]
+- Web Content
+	- Web servers return content to clients
+		- content: a sequence of bytes with an associated MIME (Multipurpose Internet Mail Extensions) type
+		- Content is identified by its URL (Uniform Resource Locator)
+	- Example MIME types
+		- text/html - HTML document
+		- text/plain - Unformatted text
+		- image/gif - Binary image encoded in GIF format
+		- image/png - Binary image encoded in PNG format
+		- image/jpeg - Binary image encoded in JPEG format
