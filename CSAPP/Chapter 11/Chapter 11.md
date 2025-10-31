@@ -196,4 +196,12 @@ A Client-Server Transaction
 		- it's like a subclass of sockaddr
 - Echo server and client structure
 	- ![[Pasted image 20251031185746.png]]
-- 
+- The first step in on either side in creating a connection is a call to a function to socket
+- ![[Pasted image 20251031191347.png]]
+	- the socket returns an int which is the file descriptor 
+- Socket interface: bind
+	- A server uses bind to ask the kernel to associate the server's socket address with a socket descriptor:
+		- ![[Pasted image 20251031191744.png]]
+	- The process can read bytes that arrive on the connection whose endpoint is addr by reading from descriptor sockfd.
+	- Similarly, writes to sockfd are transferred along connection whose endpoint is addr.
+	- Best practice is to use getaddrinfo to supply the arguments addr and addrlen.
