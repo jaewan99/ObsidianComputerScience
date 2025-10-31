@@ -124,3 +124,9 @@ A Client-Server Transaction
 		- inet_ntop: IP address in network byte order > dotted decimal string
 		- "n" denotes network
 		- "p" denotes presentation
+- Domain Naming System (DNS)
+	- The Internet maintains a mapping between IP addresses and domain names in a huge worldwide distributed database called DNS
+	- Conceptually, programmers can view the DNS database as a collection of millions of host entries.
+		- Each host entry defines the mapping between a set of domain names and IP addresses.
+		- In a mathematical sense, a host entry is an equivalence class of domain names and IP addresses.
+	- We can think of a big database that gives me a mapping where I can give a domain name and it will get back to me a one or more IP addresses.
