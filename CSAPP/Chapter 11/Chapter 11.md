@@ -181,4 +181,10 @@ A Client-Server Transaction
 	- Clients and servers communicate with each other by reading from and writing to socket descriptors
 	- ![[Pasted image 20251031181254.png]]
 	- The main distinction between regular file I/O and socket I/O is how the application “opens” the socket descriptors
-- 
+-  Socket Address Structures
+	- Generic socket address:
+		- For address arguments to connect, bind, and accept (next lecture)
+		- Necessary only because C did not have generic (void *) pointers when the sockets interface was designed
+		- For casting convenience, we adopt the Stevens convention:
+			- typedef struct sockaddr SA;
+		- sa_family - designated what type of socket 
