@@ -187,4 +187,13 @@ A Client-Server Transaction
 		- Necessary only because C did not have generic (void *) pointers when the sockets interface was designed
 		- For casting convenience, we adopt the Stevens convention:
 			- typedef struct sockaddr SA;
-		- sa_family - designated what type of socket 
+		- sa_family - designated what type of socket this is - TPC socket, IPv6 socket, UDP socket 
+		- ![[Pasted image 20251031185314.png]]
+	- Internet (IPv4) specific socket address:
+		- Must cast (struct sockaddr_in *) to (struct sockaddr *) for functions that take socket address arguments.
+		- ![[Pasted image 20251031185352.png]]
+		- Still in big endian
+		- it's like a subclass of sockaddr
+- Echo server and client structure
+	- ![[Pasted image 20251031185746.png]]
+- 
