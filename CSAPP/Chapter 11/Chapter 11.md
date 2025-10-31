@@ -74,7 +74,24 @@ A Client-Server Transaction
 			- Payload: contains data bits sent from source host
 - Transferring internet data via encapsulation
 	- we want to send a packet from Host A to Host B
+	- ![[Pasted image 20251031173341.png]]
 	- Idea of packet communication
 		-  Put little headers on that contain the routing information equivalent on the front of an envelope of a letter
 	- The LAN1 adapter, the network interface card or adaptor 
 		- is responsible for putting that out over this local communication capability
+	- LAN2 - puts its own frame header
+		- Encapsulation, decapsulation.
+- Global IP Internet
+	- Based on the TCP/IP protocol family
+		- IP (Internet Protocol)
+			- Provides basic naming scheme and unreliable delivery capability of packets (datagrams) from host-to-host
+		- UDP (Unreliable Datagram Protocol)
+			- Uses IP to provide unreliable datagram delivery from process-to-process
+		- TCP (Transmission Control Protocol) - 99%
+			- Uses IP to provide reliable byte streams from process-to-process over connections
+	- Accessed via a mix of Unix file I/O and functions from the sockets interface
+- Hardware and Software Organization of a Client-Server Internet Application
+	- ![[Pasted image 20251031173824.png]]
+- A Programmer’s View of the Internet
+	- 1. Hosts are mapped to a set of 32-bit IP addresses
+		- 128.2.203.179
