@@ -264,4 +264,8 @@ A Client-Server Transaction
 	- ![[Pasted image 20251031200218.png]]
 - getnameinfo
 	- ![[Pasted image 20251031201459.png]]
-	- 
+- Client - Connect
+	- Establish a  connection with a server
+	- ![[Pasted image 20251031202245.png]]
+	- ![[Pasted image 20251031202537.png]]
+- 
