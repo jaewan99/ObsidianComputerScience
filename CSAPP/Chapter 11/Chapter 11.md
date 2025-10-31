@@ -312,3 +312,36 @@ A Client-Server Transaction
 		- image/gif - Binary image encoded in GIF format
 		- image/png - Binary image encoded in PNG format
 		- image/jpeg - Binary image encoded in JPEG format
+- Static and Dynamic Content
+	- Static content: content stored in files and retrieved in response to an HTTP request
+		- Examples: HTML files, images, audio clips, Javascript programs
+		- Request identifies which content file
+	- Dynamic content: content produced on-the-fly in response to an HTTP request
+		- Example: content produced by a program executed by the server on behalf of the client
+		- Request identifies file containing executable code
+	- Any URL can refer to either static or dynamic content
+- URLs and how clients and servers use them
+	- Unique name for a file: URL (Universal Resource Locator)
+	- Example URL: http://www.cmu.edu:80/index.html
+	- Clients use prefix (http://www.cmu.edu:80) to infer:
+		- What kind (protocol) of server to contact (HTTP)
+		- Where the server is (www.cmu.edu)
+		- What port it is listening on (80)
+	- Servers use suffix (/index.html) to:
+		- Determine if request is for static or dynamic content.
+			- No hard and fast rules for this
+			- One convention: executables reside in cgi-bin directory
+		- Find file on file system
+			- Initial “/” in suffix denotes home directory for requested content.
+			- Minimal suffix is “/”, which server expands to configured default filename (usually, index.html)
+- HTTP Requests 
+	- HTTP request is a request line, followed by zero or more request headers
+
+	- Request line:  
+	- method uri version
+	- method is one of GET, POST, OPTIONS, HEAD, PUT, DELETE, or TRACE
+	- uri is typically URL for proxies, URL suffix for servers
+		- A URL is a type of URI (Uniform Resource Identifier)
+	- version is HTTP version of request (HTTP/1.0 or HTTP/1.1)
+	- Request headers:
+		- provide additional 
