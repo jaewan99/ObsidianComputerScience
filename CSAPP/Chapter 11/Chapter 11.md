@@ -417,3 +417,5 @@ A Client-Server Transaction
 	- The one that forked out and execved
 	- ![[Pasted image 20251031213528.png]]
 	- ![[Pasted image 20251031213844.png]]
+	- ![[Pasted image 20251031213958.png]]
+	- 
