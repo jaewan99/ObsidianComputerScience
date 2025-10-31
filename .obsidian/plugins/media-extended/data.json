@@ -16,7 +16,7 @@
   "note.embed.handle-direct-url": true,
   "link.click-behavior": "split",
   "link.altclick-behavior": "window",
-  "link.handle-hosted": true,
+  "link.handle-hosted": false,
   "link.handle-direct-url": true,
   "link.hosted-prefer": "browser",
   "note.template.timestamp": "\n- {{TIMESTAMP}} ",

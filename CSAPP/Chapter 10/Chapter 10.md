@@ -2,7 +2,27 @@
 
  ```
 
- https://www.youtube.com/watch?v=vaOT9KeIUDk&list=PL22J-I2Pi-Gf0s1CGDVtt4vuvlyjLxfem&index=16
+![](https://www.youtube.com/watch?v=vaOT9KeIUDk)
+
+![](https://www.youtube.com/embed/vaOT9KeIUDk)
+
+<iframe 
+  width="560" 
+  height="315" 
+  src="https://www.youtube.com/embed/vaOT9KeIUDk"
+  title="CSAPP Lecture 16 – System Level I/O"
+  frameborder="0"
+  allowfullscreen
+  referrerpolicy="strict-origin-when-cross-origin">
+</iframe>
+
+
+> [!error] Invalid Video URL
+> The highlighted link is not a valid video url. Please try again with a valid link.
+
+
+> [!error] Invalid Video URL
+> The highlighted link is not a valid video url. Please try again with a valid link.
 
 - In unix, a file is just sequence of bytes, and unix doesn't distinguish between different classes of files unlike say Windows. The os operating system level has essentially no understanding of a more detailed structure inside of a file.
 - Elegant mapping of files to devices allows kernel to export simple interface called Unix I/O:
