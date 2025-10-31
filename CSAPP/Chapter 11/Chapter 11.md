@@ -268,4 +268,11 @@ A Client-Server Transaction
 	- Establish a  connection with a server
 	- ![[Pasted image 20251031202245.png]]
 	- ![[Pasted image 20251031202537.png]]
-- 
+- Sockets Helper: open_listenfd
+	- Create a listening descriptor that can be used to accept connection requests from the client
+	- ![[Pasted image 20251031203143.png]]
+	- ![[Pasted image 20251031203548.png]]
+	- ![[Pasted image 20251031203632.png]]
+
+- Echo Server Example
+	- ./echoserveri ()
