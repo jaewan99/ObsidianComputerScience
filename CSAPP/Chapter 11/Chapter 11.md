@@ -162,4 +162,23 @@ A Client-Server Transaction
 		- ssh servers: ssh 22
 		- email servers: smtp 25
 		- Web servers: http 80
-	-  Mappings between well-known ports and service names is contained in the file /etc/services on each Linux machine.
+	- Mappings between well-known ports and service names is contained in the file /etc/services on each Linux machine.
+- Anatomy of a Connection
+	- A connection is uniquely identified by the socket addresses of its endpoints (socket pair)
+		- (cliaddr:cliport, servaddr:servport)
+	- ![[Pasted image 20251031180940.png]]
+	- ![[Pasted image 20251031181021.png]]
+- Sockets Interface
+	- Set of system-level functions used in conjunction with Unix I/O to build network applications
+	- Created in the early 80’s as part of the original Berkeley distribution of Unix that contained an early version of the Internet protocols.
+	- Available on all modern systems
+		- Unix variants, Windows, OS X, IOS, Android, ARM
+- Sockets
+	- What is a socket?
+		- To the kernel, a socket is an endpoint of communication
+		- To an application, a socket is a file descriptor that lets the application read/write from/to the network
+			- Remember: All Unix I/O devices, including networks, are modeled as files
+	- Clients and servers communicate with each other by reading from and writing to socket descriptors
+	- ![[Pasted image 20251031181254.png]]
+	- The main distinction between regular file I/O and socket I/O is how the application “opens” the socket descriptors
+- 
