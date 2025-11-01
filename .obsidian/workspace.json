@@ -35,8 +35,7 @@
               "title": "Chapter 10"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -197,11 +196,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "825652f2a820989e",
+  "active": "16db37757dc8ec38",
   "lastOpenFiles": [
+    "CSAPP/Chapter 10/Chapter 10.md",
     "CSAPP/Chapter 9/Chapter 9.md",
     "CSAPP/Chapter 9/9.1-9.8.md",
-    "CSAPP/Chapter 10/Chapter 10.md",
     "CSAPP/Chapter 11/Chapter 11.md",
     "CSAPP/Chapter 12",
     "CSAPP/노트 적을때 따라야할 규칙.md",
