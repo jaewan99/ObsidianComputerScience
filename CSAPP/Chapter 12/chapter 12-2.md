@@ -97,4 +97,3 @@ Threads Memory Model
 	- Provide mutually exclusive access to shared variable by surrounding critical section with lock and unlock operations
 	- Mutex invariant creates a forbidden region that encloses unsafe region and that cannot be entered by any trajectory.
 	- ![[Pasted image 20251103144938.png]]
-	- 

@@ -49,4 +49,17 @@ Producer-Consumer on an n-element Buffer
 		- A reader that arrives after a writer must wait, even if the writer is also waiting
 		- The readers could starved out
 	- Starvation (where a thread waits indefinitely) is possible both cases
-- 
+
+- Solution to First Readers-Writers Problem
+	- ![[Pasted image 20251103154135.png]]
+
+````C
+
+P(&mutex);          // lock to safely update readcnt
+readcnt++;
+if (readcnt == 1)   // if I'm the first reader
+    P(&w);           // block writers - when it's writing, it will wait until the 
+					//writer releases 
+V(&mutex);          // done updating readcnt
+
+````
