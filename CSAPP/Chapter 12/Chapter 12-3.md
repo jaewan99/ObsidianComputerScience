@@ -120,3 +120,10 @@ V(&mutex);          // done updating readcnt
 		- Important subset of thread-safe functions
 			- Require no synchronization operations
 			- Only way to make a Class 2 function thread-safe is to make it reentrant (e.g., rand_r )
+			- ![[Pasted image 20251103164548.png]]
+- Thread-Safe Library Functions
+	- All functions in the Standard C Library (at the back of your K&R text) are thread-safe
+		- Examples: malloc, free, printf, scanf
+	- Most Unix system calls are thread-safe, with a few exceptions:
+		- ![[Pasted image 20251103164643.png]]
+- 
