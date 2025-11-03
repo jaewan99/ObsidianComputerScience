@@ -107,8 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 284.5,
-    "collapsed": true
+    "width": 284.5
   },
   "right": {
     "id": "658074b3dc69e704",
@@ -213,9 +212,10 @@
   },
   "active": "825652f2a820989e",
   "lastOpenFiles": [
+    "CSAPP/Chapter 12/Readers_Writers_Explanation_KR.md",
+    "CSAPP/Chapter 12/Chapter 12.md",
     "CSAPP/Chapter 12/Chapter 12-3.md",
     "CSAPP/Chapter 12/chapter 12-2.md",
-    "CSAPP/Chapter 12/Chapter 12.md",
     "CSAPP/Chapter 12/Chapter 12-4.md",
     "CSAPP/Chapter 11/Chapter 11.md",
     "CSAPP/Chapter 12/Images/Pasted image 20251103170851.png",
@@ -254,7 +254,6 @@
     "CSAPP/Chapter 5/Optimizations.md",
     "CSAPP/Chapter 9/동적할당 9.9.md",
     "CSAPP/Chapter 6/Chapter 6.4 캐시 메모리.md",
-    "CSAPP/Chapter 6/Chapter 6.3 메모리 계층구조.md",
     "CSAPP/Chapter 10",
     "CSAPP/Chapter 9/Images",
     "CSAPP/Chapter 9",
