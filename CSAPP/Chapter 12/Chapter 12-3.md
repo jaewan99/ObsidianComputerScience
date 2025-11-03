@@ -14,6 +14,8 @@ Using Semaphores to Coordinate Access to Shared Resources
 		- Event-driven graphical user interfaces
 			- Producer detects mouse clicks, mouse movements, and keyboard hits and inserts corresponding events in buffer
 			- Consumer retrieves events from buffer and paints the display
+	- 순서보장 - ticketing
+	- MSA
 
 Producer-Consumer on an n-element Buffer
 - Requires a mutex and two counting semaphores:
