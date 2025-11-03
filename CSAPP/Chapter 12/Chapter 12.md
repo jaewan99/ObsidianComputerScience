@@ -114,3 +114,22 @@ Iterative servers
 	- I/O Multiplexed Event Processing
 		- 
 		- left - we record the descriptor number for each of those connected
+		- ![[Pasted image 20251103110456.png]]
+		- Pros and Cons of Event-based Servers
+			- + One logical control flow and address space.
+			- + Can single-step with a debugger.
+			- + No process or thread control overhead.
+				- Just the list of confd's
+				- Design of choice for high-performance Web servers and search engines. e.g., Node.js, nginx, Tornado
+			- – Significantly more complex to code than process-based or thread-based design
+				- figure out how much work that we will do in response to an event.
+				- ex. web server
+					- you get input on one of your connected file descriptor
+						- Simplest thing to do would be to then assume to read the entire http request
+							- And not return until we read the entire request - the amount of work that you do in response to an event is coarse-grained
+								- a lot of instruction done.
+			- – Hard to provide fine-grained concurrency. 
+				- ▪ E.g., how to deal with partial HTTP request headers
+			- – Cannot take advantage of multi-core. 
+				- ▪ Single thread of control
+- 
