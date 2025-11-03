@@ -214,4 +214,4 @@ Iterative servers
 	- Close connfd (important!)
 - Thread-based Server Execution Model
 	- ![[Pasted image 20251103115405.png]]
-	- 
+	- Listening server main thread - waiting connection request by accept
