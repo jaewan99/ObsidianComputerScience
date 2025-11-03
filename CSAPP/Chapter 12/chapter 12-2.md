@@ -13,7 +13,7 @@ Threads Memory Model
 	- Operationally, this model is not strictly enforced:
 		- Register values are truly separate and protected, but ...
 		- Any thread can read and write the stack of any other thread
-		- ![[Pasted image 20251103134102.png]]
+		- ![[Pasted image 20251103134557.png]]
 		- ![[Pasted image 20251103134147.png]]
 	- Mapping Variable Instances to Memory
 		- Global variables
@@ -25,3 +25,7 @@ Threads Memory Model
 		- Local static variables
 			- Def: Variable declared inside function with the static attribute
 				- Virtual memory contains exactly one instance of any local static variable.
+	- Answer: A variable x is shared iff multiple threads reference at least one instance of x. Thus:
+		- ptr, cnt, and msgs are shared
+		- i and myid are not shared
+- badcnt.c : Improper Synchronization
