@@ -238,3 +238,4 @@ Iterative servers
 		- Hard to detect by testing
 			- Probability of bad race outcome often very low
 			- But nonzero!
+		- Future lectures
