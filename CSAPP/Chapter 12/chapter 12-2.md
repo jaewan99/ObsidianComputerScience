@@ -29,3 +29,9 @@ Threads Memory Model
 		- ptr, cnt, and msgs are shared
 		- i and myid are not shared
 - badcnt.c : Improper Synchronization
+	- ![[Pasted image 20251103140929.png]]
+	- ![[Pasted image 20251103141148.png]]
+- Concurrent Execution
+	- Key idea: In general, any sequentially consistent interleaving is possible, but some give an unexpected result!
+		- I i denotes that thread i executes instruction I
+		- %rdxi is the content of %rdx in thread i’s context
