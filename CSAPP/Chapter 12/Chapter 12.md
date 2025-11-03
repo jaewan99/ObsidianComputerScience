@@ -1,3 +1,5 @@
+https://www.cs.cmu.edu/afs/cs/academic/class/18213-m25/www/lectures/22-concprog.pdf
+https://www.youtube.com/watch?v=jKWfQfZkQ-w&list=PL22J-I2Pi-Gf0s1CGDVtt4vuvlyjLxfem&index=23
 So as soon as we have multiple flow accessing shared resources all kinds of bad things can happen in your program. 
 
 Classical problem classes of concurrent programs:
@@ -60,4 +62,10 @@ Iterative servers
 
 - Approach #1: Process-based Servers
 	- Spawn separate process for each client
+		- ![[Pasted image 20251103103417.png]]
+	- Process-Based concurrent echo server
+		- ![[Pasted image 20251103103755.png]]
+		- argv  - pass in the port number that we want this server to listen on
+		- sockaddr_storage - protocol independent, big enough to handle IPv4, IPv6
+		- listenfd - create listening descriptor
 		- 
