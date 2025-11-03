@@ -92,3 +92,18 @@ V(&mutex);          // done updating readcnt
 - Thread-Unsafe Functions (Class 2)
 	- Relying on persistent state across multiple function invocations
 		- Example: Random number generator that relies on static state
+		- ![[Pasted image 20251103162536.png]]
+		- the random numbers that each thread gets back, are not only a function of the previous seed from the previous time that thread called the function. But also a function of other threads that are calling it
+		- ![[Pasted image 20251103162907.png]]
+		- Pass state as part of argument
+			- and, thereby, eliminate static state
+			- *nextp is now local variable on the thread stack
+			- each caller will keep its own local copy of next and it will pass in a p pointer to rand
+- Thread-Unsafe Functions (Class 3)
+	- Returning a pointer to a static variable
+	- Fix 1. Rewrite function so caller passes address of variable to store result
+		- Requires changes in caller and callee
+	- Fix 2. Lock-and-copy
+		- Requires simple changes in caller (and none in callee)
+		- However, caller must free memory.
+	- ![[Pasted image 20251103163307.png]]
