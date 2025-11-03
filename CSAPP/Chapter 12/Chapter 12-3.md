@@ -107,3 +107,16 @@ V(&mutex);          // done updating readcnt
 		- Requires simple changes in caller (and none in callee)
 		- However, caller must free memory.
 	- ![[Pasted image 20251103163307.png]]
+		- make a wrapper
+		- P - so only one thread at a time we'll have this mutex
+		- ctime = normale ctime
+		- copy = strcpy - creating this local string array
+- Thread-Unsafe Function (class 4)
+	- Calling thread-unsafe functions
+		- Calling one thread-unsafe function makes the entire function that calls it thread-unsafe
+		- Fix: Modify the function so it calls only thread-safe functions ☺
+- Reentrant Functions
+	- Def: A function is reentrant iff it accesses no shared variables when called by multiple threads.
+		- Important subset of thread-safe functions
+			- Require no synchronization operations
+			- Only way to make a Class 2 function thread-safe is to make it reentrant (e.g., rand_r )
