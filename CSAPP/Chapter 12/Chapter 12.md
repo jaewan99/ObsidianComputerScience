@@ -199,4 +199,17 @@ Iterative servers
 			- pthread_mutex_[un]lock
 - Pthreads "hello, world" program
 	- ![[Pasted image 20251103114055.png]]
+	- ![[Pasted image 20251103114357.png]]
+- Thread-Based Concurrent Echo Server
+	- ![[Pasted image 20251103114625.png]]
 	- 
+	- ![[Pasted image 20251103114908.png]]
+	- vargp - pointer to the connected file descriptor
+	- detach - when it dies the kernel automatically handles the data.
+	- free - malloc that's created in the main thread
+	- Run thread in “detached” mode.
+		- Runs independently of other threads
+		- Reaped automatically (by kernel) when it terminates
+	- Free storage allocated to hold connfd.
+	- Close connfd (important!)
+- 
