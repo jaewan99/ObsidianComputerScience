@@ -35,3 +35,16 @@ Threads Memory Model
 	- Key idea: In general, any sequentially consistent interleaving is possible, but some give an unexpected result!
 		- I i denotes that thread i executes instruction I
 		- %rdxi is the content of %rdx in thread i’s context
+		- ![[Pasted image 20251103141524.png]]
+		- This is the interleaving that works, we got the answer that we wanted
+	- Concurrent Execution (cont)
+		- Incorrect ordering: two threads increment the counter, but the result is 1 instead of 2
+		- ![[Pasted image 20251103141811.png]]
+		- ![[Pasted image 20251103141830.png]]
+- Progress Graph
+	- A progress graph depicts the discrete execution state space of concurrent threads.
+	- Each axis corresponds to the sequential order of instructions in a thread
+	- Each point corresponds to a possible execution state (Inst1 , Inst2 ).
+	- E.g., (L1 , S2 ) denotes state where thread 1 has completed L1 and thread 2 has completed S2 .
+	- A trajectory is a sequence of legal state transitions that describes one possible concurrent execution of the threads.
+	- 
