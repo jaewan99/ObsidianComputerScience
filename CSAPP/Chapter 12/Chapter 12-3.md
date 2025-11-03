@@ -126,4 +126,20 @@ V(&mutex);          // done updating readcnt
 		- Examples: malloc, free, printf, scanf
 	- Most Unix system calls are thread-safe, with a few exceptions:
 		- ![[Pasted image 20251103164643.png]]
-- 
+- Race condition
+	- Could this race occur?
+	- ![[Pasted image 20251103165702.png]]
+	- ![[Pasted image 20251103165528.png]]
+	- 
+	- Race Test
+		- If no race, then each thread would get different value of i
+		- Set of saved values would consist of one copy each of 0 through 99
+	- ![[Pasted image 20251103165547.png]]
+	- ![[Pasted image 20251103165739.png]]
+- Another worry: Deadlock
+	- Def: A process is deadlocked iff it is waiting for a condition that will never be true.
+	- Typical Scenario
+		- Processes 1 and 2 needs two resources (A and B) to proceed
+		- Process 1 acquires A, waits for B
+		- Process 2 acquires B, waits for A
+		- Both will wait forever!
