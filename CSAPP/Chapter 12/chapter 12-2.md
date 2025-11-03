@@ -92,3 +92,9 @@ Threads Memory Model
 			- V operation: "unlocking" or "releasing" the mutex
 			- "Holding" a mutex: locked and not yet unlocked.
 		- Counting semaphore: used as a counter for set of available resources.
+		- ![[Pasted image 20251103144409.png]]
+- Why mutexes work
+	- Provide mutually exclusive access to shared variable by surrounding critical section with lock and unlock operations
+	- Mutex invariant creates a forbidden region that encloses unsafe region and that cannot be entered by any trajectory.
+	- ![[Pasted image 20251103144938.png]]
+	- 
