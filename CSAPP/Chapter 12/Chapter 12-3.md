@@ -73,4 +73,7 @@ V(&mutex);          // done updating readcnt
 - 3. remove descriptors - when item appears, one of the worker thread will remove that item. And use that descriptor to interact with the client.
 	- When that interaction finishes, it goes back and checks for the next file descriptor in the buffer.
 	- Instead of killing the thread, replace the thread.
+- ![[Pasted image 20251103160624.png]]
+- asdv
 - 
+- echo_cnt = pthread_once will the checked everytime but only called once.
