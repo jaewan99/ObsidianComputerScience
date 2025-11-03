@@ -47,4 +47,24 @@ Threads Memory Model
 	- Each point corresponds to a possible execution state (Inst1 , Inst2 ).
 	- E.g., (L1 , S2 ) denotes state where thread 1 has completed L1 and thread 2 has completed S2 .
 	- A trajectory is a sequence of legal state transitions that describes one possible concurrent execution of the threads.
-	- 
+	- ![[Pasted image 20251103142449.png]]
+	- ![[Pasted image 20251103142501.png]]
+- Critical Sections and Unsafe Regions
+	- L, U, and S form a critical section with respect to the shared variable cnt
+	- Instructions in critical sections (wrt some shared variable) should not be interleaved
+	- Sets of states where such interleaving occurs form unsafe regions
+	- ![[Pasted image 20251103142603.png]]
+	
+	- Def: A trajectory is safe iff it does not enter any unsafe region
+	- Claim: A trajectory is correct (wrt cnt) iff it is safe
+	- ![[Pasted image 20251103142636.png]]
+	- Enforcing Mutual Exclusion
+		- Question: How can we guarantee a safe trajectory?
+			- Answer: We must synchronize the execution of the threads so that they can never have an unsafe trajectory.
+				- i.e., need to guarantee mutually exclusive access for each critical section.
+		- Classic solution:
+			- Mutex (pthreads)
+			- Semaphores (Edsger Dijkstra)
+		- Other approaches (out of our scope)
+			- Condition variables (pthreads)
+			- Monitors (Java)
