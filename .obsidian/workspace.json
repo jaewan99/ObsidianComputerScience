@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSAPP/Chapter 3/Chapter 3.6 제어문.md",
+                "file": "CSAPP/Chapter 12/Chapter 12.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Chapter 3.6 제어문"
+              "title": "Backlinks for Chapter 12"
             }
           },
           {
@@ -177,8 +177,7 @@
               "title": "Timestamp Video"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -200,6 +199,8 @@
   },
   "active": "825652f2a820989e",
   "lastOpenFiles": [
+    "CSAPP/Chapter 12/Images/Pasted image 20251103112057.png",
+    "CSAPP/Chapter 12/Images/Pasted image 20251103111914.png",
     "CSAPP/Chapter 12/Images/Pasted image 20251103110456.png",
     "CSAPP/Chapter 12/Images/Pasted image 20251103104846.png",
     "CSAPP/Chapter 12/Images/Pasted image 20251103104603.png",
@@ -211,8 +212,6 @@
     "CSAPP/Chapter 12/Images/Pasted image 20251103103417.png",
     "CSAPP/Chapter 12/Images/Pasted image 20251103102641.png",
     "CSAPP/Chapter 12/Images/Pasted image 20251103101840.png",
-    "CSAPP/Chapter 12/Images/Pasted image 20251103101819.png",
-    "CSAPP/Chapter 12/Images/Pasted image 20251103101607.png",
     "CSAPP/Chapter 12/Images",
     "CSAPP/필요한 링크들.md",
     "CSAPP/노트 적을때 따라야할 규칙.md",

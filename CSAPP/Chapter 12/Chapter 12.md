@@ -132,4 +132,20 @@ Iterative servers
 				- ▪ E.g., how to deal with partial HTTP request headers
 			- – Cannot take advantage of multi-core. 
 				- ▪ Single thread of control
-- 
+- Approach #3: Thread-based Servers
+	- Traditional View of a Process
+		- Process = process context + code, data, and stack
+			- context - data structure in the kernel, data that the kernel keeps about the process
+			- And the private address space = code, data, stack
+			- ![[Pasted image 20251103111914.png]]
+	- Alternate View of a Process
+		- Process = thread + code, data, and kernel context
+		- ![[Pasted image 20251103112057.png]]
+		- Thread context = program context
+	- A Process With Multiple Threads
+		- Multiple threads can be associated with a process
+			- Each thread has its own logical control flow
+			- Each thread shares the same code, data, and kernel context
+			- Each thread has its own stack for local variables
+				- but not protected from other threads
+			- Each thread has its own thread id (TID
