@@ -66,14 +66,29 @@ V(&mutex);          // done updating readcnt
 
 
 ![[Pasted image 20251103155508.png]]
-- before the created new created new thread, whenever new connection request arrive. When leaves, it kills the thread- creates overhead - creating on-demand
-- Create a pool worker thread - pre-threaded or pre-pork processes
-- 1. Accept connection
-- 2. Insert descriptors - they are shared from thread to thread.
-- 3. remove descriptors - when item appears, one of the worker thread will remove that item. And use that descriptor to interact with the client.
-	- When that interaction finishes, it goes back and checks for the next file descriptor in the buffer.
-	- Instead of killing the thread, replace the thread.
-- ![[Pasted image 20251103160624.png]]
-- asdv
-- 
-- echo_cnt = pthread_once will the checked everytime but only called once.
+	- before the created new created new thread, whenever new connection request arrive. When leaves, it kills the thread- creates overhead - creating on-demand
+	- Create a pool worker thread - pre-threaded or pre-pork processes
+	- 1. Accept connection
+	- 2. Insert descriptors - they are shared from thread to thread.
+	- 3. remove descriptors - when item appears, one of the worker thread will remove that item. And use that descriptor to interact with the client.
+		- When that interaction finishes, it goes back and checks for the next file descriptor in the buffer.
+		- Instead of killing the thread, replace the thread.
+	- ![[Pasted image 20251103160624.png]]
+	- ![[Pasted image 20251103161532.png]]
+	- echo_cnt = pthread_once will the checked everytime but only called once.
+- Crucial concept: Thread Safety
+	- Functions called from a thread must be thread-safe
+	- Def: A function is thread-safe iff it will always produce correct results when called repeatedly from multiple concurrent threads.
+	- Classes of thread-unsafe functions:
+		- Class 1: Functions that do not protect shared variables
+		- Class 2: Functions that keep state across multiple invocations
+		- Class 3: Functions that return a pointer to a static variable
+		- Class 4: Functions that call thread-unsafe functions
+- Thread-Unsafe Functions (Class 1)
+	- Failing to protect shared variables
+		- Fix: Use P and V semaphore operations (or mutex)
+		- Example: goodcnt.c
+		- Issue: Synchronization operations will slow down code
+- Thread-Unsafe Functions (Class 2)
+	- Relying on persistent state across multiple function invocations
+		- Example: Random number generator that relies on static state
