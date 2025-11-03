@@ -64,8 +64,28 @@ Iterative servers
 	- Spawn separate process for each client
 		- ![[Pasted image 20251103103417.png]]
 	- Process-Based concurrent echo server
-		- ![[Pasted image 20251103103755.png]]
 		- argv  - pass in the port number that we want this server to listen on
 		- sockaddr_storage - protocol independent, big enough to handle IPv4, IPv6
 		- listenfd - create listening descriptor
-		- 
+		- ![[Pasted image 20251103104453.png]]
+		- only the child server needs the connfd
+		- ![[Pasted image 20251103104527.png]]
+- Concurrent Server: accept Illustrated
+	- 1. Server blocks in accept, waiting for connection request on listening descriptor listenfd
+	- 2. Client makes connection request by calling connect
+	- 3. Server returns connfd from accept. Forks child to handle client. Connection is now established between clientfd and connfd
+	- ![[Pasted image 20251103104603.png]]
+- Process-based server execution model
+	- ![[Pasted image 20251103104846.png]]
+	- Each client handled by independent child process
+	- No shared state between them
+	- Both parent & child have copies of listenfd and connfd
+		- Parent must close connfd
+		- Child should close listenfd
+- Issues with Process-based Servers
+	- Listening server process must reap zombie children
+		- to avoid fatal memory leak
+	- Parent process must close its copy of connfd
+		- Kernel keeps reference count for each socket/open file
+		- After fork, refcnt(connfd) = 2
+		- Connection will not be closed until refcnt(connfd) = 0
