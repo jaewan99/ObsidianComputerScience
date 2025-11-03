@@ -182,3 +182,21 @@ Iterative servers
 				- Linux numbers
 					- – ~20K cycles to create and reap a process
 					- – ~10K cycles (or less) to create and reap a thread
+- Posix Threads (Pthreads) Interface
+	- Pthreads: Standard interface for ~60 functions that manipulate threads from C programs
+		- Creating and reaping threads
+			- pthread_create() === fork, but doesn't create hierarchy
+			- pthread_join() === wait
+		- Determining your thread ID
+			- pthread_self() === getpid
+		- Terminating threads
+			- pthread_cancel() === kill
+			- pthread_exit()
+			- exit() (terminates all threads)
+			- return (terminates current thread)
+		- Synchronizing access to shared variables
+			- pthread_mutex_init
+			- pthread_mutex_[un]lock
+- Pthreads "hello, world" program
+	- ![[Pasted image 20251103114055.png]]
+	- 
