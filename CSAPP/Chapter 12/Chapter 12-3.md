@@ -26,4 +26,27 @@ Producer-Consumer on an n-element Buffer
 - ![[Pasted image 20251103150857.png]]
 - ![[Pasted image 20251103151225.png]]
 - ![[Pasted image 20251103151237.png]]
+- Readers-Writers Problem
+	- Generalization of the mutual exclusion problem
+	- Problem statement:
+		- Reader threads only read the object
+		- Writer threads modify the object
+		- Writers must have exclusive access to the object
+		- Unlimited number of readers can access the object
+	- Occurs frequently in real systems, e.g.,
+		- Online airline reservation system
+			- can be reading at the same
+			- writing like reservation
+				- should happen on the mutual exclusive way.
+		- Multithreaded caching Web proxy
+- Variants of Readers-Writers
+	- First readers-writers problem (favors readers)
+		- No reader should be kept waiting unless a writer has already been granted permission to use the object
+		- A reader that arrives after a waiting writer gets priority over the writer
+		- The writer could starved out
+	- Second readers-writers problem (favors writers)
+		- Once a writer is ready to write, it performs its write as soon as possible
+		- A reader that arrives after a writer must wait, even if the writer is also waiting
+		- The readers could starved out
+	- Starvation (where a thread waits indefinitely) is possible both cases
 - 
