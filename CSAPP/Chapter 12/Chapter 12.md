@@ -212,4 +212,6 @@ Iterative servers
 		- Reaped automatically (by kernel) when it terminates
 	- Free storage allocated to hold connfd.
 	- Close connfd (important!)
-- 
+- Thread-based Server Execution Model
+	- ![[Pasted image 20251103115405.png]]
+	- 
