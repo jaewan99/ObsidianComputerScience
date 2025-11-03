@@ -89,3 +89,28 @@ Iterative servers
 		- Kernel keeps reference count for each socket/open file
 		- After fork, refcnt(connfd) = 2
 		- Connection will not be closed until refcnt(connfd) = 0
+- Pros and Cons of Process-based Servers
+	- + Handle multiple connections concurrently.
+	- + Clean sharing model
+		- descriptors (no) - separate copies of descriptors
+		- file tables (yes)
+		- global variable (no)
+	- + Simple and straightforward.
+	- – Additional overhead for process control.
+	- – Nontrivial to share data between processes.
+		- requires IPC(interprocess communication) mechanisms
+			- FIFO's (named pipes)
+
+- Approach #2: Event-based Servers
+	- Server maintains set of active connections
+		- Array of connfd’s and listenfd's
+	- Repeat:
+		- Determine which descriptors (connfd’s or listenfd) have pending inputs
+			- e.g., using select or epoll function
+			- arrival of pending input is an event
+		- If listenfd has input, then accept connection
+			- and add new connfd to array
+		- Service all connfd’s with pending inputs
+	- I/O Multiplexed Event Processing
+		- 
+		- left - we record the descriptor number for each of those connected
