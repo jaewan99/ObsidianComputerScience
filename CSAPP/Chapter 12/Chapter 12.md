@@ -29,4 +29,35 @@ Iterative servers
 				- Call to rio_readlineb blocks!
 					- Server hasn’t written anything for it to read yet.
 - Fundamental Flaw of Iterative Servers
-	- 
+	- ![[Pasted image 20251103102641.png]]
+	- Client 1:
+		- User goes out to lunch
+		- Client 1 blocks waiting for user to type in data
+	- Server
+		- Server blocks waiting for data from Client 1
+	- Client 2:
+		- Client 2 blocks waiting to read from server
+	
+	- We are in the untenable situation - where one client has sort of totally affected all of the other clients in the system and none of the other clients can get service.
+		- Solution: use concurrent servers instead
+		- Concurrent servers use multiple concurrent flows to serve multiple clients at the same time
+- Approaches for Writing Concurrent Servers
+	- Allow server to handle multiple clients concurrently
+		- 1. Process-based
+			- Kernel automatically interleaves multiple logical flows
+			- Each flow has its own private address space
+				- each flow is independent and controlled by kernel
+		- 2. Event-based
+			- Programmer manually interleaves multiple logical flows
+			- All flows share the same address space
+			- Uses technique called I/O multiplexing
+				- The user and programmer creates this flow and manually interleaves this flows.
+		- 3. Thread-based
+			- Kernel automatically interleaves multiple logical flows
+			- Each flow shares the same address space
+			- Hybrid of process-based and event-based
+				- Each of these flows are implemented by thread
+
+- Approach #1: Process-based Servers
+	- Spawn separate process for each client
+		- 
