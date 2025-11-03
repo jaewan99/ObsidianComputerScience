@@ -68,3 +68,27 @@ Threads Memory Model
 		- Other approaches (out of our scope)
 			- Condition variables (pthreads)
 			- Monitors (Java)
+- Semaphores
+	- Semaphore: non-negative global integer synchronization variable. Manipulated by P and V operations.
+	- P(s)
+		- If s is nonzero, then decrement s by 1 and return immediately.
+			- Test and decrement operations occur atomically (indivisibly)
+		- If s is zero, then suspend thread until s becomes nonzero and the thread is restarted by a V operation.
+		- After restarting, the P operation decrements s and returns control to the caller.
+	- V(s):
+		- Increment s by 1.
+			- Increment operation occurs atomically
+		- If there are any threads blocked in a P operation waiting for s to become nonzero, then restart exactly one of those threads, which then completes its P operation by decrementing s.
+	- Semaphore invariant: s ≥ 0
+	- ![[Pasted image 20251103143934.png]]
+- Using Semaphores for mutual Exclusion
+	- Basic idea:
+		- Associate a unique semaphore mutex, initially 1, with each shared variable (or related set of shared variables).
+		- Surround corresponding critical sections with P(mutex) and V(mutex) operations.
+	- Terminology:
+		- Binary semaphore: semaphore whose value is always 0 or 1
+		- Mutex: binary semaphore used for mutual exclusion
+			- P operation: "locking" the mutex
+			- V operation: "unlocking" or "releasing" the mutex
+			- "Holding" a mutex: locked and not yet unlocked.
+		- Counting semaphore: used as a counter for set of available resources.
