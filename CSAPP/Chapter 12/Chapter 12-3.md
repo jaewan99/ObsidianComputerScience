@@ -16,6 +16,7 @@ Using Semaphores to Coordinate Access to Shared Resources
 			- Consumer retrieves events from buffer and paints the display
 	- 순서보장 - ticketing
 	- MSA
+	- message queue - KAFKA
 
 Producer-Consumer on an n-element Buffer
 - Requires a mutex and two counting semaphores:
