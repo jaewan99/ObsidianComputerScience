@@ -143,3 +143,15 @@ V(&mutex);          // done updating readcnt
 		- Process 1 acquires A, waits for B
 		- Process 2 acquires B, waits for A
 		- Both will wait forever!
+		- ![[Pasted image 20251103170429.png]]
+		- Locking introduces the potential for deadlock: waiting for a condition that will never be true
+		- Any trajectory that enters the deadlock region will eventually reach the deadlock state, waiting for either s0 or s1 to become nonzero
+		- Other trajectories luck out and skirt the deadlock region
+		- Unfortunate fact: deadlock is often nondeterministic (race)
+		- ![[Pasted image 20251103170647.png]]
+	- ![[Pasted image 20251103170819.png]]
+	- Avoided Deadlock in Progress Graph
+		- No way for trajectory to get stuck
+		- Processes acquire locks in same order
+		- Order in which locks released is immaterial
+		- ![[Pasted image 20251103170851.png]]
