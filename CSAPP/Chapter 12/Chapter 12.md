@@ -143,9 +143,42 @@ Iterative servers
 		- ![[Pasted image 20251103112057.png]]
 		- Thread context = program context
 	- A Process With Multiple Threads
+		- ![[Pasted image 20251103112800.png]]
 		- Multiple threads can be associated with a process
 			- Each thread has its own logical control flow
 			- Each thread shares the same code, data, and kernel context
 			- Each thread has its own stack for local variables
 				- but not protected from other threads
-			- Each thread has its own thread id (TID
+			- Each thread has its own thread id (TID)
+		- Kernel can create each of these threads as a separate flow of control and schedules similar with the process
+		- But the difference, when the kernel wants to context switch from one thread to another, there's not that much information that has to be saved and restored. It's just small amount of data.
+			- very low overhead
+	- Logical View of Threads
+		- Threads associated with process form a pool of peers
+			- Unlike processes which form a tree hierarchy
+			- ![[Pasted image 20251103112911.png]]
+	- Concurrent Threads
+		- Two threads are concurrent if their flows overlap in time
+		- Otherwise, they are sequential
+		- Examples:
+			- Concurrent: A & B, A&C
+			- Sequential: B & C
+			- ![[Pasted image 20251103113051.png]]
+		- Single Core Processor
+			- Simulate parallelism by time slicing
+		- Multi-Core Processor
+			- Can have true parallelism
+		- ![[Pasted image 20251103113132.png]]
+- Threads vs. Processes
+	- How threads and processes are similar
+		- Each has its own logical control flow
+		- Each can run concurrently with others (possibly on different cores)
+		- Each is context switched
+	- How threads and processes are different
+		- Threads share all code and data (except (unprotected) local stacks)
+			- Processes (typically) do not - they have their own address spaces
+		- Threads are somewhat less expensive than processes
+			- Process control (creating and reaping) twice as expensive as thread control
+				- Linux numbers
+					- – ~20K cycles to create and reap a process
+					- – ~10K cycles (or less) to create and reap a thread
