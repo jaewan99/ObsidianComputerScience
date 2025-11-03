@@ -63,3 +63,14 @@ if (readcnt == 1)   // if I'm the first reader
 V(&mutex);          // done updating readcnt
 
 ````
+
+
+![[Pasted image 20251103155508.png]]
+- before the created new created new thread, whenever new connection request arrive. When leaves, it kills the thread- creates overhead - creating on-demand
+- Create a pool worker thread - pre-threaded or pre-pork processes
+- 1. Accept connection
+- 2. Insert descriptors - they are shared from thread to thread.
+- 3. remove descriptors - when item appears, one of the worker thread will remove that item. And use that descriptor to interact with the client.
+	- When that interaction finishes, it goes back and checks for the next file descriptor in the buffer.
+	- Instead of killing the thread, replace the thread.
+- 
