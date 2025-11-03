@@ -215,3 +215,26 @@ Iterative servers
 - Thread-based Server Execution Model
 	- ![[Pasted image 20251103115405.png]]
 	- Listening server main thread - waiting connection request by accept
+- Issues With Thread-Based Servers
+	- Run “detached” to automatically reap/cleanup threads
+		- At any point in time, a thread is either joinable or detached
+		- Joinable thread can be reaped and killed by other threads
+			- must be reaped (with pthread_join) to free memory resources
+		- Detached thread cannot be reaped or killed by other threads
+			- resources are automatically reaped on termination
+		- Default state is joinable
+			- use pthread_detach(pthread_self()) to make detached
+	- Must be careful to avoid unintended sharing
+		- For example, passing pointer to main thread’s stack
+			- Pthread_create(&tid, NULL, thread, (void *)&connfd);
+		- All functions called by a thread must be thread-safe
+- Pros and Cons of Thread-Based Designs
+	- + Easy to share data structures between threads
+		- e.g., logging information, file cache
+	- + Threads are more efficient than processes
+	- – Unintentional sharing can introduce subtle and hard-to-reproduce error
+		- The ease with which data can be shared is both the greatest strength and the greatest weakness of threads
+		- Hard to know which data shared & which private
+		- Hard to detect by testing
+			- Probability of bad race outcome often very low
+			- But nonzero!
