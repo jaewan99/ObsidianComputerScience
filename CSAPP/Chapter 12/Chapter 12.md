@@ -9,4 +9,24 @@ Classical problem classes of concurrent programs:
 	- Example: traffic gridlock
 	- printf - interrupted by signal handler - printf
 		- Printf acquires a terminal lock but the second printf won't be able to get it because the printf and the main routine has it
-		- So now your signal handler the printf and the g
+		- So now your signal handler the printf and the signal handler is waiting for the event that will never occur
+		- ![[Pasted image 20251103101607.png]]
+- Livelock / Starvation / Fairness: external events and/or system scheduling decisions can prevent sub-task progress
+			- Example: people always jump in front of you in line
+
+Iterative servers
+- Iterative servers process on request at a time.
+	- ![[Pasted image 20251103101819.png]]
+	- ![[Pasted image 20251103101840.png]]
+	- Where Does Second Client Actually Block?
+		- Second client attempts to connect to iterative server
+			- Due to TCP Buffering:
+				- Call to connect returns
+					- Even though connection not yet accepted
+					- Server side TCP manager queues request
+				- Call to rio_writen returns
+					- Server side TCP manager buffers input data
+				- Call to rio_readlineb blocks!
+					- Server hasn’t written anything for it to read yet.
+- Fundamental Flaw of Iterative Servers
+	- 
