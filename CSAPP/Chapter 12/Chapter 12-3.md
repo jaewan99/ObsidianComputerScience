@@ -153,5 +153,5 @@ V(&mutex);          // done updating readcnt
 	- Avoided Deadlock in Progress Graph
 		- No way for trajectory to get stuck
 		- Processes acquire locks in same order
-		- Order in which locks released is immaterial                   
+		- Order in which locks released is immaterial                               
 		- ![[Pasted image 20251103170851.png]]
