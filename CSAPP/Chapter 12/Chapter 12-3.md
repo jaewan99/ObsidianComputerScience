@@ -18,3 +18,12 @@ Using Semaphores to Coordinate Access to Shared Resources
 Producer-Consumer on an n-element Buffer
 - Requires a mutex and two counting semaphores:
 	- mutex: enforces mutually exclusive access to the the buffer
+	- slots: counts the available slots in the buffer
+	- items: counts the available items in the buffer
+- Implemented using a shared buffer package called sbuf.
+- ![[Pasted image 20251103150548.png]]
+- ![[Pasted image 20251103150717.png]]
+- ![[Pasted image 20251103150857.png]]
+- ![[Pasted image 20251103151225.png]]
+- ![[Pasted image 20251103151237.png]]
+- 
