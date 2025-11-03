@@ -53,7 +53,6 @@ Producer-Consumer on an n-element Buffer
 - Solution to First Readers-Writers Problem
 	- ![[Pasted image 20251103154135.png]]
 
-````C
 
 P(&mutex);          // lock to safely update readcnt
 readcnt++;
@@ -62,7 +61,7 @@ if (readcnt == 1)   // if I'm the first reader
 					//writer releases 
 V(&mutex);          // done updating readcnt
 
-````
+
 
 
 ![[Pasted image 20251103155508.png]]
