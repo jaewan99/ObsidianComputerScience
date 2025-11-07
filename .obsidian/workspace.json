@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pintOS/notes from pintos.md",
+                "file": "CSAPP/Chapter 12/chapter 12-2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "notes from pintos"
+              "title": "chapter 12-2"
             }
           }
         ],
@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 522.5110321044922,
-    "collapsed": true
+    "width": 522.5110321044922
   },
   "right": {
     "id": "658074b3dc69e704",
@@ -198,8 +197,8 @@
   },
   "active": "d5f9ea9d32c0c9db",
   "lastOpenFiles": [
-    "CSAPP/Chapter 12/12-3.md",
     "pintOS/notes from pintos.md",
+    "CSAPP/Chapter 12/12-3.md",
     "CSAPP/Chapter 12/12-1.md",
     "pintOS/pintos.pdf",
     "CSAPP/Chapter 11/Chapter 11.md",
