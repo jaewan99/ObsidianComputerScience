@@ -192,11 +192,13 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "media-extended:Open external media": false
     }
   },
   "active": "d5f9ea9d32c0c9db",
   "lastOpenFiles": [
+    "CSAPP/Chapter 12/chapter 12-2.md",
     "pintOS/notes from pintos.md",
     "CSAPP/Chapter 12/12-3.md",
     "CSAPP/Chapter 12/12-1.md",
@@ -204,7 +206,6 @@
     "CSAPP/Chapter 11/Chapter 11.md",
     "pintOS",
     "CSAPP/Chapter 12/12.md",
-    "CSAPP/Chapter 12/chapter 12-2.md",
     "CSAPP/Chapter 12/Chapter 12.md",
     "CSAPP/Chapter 12/Chapter 12-3.md",
     "Untitled.md",
