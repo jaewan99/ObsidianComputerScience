@@ -34,9 +34,21 @@
               "icon": "lucide-file",
               "title": "chapter 12-2"
             }
+          },
+          {
+            "id": "61124ae6ef7dd65e",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.3"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.3"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -196,7 +208,7 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "d5f9ea9d32c0c9db",
+  "active": "61124ae6ef7dd65e",
   "lastOpenFiles": [
     "CSAPP/Chapter 12/chapter 12-2.md",
     "pintOS/notes from pintos.md",
