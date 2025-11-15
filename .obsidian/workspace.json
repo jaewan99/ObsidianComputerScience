@@ -27,28 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSAPP/Chapter 12/chapter 12-2.md",
+                "file": "CSAPP/Chapter 10/Chapter 10.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "chapter 12-2"
-            }
-          },
-          {
-            "id": "61124ae6ef7dd65e",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.10.3"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.10.3"
+              "title": "Chapter 10"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -208,18 +196,18 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "61124ae6ef7dd65e",
+  "active": "d5f9ea9d32c0c9db",
   "lastOpenFiles": [
-    "CSAPP/Chapter 12/chapter 12-2.md",
-    "pintOS/notes from pintos.md",
-    "CSAPP/Chapter 12/12-3.md",
-    "CSAPP/Chapter 12/12-1.md",
-    "pintOS/pintos.pdf",
     "CSAPP/Chapter 11/Chapter 11.md",
-    "pintOS",
+    "CSAPP/Chapter 12/12-3.md",
     "CSAPP/Chapter 12/12.md",
+    "CSAPP/Chapter 12/12-1.md",
     "CSAPP/Chapter 12/Chapter 12.md",
     "CSAPP/Chapter 12/Chapter 12-3.md",
+    "CSAPP/Chapter 12/chapter 12-2.md",
+    "pintOS/notes from pintos.md",
+    "pintOS/pintos.pdf",
+    "pintOS",
     "Untitled.md",
     "CSAPP/Chapter 12/Readers_Writers_Explanation_KR.md",
     "CSAPP/Chapter 12/Chapter 12-4.md",
