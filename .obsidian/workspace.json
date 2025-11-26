@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/Spring/Spring Academy/spring vs spring boot.md",
+                "file": "JAVA/Spring/Spring Academy/spring and spring boot - and more.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "spring vs spring boot"
+              "title": "spring and spring boot - and more"
             }
           }
         ],
@@ -198,12 +198,13 @@
   },
   "active": "d5f9ea9d32c0c9db",
   "lastOpenFiles": [
+    "CSAPP/Chapter 12/12.md",
+    "JAVA/Spring/Spring Academy/spring and spring boot - and more.md",
     "Website/가상메모리(Virtual Memory).md",
     "코딩테스트 개념/스택 (stack).md",
     "코딩테스트 개념/분할정복 (divide and conquer).md",
     "내 사이트.md",
     "코딩테스트 VS Code setting.md",
-    "JAVA/Spring/Spring Academy/spring vs spring boot.md",
     "Untitled.md",
     "temp.md",
     "pintOS/pintos.pdf",
@@ -221,7 +222,6 @@
     "CSAPP/Chapter 10/Images/Pasted image 20251030214821.png",
     "CSAPP/Chapter 11/Chapter 11.md",
     "CSAPP/Chapter 12/12-3.md",
-    "CSAPP/Chapter 12/12.md",
     "CSAPP/Chapter 12/12-1.md",
     "CSAPP/Chapter 12/Chapter 12.md",
     "CSAPP/Chapter 12/Chapter 12-3.md",
