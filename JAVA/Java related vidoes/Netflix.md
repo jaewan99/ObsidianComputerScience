@@ -41,3 +41,16 @@ https://www.youtube.com/watch?v=XpunFFS-n8I
 - [32:06](https://www.youtube.com/watch?v=XpunFFS-n8I&t=1926#t=32:06.04) 
 - Spring boot netflix
 
+
+- [38:34](https://www.youtube.com/watch?v=XpunFFS-n8I&t=2314#t=38:34.26) 
+- Deployment  
+
+- [46:25](https://www.youtube.com/watch?v=XpunFFS-n8I&t=2785#t=46:25.18) 
+- GraphQL
+	- flexible schema to query data
+	- think in "data" not in "methods"
+	- UI to server
+- gRPC
+	- Highly performant server to server calls
+	- Think "methods" not "data"
+	- 
