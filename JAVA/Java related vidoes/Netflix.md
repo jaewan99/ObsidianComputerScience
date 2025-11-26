@@ -21,3 +21,15 @@ https://www.youtube.com/watch?v=XpunFFS-n8I
 
 - [14:41](https://www.youtube.com/watch?v=XpunFFS-n8I&t=881#t=14:41.09) 
 - JDK 8 to JDK 17
+
+- [18:34](https://www.youtube.com/watch?v=XpunFFS-n8I&t=1115#t=18:34.88) 
+- JKD 17 performance gains
+
+
+- [19:07](https://www.youtube.com/watch?v=XpunFFS-n8I&t=1148#t=19:07.92) 
+- JDK 23- generational ZGC 
+
+
+- [23:26](https://www.youtube.com/watch?v=XpunFFS-n8I&t=1407#t=23:26.59) 
+- Virtual threads
+- 
