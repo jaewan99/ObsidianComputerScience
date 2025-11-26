@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/Spring/Spring Academy/spring and spring boot - and more.md",
+                "file": "JAVA/Spring/Spring Academy/Building a REST API with spring boot.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "spring and spring boot - and more"
+              "title": "Building a REST API with spring boot"
             }
           }
         ],
@@ -198,8 +198,9 @@
   },
   "active": "d5f9ea9d32c0c9db",
   "lastOpenFiles": [
+    "JAVA/Spring/Spring Academy/Writing a failing test.md",
+    "JAVA/Spring/Spring Academy/Building a REST API with spring boot.md",
     "CSAPP/Chapter 12/12.md",
-    "JAVA/Spring/Spring Academy/spring and spring boot - and more.md",
     "Website/가상메모리(Virtual Memory).md",
     "코딩테스트 개념/스택 (stack).md",
     "코딩테스트 개념/분할정복 (divide and conquer).md",
@@ -239,7 +240,6 @@
     "CSAPP/Chapter 12/Images/Pasted image 20251103165528.png",
     "CSAPP/Chapter 12/Images/Pasted image 20251103164643.png",
     "CSAPP/Chapter 12/Images",
-    "CSAPP/Chapter 9/Chapter 9.md",
     "CSAPP/Chapter 12",
     "CSAPP/Chapter 11/Images",
     "CSAPP/Chapter 11",
