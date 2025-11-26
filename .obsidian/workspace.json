@@ -165,16 +165,6 @@
               "icon": "lucide-list",
               "title": "Outline of Chapter 11"
             }
-          },
-          {
-            "id": "58df4c0b07d360ae",
-            "type": "leaf",
-            "state": {
-              "type": "video-view",
-              "state": {},
-              "icon": "video",
-              "title": "Timestamp Video"
-            }
           }
         ]
       }
@@ -198,25 +188,26 @@
   },
   "active": "d5f9ea9d32c0c9db",
   "lastOpenFiles": [
-    "JAVA/Spring/Spring Academy/Writing a failing test.md",
+    "pintOS/pintos.pdf",
+    "코딩테스트 VS Code setting.md",
+    "C Lang/The C Programming Language (Kernighan Ritchie).pdf",
+    "C Lang/Tutorial.md",
+    "CSAPP/CSAPP_2016.pdf",
+    "CSAPP/노트 적을때 따라야할 규칙.md",
+    "CSAPP/필요한 링크들.md",
     "JAVA/Spring/Spring Academy/Building a REST API with spring boot.md",
+    "pintOS/notes from pintos.md",
+    "내 사이트.md",
+    "JAVA/Spring/Spring Academy/Writing a failing test.md",
     "CSAPP/Chapter 12/12.md",
     "Website/가상메모리(Virtual Memory).md",
     "코딩테스트 개념/스택 (stack).md",
     "코딩테스트 개념/분할정복 (divide and conquer).md",
-    "내 사이트.md",
-    "코딩테스트 VS Code setting.md",
     "Untitled.md",
     "temp.md",
-    "pintOS/pintos.pdf",
-    "pintOS/notes from pintos.md",
-    "C Lang/The C Programming Language (Kernighan Ritchie).pdf",
     "C Lang/Mistakes that I have made/실수들.md",
     "C Lang/Learn C Tutorial/Learn C Outline.md",
     "C Lang/Learn C Tutorial/K&R - Video outline.md",
-    "CSAPP/CSAPP_2016.pdf",
-    "CSAPP/필요한 링크들.md",
-    "CSAPP/노트 적을때 따라야할 규칙.md",
     "CSAPP/Chapter 9/9.1-9.8.md",
     "JAVA/Spring/Spring Academy",
     "CSAPP/Chapter 10/Chapter 10.md",
@@ -228,8 +219,6 @@
     "CSAPP/Chapter 12/Chapter 12-3.md",
     "CSAPP/Chapter 12/chapter 12-2.md",
     "pintOS",
-    "CSAPP/Chapter 12/Readers_Writers_Explanation_KR.md",
-    "CSAPP/Chapter 12/Chapter 12-4.md",
     "CSAPP/Chapter 12/Images/Pasted image 20251103170851.png",
     "CSAPP/Chapter 12/Images/Pasted image 20251103170819.png",
     "CSAPP/Chapter 12/Images/Pasted image 20251103170647.png",
