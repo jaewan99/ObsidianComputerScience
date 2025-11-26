@@ -6,7 +6,6 @@
       {
         "id": "82cf9c883a48add1",
         "type": "tabs",
-        "dimension": 32.82621416032768,
         "children": [
           {
             "id": "954d9e7cc5a1069b",
@@ -38,47 +37,6 @@
           }
         ],
         "currentTab": 1
-      },
-      {
-        "id": "d4a195ff673d0f63",
-        "type": "tabs",
-        "dimension": 67.17378583967232,
-        "children": [
-          {
-            "id": "a935a844ecc37857",
-            "type": "leaf",
-            "state": {
-              "type": "mx-url",
-              "state": {
-                "mx": {
-                  "json": {
-                    "media": {
-                      "type": "url:hosted",
-                      "vid": {
-                        "host": "youtube",
-                        "vid": "XpunFFS-n8I",
-                        "t": null,
-                        "start": null,
-                        "end": null
-                      },
-                      "url": "https://www.youtube.com/watch?v=XpunFFS-n8I"
-                    },
-                    "hash": {}
-                  },
-                  "meta": {
-                    "values": {
-                      "media.url": [
-                        "URL"
-                      ]
-                    }
-                  }
-                }
-              },
-              "icon": "youtube",
-              "title": "How Netflix Uses Java - 2025 Edition"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"

@@ -53,4 +53,5 @@ https://www.youtube.com/watch?v=XpunFFS-n8I
 - gRPC
 	- Highly performant server to server calls
 	- Think "methods" not "data"
-	- 
+- REST
+	- Dead
