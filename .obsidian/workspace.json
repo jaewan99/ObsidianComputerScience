@@ -6,6 +6,7 @@
       {
         "id": "82cf9c883a48add1",
         "type": "tabs",
+        "dimension": 32.82621416032768,
         "children": [
           {
             "id": "954d9e7cc5a1069b",
@@ -27,16 +28,57 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSAPP/Chapter 8/Chapter 8.md",
+                "file": "JAVA/Java related vidoes/Netflix.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 8"
+              "title": "Netflix"
             }
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "d4a195ff673d0f63",
+        "type": "tabs",
+        "dimension": 67.17378583967232,
+        "children": [
+          {
+            "id": "a935a844ecc37857",
+            "type": "leaf",
+            "state": {
+              "type": "mx-url",
+              "state": {
+                "mx": {
+                  "json": {
+                    "media": {
+                      "type": "url:hosted",
+                      "vid": {
+                        "host": "youtube",
+                        "vid": "XpunFFS-n8I",
+                        "t": null,
+                        "start": null,
+                        "end": null
+                      },
+                      "url": "https://www.youtube.com/watch?v=XpunFFS-n8I"
+                    },
+                    "hash": {}
+                  },
+                  "meta": {
+                    "values": {
+                      "media.url": [
+                        "URL"
+                      ]
+                    }
+                  }
+                }
+              },
+              "icon": "youtube",
+              "title": "How Netflix Uses Java - 2025 Edition"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -188,6 +230,9 @@
   },
   "active": "d5f9ea9d32c0c9db",
   "lastOpenFiles": [
+    "JAVA/Java related vidoes/Netflix.md",
+    "CSAPP/Chapter 8/Chapter 8.md",
+    "JAVA/Java related vidoes",
     "CSAPP/Chapter 9/Chapter 9.md",
     "CSAPP/Chapter 9/동적할당 9.9.md",
     "CSAPP/Chapter 9/9.10 Garbage Collection.md",
@@ -215,8 +260,6 @@
     "코딩테스트 개념/분할정복 (divide and conquer).md",
     "Untitled.md",
     "temp.md",
-    "C Lang/Mistakes that I have made/실수들.md",
-    "C Lang/Learn C Tutorial/Learn C Outline.md",
     "JAVA/Spring/Spring Academy",
     "CSAPP/Chapter 10/Images/Pasted image 20251030214821.png",
     "pintOS",
@@ -232,7 +275,6 @@
     "CSAPP/Chapter 12/Images",
     "CSAPP/Chapter 12",
     "CSAPP/Chapter 11/Images",
-    "CSAPP/Chapter 11",
-    "CSAPP/Chapter 10/Images"
+    "CSAPP/Chapter 11"
   ]
 }
