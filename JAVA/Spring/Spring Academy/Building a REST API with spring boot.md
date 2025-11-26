@@ -46,3 +46,4 @@ Response
 - Status code
 - Body
 
+Spring annotations and component scans

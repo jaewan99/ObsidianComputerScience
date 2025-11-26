@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/Spring/Spring Academy/Building a REST API with spring boot.md",
+                "file": "CSAPP/Chapter 11/Chapter 11.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Building a REST API with spring boot"
+              "title": "Chapter 11"
             }
           }
         ],
@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 350.5110321044922,
-    "collapsed": true
+    "width": 350.5110321044922
   },
   "right": {
     "id": "658074b3dc69e704",
@@ -189,6 +188,11 @@
   },
   "active": "d5f9ea9d32c0c9db",
   "lastOpenFiles": [
+    "CSAPP/Chapter 12/Chapter 12-3.md",
+    "CSAPP/Chapter 12/chapter 12-2.md",
+    "CSAPP/Chapter 12/Chapter 12.md",
+    "CSAPP/Chapter 12/12-3.md",
+    "JAVA/Spring/Spring Academy/Building a REST API with spring boot.md",
     "pintOS/pintos.pdf",
     "코딩테스트 VS Code setting.md",
     "C Lang/The C Programming Language (Kernighan Ritchie).pdf",
@@ -196,7 +200,6 @@
     "CSAPP/CSAPP_2016.pdf",
     "CSAPP/노트 적을때 따라야할 규칙.md",
     "CSAPP/필요한 링크들.md",
-    "JAVA/Spring/Spring Academy/Building a REST API with spring boot.md",
     "pintOS/notes from pintos.md",
     "내 사이트.md",
     "JAVA/Spring/Spring Academy/Writing a failing test.md",
@@ -214,11 +217,7 @@
     "CSAPP/Chapter 10/Chapter 10.md",
     "CSAPP/Chapter 10/Images/Pasted image 20251030214821.png",
     "CSAPP/Chapter 11/Chapter 11.md",
-    "CSAPP/Chapter 12/12-3.md",
     "CSAPP/Chapter 12/12-1.md",
-    "CSAPP/Chapter 12/Chapter 12.md",
-    "CSAPP/Chapter 12/Chapter 12-3.md",
-    "CSAPP/Chapter 12/chapter 12-2.md",
     "pintOS",
     "CSAPP/Chapter 12/Images/Pasted image 20251103170851.png",
     "CSAPP/Chapter 12/Images/Pasted image 20251103170819.png",
