@@ -32,4 +32,12 @@ https://www.youtube.com/watch?v=XpunFFS-n8I
 
 - [23:26](https://www.youtube.com/watch?v=XpunFFS-n8I&t=1407#t=23:26.59) 
 - Virtual threads
-- 
+
+
+- [31:49](https://www.youtube.com/watch?v=XpunFFS-n8I&t=1909#t=31:49.01) 
+- Thread pinning and possible deadlock
+
+
+- [32:06](https://www.youtube.com/watch?v=XpunFFS-n8I&t=1926#t=32:06.04) 
+- Spring boot netflix
+
