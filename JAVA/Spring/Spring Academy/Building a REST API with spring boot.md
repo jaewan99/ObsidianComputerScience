@@ -12,6 +12,7 @@ Lab testing First
 
 
 ```` JAVA
+// add this in new class
 package example.cashcard;
 
 import org.junit.jupiter.api.Test;
@@ -19,11 +20,13 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 class CashCardJsonTest {
 
-   @Test //this is part of 
+   @Test //this is part of JUnit Library
    void myFirstTest() {
-      assertThat(1).isEqualTo(42); 
+      assertThat(1).isEqualTo(42); //this is part of AssertJ library
    }
 }
 ````
+
+
 
 **REST**: Representational State Transfer. In a RESTful system, data objects are called Resource Representations. The purpose of a RESTful API (Application Programming Interface) is to manage the state of these Resources.
