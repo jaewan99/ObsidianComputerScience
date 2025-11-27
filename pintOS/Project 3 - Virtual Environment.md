@@ -19,3 +19,8 @@ source files
 Memory Terminology
 
 1. pages, virtual page - is a continuous region of virtual memory of size 4096 bytes (the page size) in length. 
+
+choices of implementation
+1. pintos includes a bitmap data structure in bitmap.c
+2. hash data structure
+
