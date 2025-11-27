@@ -5,4 +5,8 @@ source files
 	1. Makefile에서 -DVM설정을 on 했습니다. 추가적으로 template code을 많이 제공합니다. 이를 꼭 이용하세요
 
 우리가 바꿔야할 파일들
-1. include/vm/vm.h, vm/vm.c 
+1.  vm/vm.c
+	1. provide general interface for virtual memory
+		1. VM_UNINIT
+2. uninit.c
+	1. 
