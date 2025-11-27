@@ -24,3 +24,9 @@ choices of implementation
 1. pintos includes a bitmap data structure in bitmap.c
 2. hash data structure
 
+organization of supplemental page table
+1. In terms of segments and in terms of pages.
+	1.  a segment here refers to a consecutive group of pages, i.e. memory region containing an executable or a memory-mapped files.
+
+Handling page fault
+1. the most important use of the supplemental page table is the page fault handler.
