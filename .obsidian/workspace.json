@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSAPP/Chapter 10/Chapter 10.md",
+                "file": "내 사이트.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 10"
+              "title": "내 사이트"
             }
           }
         ]
@@ -173,11 +173,14 @@
   },
   "active": "954d9e7cc5a1069b",
   "lastOpenFiles": [
+    "pintOS/Project 3 - Virtual Environment.md",
+    "pintOS/pintos.pdf",
+    "CSAPP/Chapter 10/Chapter 10.md",
+    "Unreal Engine",
     "CSAPP/노트 적을때 따라야할 규칙.md",
     "CSAPP/필요한 링크들.md",
     "CSAPP/CSAPP_2016.pdf",
     "JAVA/Java related vidoes/Netflix.md",
-    "CSAPP/Chapter 10/Chapter 10.md",
     "CSAPP/Chapter 11/Chapter 11.md",
     "CSAPP/Chapter 12/Chapter 12.md",
     "CSAPP/Chapter 12/12-1.md",
@@ -194,7 +197,6 @@
     "CSAPP/Chapter 12/chapter 12-2.md",
     "CSAPP/Chapter 12/12-3.md",
     "JAVA/Spring/Spring Academy/Building a REST API with spring boot.md",
-    "pintOS/pintos.pdf",
     "코딩테스트 VS Code setting.md",
     "C Lang/The C Programming Language (Kernighan Ritchie).pdf",
     "C Lang/Tutorial.md",
@@ -203,7 +205,6 @@
     "JAVA/Spring/Spring Academy/Writing a failing test.md",
     "Website/가상메모리(Virtual Memory).md",
     "코딩테스트 개념/스택 (stack).md",
-    "코딩테스트 개념/분할정복 (divide and conquer).md",
     "JAVA/Spring/Spring Academy",
     "CSAPP/Chapter 10/Images/Pasted image 20251030214821.png",
     "pintOS",
@@ -216,7 +217,6 @@
     "CSAPP/Chapter 12/Images/Pasted image 20251103165547.png",
     "CSAPP/Chapter 12/Images/Pasted image 20251103165528.png",
     "CSAPP/Chapter 12/Images",
-    "CSAPP/Chapter 12",
-    "CSAPP/Chapter 11/Images"
+    "CSAPP/Chapter 12"
   ]
 }
