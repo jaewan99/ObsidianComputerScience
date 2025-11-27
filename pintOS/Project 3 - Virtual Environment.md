@@ -7,6 +7,15 @@ source files
 우리가 바꿔야할 파일들
 1.  vm/vm.c
 	1. provide general interface for virtual memory
-		1. VM_UNINIT
+		1. 가상메모리 용 기본적인 인터페이스를 제공합니다 
 2. uninit.c
-	1. 
+	1. all pages are initially set up as uninitialized pages, then it transforms to anonymous pages or file-backed pages.
+		1. 모든 페이지 처음에는 모드 uninit이다
+3. anom.c
+	1. anonymous pages - page not related to the file
+4. file.c
+	1. file = page related to the file
+
+Memory Terminology
+
+1. pages, virtual page - is a continuous region of virtual memory of size 4096 bytes (the page size) in length. 
