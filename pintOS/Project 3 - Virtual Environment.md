@@ -37,3 +37,11 @@ Anonymous page
 2. it does not have any named file source (unliked file-backed pages)
 
 
+
+
+Pintos youtube
+1. make vm_entry - this is like the supplement table table
+2. add vm to thread structure
+
+
+https://www.youtube.com/watch?v=McOBQG0tEWo
