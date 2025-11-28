@@ -36,5 +36,4 @@ Anonymous page
 1. non-disk based image
 2. it does not have any named file source (unliked file-backed pages)
 
-Page initialization with lazy loading
-1. 
+
