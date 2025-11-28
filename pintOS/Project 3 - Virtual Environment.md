@@ -30,3 +30,6 @@ organization of supplemental page table
 
 Handling page fault
 1. the most important use of the supplemental page table is the page fault handler.
+
+Memory Management
+1. Note that, for your understanding, we use the term "page" for virtual page, and the term "frame" for a physical page.
