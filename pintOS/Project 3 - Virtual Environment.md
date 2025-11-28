@@ -31,3 +31,10 @@ Handling page fault
 
 Memory Management
 1. Note that, for your understanding, we use the term "page" for virtual page, and the term "frame" for a physical page.
+
+Anonymous page
+1. non-disk based image
+2. it does not have any named file source (unliked file-backed pages)
+
+Page initialization with lazy loading
+1. 
