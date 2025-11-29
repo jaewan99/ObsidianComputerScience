@@ -8,4 +8,7 @@
 		3. asd
 
 2. WBP_Player_Inventory
-	1. Player랑 inventory
+	1. Player랑 inventory_slot의 연결고리
+	2. BPC_Inventory - slot amount만큼 inventory 생성
+	3. refresh slot - 
+3. 
