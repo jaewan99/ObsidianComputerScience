@@ -11,4 +11,6 @@
 	1. Player랑 inventory_slot의 연결고리
 	2. BPC_Inventory - slot amount만큼 inventory 생성
 	3. refresh slot - 
-3. 
+3. WBP_Inventory_Slot
+	1. asd
+4. BP_BaseItem
