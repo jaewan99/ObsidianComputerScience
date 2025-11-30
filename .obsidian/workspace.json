@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unreal Engine/Visual Studio 2022 설정.md",
+                "file": "Unreal Engine/Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Visual Studio 2022 설정"
+              "title": "Notes"
             }
           }
         ]
@@ -173,8 +173,11 @@
   },
   "active": "954d9e7cc5a1069b",
   "lastOpenFiles": [
-    "Unreal Engine/my inventory system.md",
+    "Unreal Engine/Images/Pasted image 20251201032941.png",
+    "Unreal Engine/Images",
     "Unreal Engine/Visual Studio 2022 설정.md",
+    "Unreal Engine/Notes.md",
+    "Unreal Engine/my inventory system.md",
     "Unreal Engine/Exported-2025-12-01 1.vssettings",
     "Unreal Engine/Exported-2025-12-01.vssettings",
     "pintOS/Step 1- supplemental page table.md",
@@ -206,10 +209,8 @@
     "코딩테스트 VS Code setting.md",
     "C Lang/The C Programming Language (Kernighan Ritchie).pdf",
     "C Lang/Tutorial.md",
-    "pintOS/notes from pintos.md",
     "JAVA/Spring/Spring Academy",
     "CSAPP/Chapter 10/Images/Pasted image 20251030214821.png",
-    "pintOS",
     "CSAPP/Chapter 12/Images/Pasted image 20251103170851.png",
     "CSAPP/Chapter 12/Images/Pasted image 20251103170819.png",
     "CSAPP/Chapter 12/Images/Pasted image 20251103170647.png",
