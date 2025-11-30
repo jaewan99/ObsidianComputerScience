@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unreal Engine/my inventory system.md",
+                "file": "Unreal Engine/Visual Studio 2022 설정.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "my inventory system"
+              "title": "Visual Studio 2022 설정"
             }
           }
         ]
@@ -173,8 +173,11 @@
   },
   "active": "954d9e7cc5a1069b",
   "lastOpenFiles": [
-    "pintOS/Step 1- supplemental page table.md",
     "Unreal Engine/my inventory system.md",
+    "Unreal Engine/Visual Studio 2022 설정.md",
+    "Unreal Engine/Exported-2025-12-01 1.vssettings",
+    "Unreal Engine/Exported-2025-12-01.vssettings",
+    "pintOS/Step 1- supplemental page table.md",
     "pintOS/pintos.pdf",
     "pintOS/Project 3 - Virtual Environment.md",
     "CSAPP/Chapter 10/Chapter 10.md",
@@ -204,8 +207,6 @@
     "C Lang/The C Programming Language (Kernighan Ritchie).pdf",
     "C Lang/Tutorial.md",
     "pintOS/notes from pintos.md",
-    "JAVA/Spring/Spring Academy/Writing a failing test.md",
-    "Website/가상메모리(Virtual Memory).md",
     "JAVA/Spring/Spring Academy",
     "CSAPP/Chapter 10/Images/Pasted image 20251030214821.png",
     "pintOS",
@@ -216,8 +217,6 @@
     "CSAPP/Chapter 12/Images/Pasted image 20251103165739.png",
     "CSAPP/Chapter 12/Images/Pasted image 20251103165702.png",
     "CSAPP/Chapter 12/Images/Pasted image 20251103165547.png",
-    "CSAPP/Chapter 12/Images/Pasted image 20251103165528.png",
-    "CSAPP/Chapter 12/Images",
-    "CSAPP/Chapter 12"
+    "CSAPP/Chapter 12/Images/Pasted image 20251103165528.png"
   ]
 }
