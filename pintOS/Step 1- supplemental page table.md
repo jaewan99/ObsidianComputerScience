@@ -37,3 +37,33 @@
 ````
 
 ![[Pasted image 20251201140137.png]]
+````C
+Why UNINIT exists
+┌─────────────────────────────────────────────────────────────┐
+│                    BEFORE PAGE FAULT                         │
+│                                                              │
+│   Page is UNINIT:                                           │
+│   - No physical frame yet                                    │
+│   - No data loaded                                          │
+│   - Just stores "what to do when claimed"                   │
+│     (initializer function, aux data, etc.)                  │
+│                                                              │
+└─────────────────────────────────────────────────────────────┘
+                           │
+                           │ Page fault occurs
+                           ▼
+┌─────────────────────────────────────────────────────────────┐
+│                    AFTER PAGE FAULT                          │
+│                                                              │
+│   swap_in() is called                                        │
+│       ↓                                                      │
+│   uninit_initialize() runs                                   │
+│       ↓                                                      │
+│   Calls stored initializer (anon_initializer or             │
+│                             file_backed_initializer)        │
+│       ↓                                                      │
+│   Page becomes ANON or FILE                                 │
+│                                                              │
+└─────────────────────────────────────────────────────────────┘
+
+````
