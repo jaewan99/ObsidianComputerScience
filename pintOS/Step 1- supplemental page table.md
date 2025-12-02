@@ -114,4 +114,6 @@ PHYS_BASE (0xC0000000) - USER STACK - Visual (stack grows downward)
 +------------------+
 | return addr = 0  |
 +------------------+  ← esp starts here
+
+this chunk is created per page - 4kb
 ````
