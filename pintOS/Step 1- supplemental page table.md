@@ -92,3 +92,26 @@ SPT (supplemental_page_table)
              └──► bucket[n] ──► ...
 ````
 
+
+````C
+PHYS_BASE (0xC0000000) - USER STACK - Visual (stack grows downward)
+    ↓
++------------------+ 
+| "/bin/ls\0"      |  ← argument strings
+| "foo\0"          |
+| "bar\0"          |
++------------------+
+| (padding)        |  ← word align
++------------------+
+| NULL             |  ← argv[3]
+| ptr to "bar"     |  ← argv[2]
+| ptr to "foo"     |  ← argv[1]
+| ptr to "/bin/ls" |  ← argv[0]
++------------------+
+| argv (ptr)       |  ← points to argv[0]
++------------------+
+| argc = 3         |
++------------------+
+| return addr = 0  |
++------------------+  ← esp starts here
+````
