@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pintOS/Step 1- supplemental page table.md",
+                "file": "CSAPP/Chapter 9/Chapter 9.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Step 1- supplemental page table"
+              "title": "Chapter 9"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 350.5110321044922,
-    "collapsed": true
+    "width": 350.5110321044922
   },
   "right": {
     "id": "658074b3dc69e704",
@@ -174,11 +173,12 @@
   },
   "active": "954d9e7cc5a1069b",
   "lastOpenFiles": [
+    "CSAPP/Chapter 10/Chapter 10.md",
+    "pintOS/Step 1- supplemental page table.md",
     "pintOS/Images/Pasted image 20251201140137.png",
     "pintOS/Images",
     "코딩테스트 VS Code setting.md",
     "내 사이트.md",
-    "pintOS/Step 1- supplemental page table.md",
     "pintOS/Project 3 - Virtual Environment.md",
     "Unreal Engine/Notes.md",
     "Unreal Engine/Images/Pasted image 20251201032941.png",
@@ -188,7 +188,6 @@
     "Unreal Engine/Exported-2025-12-01 1.vssettings",
     "Unreal Engine/Exported-2025-12-01.vssettings",
     "pintOS/pintos.pdf",
-    "CSAPP/Chapter 10/Chapter 10.md",
     "Unreal Engine",
     "CSAPP/노트 적을때 따라야할 규칙.md",
     "CSAPP/필요한 링크들.md",
@@ -218,7 +217,6 @@
     "CSAPP/Chapter 12/Images/Pasted image 20251103170647.png",
     "CSAPP/Chapter 12/Images/Pasted image 20251103170429.png",
     "CSAPP/Chapter 12/Images/Pasted image 20251103165739.png",
-    "CSAPP/Chapter 12/Images/Pasted image 20251103165702.png",
-    "CSAPP/Chapter 12/Images/Pasted image 20251103165547.png"
+    "CSAPP/Chapter 12/Images/Pasted image 20251103165702.png"
   ]
 }
