@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSAPP/Chapter 9/Chapter 9.md",
+                "file": "React/React.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 9"
+              "title": "React"
             }
           }
         ]
@@ -171,15 +171,18 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "954d9e7cc5a1069b",
+  "active": "857e29066a8d31b7",
   "lastOpenFiles": [
+    "CSAPP/Chapter 9/Chapter 9.md",
+    "React/React.md",
+    "React/GeeksForGeeks",
+    "React",
     "CSAPP/Chapter 8/Chapter 8.md",
     "CSAPP/Chapter 7/7.1 링커.md",
     "CSAPP/Chapter 12/Chapter 12-3.md",
     "CSAPP/Chapter 12/chapter 12-2.md",
     "CSAPP/Chapter 12/Chapter 12.md",
     "CSAPP/Chapter 11/Chapter 11.md",
-    "CSAPP/Chapter 9/Chapter 9.md",
     "CSAPP/Chapter 10/Chapter 10.md",
     "pintOS/Step 1- supplemental page table.md",
     "pintOS/Images/Pasted image 20251201140137.png",
@@ -204,14 +207,11 @@
     "CSAPP/Chapter 12/12.md",
     "JAVA/Java related vidoes/Images/Pasted image 20251126163239.png",
     "JAVA/Java related vidoes/Images",
-    "JAVA/Java related vidoes",
     "CSAPP/Chapter 9/동적할당 9.9.md",
     "CSAPP/Chapter 9/9.10 Garbage Collection.md",
     "CSAPP/Chapter 9/9.1-9.8.md",
     "CSAPP/Chapter 12/12-3.md",
     "JAVA/Spring/Spring Academy/Building a REST API with spring boot.md",
-    "C Lang/The C Programming Language (Kernighan Ritchie).pdf",
-    "C Lang/Tutorial.md",
     "CSAPP/Chapter 10/Images/Pasted image 20251030214821.png",
     "CSAPP/Chapter 12/Images/Pasted image 20251103170851.png",
     "CSAPP/Chapter 12/Images/Pasted image 20251103170819.png",
