@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "나만무/깃헙/Branch 전략.md",
+                "file": "나만무/깃헙/담소_Git_Branch_전략.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Branch 전략"
+              "title": "담소_Git_Branch_전략"
             }
           },
           {
@@ -187,8 +187,9 @@
   },
   "active": "954d9e7cc5a1069b",
   "lastOpenFiles": [
-    "나만무/깃헙/Untitled.md",
     "나만무/깃헙/Branch 전략.md",
+    "나만무/깃헙/담소_Git_Branch_전략.md",
+    "나만무/깃헙/Untitled.md",
     "나만무/깃헙/Images/Pasted image 20251225005813.png",
     "나만무/깃헙/Images/Pasted image 20251225005747.png",
     "나만무/깃헙/Images",
@@ -228,7 +229,6 @@
     "CSAPP/Chapter 12/12.md",
     "JAVA/Java related vidoes/Images/Pasted image 20251126163239.png",
     "CSAPP/Chapter 9/동적할당 9.9.md",
-    "CSAPP/Chapter 9/9.10 Garbage Collection.md",
     "CSAPP/Chapter 10/Images/Pasted image 20251030214821.png",
     "CSAPP/Chapter 12/Images/Pasted image 20251103170851.png",
     "CSAPP/Chapter 12/Images/Pasted image 20251103170819.png",
