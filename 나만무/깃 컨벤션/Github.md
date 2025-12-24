@@ -25,12 +25,11 @@ git branch
 우리 팀 깃 브랜치 전략
 - git flow을 쓰지만 release랑 hotfix branch가 없다
 	- why?
-		- 일단 QA팀이 없어서 release을 따로 관리할 필요가 없다
+		- 일단 QA팀이 없어서 release을 따로 관리할 필요가 없다 - main 브랜치로 가기전 최종 확인 (버그있는지 등등)
 		- 저희가 지금 live 서비스를 하는게 아니라 따로 hotfix도 할필요가 없다. - 사용중 문제가 있으면 해당 branch에 직접 변경 및 push
 - 우리의 git branch
 
 ````JSON
-
 
 damso (repository)
 ├── main (1개, 영구)
@@ -42,5 +41,18 @@ damso (repository)
     ├── feature/스토리북-생성
     └── feature/긴급-알림-시스템
     
-- 
+a. feature에서 매번 push 할때
+a.1 Lint 검사 - format 검사
+a.2 Unit test
+a.3 build 확인
+
+화요일날에 저희가 했던 것들
+b. develop으로 push 할때
+b.1 Lint
+b.2 유닛 테스트
+b.3 통합 테스트
+b.4 E2E 테스트
+b.5 빌드
+b.6 staging 환경 배포
+
 ````
