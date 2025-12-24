@@ -11,14 +11,10 @@
             "id": "954d9e7cc5a1069b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "나만무/깃헙/담소_Git_Branch_전략.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "담소_Git_Branch_전략"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           },
           {
@@ -187,12 +183,13 @@
   },
   "active": "954d9e7cc5a1069b",
   "lastOpenFiles": [
+    "Untitled.canvas",
+    "나만무/깃헙/담소_Git_Branch_전략.md",
     "나만무/깃헙/third",
     "나만무/깃헙/second",
     "나만무/깃헙/새 텍스트 문서 (2).txt",
     "나만무/깃헙/새 텍스트 문서.txt",
     "나만무/깃헙/Branch 전략.md",
-    "나만무/깃헙/담소_Git_Branch_전략.md",
     "나만무/깃헙/Untitled.md",
     "나만무/깃헙/Images/Pasted image 20251225005813.png",
     "나만무/깃헙/Images/Pasted image 20251225005747.png",
@@ -221,7 +218,6 @@
     "pintOS/Images/Pasted image 20251201140137.png",
     "pintOS/Images",
     "Unreal Engine/Notes.md",
-    "Unreal Engine/Images",
     "Unreal Engine/Visual Studio 2022 설정.md",
     "Unreal Engine/my inventory system.md",
     "CSAPP/노트 적을때 따라야할 규칙.md",
