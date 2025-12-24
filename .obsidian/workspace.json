@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "나만무/깃헙/담소_Git_Branch_전략.md",
+                "file": "나만무/깃헙/담소_Git_Convention.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "담소_Git_Branch_전략"
+              "title": "담소_Git_Convention"
             }
           }
         ]
@@ -173,9 +173,10 @@
   },
   "active": "0623c55ae6e4cfb5",
   "lastOpenFiles": [
+    "나만무/깃헙/담소_Git_Branch_전략.md",
+    "나만무/깃헙/담소_Git_Convention.md",
     "나만무/깃헙/Untitled.md",
     "Untitled.canvas",
-    "나만무/깃헙/담소_Git_Branch_전략.md",
     "나만무/깃헙/third",
     "나만무/깃헙/second",
     "나만무/깃헙/새 텍스트 문서 (2).txt",
