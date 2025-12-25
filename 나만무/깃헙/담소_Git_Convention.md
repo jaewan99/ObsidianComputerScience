@@ -104,44 +104,20 @@ feat(대시보드): 대상자 검색 기능 추가
 ### 형식
 
 ```
-<type>/<description>
+feature/#3/user_create(간단 키워드)
 ```
 
 ### Type
 
 | Type         | 용도      | 예시                               |
 | ------------ | ------- | -------------------------------- |
-| **feature**  | 새 기능 개발 | `feature/#3/user-create(간단 키워드)` |
+| **feature**  | 새 기능 개발 | `feature/#3/user_create(간단 키워드)` |
 | **fix**      | 버그 수정   | `fix/영상통화-연결-오류`                 |
 | **refactor** | 리팩토링    | `refactor/API-구조-개선`             |
 | **docs**     | 문서 작업   | `docs/README-업데이트`               |
 | **test**     | 테스트 코드  | `test/대시보드-E2E-추가`               |
 | **chore**    | 기타 작업   | `chore/의존성-업데이트`                 |
 
-### Description 규칙
-
-> [!check] Branch Name 규칙
-> - 소문자 사용
-> - 한글 또는 영어 (일관성 유지)
-> - 단어는 하이픈(-)으로 연결
-> - 언더스코어(_) 사용 금지
-> - 간결하고 명확하게 (4단어 이내)
-
-**좋은 예:**
-```
-feature/보호자-대시보드
-feature/ai-emotion-analysis
-fix/video-connection-timeout
-refactor/database-query-optimization
-```
-
-**나쁜 예:**
-```
-feature/dashboard  ❌ (너무 모호함)
-feature_dashboard  ❌ (언더스코어)
-Fix-Video  ❌ (대문자)
-feature/보호자_대시보드_기능_추가_및_수정  ❌ (너무 김, 언더스코어)
-```
 
 ---
 
@@ -149,7 +125,7 @@ feature/보호자_대시보드_기능_추가_및_수정  ❌ (너무 김, 언더
 ### PR 제목 형식
 
 ```
-[Type] 간단한 설명
+[Type (branch type)] issue 제목
 ```
 
 **예시:**
@@ -170,9 +146,6 @@ feature/보호자_대시보드_기능_추가_및_수정  ❌ (너무 김, 언더
 
 왜 이 변경이 필요한지 설명해주세요.
 
- 📷 스크린샷 (UI 변경 시)
-
-UI 변경이 있다면 스크린샷을 첨부해주세요.
 
  ✅ 체크리스트
 
