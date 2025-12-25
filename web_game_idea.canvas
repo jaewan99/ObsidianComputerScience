@@ -1,0 +1,12 @@
+{
+	"nodes":[
+		{"id":"44379b31b719b375","x":-660,"y":-460,"width":520,"height":1100,"type":"text","text":"Option 6: Travel Memory Organizer ✈️\nThe Problem:\nPeople take trips and have photos, tickets, receipts, itineraries, maps scattered everywhere. Want to organize memories but too lazy.\nYour Solution:\nUpload trip files (photos, PDFs, tickets) →\n\nAI auto-sorts:\n📁 Japan Trip - March 2025\n  📁 Planning\n    └─ flight_tickets.pdf\n    └─ hotel_confirmations.pdf\n  📁 Photos\n    📁 Tokyo\n    📁 Kyoto\n  📁 Receipts\n  📁 Maps & Guides\n  📁 Memories\n    └─ restaurant_cards.jpg\n    └─ ticket_stubs.pdf\n    \n📁 Europe Trip - Summer 2024\n  📁 France\n  📁 Italy\n  📁 Spain\n  \n📁 Weekend Trips\n  📁 New York - Jan 2025\n  📁 Boston - Nov 2024\n\nAI also:\n✅ Creates trip timeline from dates\n✅ Photo mapping: \"Tokyo photos March 15-18\"\n✅ Expense total: \"Japan trip cost: $3,200\"\n✅ Memory book: Auto-generates photo album with captions\n✅ Recommendations: \"You loved Italian food - try this restaurant in Rome next time\"\nWhy sorting matters here:\n\nMemories fade - want organized trip archives\nPlanning next trip - reference past trips\nTravel insurance claims need receipts\nSharing trip stories with friends/family\nBuilding travel blog from organized archives"},
+		{"id":"7998450c59e05602","type":"text","text":"website using webrtc - why it's free\n- like tinder or smth\n- very light conversation","x":-100,"y":-460,"width":360,"height":380},
+		{"id":"8753c1dfcf0c194e","x":-265,"y":-550,"width":250,"height":60,"type":"text","text":"Website"},
+		{"id":"53c0660e835f0029","type":"text","text":"Game","x":820,"y":-550,"width":250,"height":60},
+		{"id":"920e3f5874814a07","type":"text","text":"군대","x":560,"y":-460,"width":360,"height":380},
+		{"id":"d31430a15c249a14","type":"text","text":"soul like","x":980,"y":-460,"width":360,"height":380},
+		{"id":"89794a628165cc56","type":"text","text":"방탈출 -online\n- realistic\n- 아마 무한도전 - 좀비 특집 - 인도랑 그냥 좀비\n- 대탈출","x":560,"y":-40,"width":360,"height":380}
+	],
+	"edges":[]
+}
