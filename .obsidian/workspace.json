@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "나만무/깃헙/담소_Git_Branch_전략.md",
+                "file": "나만무/깃헙/담소_Git_Convention.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "담소_Git_Branch_전략"
+              "title": "담소_Git_Convention"
             }
           }
         ]
@@ -173,9 +173,9 @@
   },
   "active": "f6732d18d4abc421",
   "lastOpenFiles": [
+    "나만무/깃헙/담소_Git_Branch_전략.md",
     "나만무/깃헙/Branch 전략.md",
     "나만무/깃헙/담소_Git_Convention.md",
-    "나만무/깃헙/담소_Git_Branch_전략.md",
     "나만무/깃헙/CI - CD.md",
     "pintOS/Project 3 - Virtual Environment.md",
     "C Lang/Learn C Tutorial/Learn C Outline.md",

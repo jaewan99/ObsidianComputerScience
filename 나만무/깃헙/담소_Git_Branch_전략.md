@@ -193,24 +193,6 @@ gitGraph
 
 ## 🌳 우리의 브랜치 구조
 
-```
-damso (repository)
-├── 🏭 main (1개, 영구)
-│   └── 역할: 데모용 안정 버전
-│   └── 배포: damso.app (production)
-│
-├── 🔧 develop (1개, 영구)
-│   └── 역할: 다음 주 데모 준비
-│   └── 배포: staging.damso.app
-│
-└── ✨ feature/* (5개, 4주간 유지)
-    ├── feature/보호자-대시보드
-    ├── feature/AI-감정-분석
-    ├── feature/영상-통화-녹화
-    ├── feature/스토리북-생성
-    └── feature/긴급-알림-시스템
-```
-
 > [!info] Feature 브랜치 관리
 > **왜 4주간 유지?**
 > - 5가지 주요 기능을 병렬로 개발
