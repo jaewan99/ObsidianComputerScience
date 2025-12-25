@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "나만무/깃헙/담소_Git_Branch_전략.md",
+                "file": "나만무/깃헙/Naming Convention.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "담소_Git_Branch_전략"
+              "title": "Naming Convention"
             }
           }
         ],
@@ -188,11 +188,11 @@
   },
   "active": "9dcb31fb86e981c2",
   "lastOpenFiles": [
+    "나만무/깃헙/담소_Git_Convention.md",
+    "나만무/깃헙/담소_Git_Branch_전략.md",
     "나만무/깃헙/Naming Convention.md",
     "나만무/깃헙/Formatting.md",
-    "나만무/깃헙/담소_Git_Convention.md",
     "나만무/깃헙/CI - CD.md",
-    "나만무/깃헙/담소_Git_Branch_전략.md",
     "나만무/깃헙/Branch 전략.md",
     "pintOS/Project 3 - Virtual Environment.md",
     "C Lang/Learn C Tutorial/Learn C Outline.md",
