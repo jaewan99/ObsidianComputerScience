@@ -35,11 +35,10 @@ type: guideline
 ### 기본 형식
 
 ```
-<type>(<scope>): <subject>
+<type>: <subject>
 
 <body>
-
-<footer>
++ git 메시지 사용
 ```
 
 ### Type (필수)
@@ -57,23 +56,6 @@ type: guideline
 | **chore**    | 나머지               | `chore(deps): comment 변경`       |
 |              |                   |                                 |
 
-### Scope (선택)
-
-변경 범위를 나타냅니다.
-
-```
-주요 Scope:
-- dashboard: 보호자 대시보드
-- ai: AI 감정 분석
-- video: 영상 통화
-- story: 스토리북
-- alert: 알림 시스템
-- auth: 인증/권한
-- api: API 관련
-- db: 데이터베이스
-- ui: UI 컴포넌트
-- config: 설정 파일
-```
 
 ### Subject (필수)
 
@@ -115,17 +97,6 @@ feat(대시보드): 대상자 검색 기능 추가
 - 정규식으로 한글/영어 모두 지원
 ```
 
-### Footer (선택)
-
-이슈 트래커와 연동할 때 사용합니다.
-
-```
-Closes #123
-Fixes #456
-Resolves #789
-Related to #100
-```
-
 ---
 
 ## 🌿 Branch Naming
@@ -138,14 +109,14 @@ Related to #100
 
 ### Type
 
-| Type | 용도 | 예시 |
-|------|------|------|
-| **feature** | 새 기능 개발 | `feature/보호자-대시보드` |
-| **fix** | 버그 수정 | `fix/영상통화-연결-오류` |
-| **refactor** | 리팩토링 | `refactor/API-구조-개선` |
-| **docs** | 문서 작업 | `docs/README-업데이트` |
-| **test** | 테스트 코드 | `test/대시보드-E2E-추가` |
-| **chore** | 기타 작업 | `chore/의존성-업데이트` |
+| Type         | 용도      | 예시                               |
+| ------------ | ------- | -------------------------------- |
+| **feature**  | 새 기능 개발 | `feature/#3/user-create(간단 키워드)` |
+| **fix**      | 버그 수정   | `fix/영상통화-연결-오류`                 |
+| **refactor** | 리팩토링    | `refactor/API-구조-개선`             |
+| **docs**     | 문서 작업   | `docs/README-업데이트`               |
+| **test**     | 테스트 코드  | `test/대시보드-E2E-추가`               |
+| **chore**    | 기타 작업   | `chore/의존성-업데이트`                 |
 
 ### Description 규칙
 
