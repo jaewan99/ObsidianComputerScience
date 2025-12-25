@@ -46,16 +46,16 @@ type: guideline
 
 커밋의 목적을 나타냅니다.
 
-| Type | 설명 | 예시 |
-|------|------|------|
-| **feat** | 새로운 기능 추가 | `feat(대시보드): 대상자 목록 필터 추가` |
-| **fix** | 버그 수정 | `fix(영상통화): 연결 끊김 오류 해결` |
-| **docs** | 문서 수정 | `docs(README): 설치 가이드 업데이트` |
-| **style** | 코드 포맷팅 (기능 변경 없음) | `style(components): 코드 포맷팅 적용` |
-| **refactor** | 코드 리팩토링 | `refactor(api): API 호출 로직 개선` |
-| **test** | 테스트 코드 추가/수정 | `test(dashboard): 필터 기능 테스트 추가` |
-| **chore** | 빌드/설정 파일 수정 | `chore(deps): dependencies 업데이트` |
-| **perf** | 성능 개선 | `perf(video): 영상 스트리밍 최적화` |
+| Type         | 설명                | 예시                              |
+| ------------ | ----------------- | ------------------------------- |
+| **feat**     | 새로운 기능 추가         | `feat(대시보드): 대상자 목록 필터 추가`      |
+| **fix**      | 버그 수정             | `fix(영상통화): 연결 끊김 오류 해결`        |
+| **docs**     | 문서 수정             | `docs(README): 설치 가이드 업데이트`     |
+| **style**    | 코드 포맷팅 (기능 변경 없음) | `style(components): 코드 포맷팅 적용`  |
+| **refactor** | 코드 리팩토링           | `refactor(api): API 호출 로직 개선`   |
+| **test**     | 테스트 코드 추가/수정      | `test(dashboard): 필터 기능 테스트 추가` |
+| **chore**    | 나머지               | `chore(deps): comment 변경`       |
+|              |                   |                                 |
 
 ### Scope (선택)
 
