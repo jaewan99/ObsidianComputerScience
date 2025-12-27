@@ -39,17 +39,14 @@
             "id": "94a0c7fa7cf7e1fd",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "web_game_idea.canvas",
-                "viewState": {
-                  "x": 574.2971400939365,
-                  "y": -74.39895464445968,
-                  "zoom": -0.7294994926575861
-                }
+                "file": "나만무/livekit/필요 사이트.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "web_game_idea"
+              "icon": "lucide-file",
+              "title": "필요 사이트"
             }
           }
         ],
@@ -203,8 +200,9 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "94a0c7fa7cf7e1fd",
+  "active": "857e29066a8d31b7",
   "lastOpenFiles": [
+    "web_game_idea.canvas",
     "나만무/livekit/필요 사이트.md",
     "나만무/웹 RTC/화면 공유.md",
     "나만무/livekit",
@@ -219,7 +217,6 @@
     "Unreal Engine/Images/Pasted image 20251201032941.png",
     "내 사이트.md",
     "코딩테스트 VS Code setting.md",
-    "web_game_idea.canvas",
     "나만무/깃헙/Formatting.md",
     "나만무/깃헙/Naming Convention.md",
     "나만무/깃헙/CI - CD.md",
@@ -246,7 +243,6 @@
     "JAVA/Java related vidoes/Netflix.md",
     "CSAPP/Chapter 9/Chapter 9.md",
     "CSAPP/Chapter 8/Chapter 8.md",
-    "CSAPP/Chapter 7/7.1 링커.md",
     "JAVA/Java related vidoes/Images/Pasted image 20251126163239.png",
     "CSAPP/Chapter 10/Images/Pasted image 20251030214821.png",
     "CSAPP/Chapter 12/Images/Pasted image 20251103170851.png",
