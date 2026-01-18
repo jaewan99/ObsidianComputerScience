@@ -7,7 +7,8 @@
 		{"id":"920e3f5874814a07","type":"text","text":"군대\n - 진술서\n\t - 있는 그대로를 써서, 오히려 피해자가 가해자가 되는 이야기\n - 아님 groundhog day\n\t - 반복되는 일상에서 살짝식 달라짐\n - ","x":560,"y":-460,"width":360,"height":380},
 		{"id":"d31430a15c249a14","type":"text","text":"soul like 근데 이젠 로스트아크를 더한\n- 패턴이 있는 - 모르면 죽음\n\t- 쿠크세이턴\n\t\t- WASD 방향키가 바뀐다던가\n- 빠른 공격","x":980,"y":-460,"width":360,"height":380},
 		{"id":"89794a628165cc56","type":"text","text":"방탈출 -online\n- realistic\n- 아마 무한도전 - 좀비 특집 - 인도랑 그냥 좀비\n- 대탈출\n\n아님 그냥 방탈출\n- banban kindergarden","x":560,"y":-40,"width":360,"height":380},
-		{"id":"4ea1525706bb6c3e","type":"text","text":"바리공주의 전설 - rpg like\n- 스토리 기반 rpg\n- 클래스가 있음\n\t- stack형, ex 칼리스타, 아르카나 (로스트아크)\n\t- 폭딜형 - 딜레이 길음\n\t- 짤딜 - 데이지 약함","x":980,"y":-40,"width":360,"height":380}
+		{"id":"4ea1525706bb6c3e","type":"text","text":"바리공주의 전설 - rpg like\n- 스토리 기반 rpg\n- 클래스가 있음\n\t- stack형, ex 칼리스타, 아르카나 (로스트아크)\n\t- 폭딜형 - 딜레이 길음\n\t- 짤딜 - 데이지 약함","x":980,"y":-40,"width":360,"height":380},
+		{"id":"9cec00b79e77174f","type":"text","text":"github 같은 게임\n- git pull\n- git rebase\n- git clone\n- git restart\n- 등등 branchd을 맞게 관리하는","x":560,"y":400,"width":360,"height":380}
 	],
 	"edges":[]
 }

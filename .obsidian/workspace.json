@@ -39,14 +39,17 @@
             "id": "94a0c7fa7cf7e1fd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "나만무/livekit/필요 사이트.md",
-                "mode": "source",
-                "source": false
+                "file": "web_game_idea.canvas",
+                "viewState": {
+                  "x": 723.5657859699568,
+                  "y": 238.19311937719434,
+                  "zoom": -0.36435112673588255
+                }
               },
-              "icon": "lucide-file",
-              "title": "필요 사이트"
+              "icon": "lucide-layout-dashboard",
+              "title": "web_game_idea"
             }
           }
         ],
@@ -200,10 +203,10 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "857e29066a8d31b7",
+  "active": "94a0c7fa7cf7e1fd",
   "lastOpenFiles": [
-    "web_game_idea.canvas",
     "나만무/livekit/필요 사이트.md",
+    "web_game_idea.canvas",
     "나만무/웹 RTC/화면 공유.md",
     "나만무/livekit",
     "pintOS/Step 1- supplemental page table.md",
