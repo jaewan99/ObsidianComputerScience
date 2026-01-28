@@ -51,9 +51,31 @@
               "icon": "lucide-layout-dashboard",
               "title": "web_game_idea"
             }
+          },
+          {
+            "id": "668c57c37d97916c",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "bbeebce089d0f152",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.5"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.5"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -203,7 +225,7 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "94a0c7fa7cf7e1fd",
+  "active": "bbeebce089d0f152",
   "lastOpenFiles": [
     "나만무/livekit/필요 사이트.md",
     "web_game_idea.canvas",
