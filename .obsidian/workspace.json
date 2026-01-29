@@ -39,17 +39,14 @@
             "id": "94a0c7fa7cf7e1fd",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "web_game_idea.canvas",
-                "viewState": {
-                  "x": 723.5657859699568,
-                  "y": 238.19311937719434,
-                  "zoom": -0.36435112673588255
-                }
+                "file": "나만무/깃헙/담소_Git_Branch_전략.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "web_game_idea"
+              "icon": "lucide-file",
+              "title": "담소_Git_Branch_전략"
             }
           },
           {
@@ -215,6 +212,8 @@
   },
   "active": "94a0c7fa7cf7e1fd",
   "lastOpenFiles": [
+    "나만무/깃헙/CI - CD.md",
+    "나만무/깃헙/Branch 전략.md",
     "나만무/livekit/필요 사이트.md",
     "web_game_idea.canvas",
     "나만무/웹 RTC/화면 공유.md",
@@ -232,8 +231,6 @@
     "코딩테스트 VS Code setting.md",
     "나만무/깃헙/Formatting.md",
     "나만무/깃헙/Naming Convention.md",
-    "나만무/깃헙/CI - CD.md",
-    "나만무/깃헙/Branch 전략.md",
     "나만무/깃헙/담소_Git_Branch_전략.md",
     "나만무/깃헙/담소_Git_Convention.md",
     "C Lang/Learn C Tutorial/Learn C Outline.md",
