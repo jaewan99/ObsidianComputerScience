@@ -48,16 +48,6 @@
               "icon": "lucide-file",
               "title": "담소_Git_Branch_전략"
             }
-          },
-          {
-            "id": "668c57c37d97916c",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
           }
         ],
         "currentTab": 2
@@ -207,11 +197,15 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "media-extended:Open external media": false
+      "media-extended:Open external media": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
   "active": "94a0c7fa7cf7e1fd",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2026-01-30 02.07.17.excalidraw.md",
+    "나만무/깃헙/담소_Git_Branch_전략.md",
+    "Excalidraw",
     "나만무/깃헙/CI - CD.md",
     "나만무/깃헙/Branch 전략.md",
     "나만무/livekit/필요 사이트.md",
@@ -231,7 +225,6 @@
     "코딩테스트 VS Code setting.md",
     "나만무/깃헙/Formatting.md",
     "나만무/깃헙/Naming Convention.md",
-    "나만무/깃헙/담소_Git_Branch_전략.md",
     "나만무/깃헙/담소_Git_Convention.md",
     "C Lang/Learn C Tutorial/Learn C Outline.md",
     "C Lang/Learn C Tutorial/K&R - Video outline.md",
@@ -248,7 +241,6 @@
     "나만무/깃헙/Images",
     "Website/Images/virtual_memory-1024.webp",
     "나만무/깃헙",
-    "나만무",
     "JAVA/Spring/Spring Academy/Building a REST API with spring boot.md",
     "JAVA/Java related vidoes/Netflix.md",
     "CSAPP/Chapter 9/Chapter 9.md",
