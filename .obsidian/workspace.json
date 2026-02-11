@@ -48,9 +48,21 @@
               "icon": "lucide-file",
               "title": "Notes"
             }
+          },
+          {
+            "id": "8a74df1ebc71e6e0",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.7"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -201,7 +213,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "94a0c7fa7cf7e1fd",
+  "active": "8a74df1ebc71e6e0",
   "lastOpenFiles": [
     "Excalidraw/Drawing 2026-01-30 02.07.17.excalidraw.md",
     "나만무/깃헙/담소_Git_Branch_전략.md",
