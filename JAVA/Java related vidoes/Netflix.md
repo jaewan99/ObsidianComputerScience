@@ -11,7 +11,6 @@ https://www.youtube.com/watch?v=XpunFFS-n8I
 - [08:27](https://www.youtube.com/watch?v=XpunFFS-n8I&t=508#t=08:27.83) 
 - Netflix streaming
 
-
 - [11:16](https://www.youtube.com/watch?v=XpunFFS-n8I&t=676#t=11:16.32) 
 - Netflix studio / Enterprise
 - For both
