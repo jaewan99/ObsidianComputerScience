@@ -16,7 +16,6 @@ https://www.youtube.com/watch?v=XpunFFS-n8I
 - For both
 	- GraphQL query
 
-
 - [14:41](https://www.youtube.com/watch?v=XpunFFS-n8I&t=881#t=14:41.09) 
 - JDK 8 to JDK 17
 
