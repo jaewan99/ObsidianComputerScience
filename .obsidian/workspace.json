@@ -62,9 +62,21 @@
               "icon": "lucide-file",
               "title": "Netflix"
             }
+          },
+          {
+            "id": "b3a6c75bfdae44ec",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "릴리즈 노트 1.12.4"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -87,7 +99,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "파일 탐색기"
             }
           },
           {
@@ -203,19 +215,19 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "bases:새 베이스 생성하기": false,
       "obsidian-git:Open Git source control": false,
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false,
       "media-extended:Open external media": false,
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "8a74df1ebc71e6e0",
+  "active": "b3a6c75bfdae44ec",
   "lastOpenFiles": [
     "Excalidraw/Drawing 2026-01-30 02.07.17.excalidraw.md",
     "나만무/깃헙/담소_Git_Branch_전략.md",
