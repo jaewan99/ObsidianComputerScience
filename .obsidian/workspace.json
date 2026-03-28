@@ -62,21 +62,9 @@
               "icon": "lucide-file",
               "title": "Netflix"
             }
-          },
-          {
-            "id": "0d4b80b6060cb687",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.12.7"
-              },
-              "icon": "lucide-book-up",
-              "title": "릴리즈 노트 1.12.7"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -227,7 +215,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "0d4b80b6060cb687",
+  "active": "8a74df1ebc71e6e0",
   "lastOpenFiles": [
     "Excalidraw/Drawing 2026-01-30 02.07.17.excalidraw.md",
     "나만무/깃헙/담소_Git_Branch_전략.md",
